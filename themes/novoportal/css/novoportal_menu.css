@@ -1,0 +1,111 @@
+
+/*
+**    Menus for Right Sidebar Region
+*/
+
+/* Main Menu */
+.primary-menu-wrap .navbar {
+    min-height: auto;
+}
+
+/* Fix Base Theme */
+.region-sidebar-second nav h2 {
+    display: block;
+}
+
+.region-sidebar-second ul.menu {
+    padding-left: 9px;
+}
+
+.region-sidebar-second ul.menu li {
+    list-style-type: none;
+    margin: 0 0 0 5px;
+    padding: 6px 0 6px 4px;
+    background-image: none;
+    border-bottom: 1px dashed #bbbaf5;
+}
+
+.region-sidebar-second ul.menu li.leaf {
+}
+
+.region-sidebar-second ul.menu li.first.leaf:hover {
+    border-top: 1px dashed #bbbaf5;
+    padding-top: 5px;
+}
+
+.region-sidebar-second ul.menu li:hover {
+    border-left: 4px solid #303c49;
+    padding: 6px 0 6px 0px;
+    background: #f0f3f5 none repeat scroll 0 0;
+    border-right: 1px dotted #303c49;
+}
+
+.region-sidebar-second ul.menu li.leaf:hover {
+    border-left: 4px solid #303c49;
+    border-right: 1px dashed #bbbaf5;
+}
+
+.region-sidebar-second ul.menu li a {
+    color: rgb(60, 73, 114); /* rgb(0, 13, 54); */
+    font-family: Overlock;
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    padding: 4px 0 5px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Title */
+.region-sidebar-second nav h2 {
+    border-bottom: 2px solid #676767;
+    color: #444444;
+    font-family: "Open Sans";
+    font-size: 1.25em;
+    margin: 0 0 0 14px;
+    padding: 18px 0 6px 0;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.region-sidebar-second nav h2::before {
+    background: rgba(0, 0, 0, 0) url("../images/menu-icons_v7.png") repeat scroll 0px 0px;
+    height: 32px;
+    width: 32px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    margin: 0 5px 0 20px;
+}
+
+/* Menu font for estrutura do tribunal */
+.region-sidebar-second #block-novoportal-menuestruturadotribunal-2-menu {
+    font-size: 1.1em;
+    line-height: 32px;
+}
+
+/* Icon for Menu example */
+.region-sidebar-second nav #block-useraccountmenu-menu::before {
+    background-position: -330px 0px;
+    margin: 0 5px 0 20px;
+}
+
+
+
+/* Home Menus */
+.region-sidebar-second #block-menu-menu-servicos + div h2 {
+    margin-top: 0px;
+}
+
+.region-sidebar-second #block-menu-menu-iniciativas-do-tribuna > h2 {
+    font-size: 1.2em;
+    line-height: 32px;
+}
+
+.region-sidebar-second #block-menu-menu-iniciativas-do-tribuna > h2::before {
+    background-position: -368px 0px;
+    margin: 0 5px 0 20px;
+}
+
+/*
+**    Menus for Content Region
+*/

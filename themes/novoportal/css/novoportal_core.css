@@ -1,0 +1,21 @@
+
+/*
+**     Site structure
+*/
+
+/* Page width */
+body .container {
+    max-width: 1024px;
+}
+
+/* Content width */
+body .container .content_layout > div {
+    width: 71%;
+}
+
+/* Siderbar width */
+body .container .sidebar > div {
+    width: 27%;
+    float: right;
+}
+

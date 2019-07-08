@@ -1,0 +1,72 @@
+
+/*
+**    Exposed Fields
+*/
+.views-exposed-form > .form-item {
+    float: left;
+    margin: 0 10px 7px 0;
+}
+
+.views-exposed-form > .form-item > label {
+    width: 100%;
+    display: block;
+    color: rgb(102, 102, 102);
+}
+
+.views-exposed-form > .form-item > select {
+    padding: 6px;
+    font-size: 13px;
+}
+
+/*
+**    Views for tables
+*/
+
+.views-table table {
+    width: 100%;
+}
+
+.views-table table caption {
+    background: #303c49 none repeat scroll 0 0;
+    box-shadow: 0 0px 3px inset;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+}
+
+.views-table table td {
+    border: 1px solid #DBDBDB;
+    color: #747474;
+}
+
+/*
+**    Views for slideshow
+*/
+
+/* Fix slideshow region */
+.slideshow .region-slideshow {
+    border: 0 none;
+}
+.views_slideshow_cycle_teaser_section {
+    width: auto !important;
+    height: 245px !important;
+}
+
+.views_slideshow_cycle_slide {
+    width: 100% !important;
+    height: 245px !important;
+   
+}
+
+/*
+**    Views for accordion
+*/
+
+.views-accordion .views-exposed-form {
+    height: 70px;
+}
+
+.views-accordion .views-exposed-form .form-submit {
+    margin-top: 20px;
+}

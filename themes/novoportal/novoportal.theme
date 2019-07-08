@@ -1,0 +1,19 @@
+<?php
+
+function novoportal_preprocess_html(&$variables) {
+  // Add node id to the body class.
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if($node) {
+    $variables['node_id'] = $node->id();
+  }
+}
+
+function novoportal_preprocess_views_view(&$variables) {
+  $view = $variables['view'];
+
+  $variables['title'] = [
+    '#markup' => $view->getTitle(),
+  ];
+}
+
+?>
