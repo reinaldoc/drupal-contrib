@@ -1,27 +1,87 @@
+
 /*
 ** CSS core
 */
 
-body,
-html {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Open Sans', sans-serif;
-
+.news {
+    margin: 15px 0;
 }
+
+.news_content{
+    width: 1129px;
+    margin: 0 auto;
+}
+
+.title_section h2 {
+    font-size: 1.2em;
+    color: #006db9;
+}
+
+.title_section {
+    float: left;
+    padding: 0 15px 0;
+}
+
+.view_more {
+    float: right;
+    right: 30px;
+    width: 101px;
+    background: #006db9;
+    font-size: 0.8em;
+    padding: 2px 10px 3px 10px;    
+}
+
+.view_more a {
+    text-decoration: none;
+    color: white;
+}
+
+.view_more a:hover {
+    text-decoration: underline;
+    
+}
+
+.news_box {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0px 16px 32px;
+    font-size: 0.8em;
+}
+
+
+.marker_section {
+    clear: both;
+    color: #afd5ec;
+}
+
+.services_content {
+    width: 1129px;
+    margin: 0 auto;
+}
+
+.contact_content {
+    width: 1129px;
+    margin: 0 auto;
+}
+
 
 .footer {
     background: #4a6279;
 
 }
+.marker_footer {
+    color: white;
+    margin: 12px 0;
+    width: 80%;
+}
 
 .footer_box {
     display: inline-block;
     vertical-align: top;
-    font-size:0.8em;
-    margin: 35px 0 0 0;
-    padding: 0 10px 0 0;
+    font-size: 0.8em;
+    margin: 35px 0 14px 0;
+    padding: 0 0px 0 19px;
     color: white;
     width: 23%;
 }
@@ -29,9 +89,20 @@ html {
 .footer_box ul {
     list-style: none;
     padding: 0;
+    margin: 20px 0 0 0;
 }
 
-.footer_box h3 {
+.footer_box a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_box a:hover{
+    text-decoration: underline;
+}
+
+
+.footer_box h4 {
     text-transform: uppercase;
 }
 
@@ -39,4 +110,3 @@ html {
     margin: 0 auto;
     max-width: 1129px;
 }
-

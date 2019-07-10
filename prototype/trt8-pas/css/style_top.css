@@ -1,3 +1,38 @@
-/*
-** CSS core
-*/
+/* Estilo topo */
+.topo-wrapper {
+  width: 100%;
+  pad
+}
+.content-topo {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 10px;
+  height: 60px;
+}
+.logo {
+  width: 175px;
+  height: auto;
+  float: left;
+}
+.menu-topo {
+  width: 584px;
+  float: left;
+  padding-left: 77px;
+}
+.menu-topo a {
+  text-decoration: none;
+  color: #757584;
+  font-size: 13px;
+}
+.menu-topo ul {
+  list-style: none;
+}
+.menu-topo ul li {
+  float: left;
+  padding: 7px;
+}
+.pesquisa-right {
+  width: 70px;
+  float: left;
+}
+
