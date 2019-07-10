@@ -11,9 +11,6 @@ html {
 
 }
 
-
-
-
 .footer {
     background: #4a6279;
 
@@ -23,9 +20,10 @@ html {
     display: inline-block;
     vertical-align: top;
     font-size:0.8em;
-    margin:70px 100px 0px 33px;
-    padding: 0px 0 0 10px;
+    margin: 35px 0 0 0;
+    padding: 0 10px 0 0;
     color: white;
+    width: 23%;
 }
 
 .footer_box ul {
@@ -33,9 +31,12 @@ html {
     padding: 0;
 }
 
+.footer_box h3 {
+    text-transform: uppercase;
+}
 
 .footer_content {
     margin: 0 auto;
-    max-width: 95%;
+    max-width: 1129px;
 }
 
