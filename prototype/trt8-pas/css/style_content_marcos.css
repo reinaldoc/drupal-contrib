@@ -1,0 +1,88 @@
+/*banner central */
+.banner-central-wrapper {
+  width: 100%;
+}
+.banner-central {
+  width: 1129px;
+  margin: 0 auto;
+  height: 309px;
+  background-image: url('../imagens_marcos/banner_2v.png');
+  background-size: 1129px 309px;
+}
+.banner-central .content {
+  text-align: center;
+  padding: 166px;
+}
+.banner-central .content h1 {
+  font-size: 3em;
+}ls
+.banner-central .content span {
+  font-size: 1.2em;
+}
+
+/*sessao de servicos */
+.servicos-wrapper {
+  width: 100%;
+}
+.servicos-content {
+  width: 1129px;
+  height: 200px;
+  margin:0 auto;
+  /*background-image: url('../imagens_marcos/bg_services.png');*/
+  background: #0066CC;
+  color: #fff;
+
+}
+.servicos-content .servico {
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 47px;
+  width: 20%;
+  font-size: 0.7em;
+}
+.servicos-content .servico img {
+  width: 70px;
+  height: 80px;
+}
+.title-services {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*links uteis */
+.links-uteis-wrapper {
+  width: 100%;
+}
+.links-uteis-content {
+  width: 1129px;
+  margin:0 auto;
+  padding-top: 15px;
+}
+.links-uteis-content .link-item {
+  margin-left: 15px;
+  width: 30%;
+  height: 120px;
+  padding-left: 5px;
+  float: left;
+  border-left: 10px solid;
+  border-image-source: linear-gradient(10deg,#2b99aa, #035282);
+  border-image-slice: 1;
+}
+.links-uteis-content .link-item .topo-item {
+  height:63px;
+}
+.links-uteis-content .link-item .topo-item img {
+  float: left;
+  width: 60px;
+  margin-right: 11px;
+}
+.links-uteis-content .link-item .topo-item h2 {
+  color: #a61933;
+}
+.links-uteis-content .link-item .corpo-item {
+  margin-top: 12px;
+  color: #535362;
+  text-align: left;
+  padding-left: 5px;
+}

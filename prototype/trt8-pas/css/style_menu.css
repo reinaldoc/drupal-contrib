@@ -3,8 +3,8 @@
   width: 100%;
 }
 .menu {
-  width: 1024px;
-  height: 50px;
+  width: 1129px;
+  height: 36px;
   margin: 0 auto;
 }
 .menu ul {
@@ -19,4 +19,31 @@
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+}
+.menu ul li a:active {
+  border-bottom: 2px solid #71b4dc;
+}
+.menu ul li a:hover {
+  border-bottom: 2px solid #71b4dc;
+}
+
+/*banner central */
+.banner-central-wrapper {
+  width: 100%;
+}
+.banner-central {
+  width: 1129px;
+  margin: 0 auto;
+  height: 309px;
+  background-image: url('imagens/banner_2v.png');
+}
+.banner-central .content {
+  text-align: center;
+  padding: 166px;
+}
+.banner-central .content h1 {
+  font-size: 3em;
+}
+.banner-central .content span {
+  font-size: 1.2em;
 }

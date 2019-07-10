@@ -4,7 +4,7 @@
   pad
 }
 .content-topo {
-  width: 1024px;
+  width: 1129px;
   margin: 0 auto;
   padding-top: 10px;
   height: 60px;
@@ -15,9 +15,10 @@
   float: left;
 }
 .menu-topo {
-  width: 584px;
+  width: 656px;
   float: left;
-  padding-left: 77px;
+  padding-left: 208px;
+  margin-top: -5px;
 }
 .menu-topo a {
   text-decoration: none;
@@ -31,8 +32,20 @@
   float: left;
   padding: 7px;
 }
+.telefone-menu-topo {
+  color: #4993c2;
+}
 .pesquisa-right {
   width: 70px;
   float: left;
 }
-
+.btn_pesquisar {
+  border: none;
+  padding: 5px;
+  width: 88px;
+  background-color: #f2f6f9;
+  color: #87c6e7;
+}
+.icon_pesquisa {
+  margin-right: 5px;
+}
