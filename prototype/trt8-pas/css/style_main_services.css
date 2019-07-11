@@ -6,6 +6,118 @@
     margin: 0 auto;
 }
 
+.service_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 41px;
+    margin: 0 15px 15px 0;
+}
+
+.service_icon_aderir{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: 0px;
+    background-position-y: 37px;
+}
+
+.service_icon_incluir{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -40px;
+    background-position-y: 37px;
+}
+
+.service_icon_solicitar{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -79px;
+    background-position-y: 37px;
+}
+
+.service_icon_consultar{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: 188px;
+    background-position-y: 37px;
+}
+
+.service_icon_quitar{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -157px;
+    background-position-y: 37px;
+}
+
+.service_icon_atualizar{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -195px;
+    background-position-y: 38px;
+}
+
+.service_icon_parcerias{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: 37px;
+    background-position-y: 39px;
+}
+
+.service_icon_2via{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -233px;
+    background-position-y: 39px;
+}
+
+.service_icon_modelos{
+    width: 37px;
+    height: 39px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -270px;
+    background-position-y: 39px;
+}
+
+.service_item_title {
+    display: inline-block;
+    vertical-align: top;
+    padding: 9px 0 0 8px;
+
+}
+
+.service_item a {
+    text-decoration: none;
+    padding: 0 0 0 2px;
+    color: black;
+
+}
+
+.service_itens_content {
+    margin: 42px auto;
+    width: 75%;
+}
+
+
+
+
+
 .contact_content {
     width: 1129px;
     margin: 0 auto;
