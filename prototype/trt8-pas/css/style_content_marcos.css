@@ -3,11 +3,11 @@
   width: 100%;
 }
 .banner-central {
-  width: 1129px;
+  width: 100%;
   margin: 0 auto;
   height: 309px;
   background-image: url('../imagens_marcos/banner_2v.png');
-  background-size: 1129px 309px;
+  background-size: cover;
 }
 .banner-central .content {
   text-align: center;
@@ -25,13 +25,17 @@
   width: 100%;
 }
 .servicos-content {
-  width: 1129px;
+  width: 100%;
   height: 200px;
   margin:0 auto;
-  /*background-image: url('../imagens_marcos/bg_services.png');*/
-  background: #0066CC;
+  background-image: url('../imagens_marcos/bg_v3.png');
   color: #fff;
+  box-shadow: -1px 6px 5px 0px rgba(206,206,206,1);
 
+}
+.servicos-content .alinhamento {
+ width: 1129px;
+ margin: 0 auto;
 }
 .servicos-content h2 {
  margin-top: 4px;
@@ -63,16 +67,21 @@
   padding-top: 15px;
 }
 .links-uteis-content .link-item {
-  margin-left: 15px;
+  margin-left: 18px;
  width: 29%;
- height: 120px;
+ height: 110px;
  padding-left: 7px;
  float: left;
  border-left: 10px solid;
- border-image-source: linear-gradient(10deg,#2b99aa, #035282);
- border-image-slice: 1;
- -webkit-box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
- -moz-box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
+/* border-image-source: linear-gradient(10deg,#2b99aa, #035282);
+ border-image-slice: 1;*/
+border-radius: 4px;
+border-style: solid;
+border-width: 23px 0px 27px 7px;
+-moz-border-image: url(../imagens_marcos/border_png.png) 8 0 27 7 stretch;
+-webkit-border-image: url(../imagens_marcos/border_png.png) 8 0 27 7 stretch;
+-o-border-image: url(../imagens_marcos/border_png.png) 8 0 27 7 stretch;
+border-image: url(../imagens_marcos/border_png.png) 8 0 27 7 fill stretch;
  box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
  padding-top: 6px;
  padding-bottom: 6px;
