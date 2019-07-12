@@ -2,7 +2,12 @@
 @media screen and (max-width: 600px){
     .menu-topo {float:;}
     .menu-topo a {display:none;}
-    
+
+    .links-uteis-content {width:72% !important;}
+    .links-uteis-content .link-item {width:100% !important;float:none !important; margin-top: 11px !important; margin-left:0 !important;}
+    .servicos-content {height: 630px !important;width: 100% !important}
+    .alinhamento {width: 72% !important}
+    .servicos-content .servico {width: 100% !important}
     
 
 }
