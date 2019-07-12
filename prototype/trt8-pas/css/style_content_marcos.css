@@ -11,7 +11,7 @@
 }
 .banner-central .content {
   text-align: center;
-  padding: 166px;
+  padding-top:10%;
 }
 .banner-central .content h1 {
   font-size: 3em;
@@ -43,10 +43,32 @@
 .servicos-content .servico {
   float: left;
   text-align: center;
-  padding-top: 20px;
   padding-left: 47px;
   width: 20%;
   font-size: 0.7em;
+}
+.icon_acesso_rapido {
+ width: 142px;
+ height: 115px;
+}
+.acesso_befeciciario {
+  background-image: url('../img/icons.png');
+  background-position: 0px 1px;
+}
+.acesso_credenciados {
+  background-image: url('../img/icons.png');
+  background-position: -185px 0px;
+}
+.acesso_gestores {
+  background-image: url('../img//icons.png');
+  background-position: -370px 0px;
+}
+.acesso_peritos {
+  background-image: url('../img//icons.png');
+  background-position: -368px 0px;
+}
+.servicos-content .servico h2 {
+ padding-right: 36px;
 }
 .servicos-content .servico img {
   width: 70px;
