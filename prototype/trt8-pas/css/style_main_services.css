@@ -11,7 +11,7 @@
     vertical-align: top;
     width: 30%;
     height: 41px;
-    margin: 0 15px 15px 0;
+    padding: 0px 0px 29px 34px;
 }
 
 .service_icon_aderir{
@@ -106,19 +106,15 @@
     text-decoration: none;
     padding: 0 0 0 2px;
     color: black;
+}
 
+
+.service_item a:hover {
+    text-decoration: underline;
+    
 }
 
 .service_itens_content {
     margin: 42px auto;
-    width: 75%;
-}
-
-
-
-
-
-.contact_content {
-    width: 1129px;
-    margin: 0 auto;
+   
 }
