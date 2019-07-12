@@ -1,0 +1,9 @@
+/* trabalhando a responsividade */
+@media screen and (max-width: 600px){
+    .menu-top {width: 10%; margin-left:0}
+    .menu-top a {display:none;}
+    .telefone-menu-top {float:left;}
+    
+    
+
+}
