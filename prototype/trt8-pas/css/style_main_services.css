@@ -1,6 +1,10 @@
 /*
 ** CSS core
 */
+.services {
+    margin: 10px 0 0 0;
+}
+
 .services_content {
     width: 1129px;
     margin: 0 auto;
@@ -15,84 +19,96 @@
 }
 
 .service_icon_aderir{
-    width: 37px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: 0px;
-    background-position-y: 37px;
+    background-position-x: -71px;
+    background-position-y: 514px;
+    background-size: 240px;
 }
 
 .service_icon_incluir{
-    width: 37px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: -40px;
-    background-position-y: 37px;
+    background-position-x: 1191px;
+    background-position-y: 515px;
+    background-size: 240px;
 }
 
 .service_icon_solicitar{
-    width: 37px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: -79px;
-    background-position-y: 37px;
+    background-position-x: -131px;
+    background-position-y: 234px;
+    background-size: 240px;
 }
 
 .service_icon_consultar{
-    width: 37px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: 188px;
-    background-position-y: 37px;
+    background-position-x: 471px;
+    background-position-y: 181px;
+    background-size: 240px;
+
 }
 
 .service_icon_quitar{
-    width: 37px;
-    height: 39px;
+    
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: -157px;
-    background-position-y: 37px;
+    background-position-x: -188px;
+    background-position-y: 180px;
+    background-size: 240px;
+
 }
 
 .service_icon_atualizar{
-    width: 37px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: -195px;
-    background-position-y: 38px;
+    background-position-x: -193px;
+    background-position-y: 234px;
+    background-size: 240px;
 }
 
 .service_icon_parcerias{
-    width: 37px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: 37px;
-    background-position-y: 39px;
+    background-position-x: 108px;
+    background-position-y: 182px;
+    background-size: 240px;
 }
 
 .service_icon_2via{
-    width: 37px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: -233px;
-    background-position-y: 39px;
+    background-position-x: -69px;
+    background-position-y: 181px;
+    background-size: 240px;
 }
 
 .service_icon_modelos{
-    width: 37px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     float: left;
     background-image: url(../img/services_icons.png);
-    background-position-x: -270px;
-    background-position-y: 39px;
+    background-position-x: -342px;
+    background-position-y: 131px;
+    background-size: 240px;
 }
 
 .service_item_title {
@@ -105,12 +121,13 @@
 .service_item a {
     text-decoration: none;
     padding: 0 0 0 2px;
-    color: black;
+    color: #2c2c30;
 }
 
 
 .service_item a:hover {
     text-decoration: underline;
+    opacity: 0.7;
     
 }
 
