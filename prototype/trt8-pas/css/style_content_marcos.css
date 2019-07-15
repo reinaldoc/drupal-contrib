@@ -15,9 +15,11 @@
 }
 .banner_central .content h1 {
   font-size: 3em;
-}ls
+  color:#3f3f48;
+}
 .banner_central .content span {
   font-size: 1.2em;
+  color:#3f3f48;
 }
 
 /*sessao de servicos */
