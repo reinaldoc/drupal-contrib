@@ -6,7 +6,7 @@
   width: 100%;
   margin: 0 auto;
   height: 309px;
-  background-image: url('../imagens_marcos/banner_2v.png');
+  background-image: url('../img/banner_2v.png');
   background-size: cover;
 }
 .banner-central .content {
@@ -28,7 +28,7 @@
   width: 100%;
   height: 200px;
   margin:0 auto;
-  background-image: url('../imagens_marcos/bg_v3.png');
+  background-image: url('../img/bg_v3.png');
   color: #fff;
   box-shadow: -1px 6px 5px 0px rgba(206,206,206,1);
 
@@ -60,11 +60,11 @@
   background-position: -185px 0px;
 }
 .acesso_gestores {
-  background-image: url('../img//icons.png');
+  background-image: url('../img/icons.png');
   background-position: -370px 0px;
 }
 .acesso_peritos {
-  background-image: url('../img//icons.png');
+  background-image: url('../img/icons.png');
   background-position: -368px 0px;
 }
 .servicos-content .servico h2 {
@@ -100,10 +100,10 @@
 border-radius: 4px;
 border-style: solid;
 border-width: 23px 0px 27px 7px;
--moz-border-image: url(../imagens_marcos/border_png.png) 8 0 27 7 stretch;
--webkit-border-image: url(../imagens_marcos/border_png.png) 8 0 27 7 stretch;
--o-border-image: url(../imagens_marcos/border_png.png) 8 0 27 7 stretch;
-border-image: url(../imagens_marcos/border_png.png) 8 0 27 7 fill stretch;
+-moz-border-image: url(../img/border_png.png) 8 0 27 7 stretch;
+-webkit-border-image: url(../img/border_png.png) 8 0 27 7 stretch;
+-o-border-image: url(../img/border_png.png) 8 0 27 7 stretch;
+border-image: url(../img/border_png.png) 8 0 27 7 fill stretch;
  box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
  padding-top: 6px;
  padding-bottom: 6px;
