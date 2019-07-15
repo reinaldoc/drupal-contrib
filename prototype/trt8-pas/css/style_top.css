@@ -24,6 +24,9 @@
   color: #757584;
   font-size: 13px;
 }
+.menu_topo a:hover {
+ border-bottom: 1px solid #b7b7c8;
+}
 .menu_topo ul {
   list-style: none;
 }
