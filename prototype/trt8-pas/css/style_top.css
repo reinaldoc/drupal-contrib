@@ -1,9 +1,8 @@
 /* Estilo topo */
-.topo-wrapper {
+.top_wrapper {
   width: 100%;
-  pad
 }
-.content-topo {
+.content_topo {
   width: 1129px;
   margin: 0 auto;
   padding-top: 10px;
@@ -14,28 +13,28 @@
   height: auto;
   float: left;
 }
-.menu-topo {
+.menu_topo {
   width: 656px;
   float: left;
   padding-left: 208px;
   margin-top: -5px;
 }
-.menu-topo a {
+.menu_topo a {
   text-decoration: none;
   color: #757584;
   font-size: 13px;
 }
-.menu-topo ul {
+.menu_topo ul {
   list-style: none;
 }
-.menu-topo ul li {
+.menu_topo ul li {
   float: left;
   padding: 7px;
 }
-.telefone-menu-topo {
+.telefone_menu_topo {
   color: #4993c2;
 }
-.pesquisa-right {
+.pesquisa_right {
   width: 70px;
   float: left;
 }
@@ -43,7 +42,7 @@
   border: none;
   padding: 5px;
   width: 88px;
-  background-color: #f2f6f9;
+  background_color: #f2f6f9;
   color: #87c6e7;
 }
 .icon_pesquisa {

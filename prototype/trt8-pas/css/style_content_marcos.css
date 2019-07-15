@@ -1,30 +1,30 @@
 /*banner central */
-.banner-central-wrapper {
+.banner_central_wrapper {
   width: 100%;
 }
-.banner-central {
+.banner_central {
   width: 100%;
   margin: 0 auto;
   height: 309px;
   background-image: url('../img/banner_2v.png');
   background-size: cover;
 }
-.banner-central .content {
+.banner_central .content {
   text-align: center;
   padding-top:10%;
 }
-.banner-central .content h1 {
+.banner_central .content h1 {
   font-size: 3em;
 }ls
-.banner-central .content span {
+.banner_central .content span {
   font-size: 1.2em;
 }
 
 /*sessao de servicos */
-.servicos-wrapper {
+.servicos_wrapper {
   width: 100%;
 }
-.servicos-content {
+.servicos_content {
   width: 100%;
   height: 200px;
   margin:0 auto;
@@ -33,14 +33,14 @@
   box-shadow: -1px 6px 5px 0px rgba(206,206,206,1);
 
 }
-.servicos-content .alinhamento {
+.servicos_content .alinhamento {
  width: 1129px;
  margin: 0 auto;
 }
-.servicos-content h2 {
+.servicos_content h2 {
  margin-top: 4px;
 }
-.servicos-content .servico {
+.servicos_content .servico {
   float: left;
   text-align: center;
   padding-left: 47px;
@@ -67,28 +67,28 @@
   background-image: url('../img/icons.png');
   background-position: -368px 0px;
 }
-.servicos-content .servico h2 {
+.servicos_content .servico h2 {
  padding-right: 36px;
 }
-.servicos-content .servico img {
+.servicos_content .servico img {
   width: 70px;
   height: 80px;
 }
-.title-services {
+.title_services {
   text-align: center;
   padding-top: 10px;
 }
 
 /*links uteis */
-.links-uteis-wrapper {
+.links_uteis_wrapper {
   width: 100%;
 }
-.links-uteis-content {
+.links_uteis_content {
   width: 1129px;
   margin:0 auto;
   padding-top: 15px;
 }
-.links-uteis-content .link-item {
+.links_uteis_content .link_item {
   margin-left: 18px;
  width: 29%;
  height: 110px;
@@ -109,18 +109,18 @@ border-image: url(../img/border_png.png) 8 0 27 7 fill stretch;
  padding-bottom: 6px;
  padding-right: 7px;
 }
-.links-uteis-content .link-item .topo-item {
+.links_uteis_content .link_item .topo_item {
   height:63px;
 }
-.links-uteis-content .link-item .topo-item img {
+.links_uteis_content .link_item .topo_item img {
   float: left;
   width: 60px;
   margin-right: 11px;
 }
-.links-uteis-content .link-item .topo-item h2 {
+.links_uteis_content .link_item .topo_item h2 {
   color: #a61933;
 }
-.links-uteis-content .link-item .corpo-item {
+.links_uteis_content .link_item .corpo_item {
   margin-top: 12px;
   color: #535362;
   text-align: left;
