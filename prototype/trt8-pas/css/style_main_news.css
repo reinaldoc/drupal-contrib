@@ -3,7 +3,7 @@
 */
 
 .news {
-    margin: 15px 0;
+    margin: 202px 0 0 0;
 }
 
 .news_content{
@@ -47,6 +47,11 @@
     padding: 0 0px 16px 32px;
     font-size: 0.8em;
     margin: 25px 0 0;
+}
+
+.news_box p {
+
+    color: #2c2c30;
 }
 
 .read_more {
