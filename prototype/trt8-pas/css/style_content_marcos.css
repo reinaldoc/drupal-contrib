@@ -102,10 +102,7 @@
 border-radius: 4px;
 border-style: solid;
 border-width: 23px 0px 27px 7px;
--moz-border-image: url(../img/border_png.png) 8 0 27 7 stretch;
--webkit-border-image: url(../img/border_png.png) 8 0 27 7 stretch;
--o-border-image: url(../img/border_png.png) 8 0 27 7 stretch;
-border-image: url(../img/border_png.png) 8 0 27 7 fill stretch;
+border-image: url(../img/borderv2.png) 8 0 27 7 fill stretch;
  box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
  padding-top: 6px;
  padding-bottom: 6px;
