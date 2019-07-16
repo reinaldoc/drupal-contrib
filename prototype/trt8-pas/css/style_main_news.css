@@ -41,10 +41,10 @@
 }
 
 .news_box {
-    width: 30%;
+    width: 31.3%;
     display: inline-block;
     vertical-align: top;
-    padding: 0 0px 16px 32px;
+    padding: 0 0px 16px 20.2px;
     font-size: 0.8em;
     margin: 25px 0 0;
 }
@@ -52,6 +52,11 @@
 .news_box p {
 
     color: #2c2c30;
+}
+
+.news_box img {
+    box-shadow: 0 0 5px 0 rgba(157, 147, 147, 0.94);
+    padding: 1px;
 }
 
 .read_more {

@@ -18,7 +18,8 @@
     display: inline-block;
     vertical-align: top;
     width: 29%;    
-    padding: 76px 0 0 33px;
+    padding: 65px 0 0 20px;
+  
 }
 
 .contact_icon_phone{
@@ -53,6 +54,7 @@
     display: inline-block;
     vertical-align: top;
     padding: 2px 0 0 12px;
+    font-size: 1.3em;
 }
 
 .contact_title a {
