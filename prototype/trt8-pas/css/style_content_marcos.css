@@ -5,13 +5,14 @@
 .banner_central {
   width: 100%;
   margin: 0 auto;
-  height: 309px;
-  background-image: url('../img/banner_2v.png');
+  height:450px;
+  background-image: url('../img/banner_topo.jpg');
   background-size: cover;
 }
 .banner_central .content {
   text-align: center;
-  padding-top:10%;
+  padding-top: 6%;
+  height: 155px;
 }
 .banner_central .content h1 {
   font-size: 3em;
@@ -30,9 +31,10 @@
   width: 100%;
   height: 200px;
   margin:0 auto;
-  background-image: url('../img/bg_v3.png');
   color: #fff;
   box-shadow: -1px 6px 5px 0px rgba(206,206,206,1);
+  opacity: 0.7;
+  background: #32b7df;
 
 }
 .servicos_content .alinhamento {
