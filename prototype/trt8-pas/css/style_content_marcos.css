@@ -54,6 +54,10 @@
 .icon_acesso_rapido {
  width: 142px;
  height: 115px;
+ transition: transform 0.3s,box-shadow 0.3s;
+}
+.icon_acesso_rapido:hover {
+transform: translateY(-5px);
 }
 .acesso_befeciciario {
   background-image: url('../img/icons.png');
