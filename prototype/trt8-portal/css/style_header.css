@@ -1,1 +1,38 @@
-/
+.header_wrapper {
+    height: 25px;
+    background: #01426a;
+    color: #ffffff;
+    font-size: 12px;
+}
+.header_content {
+    margin: 0 auto;
+    width: 1129px;
+
+}
+.accessibility {
+    
+}
+
+.accessibility ul {
+    list-style: none;
+}
+
+.accessibility li {
+    float: left;
+}
+
+.translation_tools ul {
+    list-style: none;
+}
+
+.translation_tools li {
+    float: left;
+}
+
+.access_links ul {
+    list-style: none;
+}
+
+.access_links li {
+    float: left;
+}
