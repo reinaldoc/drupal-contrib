@@ -8,6 +8,37 @@
     min-height: auto;
 }
 
+.primary-menu-wrap {
+    height: 34px;
+}
+
+.region-primary-menu {
+    height: 34px;
+}
+
+.primary-menu-wrap {
+    background: #eee;
+    color: #333;
+    font-size: 16px;
+}
+
+.primary-menu-wrap, .region-primary-menu, .menu-base-theme li a {
+    background: #eee;
+    color: #333;
+}
+
+.menu-base-theme a:hover, .menu-base-theme a:focus, .menu-base-theme a:active, .menu-base-theme a.highlighted {
+    color: #333;
+	text-decoration: none;
+    background: #dbdcdd none repeat scroll 0 0;
+    border-bottom: 1px solid #303c49;
+}
+
+.menu-base-theme ul a:hover, .menu-base-theme ul a:focus, .menu-base-theme ul a:active, .menu-base-theme ul a.highlighted {
+    color: #333;
+    background: #dbdcdd none repeat scroll 0 0;
+}
+
 /* Fix Base Theme */
 .region-sidebar-second nav h2 {
     display: block;
