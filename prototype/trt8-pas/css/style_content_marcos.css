@@ -62,10 +62,12 @@ transition: transform 0.3s, box-shadow 0.3s;
 transition: background-color 0.4s ease;
 }
 .servico:hover {
-transform: translateY(-5px);
-//background: #2092b4;
-//border-radius: 4px;
-//box-shadow: 0px 0px 5px 0px rgb(90, 197, 231);
+    transform: translateY(-5px);
+    background: #04c5ff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px rgb(22, 199, 255);
+    height: 145px;
+    margin-top: 3px;
 }
 .acesso_befeciciario {
   background-image: url('../img/icons.png');
