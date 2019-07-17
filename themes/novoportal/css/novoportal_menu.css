@@ -4,39 +4,60 @@
 */
 
 /* Main Menu */
-.primary-menu-wrap .navbar {
-    min-height: auto;
-}
-
 .primary-menu-wrap {
     height: 34px;
 }
 
-.region-primary-menu {
-    height: 34px;
+.menu-base-theme > li {
+    padding: 0;
+	background: none;
 }
 
-.primary-menu-wrap {
-    background: #eee;
-    color: #333;
-    font-size: 16px;
+ul.menu-base-theme > li:hover {
+    background: #dbdcdd none repeat scroll 0 0;
+}
+
+ul.menu-base-theme > li > a {
+    margin-top: 5px;
+	margin-bottom: 5px;
+    height: 24px;
+    padding: 0px 24px 0px 24px;
+    border-right: 1px solid #8e8e8e;
+}
+
+ul.menu-base-theme ul a {
+	padding: 5px 24px;
+}
+
+ul.menu-base-theme > li:last-child > a {
+	border-right: none;
+}
+
+/* icone de dropdown */
+#main-menu > li > a > span {
+	display: none;
 }
 
 .primary-menu-wrap, .region-primary-menu, .menu-base-theme li a {
     background: #eee;
     color: #333;
+    font-size: 16px;
+	height: 34px;
 }
 
 .menu-base-theme a:hover, .menu-base-theme a:focus, .menu-base-theme a:active, .menu-base-theme a.highlighted {
     color: #333;
 	text-decoration: none;
-    background: #dbdcdd none repeat scroll 0 0;
-    border-bottom: 1px solid #303c49;
+	background: #dbdcdd none repeat scroll 0 0;
+	padding: 0px 24px;
+    /*background: #dbdcdd none repeat scroll 0 0;
+    border-bottom: 1px solid #303c49;*/
 }
 
 .menu-base-theme ul a:hover, .menu-base-theme ul a:focus, .menu-base-theme ul a:active, .menu-base-theme ul a.highlighted {
     color: #333;
     background: #dbdcdd none repeat scroll 0 0;
+	padding: 5px 24px;
 }
 
 /* Fix Base Theme */
