@@ -41,6 +41,7 @@
  width: 1129px;
  margin: 0 auto;
 }
+.servicos_content a {color:#fff;}
 .servicos_content h2 {
  margin-top: 4px;
 }
@@ -62,9 +63,9 @@ transition: background-color 0.4s ease;
 }
 .servico:hover {
 transform: translateY(-5px);
-background: #2092b4;
-border-radius: 4px;
-box-shadow: 0px 0px 5px 0px rgb(90, 197, 231);
+//background: #2092b4;
+//border-radius: 4px;
+//box-shadow: 0px 0px 5px 0px rgb(90, 197, 231);
 }
 .acesso_befeciciario {
   background-image: url('../img/icons.png');
@@ -116,10 +117,17 @@ border-radius: 4px;
 border-style: solid;
 border-width: 23px 0px 27px 7px;
 border-image: url(../img/borderv2.png) 8 0 27 7 fill stretch;
- box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
- padding-top: 6px;
- padding-bottom: 6px;
- padding-right: 7px;
+box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
+padding-top: 6px;
+padding-bottom: 6px;
+padding-right: 7px;
+transition: transform 0.3s,box-shadow 0.3s;
+}
+.link_item:hover {
+ transform: translateY(-5px);
+}
+.link_item a {
+    color: #fff;
 }
 .links_uteis_content .link_item .topo_item {
   height:63px;
