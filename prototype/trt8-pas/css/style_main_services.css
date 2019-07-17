@@ -16,8 +16,12 @@
     width: 30%;
     height: 41px;
     padding: 0px 14px 32px 20px;
+    transition: transform 0.3s,box-shadow 0.3s;
 }
 
+.service_item:hover {
+    transform: translateY(-5px);
+}
 .service_icon_aderir{
     width: 45px;
     height: 45px;
@@ -126,7 +130,7 @@
 
 
 .service_item a:hover {
-    text-decoration: underline;
+ 
     opacity: 0.7;
     
 }
