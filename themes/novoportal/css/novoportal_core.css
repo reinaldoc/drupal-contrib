@@ -3,9 +3,21 @@
 **     Site structure
 */
 
+.main-header {
+    background: none;
+    background-size: cover;
+    position: relative;
+    position: relative;
+    padding: 10px 0;
+}
+
+.container {
+    width: 1129px; /*1920*/
+}
+
 /* Page width */
 body .container {
-    max-width: 1024px;
+    max-width: 1129px; /*1920*/
 }
 
 /* Content width */
@@ -18,4 +30,3 @@ body .container .sidebar > div {
     width: 27%;
     float: right;
 }
-
