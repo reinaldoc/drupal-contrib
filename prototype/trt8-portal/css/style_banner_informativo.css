@@ -1,0 +1,31 @@
+/*################# banner informativo #############*/
+
+.banner_informativo_bottom_wrapper {
+    width: 100%;
+    clear: both;
+}
+.banner_informativo_content {
+    background:#a5b4c2;
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.lista_banner {
+    height: 70px;
+    list-style: none;
+}
+.lista_banner img {
+    width: 100%;
+}
+.lista_banner a:hover {
+    transform: translateY(-5px);
+}
+.lista_banner a {
+    width: 18%;
+    margin-right: 6px;
+    height: 50px;
+    float: left;
+    line-height: 70px;
+    padding: 2px;
+    transition: transform 0.3s;
+}

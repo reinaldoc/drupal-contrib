@@ -1,1 +1,14 @@
 /* serviços banner rotativo */
+/*####### Banner rotary #############*/
+
+.banner_rotary_wrapper {
+    width: 100%;
+}
+.banner_content {
+    width: 1029px;
+    
+}
+.banner_content img {
+    width: 1029px;
+    height: 187px;
+}

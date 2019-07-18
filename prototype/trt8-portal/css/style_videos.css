@@ -1,1 +1,20 @@
 /* css video bottom */
+
+/*##################### video #######################*/
+.video_wrapper {
+    width: 50%;
+    float: left;
+}
+.video_content {
+    height: 400px;
+    
+}
+.video_content .title {
+    font-size: 22px;
+    color: #2b4570;
+    text-transform: uppercase;
+    border-bottom: 3px solid #04785a;
+    margin-bottom: 12px;
+    font-family: Arial;
+    font-weight: bold;
+}
