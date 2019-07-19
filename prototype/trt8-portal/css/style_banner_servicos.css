@@ -1,0 +1,96 @@
+/*########### servicos bottom ###############*/
+
+.servicos_bottom_wrapper {
+    width: 100%;
+    clear: both;
+}
+.servicos_bottom_content {
+    width: 1029px;
+    height: 113px;
+    margin-top: 10px;
+}
+.servicos_bottom_content ul {
+    list-style: none;
+}
+.servicos_bottom_content .servico {
+    float: left;
+    margin-right: 22px;
+    text-align: center;
+    width: 8%;
+}
+.servicos_bottom_content .servico {
+    transition: transform 0.3s;
+}
+.servicos_bottom_content .servico:hover {
+    transform: translateY(-5px);
+}
+.servicos_bottom_content .servico h4 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    color: #01426a;
+}
+.servicos_bottom_content .servico .title {
+    height: 30px;
+}
+.servicos_bottom_content .servico .icon_servico {
+    width: 74px;
+    height: 74px;
+    background: #cece;
+    margin: 0 auto;
+}
+.servicos_bottom_content .servico .push {
+    background: url('../img/icons_services.png');
+    background-position: 280px 2px;
+    background-size: 750px 63px;
+}
+.servicos_bottom_content .servico .precatorios {
+    background: url('../img/icons_services.png');
+    background-position: 380px -3px;
+    background-size: 800px 75px;
+}
+.servicos_bottom_content .servico .portal_do_advogado {
+    background: url('../img/icons_services.png');
+    background-position: 153px -8px;
+    background-position: 142px 2px;
+    background-size: 793px 69px;
+}
+.servicos_bottom_content .servico .editais_e_avisos {
+    background: url('../img/icons_services.png');
+    background-position: 228px 1px;
+    background-size: 835px 70px;
+}
+.servicos_bottom_content .servico .biblioteca {
+    background: url('../img/icons_services.png');
+    background-position: 0px -8px;
+    background-size: 794px 75px;
+}
+.servicos_bottom_content .servico .estatisticas {
+    background: url('../img/icons_services.png');
+    background-position: 801px -22px;
+}
+.servicos_bottom_content .servico .agenda {
+    background: url('../img/icons_services.png');
+    background-position: 591px -7px;
+    background-size: 874px 78px;
+}
+.servicos_bottom_content .servico .gestao {
+    background: url('../img/icons_services.png');
+    background-position: 74px -10px;
+    background-size: 786px 80px;
+}
+.servicos_bottom_content .servico .escola_judicial {
+    background: url('../img/icons_services.png');
+    background-position: 437px 1px;
+    background-size: 764px 74px;
+}
+.servicos_bottom_content .servico .trt_saude {
+    background: url('../img/icons_services.png');
+    background-position: 669px -11px;
+    background-size: 870px 82px;
+}
+
+.ultimo_servico {
+    margin-right: 0 !important;
+}
