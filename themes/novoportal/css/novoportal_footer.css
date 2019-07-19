@@ -1,0 +1,114 @@
+/* style rodape */
+/*############ footer ##############*/
+.footer-menu {
+    width: 100%;
+    background: #23517e;
+    
+}
+.bloco_footer {
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer-menu .container {
+    width: 1029px;
+    margin: 0 auto;
+    padding: 5px;
+    height: auto;
+    height: 173px;
+    padding-top: 25px;
+}
+.logo_footer {
+    /*width: 18%;*/
+    border-right: 3px solid #fff;
+  
+
+}
+.logo_footer img {
+    width: 127px;
+    height: 96px;
+}
+.endereco_footer {
+    /*width: 22%;*/
+    height: 120px;
+    
+   
+}
+.endereco_footer p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+}
+.mapa_site {
+    /*width: 18%;*/
+    padding-left: 70px;
+
+}
+.mapa_site h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mapa_site ul {
+    list-style: none;
+}
+.mapa_site ul li a {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-decoration: none;
+}
+.mapa_site ul li a .icon {
+    margin-right: 3px;
+    font-weight: bold; 
+    color: #9bacb4;
+}
+.rede_social {
+    /*width: 20%;*/
+    float: right !important;
+    margin-right: 0 !important;
+}
+.rede_social ul {
+    list-style: none;
+}
+.rede_social ul li {
+    float: left;
+    margin-left: 10px;
+}
+.rede_social .social {
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+}
+.rede_social .facebook {
+    background-image: url('../img/social_footer.png');
+    background-position: 124px 40px;
+    background-size: 164px 40px;
+}
+.rede_social .twitter {
+    background-image: url('../img/social_footer.png');
+    background-position: 244px 40px;
+    background-size: 164px 40px;
+}
+.rede_social .instagram {
+    background-image: url('../img/social_footer.png');
+    background-position: 164px 40px;
+    background-size: 164px 40px;
+}
+.rede_social .email {
+    background-image: url('../img/social_footer.png');
+    background-position: 204px 40px;
+    background-size: 164px 40px;
+}
+.rede_social .exclamacao {
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align:right;
+    padding-top: 15px;
+}
+.rede_social .exclamacao img {
+    width: 40px;
+    height: 40px;
+}

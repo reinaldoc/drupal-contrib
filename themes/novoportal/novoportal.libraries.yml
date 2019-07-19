@@ -6,4 +6,5 @@ global-components:
       css/novoportal_core.css: {}
       css/novoportal_menu.css: {}
       css/novoportal_view.css: {}
+      css/novoportal_footer.css: {}
 

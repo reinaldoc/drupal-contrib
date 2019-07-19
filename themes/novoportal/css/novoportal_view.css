@@ -70,3 +70,73 @@
 .views-accordion .views-exposed-form .form-submit {
     margin-top: 20px;
 }
+
+/*
+**	Views página inicial
+*/
+
+header > div > div > div.views-field.views-field-field-noticia-imagem-destaque {
+	float: left;
+	margin-right: 20px;
+}
+
+header > div > div > div.views-field.views-field-title {
+	margin-bottom: 20px;
+}
+
+header > div > div > div.views-field.views-field-field-noticia-substitulo {
+	
+}
+
+header > div > div > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img
+{
+	width: 346px;
+	height: 231px;
+}
+
+header > div > div > div.views-field.views-field-title > span > a {
+	
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #01426a;
+}
+
+header > div > div > div.views-field.views-field-field-noticia-substitulo > div {
+	font-family: Arial;
+	font-size: 16px;
+	color: #333333;
+}
+
+#block-novoportal-content > div > div > footer > div > header > div > footer{
+	margin-top: 20px;
+}
+
+#block-novoportal-content > div > div > footer > div > header > div > footer > a{
+	color: #333333;
+}
+
+#block-novoportal-content > div > div > footer > div > div {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#block-novoportal-content > div > div > footer > div > div > div > div.views-col.col-2,
+#block-novoportal-content > div > div > footer > div > div > div > div.views-col.col-1 {
+	padding-right: 20px;
+}
+#block-novoportal-content > div > div > footer > div > div > div > div.views-col.col-3 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+#block-novoportal-content > div > div > footer > div > div > div > div.views-col.col-2 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+#block-novoportal-content > div > div > footer > div > div > div > div.views-col.col-1 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
+	width: 275px;
+	height: 182px;
+}
+
+#block-novoportal-content > div > div > footer > div > div > div > div > div.views-field.views-field-title > span > a {
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+	color: 01426a;
+	text-decoration: none;
+	
