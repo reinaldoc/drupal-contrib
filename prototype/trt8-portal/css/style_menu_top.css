@@ -1,1 +1,24 @@
-////
+.menu_top_content {
+    margin: 0 auto;
+    width: 1129px;
+    height: 34px;
+}
+
+.menu_top_content ul{
+    list-style: none;
+    
+}
+
+.menu_top_content li {
+    float: left;
+    padding: 0 21px 0 21px;
+}
+.menu_top_content a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu_top_content a:hover {
+    opacity: 0.7;
+}

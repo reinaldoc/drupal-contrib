@@ -12,15 +12,28 @@
 .accessibility {
     display: inline-block;
     vertical-align: top;
-    width: 390px;
+    width: 396px;
     height: 15px;
     padding: 3px 0 0 0;
 }
 
+.accessibility ul {
+    list-style: none;
+}
+
 .accessibility ul li {
     float: left;
-    list-style: none;
     padding: 0 0 0 7px;
+    
+}
+
+.accessibility ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.accessibility ul li a:hover {
+    text-decoration: underline;
 }
 
 .translation_tools {
@@ -28,7 +41,7 @@
     vertical-align: top;
     width: 200px;
     height: 15px;
-    padding: 3px 0 0 131px;
+    padding: 4px 0 0 131px;
 }
 
 .translation_tools ul li {
@@ -37,12 +50,69 @@
     padding: 0 0 0 7px;
 }
 
+.translation_tools ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.translation_tools ul li a:hover {
+    text-decoration: underline;
+}
+
+
 .access_links {
     display: inline-block;
     vertical-align: top;
     height: 15px;
     padding: 3px 0 0 0;
 }
+
+.icons_access_links {
+    width: 20px;
+    height: 15px;
+    margin: 0 0 0 13px;
+}
+.icons_information {
+    background: url(../img/icons_top.png) repeat scroll 0 0;
+    background-size: 87px;
+    background-position: 41px 68px;
+}
+
+.icons_zoom_less {
+    background: url(../img/icons_top.png) repeat scroll 0 0;
+    background-size: 88px;
+    background-position: 243px 141px;
+}
+
+.icons_zoom_more {
+    background: url(../img/icons_top.png) repeat scroll 0 0;
+    background-size: 79px;
+    background-position: 58px 37px;
+
+}
+
+.icons_libras {
+    background: url(../img/icons_top.png) repeat scroll 0 0;
+    background-size: 85px;
+    background-position: -3px -32px;
+}
+
+.icons_contrast {
+    background: url(../img/icons_top.png) repeat scroll 0 0;
+    background-size: 89px;
+    background-position: -3px 68px;
+
+}
+
+.icons_intranet {
+    width: 45px;
+    height: 20px;
+    margin: 0 0 0 10px;
+    background: url(../img/icons_top.png) repeat scroll 0 0;
+    background-size: 140px;
+    background-position: -223px 56px;
+}
+
 
 .access_links ul li {
     list-style: none;
