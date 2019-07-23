@@ -39,9 +39,10 @@
 .translation_tools {
     display: inline-block;
     vertical-align: top;
-    width: 200px;
+    width: 119px;
     height: 15px;
-    padding: 4px 0 0 131px;
+    padding: 4px 0 0 201px;
+    
 }
 
 .translation_tools ul li {
@@ -62,12 +63,20 @@
 
 .access_links {
     display: inline-block;
+    float: right;
     vertical-align: top;
     height: 15px;
     padding: 3px 0 0 0;
 }
 
+.access_links ul li {
+    list-style: none;
+    float: left;
+}
 .icons_access_links {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
     width: 20px;
     height: 15px;
     margin: 0 0 0 13px;
@@ -105,18 +114,15 @@
 }
 
 .icons_intranet {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
     width: 45px;
     height: 20px;
     margin: 0 0 0 10px;
     background: url(../img/icons_top.png) repeat scroll 0 0;
     background-size: 140px;
     background-position: -223px 56px;
-}
-
-
-.access_links ul li {
-    list-style: none;
-    float: left;
 }
 
 .identity_content {

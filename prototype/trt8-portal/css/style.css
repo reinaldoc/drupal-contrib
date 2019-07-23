@@ -9,3 +9,8 @@
 html {
   font-family: Arial,Helvetica,Helvetica,sans-serif; 
 }
+
+.content {
+  width: 1129px;
+  margin: 0 auto;
+}
