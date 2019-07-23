@@ -59,6 +59,9 @@
     font-size: 11pt;
     text-decoration: none;
 }
+.mapa_site ul li a:hover {
+border-bottom:1px solid #fff;
+}
 .mapa_site ul li {
     margin-bottom: 2px;
 }
@@ -77,32 +80,28 @@
 }
 .rede_social ul li {
     float: left;
-    margin-left: 10px;
+    margin-left: 21px;
 }
 .rede_social .social {
-    width: 40px;
-    height:40px;
+    width:30px;
+    height:30px;
     border-radius: 20px;
 }
 .rede_social .facebook {
     background-image: url('../img/social_footer.png');
-    background-position: 124px 40px;
-    background-size: 164px 40px;
+    background-position: 149px 33px;
 }
 .rede_social .twitter {
     background-image: url('../img/social_footer.png');
-    background-position: 244px 40px;
-    background-size: 164px 40px;
+    background-position: 110px 30px;
 }
 .rede_social .instagram {
     background-image: url('../img/social_footer.png');
-    background-position: 164px 40px;
-    background-size: 164px 40px;
+    background-position: 220px 30px;
 }
 .rede_social .email {
     background-image: url('../img/social_footer.png');
-    background-position: 204px 40px;
-    background-size: 164px 40px;
+    background-position: 328px 30px;
 }
 .rede_social .exclamacao {
     display: block;
@@ -112,6 +111,6 @@
     padding-top: 15px;
 }
 .rede_social .exclamacao img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }

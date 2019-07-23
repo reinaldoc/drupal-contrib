@@ -52,6 +52,7 @@
     font-weight: bold;
     margin-bottom: 5px;
     word-spacing: 8px;
+    text-decoration: none;
 }
 .mais_noticias_content .noticia p {
     font-size: 14px;
