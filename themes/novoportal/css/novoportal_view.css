@@ -50,13 +50,12 @@
 }
 .views_slideshow_cycle_teaser_section {
     width: auto !important;
-    height: 245px !important;
+    /*height: 245px !important;*/
 }
 
 .views_slideshow_cycle_slide {
     width: 100% !important;
-    height: 245px !important;
-   
+    /*height: 245px !important;*/
 }
 
 /*
@@ -139,4 +138,134 @@ header > div > div > div.views-field.views-field-field-noticia-substitulo > div 
 	font-weight: bold;
 	color: 01426a;
 	text-decoration: none;
-	
+}
+
+/* View Mais Notícias */
+
+.vw-mais-noticias > h1{
+    font-family: Arial;
+	font-size: 22px;
+	color: #2b4570;
+	border-bottom: 3px solid #04785a;
+	margin-bottom: 20px;
+}
+
+.vw-mais-noticias > .views-row:not(:last-child){
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted;
+}
+
+.vw-mais-noticias > .views-row > .views-field-title a:hover, .vw-mais-noticias > .views-row > .views-field-title > .field-content a:hover {
+	text-decoration: none;
+	border-bottom: none;
+	color: #01426a
+}
+
+.vw-mais-noticias > .views-row > .views-field-title{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #01426a
+}
+
+.vw-mais-noticias > .views-row > .views-field-field-noticia-substitulo{
+	font-family: Arial;
+	font-size: 14px;
+	color: #333333
+}
+
+/**/
+
+div.vw-banner {
+	margin-top: 30px;
+}
+
+div.vw-banner > div.skin-default > div.views_slideshow_cycle_main > div.views_slideshow_cycle_teaser_section > div.views_slideshow_cycle_slide
+ > div.views-row > div.views-field-field-eslaide > div.field-content > img {
+	height: 187px;
+}
+
+
+/**/
+
+.v-grid-iniciativas-do-tribunal:nth-child(1) {
+	margin-top: 30px;
+}
+
+div.v-grid-iniciativas-do-tribunal > div > div > div {
+	text-align: center;
+}
+
+.views-field-field-servicos-adicionais-imagem img {
+	width: 40px;
+	height:auto;
+	text-align: center;
+}
+
+div.v-grid-iniciativas-do-tribunal > div > div > div:nth-child(1) {
+	margin-top: 15px;
+}
+
+div.v-grid-iniciativas-do-tribunal > div > div > div:nth-child(4),
+div.v-grid-iniciativas-do-tribunal > div > div > div:nth-child(7) {
+	margin-top: 10px;
+}
+
+div.v-grid-iniciativas-do-tribunal > div > div > div:nth-child(9) .views-field-field-servicos-adicionais-imagem img {
+	width: 30px;
+}
+
+div.views-field.views-field-title a:hover {
+	text-decoration: none;
+	border-bottom: none;
+	color: #01426a
+}
+
+.v-grid-iniciativas-do-tribunal > div > div > div > .views-field-title {
+	text-align: center;
+	margin-top: 5px;
+}
+
+/*
+
+*/
+
+.v-grid-iniciativas-do-tribunal:nth-child(2) {
+	background-color: #a5b4c2;
+}
+
+.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div {
+	text-align: center;
+	padding: 5px;
+}
+
+.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div {
+	padding: 5px;
+}
+
+.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div:not(:last-child) {
+	border-right: 1px solid #d2d9e0;
+}
+
+.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div > div > div > a:hover {
+	text-decoration: none;
+	border-bottom: none;
+	color: #01426a
+}
+
+.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div  > div  > div  > a > img {
+	width: 160px;
+	height: 100%;
+}
+
+div.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div.views-col.col-1,
+div.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div.views-col.col-2,
+div.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div.views-col.col-4 {
+	margin-top: 10px;
+}
+
+div.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div.views-col.col-3,
+div.v-grid-iniciativas-do-tribunal:nth-child(2) > div > div > div.views-col.col-5 {
+	margin-top: 15px;
+}
