@@ -51,6 +51,8 @@
     font-family: Arial;
     font-weight: bold;
     margin-bottom: 5px;
+    word-spacing: 8px;
+    text-decoration: none;
 }
 .mais_noticias_content .noticia p {
     font-size: 14px;
@@ -58,7 +60,7 @@
     color: #333;
 }
 .mais_noticias_content span a {
-    font-size: 11px;
+    font-size: 14px;
     font-family: Arial;
     color: #000 !important;
     text-decoration: none;
