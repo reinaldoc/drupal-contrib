@@ -7,9 +7,11 @@
 /*########## news #############*/
 .wrapper_bottom {
     width: 100%;
+    clear: both;
+    padding-top: 16px;
 }
 .wrapper_bottom_content {
-    width: 1029px;
+    width: 1129px;
     margin: 0 auto;
 }
 
@@ -64,4 +66,7 @@
     font-family: Arial;
     color: #000 !important;
     text-decoration: none;
+}
+.mais_noticias_content span a:hover {
+    border-bottom: 1px solid #000;
 }
