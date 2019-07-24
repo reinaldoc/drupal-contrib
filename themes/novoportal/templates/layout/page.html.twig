@@ -47,6 +47,7 @@
  * - page.sidebar_first: Items for the first sidebar.
  * - page.sidebar_second: Items for the second sidebar.
  * - page.content_bottom: Items for the bottom in content region.
+ * - page.bottom_wrapper: Items for the bottom in bottom_wrapper region.
  * - page.footer_top: Items for the footer top region.
  * - page.footer_first: Items for the footer first region.
  * - page.footer_second: Items for the footer Second region.
@@ -255,11 +256,30 @@
     <!--Start Content Bottom-->
     {% if page.content_bottom %}
       <div class="row">
+		<div class="col-sm-12 col-md-12">
         {{ page.content_bottom }}
+		</div>
       </div>
     {% endif %}
     <!--End Content Bottom-->
   </div>
+  
+  <div id= "bottom_wrapper">
+    
+	<!--Content top-->
+	  {% if page.bottom_wrapper %}
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					{{ page.bottom_wrapper }}
+				</div>
+			</div>
+		</div>
+	  {% endif %}
+	<!--End Content top-->
+	
+  </div>
+  
 </div>
 <!-- End layout -->
 

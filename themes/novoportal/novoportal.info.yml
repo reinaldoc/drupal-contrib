@@ -29,6 +29,7 @@ regions:
   content_bottom: 'Content Bottom'
   sidebar_first: 'Left Sidebar'
   sidebar_second: 'Right Sidebar'
+  bottom_wrapper: 'Bottom of wrapper content'
   footer_first: 'Footer First Widget'
   footer_second: 'Footer Second Widget'
   footer_third: 'Footer Third Widget'

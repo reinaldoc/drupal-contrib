@@ -4,8 +4,10 @@ global-components:
     theme:
       css/novoportal.css: {}
       css/novoportal_core.css: {}
+      css/novoportal_consultation.css: {}
       css/novoportal_menu.css: {}
       css/novoportal_view.css: {}
       css/novoportal_header.css: {}
+      css/novoportal_bottom_wrapper.css: {}
       css/novoportal_footer.css: {}
 

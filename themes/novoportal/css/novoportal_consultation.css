@@ -1,0 +1,75 @@
+.process_consultation_wrapper {
+    margin: 15px 0;
+}
+
+
+.process_consultation_content {
+    margin: 0 auto;
+    width: 740px;
+    height: 35px;
+    padding: 0 17px 0 4px;
+}
+
+.title_consultation {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+    color: #ffffff;
+    background: #01426a;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#nro_cnj {
+    width: 100px;
+    height: 23px;
+}
+
+#digito {
+    width: 60px;
+    height: 23px;
+}
+
+#ano {
+    width: 50px;
+    height: 23px;
+}
+
+#justica {
+    width: 40px;
+    height: 23px;
+}
+
+#regiao {
+    width: 40px;
+    height: 23px;
+}
+
+#vara {
+    width: 47px;
+    height: 23px;
+}
+
+.border_input {
+    padding-left:5px; 
+    border: 1px solid #C7C7C7;
+}
+
+.buttom_consultation {
+    width: 100px;
+    height: 26px;
+    font-size: 11px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #C7C7C7;
+}
+
+.clean {
+    color: #ffffff;
+    background: #face33;
+}
+
+.consult {
+    color: #ffffff;
+    background: #00b388;
+}
