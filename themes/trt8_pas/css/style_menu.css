@@ -1,0 +1,28 @@
+/**** menu ***/
+.menu_wrapper {
+  width: 100%;
+}
+.menu {
+  width: 1129px;
+  height: 36px;
+  margin: 0 auto;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+  padding: 5px;
+}
+.menu ul li a {
+  color: #8e8e9b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.menu ul li a:active {
+  border-bottom: 2px solid #71b4dc;
+}
+.menu ul li a:hover {
+  border-bottom: 2px solid #71b4dc;
+}

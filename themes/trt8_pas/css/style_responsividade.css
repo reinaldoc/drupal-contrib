@@ -1,0 +1,19 @@
+/* trabalhando a responsividade */
+@media screen and (max-width: 600px){
+    .menu-topo {float:;}
+    .menu-topo a {display:none;}
+
+    .links-uteis_content {width:72% !important;}
+    .links-uteis_content .link-item {width:100% !important;float:none !important; margin-top: 11px !important; margin-left:0 !important;}
+    .servicos_content {height: 630px !important;width: 100% !important}
+    .alinhamento {width: 72% !important}
+    .servicos_content .servico {width: 100% !important}
+    .news {width: 100% !important; margin: 0 !important;}
+    .news_box {display: block !important; margin: 13px 0 55px 0 !important; float: none !important;}   
+    .news_box img { height: 30% !important; width: 87% !important;}
+    .news_box p { width: 87% !important; text-align: justify !important;}
+    .service_item {display: block !important;}
+    .read_more { margin: 30px 0 0 0 !important;} 
+    .contact_box {display: block !important;}
+    
+}

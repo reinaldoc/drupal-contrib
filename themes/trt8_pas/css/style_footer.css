@@ -1,0 +1,48 @@
+
+/*
+** CSS core
+*/
+.footer {
+    background: #4a6279;
+
+}
+.marker_footer {
+    color: white;
+    margin: 12px 0;
+    width: 80%;
+}
+
+.footer_box {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.8em;
+    margin: 35px 0 14px 0;
+    padding: 0 0px 0 19px;
+    color: white;
+    width: 23%;
+}
+
+.footer_box ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.footer_box a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_box a:hover{
+    text-decoration: underline;
+}
+
+
+.footer_box h4 {
+    text-transform: uppercase;
+}
+
+.footer_content {
+    margin: 0 auto;
+    max-width: 1129px;
+}

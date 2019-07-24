@@ -1,0 +1,141 @@
+/*
+** CSS core
+*/
+.services {
+    margin: 10px 0 0 0;
+}
+
+.services_content {
+    width: 1129px;
+    margin: 0 auto;
+}
+
+.service_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 41px;
+    padding: 0px 14px 32px 20px;
+    transition: transform 0.3s,box-shadow 0.3s;
+}
+
+.service_item:hover {
+    transform: translateY(-5px);
+}
+.service_icon_aderir{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -71px;
+    background-position-y: 514px;
+    background-size: 240px;
+}
+
+.service_icon_incluir{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: 1189px;
+    background-position-y: 515px;
+    background-size: 240px;
+}
+
+.service_icon_solicitar{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -131px;
+    background-position-y: 234px;
+    background-size: 240px;
+}
+
+.service_icon_consultar{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: 467px;
+    background-position-y: 181px;
+    background-size: 240px;
+
+}
+
+.service_icon_quitar{
+    
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -192px;
+    background-position-y: 180px;
+    background-size: 240px;
+
+}
+
+.service_icon_atualizar{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -193px;
+    background-position-y: 234px;
+    background-size: 240px;
+}
+
+.service_icon_parcerias{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: 108px;
+    background-position-y: 182px;
+    background-size: 240px;
+}
+
+.service_icon_2via{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -73px;
+    background-position-y: 181px;
+    background-size: 240px;
+}
+
+.service_icon_modelos{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-image: url(../img/services_icons.png);
+    background-position-x: -342px;
+    background-position-y: 131px;
+    background-size: 240px;
+}
+
+.service_item_title {
+    display: inline-block;
+    vertical-align: top;
+    padding: 9px 0 0 8px;
+
+}
+
+.service_item a {
+    text-decoration: none;
+    padding: 0 0 0 2px;
+    color: #2c2c30;
+}
+
+
+.service_item a:hover {
+ 
+    opacity: 0.7;
+    
+}
+
+.service_itens_content {
+    margin: 42px auto;
+   
+}

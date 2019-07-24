@@ -1,0 +1,53 @@
+/* Estilo topo */
+.top_wrapper {
+  width: 100%;
+}
+.content_topo {
+  width: 1129px;
+  margin: 0 auto;
+  padding-top: 10px;
+  height: 60px;
+}
+.logo {
+  width: 175px;
+  height: auto;
+  float: left;
+}
+.menu_topo {
+  width: 656px;
+  float: left;
+  padding-left: 208px;
+  margin-top: -5px;
+}
+.menu_topo a {
+  text-decoration: none;
+  color: #757584;
+  font-size: 13px;
+}
+.menu_topo a:hover {
+ border-bottom: 1px solid #b7b7c8;
+}
+.menu_topo ul {
+  list-style: none;
+}
+.menu_topo ul li {
+  float: left;
+  padding: 7px;
+}
+.telefone_menu_topo {
+  color: #4993c2;
+}
+.pesquisa_right {
+  width: 70px;
+  float: left;
+}
+.btn_pesquisar {
+  border: none;
+  padding: 5px;
+  width: 88px;
+  background_color: #f2f6f9;
+  color: #87c6e7;
+}
+.icon_pesquisa {
+  margin-right: 5px;
+}
