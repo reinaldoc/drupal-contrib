@@ -6,7 +6,7 @@
   width: 100%;
   margin: 0 auto;
   height:450px;
-  background-image: url('../img/banner_topo.jpg');
+  background-image: url('../images/banner_topo.jpg');
   background-size: cover;
 }
 .banner_central .content {
@@ -70,19 +70,19 @@ transition: background-color 0.4s ease;
     margin-top: 3px;
 }
 .acesso_befeciciario {
-  background-image: url('../img/icons.png');
+  background-image: url('../images/icons.png');
   background-position: 0px 1px;
 }
 .acesso_credenciados {
-  background-image: url('../img/icons.png');
+  background-image: url('../images/icons.png');
   background-position: -185px 0px;
 }
 .acesso_gestores {
-  background-image: url('../img/icons.png');
+  background-image: url('../images/icons.png');
   background-position: -370px 0px;
 }
 .acesso_peritos {
-  background-image: url('../img/icons.png');
+  background-image: url('../images/icons.png');
   background-position: -368px 0px;
 }
 .servicos_content .servico h2 {
@@ -118,7 +118,7 @@ transition: background-color 0.4s ease;
 border-radius: 4px;
 border-style: solid;
 border-width: 23px 0px 27px 7px;
-border-image: url(../img/borderv2.png) 8 0 27 7 fill stretch;
+border-image: url(../images/borderv2.png) 8 0 27 7 fill stretch;
 box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
 padding-top: 6px;
 padding-bottom: 6px;
@@ -147,17 +147,17 @@ transition: transform 0.3s,box-shadow 0.3s;
  height:60px;
 }
 .imagem_guia_medico {
-background-image: url('../img/icons2.png');
+background-image: url('../images/icons2.png');
 background-position: 0px 0px;
 background-size: 302px;
 }
 .imagem_autorizacao_internet {
-background-image:url('../img/icons2.png');
+background-image:url('../images/icons2.png');
 background-position: -130px 0px;
 background-size: 302px;
 }
 .imagem_seus_gastos {
-background-image: url('../img/icons2.png');
+background-image: url('../images/icons2.png');
 background-position: -242px 0px;
 background-size: 302px;
 }
