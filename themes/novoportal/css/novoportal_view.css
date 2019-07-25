@@ -153,7 +153,7 @@ header > div > div > div.views-field.views-field-field-noticia-substitulo > div 
 .vw-mais-noticias > .views-row:not(:last-child){
 	margin-bottom: 10px;
 	padding-bottom: 10px;
-	border-bottom: 1px dotted;
+	border-bottom: 1px dashed #2b4570;
 }
 
 .vw-mais-noticias > .views-row > .views-field-title a:hover, .vw-mais-noticias > .views-row > .views-field-title > .field-content a:hover {
@@ -173,6 +173,14 @@ header > div > div > div.views-field.views-field-field-noticia-substitulo > div 
 	font-family: Arial;
 	font-size: 14px;
 	color: #333333
+}
+
+.link_todas_materias {
+	text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 10pt;
+}
 }
 
 /**/
