@@ -4,17 +4,16 @@ core = 7.x
 base theme = execute_responsive_theme
 
 engine = phptemplate
-stylesheets[all][] = css/estilo_geral.css
-stylesheets[all][] = css/style_content_marcos.css
-stylesheets[all][] = css/style_main_header.css
+stylesheets[all][] = css/style_all.css
+stylesheets[all][] = css/style_top.css
+stylesheets[all][] = css/style_menu.css
+stylesheets[aa][] = css/style_main_header.css
+stylesheets[all][] = css/style_main_guia.css
+stylesheets[all][] = css/style_main_news.css
 stylesheets[all][] = css/style_main_services.css
 stylesheets[all][] = css/style_responsividade.css
 stylesheets[all][] = css/style_main_contact.css
-stylesheets[all][] = css/style_main_news.css
-stylesheets[all][] = css/style_menu.css
-stylesheets[all][] = css/style_top.css
 stylesheets[all][] = css/style_footer.css
-#stylesheets[all][] = css/media.css
 scripts[] = js/custom.js
 
 regions[user_menu]  	 = User menu
