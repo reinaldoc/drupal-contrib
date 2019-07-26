@@ -1,19 +1,16 @@
 
+/* Overide default body background */
+body {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+* {
+    font-family: 'Open Sans';
+}
+
 /*
 **     Site structure
 */
-
-.site-branding__name {
-	display: none;
-}
-
-.main-header {
-    background: none;
-    background-size: cover;
-    position: relative;
-    position: relative;
-    padding: 10px 0;
-}
 
 .container {
     width: 1129px; /*1920*/

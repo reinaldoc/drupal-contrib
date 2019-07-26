@@ -5,7 +5,7 @@
 
 /* Main Menu */
 .primary-menu-wrap {
-    height: 34px;
+    /*height: 34px;*/
 }
 
 .menu-base-theme > li {
@@ -49,8 +49,8 @@ ul.menu-base-theme > li:last-child > a {
 .primary-menu-wrap, .region-primary-menu, .menu-base-theme li a {
     background: #eee;
     color: #333;
-    font-size: 16px;
-	height: 34px;
+    font-size: 15px; /*TODO: pós retirada novoportal.css font-size: 16px;*/
+	/*height: 34px;*/
 }
 
 .menu-base-theme a:hover, .menu-base-theme a:focus, .menu-base-theme a:active, .menu-base-theme a.highlighted {
@@ -145,12 +145,16 @@ ul.menu-base-theme > li:last-child > a {
     border-right: 1px solid #dbdcdd;
 }
 
+.region-sidebar-second nav#block-menuservicos ul.menu li a {
+	padding: 10px 0 15px 60px;
+}
+
 .region-sidebar-second ul.menu li a {
     /*color: rgb(60, 73, 114); /* rgb(0, 13, 54); */
     /*font-family: Overlock;*/
     /*font-size: 1.25em;*/
     letter-spacing: 0.05em;
-    padding: 10px 0 15px 60px;
+    padding: 10px 0 15px 0px;
     text-decoration: none;
     display: block;
 	
@@ -200,7 +204,9 @@ ul.menu-base-theme > li:last-child > a {
     margin: 0 5px 0 20px;
 }
 
-
+/*
+**    Menus for Content Region
+*/
 
 /* Home Menus */
 .region-sidebar-second #block-menu-menu-servicos + div h2 {
@@ -217,6 +223,18 @@ ul.menu-base-theme > li:last-child > a {
     margin: 0 5px 0 20px;
 }
 
-/*
-**    Menus for Content Region
-*/
+@media (max-width: 767px) {
+	
+	.navbar {
+		min-height: 34px; /*50px*/
+	}
+	
+	#block-novoportal-main-menu {
+		/*margin-top: 50px;*/
+	}
+	
+	body > div > div.row.primary-menu-wrap > div > div > div > nav > div {
+		float:left;
+	}
+	
+}

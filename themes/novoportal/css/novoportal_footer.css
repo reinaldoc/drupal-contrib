@@ -1,7 +1,7 @@
 /* style rodape */
 /*############ footer ##############*/
 .footer-menu {
-    width: 100%;
+    
     background: #23517e;
     
 }
@@ -11,22 +11,12 @@
     /*margin-right: 30px;*/
 }
 
-.footer-menu .container {
-    width: 1129px;
-    margin: 0 auto;
-    /*padding: 5px;*/
-    height: auto;
-    height: 173px;
-    /*padding-top: 25px;*/
-}
 .footer-menu ul {
 	margin: 0px 0px 20px;
 }
 .logo_footer {
     /*width: 18%;*/
     border-right: 3px solid #fff;
-  
-
 }
 .logo_footer img {
     width: 127px;
@@ -72,7 +62,7 @@
 }
 .rede_social {
     /*width: 20%;*/
-    float: right !important;
+    /*float: right !important;*/
     margin-right: 0 !important;
 }
 .rede_social ul {
@@ -121,3 +111,48 @@
     width: 40px;
     height: 40px;
 }*/
+
+@media (max-width: 991px) {
+	
+	.logo_footer {
+		border: none;
+	}
+	
+	#block-rodape > div {
+		text-align: center;
+		font-size: 10pt;
+		margin: 20px;
+	}
+	
+	#block-rodape > div > div.bloco_footer {
+		margin-bottom: 20px;
+	}
+	
+	#block-rodape > div > div.endereco_footer p {
+		font-size: 10pt;
+		text-align: center;
+	}
+	
+	.rede_social ul {
+		list-style: none;
+		float: none;
+	}
+	
+	.rede_social{
+		display:none;
+	}
+	
+}
+	
+@media (max-width: 767px) {
+	
+	.logo_footer img {
+		height: 120px;
+		margin-top: -85px;
+	}
+	
+	.mapa_site, .rede_social{
+		display:none;
+	}
+	
+}
