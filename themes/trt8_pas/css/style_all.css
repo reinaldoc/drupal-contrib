@@ -1,1 +1,104 @@
-.container-wrap {max-width: 100% !important;}
+.container-wrap {max-width: 100% !important;}/*
+**Importando font
+*/
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf'), url('../fonts/OpenSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*reset nas config inciais de margem e padding */
+html {
+  font-family: 'Open Sans' !important;
+  margin-bottom: 0 !important;
+}
+ p {margin: 0 !important; padding: 0 !important}
+
+/********** reset style drupal *****************/
+
+#inner_header_wrapper {
+    background: transparent !important;
+
+}
+/*.footer_inner_credit {max-width: 100% !important;} */
+/*#footer {
+heigth: 328px !important;
+background: #4a6279 !important;
+ padding: 0 !important;
+ margin: 0 !important; 
+border: none !important
+}*/
+
+.menu_wrapper {
+    
+    background: transparent !important;
+    border: none !important;
+    
+}
+
+/*.contact {
+    height: 352px !important;
+
+
+}*/
+
+#block-block-1 {
+
+    height: 324px !important;
+}
+
+.views-view-grid {
+    width: 1129px;
+    margin: 0 auto;
+}
+
+
+.view .view-noticias .view-id-noticias .view-display-id-page .view-dom-id-b5e1a7df858c4c9aa9d4dbc81f43e42d .views-view-grid  {
+    border: none !important;
+
+}
+
+/*.news-row {
+     border: none !important;
+} */
+
+/*block search */
+.top_right .region-search {
+    width: 22% !important;
+}
+#block-search-form {
+    width: 118px !important;
+}
+#block-search-form .form-text {
+    width: 118px !important;
+}
+
+/*header drupal */
+#header {
+    max-width: 1129px !important;
+    height: 70px;
+}
+
+/* menu drupal */
+.menu_inner_wrap {
+    max-width: 1129px !important;
+}
+.menu {
+    height: 25px !important;
+}
+
+#main-menu a {
+    color: #8e8e9b !important;
+    font-size: 10pt !important;
+    font-weight: normal !important;
+}
+#main-menu a:hover {
+    border-bottom: 2px solid #71b4dc;
+}
+#main-menu li {
+    border: none !important;
+}
+ #main-menu li a.active {
+background: #e0e0e0 none repeat scroll 0 0
+}

@@ -1,3 +1,4 @@
+
 .contact_content {
     width: 1129px;
     margin: 0 auto;
@@ -26,7 +27,7 @@
     width: 28px;
     height: 26px;
     float: left;
-    background-image: url(../img/contact_icons.png);
+    background-image: url(../images/contact_icons.png);
     background-position-x: 162px;
     background-position-y: 26px;
 }
@@ -35,7 +36,7 @@
     width: 30px;
     height: 19px;
     float: left;
-    background-image: url(../img/contact_icons.png);
+    background-image: url(../images/contact_icons.png);
     background-position-x: 135px;
     background-position-y: 49px;
 }
@@ -44,7 +45,7 @@
     width: 30px;
     height: 24px;
     float: left;
-    background-image: url(../img/contact_icons.png);
+    background-image: url(../images/contact_icons.png);
     background-position-x: 108px;
     background-position-y: 26px;
 }

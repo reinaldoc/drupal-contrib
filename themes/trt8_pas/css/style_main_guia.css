@@ -12,7 +12,7 @@
 .banner_central .content {
   text-align: center;
   padding-top: 6%;
-  height: 155px;
+  height: 249px;
 }
 .banner_central .content h1 {
   font-size: 3em;
@@ -86,7 +86,7 @@ transition: background-color 0.4s ease;
   background-position: -368px 0px;
 }
 .servicos_content .servico h2 {
- padding-right: 36px;
+ padding-right: 36px !important;
 }
 .servicos_content .servico img {
   width: 70px;
@@ -105,11 +105,12 @@ transition: background-color 0.4s ease;
   width: 1129px;
   margin:0 auto;
   padding-top: 15px;
+  height: 175px;
 }
 .links_uteis_content .link_item {
   margin-left: 18px;
  width: 29%;
- height: 110px;
+ height: 153px;
  padding-left: 7px;
  float: left;
  border-left: 10px solid;
@@ -124,6 +125,7 @@ padding-top: 6px;
 padding-bottom: 6px;
 padding-right: 7px;
 transition: transform 0.3s,box-shadow 0.3s;
+margin-bottom: 16px;
 }
 .link_item:hover {
  transform: translateY(-5px);
@@ -162,14 +164,23 @@ background-position: -242px 0px;
 background-size: 302px;
 }
 .links_uteis_content .link_item .topo_item h2 {
-  color: #a61933;
-  width: 286px;
-  margin-bottom: 5px;
+  color: #a61933 !important;
+  width: 286px !important;
+  margin-bottom: 5px !important;
+    font-size: 20pt;
+    font-weight: bold;
+
 }
 .links_uteis_content .link_item .corpo_item {
   margin-top: 12px;
   color: #535362;
   text-align: left;
   padding-left: 5px;
+}
+.corpo_item p {
+margin-top: 12px;
+color: #535362;
+text-align: left;
+padding-left: 5px;
 }
 .autorizacao_internet {color:#535362;margin-top:12px;text-align:left;padding-left:5px;}

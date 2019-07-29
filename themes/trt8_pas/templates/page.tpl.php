@@ -86,10 +86,8 @@
           <div id="site-description"><?php print $site_slogan; ?></div>
         </h1>
       </div>
-
       <div class="top_right">
-
-        <?php if (theme_get_setting('social_links', 'execute_responsive_theme')): ?>
+	    <?php if (theme_get_setting('social_links', 'execute_responsive_theme')): ?>
           <div class="social-icons">
            <ul>
             <li><a class="rss" href="<?php print $front_page; ?>rss.xml">RSS</a></li>
@@ -103,7 +101,17 @@
            </ul>
           </div>
         <?php endif; ?>
-
+	<div class="menu_topo">
+                <ul>
+                    <li><span class="telefone_menu_topo">[91]4008-7224</span></li>
+                    <li><a href="#acesso_exclusivo">Acesso Exclusivo</a></li>
+                    <li><a href="#acesso_rapido">Encontre rápido</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+        </div> <!-- fim menu-topo -->
+	<?php print render($page['search']) ?> <!-- fim search -->
       </div>
 
     <div class="clear"></div>
@@ -115,7 +123,7 @@
   <div class="menu_wrapper">
     <div class="menu_inner_wrap clearfix">
       
-      <?php print render($page['search']) ?>
+     <?php //print render($page['search']) ?> 
 
       <?php if ($main_menu): ?>
         <nav id="main-menu"  role="navigation">

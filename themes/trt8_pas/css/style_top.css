@@ -14,15 +14,13 @@
   float: left;
 }
 .menu_topo {
-  width: 656px;
   float: left;
-  padding-left: 208px;
-  margin-top: -5px;
+  margin-top: 3px;
 }
 .menu_topo a {
   text-decoration: none;
   color: #757584;
-  font-size: 13px;
+  font-size: 10pt;
 }
 .menu_topo a:hover {
  border-bottom: 1px solid #b7b7c8;
@@ -36,6 +34,7 @@
 }
 .telefone_menu_topo {
   color: #4993c2;
+  font-size: 13pt;
 }
 .pesquisa_right {
   width: 70px;
