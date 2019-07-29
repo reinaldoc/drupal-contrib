@@ -6,7 +6,7 @@
   width: 100%;
   margin: 0 auto;
   height:450px;
-  background-image: url('../images/banner_topo.jpg');
+  background-image: url('../images/banner_topo_v2.jpg');
   background-size: cover;
 }
 .banner_central .content {
@@ -15,8 +15,9 @@
   height: 249px;
 }
 .banner_central .content h1 {
-  font-size: 3em;
-  color:#3f3f48;
+   font-size: 3em;
+    color: #3f3f48;
+    text-shadow: 5px 7px 15px #666;
 }
 .banner_central .content span {
   font-size: 1.2em;
@@ -115,8 +116,7 @@ color: #fff !important;
   height: 175px;
 }
 .links_uteis_content .link_item {
-  margin-left: 18px;
- width: 29%;
+ width: 364px;
  height: 153px;
  padding-left: 7px;
  float: left;
