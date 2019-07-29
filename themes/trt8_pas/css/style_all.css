@@ -99,6 +99,9 @@ border: none !important
 #main-menu li {
     border: none !important;
 }
+#main-menu li li a {
+    background: #ffffff none repeat scroll 0 0;
+}
  #main-menu li a.active {
 background: #e0e0e0 none repeat scroll 0 0
 }
