@@ -143,10 +143,9 @@
 .mark_area {
     float: left;
     margin: 24px 0 0;
-    width: 504px;
-    height: 88px;
+    width: 420px;
+    height: 98px;
     background: url(../img/marca_tribunal.png) repeat scroll 0 0;
-    background-size: 504px;
 }
 .social_icons {
     float: right;
