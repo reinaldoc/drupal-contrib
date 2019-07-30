@@ -1,11 +1,33 @@
 .container-wrap {max-width: 100% !important;}/*
 **Importando font
 */
+/* latin unicode-range */
+
 @font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url('../fonts/opensans-v14.woff2') format('woff2'), url('../fonts/opensans-v15.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Overlock';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Overlock Regular'), local('Overlock-Regular'), url('../fonts/overlock-v6.woff2') format('woff2'), url('../fonts/overlock-v7.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
     font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-Regular.ttf'), url('../fonts/OpenSans-Bold.ttf');
-    font-weight: normal;
-    font-style: normal;
+}
+
+
+/* reset header */
+#inner_header_wrapper {
+    background: transparent !important;
+
 }
 
 /*reset nas config inciais de margem e padding */
@@ -16,20 +38,6 @@ html {
  p {margin: 0 !important; padding: 0 !important}
 
 /********** reset style drupal *****************/
-
-#inner_header_wrapper {
-    background: transparent !important;
-
-}
-/*.footer_inner_credit {max-width: 100% !important;} */
-/*#footer {
-heigth: 328px !important;
-background: #4a6279 !important;
- padding: 0 !important;
- margin: 0 !important; 
-border: none !important
-}*/
-
 .menu_wrapper {
     
     background: transparent !important;
@@ -81,6 +89,7 @@ border: none !important
 }
 
 /* menu drupal */
+
 .menu_inner_wrap {
     max-width: 1129px !important;
 }
@@ -88,10 +97,13 @@ border: none !important
     height: 25px !important;
 }
 
-#main-menu a {
+#main-menu .nolink  {
     color: #8e8e9b !important;
     font-size: 10pt !important;
     font-weight: normal !important;
+}
+#main-menu a {
+    color: #8e8e9b !important;
 }
 #main-menu a:hover {
     border-bottom: 2px solid #71b4dc;
@@ -99,9 +111,16 @@ border: none !important
 #main-menu li {
     border: none !important;
 }
-#main-menu li li a {
+#main-menu li {
     background: #ffffff none repeat scroll 0 0;
 }
  #main-menu li a.active {
 background: #e0e0e0 none repeat scroll 0 0
+}
+/*
+---------------- page-node --------------------- 
+*/
+.page-node .container-wrap{
+    max-width: 1129px !important;
+    margin: 0 auto !important;
 }

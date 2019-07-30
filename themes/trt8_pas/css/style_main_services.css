@@ -13,8 +13,8 @@
 .service_item {
     display: inline-block;
     vertical-align: top;
-    width: 30%;
-    height: 41px;
+    width: 33%;
+    height: 70px;
     padding: 0px 14px 32px 20px;
     transition: transform 0.3s,box-shadow 0.3s;
 }
@@ -126,6 +126,7 @@
     text-decoration: none;
     padding: 0 0 0 2px;
     color: #2c2c30;
+    font-size: 16px;
 }
 
 
@@ -138,4 +139,9 @@
 .service_itens_content {
     margin: 42px auto;
    
+}
+
+/* drupal */
+.marker_section {	
+    border-top: #006db9 1px solid;	
 }

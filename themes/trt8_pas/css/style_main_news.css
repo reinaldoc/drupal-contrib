@@ -13,6 +13,7 @@
 
 .title_section h2 {
     color: #006db9;
+    font-size: 19px;
 }
 
 .title_section {
@@ -81,4 +82,46 @@
 .marker_section {
     clear: both;
     color: #afd5ec;
+}
+
+/* drupal */
+.title-view {
+    width: 1129px;
+    margin: 0 auto;
+    height: 35px;
+    border-bottom: 1px solid #006db9;
+    margin-bottom: 4px;
+}
+.col-left {
+    width: 70%;
+    float: left;
+}
+.col-left h2 {
+font-size: 19px;
+color: #006db9;
+}
+.col-right {
+    width: 10%;
+    float: right;
+}
+.col-right a {
+font-size: 13px;
+background-color: #006db9;
+padding: 5px;
+color: #fff;
+}
+.more-link-noticia {
+background: #006db9;
+padding: 7px;
+float: left;
+margin-top: 27px;
+}
+.more-link-noticia a {
+color: #fff;
+}
+.view-noticias table {
+    border: none;
+}
+.view-noticias table td {
+    border: none;
 }

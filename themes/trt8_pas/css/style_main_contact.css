@@ -5,7 +5,7 @@
     padding: 15px;
 }
 .contact {
-    height: 320px ;
+    height: 334px ;
     background: -moz-linear-gradient(90deg, rgba(207,207,207,1) 0%, rgba(207,207,207,1) 3%, rgba(207,207,207,1) 7%, rgba(247,247,249,1) 69%, rgba(247,247,249,1) 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(247,247,249,1)), color-stop(31%, rgba(247,247,249,1)), color-stop(93%, rgba(207,207,207,1)), color-stop(97%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1))); /* safari4+,chrome */
     background: -webkit-linear-gradient(90deg, rgba(207,207,207,1) 0%, rgba(207,207,207,1) 3%, rgba(207,207,207,1) 7%, rgba(247,247,249,1) 69%, rgba(247,247,249,1) 100%); /* safari5.1+,chrome10+ */
@@ -52,17 +52,20 @@
 
 
 .contact_title {
-    display: inline-block;
     vertical-align: top;
-    padding: 2px 0 0 12px;
-    font-size: 1.3em;
+    padding: 2px 0 0 36px;
 }
 
 .contact_title a {
     text-decoration: none;
     color: #646473;
     text-transform: uppercase;
+    font-size: 20px;
 
+}
+.contact_text p {
+    font-size: 15px;
+    color: #2c2c30;
 }
 
 .contact_title a:hover {

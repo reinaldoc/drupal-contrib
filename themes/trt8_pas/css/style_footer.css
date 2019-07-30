@@ -46,3 +46,67 @@
     margin: 0 auto;
     max-width: 1129px;
 }
+
+/*
+----------------------------- Sitemap -----------------------------
+*/
+
+#footer-sitemap {
+    margin: 20px 0 0 10px;
+}
+
+#footer-sitemap ul li {
+    min-width: 12%;
+    margin-right: 10px;
+    border-bottom: medium none;
+}
+
+#footer-sitemap ul li ul {
+    margin: 0 0 0 0;
+}
+
+#footer-sitemap ul li ul li {
+    background: rgba(0, 0, 0, 0) url("../images/marker.png") no-repeat scroll 4px center;
+}
+
+#footer-sitemap ul li a.fs-root-link, #footer-sitemap ul li span.fs-root-link.nolink {
+    font-size: 1.25em;
+    padding: 0 0 6px;
+    font-weight: 600;
+    display: block;
+}
+
+#footer-sitemap ul li a,
+ #footer-sitemap ul li span.nolink {
+    font-size: 1.15em;
+    font-family: Overlock;
+    color: #fff;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 3px 13px 3px 15px;
+}
+
+#footer-sitemap ul li ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer-sitemap ul li ul li a:focus {
+    text-decoration: underline;
+    border: medium none;
+}
+/*
+-------------------- marcos ----------------------
+*/
+.footer_links_main-menu .menu-219 {
+display:none !important;
+}
+.footer_inner_credit {
+max-width: 1129px !important;
+margin: 0 auto !important;
+}
+#footer {
+overflow: hidden !important;
+background: #4a6279 !important;
+border: none !important;
+margin-top: 0 !important;
+}
