@@ -22,18 +22,18 @@ body .container {
 }
 
 /* Content width */
-body .container .content_layout > div {
+/*body .container .content_layout > div {
     width: 71%;
-}
+}*/
 
 /* Siderbar width */
-body .container .sidebar > div {
+/*body .container .sidebar > div {
     width: 27%;
     float: right;
-}
+}*/
 
 /* Footer */
-.footerwidget {
+/*.footerwidget {
     background: #23517e;
     padding: 10px 0;
 }
@@ -52,28 +52,28 @@ body .container .sidebar > div {
 
 .footerwidget > div > div > div {
     margin-top: 20px;
-}
+}*/
 
 /* Mapa do site */
-.footerwidget > div > div > div:nth-child(3) {
+/*.footerwidget > div > div > div:nth-child(3) {
     margin-top: 0px;
-}
+}*/
 
 /* Icones sociais */
-body > div.dialog-off-canvas-main-canvas > div.footerwidget > div > div > div:nth-child(4){
+/*body > div.dialog-off-canvas-main-canvas > div.footerwidget > div > div > div:nth-child(4){
     margin-top: 0px;
 }
 
 .footerwidget > div > div > div:first-child {
     border-right: 3px solid #fff;
-}
+}*/
 
 /*.footerwidget > div > div > div > div > div.quickedit-field {*/
-#block-mapadosite > div.quickedit-field {
+/*#block-mapadosite > div.quickedit-field {
     margin-top: 20px;
 }
 
 #block-mapadosite > div.quickedit-field p {
     margin: 0 0 10px 0;
-}
+}*/
 

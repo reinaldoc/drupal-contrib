@@ -47,7 +47,17 @@ div.v-grid-programas-jt > div > div > div.views-col.col-5 {
 }
 
 @media (max-width: 767px) {
+		
+	.v-grid-programas-jt > div > div > div:not(:last-child) {
+		width: 50% !important;
+	}
 	
+	.v-grid-programas-jt > div > div > div {
+		width: 100% !important;
+	}
 	
+	.v-grid-programas-jt > div > div > div:nth-child(2n) {
+		border-right: none;
+	}
 	
 }

@@ -151,8 +151,16 @@
 		margin-top: -85px;
 	}
 	
-	.mapa_site, .rede_social{
+	.logo_footer, .mapa_site, .rede_social{
 		display:none;
+	}
+	
+	#block-views-block-view-bloco-de-programas-nacionais-block-prog-da-jt {
+		margin-bottom: 5px;
+	}
+	
+	#bottom_wrapper > div > div > div > div {
+		margin-top: -20px;
 	}
 	
 }

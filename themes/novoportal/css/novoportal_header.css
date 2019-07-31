@@ -1,3 +1,11 @@
+body {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+* {
+    font-family: 'Open Sans';
+}
+
 .site-branding__name {
 	display: none;
 }
@@ -284,7 +292,7 @@ a.social_email {
 		background-image: url("../images/search-icon.png");
 		background-size: 25px;
 		background-repeat: no-repeat;
-		background-position: 30px;
+		background-position: 50%;
 	}
 }
 	
