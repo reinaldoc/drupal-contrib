@@ -13,7 +13,7 @@ body {
 */
 
 .container {
-    width: 1129px; /*1920*/
+    max-width: 1129px; /*1920*/
 }
 
 /* Page width */
@@ -77,3 +77,14 @@ body .container {
     margin: 0 0 10px 0;
 }*/
 
+@media (max-width: 767px) {
+	
+	.container {
+		width: auto; /*1920*/
+	}
+
+	/* Page width */
+	body .container {
+		width: auto; /*1920*/
+	}
+}

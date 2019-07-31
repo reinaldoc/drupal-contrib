@@ -25,6 +25,10 @@ div.vw-banner > div.skin-default > div.views_slideshow_cycle_main > div.views_sl
 	height: 187px;
 }
 
+div.vw-banner > div > div > div > div > div > div > div > img {
+	width: 100%
+}
+
 @media (max-width: 767px) {
 	
 	div.vw-banner > div > div > div > div > div > div > div > img {

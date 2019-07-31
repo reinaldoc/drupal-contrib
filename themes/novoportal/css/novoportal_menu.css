@@ -228,6 +228,10 @@ ul.menu-base-theme > li:last-child > a {
 
 @media (max-width: 767px) {
 	
+	body > div > div.row.primary-menu-wrap > div > div > div {
+		padding: 0;
+	}
+	
 	nav.navbar.navbar-default > a.nav-toggle {
 		display: none;
 	}
@@ -335,6 +339,10 @@ ul.menu-base-theme > li:last-child > a {
 	#block-menuservicos > ul > li:nth-child(6) > a {
 		background-image: url(../images/icones - lateral (6).png);
 		margin-top: -5px;
+	}
+	
+	ul.menu-base-theme ul a {
+		background-color: lightgray;
 	}
 	
 }
