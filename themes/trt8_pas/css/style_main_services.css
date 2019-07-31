@@ -18,7 +18,19 @@
     padding: 0px 14px 32px 20px;
     transition: transform 0.3s,box-shadow 0.3s;
 }
+/*
+----------------------------------- marcos -------------------------------------- 
+*/
+.link-item-service {
+padding: 5px;
+}
 
+
+
+
+
+/* ------------------------------- fim/marcos ----------------------------------
+*/
 .service_item:hover {
     transform: translateY(-5px);
 }
@@ -67,7 +79,7 @@ float: left;
 
 background-image: url(../images/services_icons.png);
 
-background-position-x: -292px;
+background-position-x: -294px;
 
 background-position-y: -491px;
 
@@ -83,7 +95,7 @@ float: left;
 
 background-image: url(../images/services_icons.png);
 
-background-position-x: -501px;
+background-position-x: -503px;
 
 background-position-y: -488px;
 
@@ -115,7 +127,7 @@ float: left;
 
 background-image: url(../images/services_icons.png);
 
-background-position-x: -155px;
+background-position-x: -154px;
 
 background-position-y: -491px;
 
@@ -131,7 +143,7 @@ float: left;
 
 background-image: url(../images/services_icons.png);
 
-background-position-x: -364px;
+background-position-x: -363px;
 
 background-position-y: -491px;
 
@@ -147,7 +159,7 @@ float: left;
 
 background-image: url(../images/services_icons.png);
 
-background-position-x: -398px;
+background-position-x: -400px;
 
 background-position-y: -537px;
 
