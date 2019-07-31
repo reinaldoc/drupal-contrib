@@ -34,6 +34,8 @@
  *
  * Regions:
  * - page.header: Items for the header region.
+ * - page.identidade: Items for the identidade region.
+ * - page.search: Items for the search region.
  * - page.navigation: Items for the Navigation region.
  * - page.page_title: Used by Current page Title.
  * - page.banner: Items for the banner region.
@@ -45,6 +47,7 @@
  * - page.sidebar_first: Items for the first sidebar.
  * - page.sidebar_second: Items for the second sidebar.
  * - page.content_bottom: Items for the bottom in content region.
+ * - page.bottom_wrapper: Items for the bottom in bottom_wrapper region.
  * - page.footer_top: Items for the footer top region.
  * - page.footer_first: Items for the footer first region.
  * - page.footer_second: Items for the footer Second region.
@@ -61,40 +64,41 @@
 
 <!-- Header and Navbar -->
 <header class="main-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4 col-md-3">
-        {% if page.header %}
-          {{ page.header }}
-        {% endif %}
-      </div>
+	<div class="row novoportal-header">
+		<div class="container">
+		{% if page.header %}
+			{{ page.header }}
+		{% endif %}
+		</div>
+	</div>
+	<div class="container novoportal-identidade">
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+				{% if page.identidade %}
+				  {{ page.identidade }}
+				{% endif %}
+			</div>
+		  
+			<div class="col-sm-12 col-md-6">
+			  
+				<div class="social-media">
+					
+					<a href="{{ facebook_url }}"  class="social_facebook" target="_blank" ></a>
+					<a href="{{ facebook_twitter }}"  class="social_twitter" target="_blank" ></a>
+					<a href="{{ facebook_instagram }}"  class="social_instagram" target="_blank" ></a>
+					<a href="{{ facebook_email }}"  class="social_email" target="_blank" ></a>
+					
+				</div>
+				
+				<div class="search_area">
+					{% if page.search %}
+						{{ page.search }}
+					{% endif %}
+				</div>
 
-      {% if show_social_icon %}
-        <div class="col-sm-8 col-md-9">
-          <div class="social-media">
-            {% if facebook_url %}
-              <a href="{{ facebook_url }}"  class="facebook" target="_blank" ><i class="fa fa-facebook"></i></a>
-            {% endif %}
-            {% if google_plus_url %}
-              <a href="{{ google_plus_url }}"  class="google-plus" target="_blank" ><i class="fa fa-google-plus"></i></a>
-            {% endif %}
-            {% if twitter_url %}
-              <a href="{{ twitter_url }}" class="twitter" target="_blank" ><i class="fa fa-twitter"></i></a>
-            {% endif %}
-            {% if linkedin_url %}
-              <a href="{{ linkedin_url }}" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-            {% endif %}
-            {% if pinterest_url %}
-              <a href="{{ pinterest_url }}" class="pinterest" target="_blank" ><i class="fa fa-pinterest"></i></a>
-            {% endif %}
-            {% if rss_url %}
-              <a href="{{ rss_url }}" class="rss" target="_blank" ><i class="fa fa-rss"></i></a>
-            {% endif %}
-          </div>
-        </div>
-      {% endif %}
-    </div>
-  </div>
+			</div>
+		</div>
+	</div>
 </header>
 
 {% if page.primary_menu %}
@@ -130,7 +134,7 @@
       </div>
     </div>
   {% endif %}
-  <!-- End Banner -->
+<!-- End Banner -->
 
 
 <!--Highlighted-->
@@ -252,21 +256,32 @@
     <!--Start Content Bottom-->
     {% if page.content_bottom %}
       <div class="row">
+		<div class="col-sm-12 col-md-12">
         {{ page.content_bottom }}
+		</div>
       </div>
     {% endif %}
     <!--End Content Bottom-->
   </div>
+  
+  <div id= "bottom_wrapper">
+    
+	<!--Content top-->
+	  {% if page.bottom_wrapper %}
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					{{ page.bottom_wrapper }}
+				</div>
+			</div>
+		</div>
+	  {% endif %}
+	<!--End Content top-->
+	
+  </div>
+  
 </div>
 <!-- End layout -->
-
-
-
-
-
-
-
-
 
 <!-- start: Footer -->
 {% if  is_front and (page.footer_first or page.footer_second or page.footer_third) %}
@@ -298,6 +313,15 @@
           {% endif %}
         </div>
         <!-- End Footer Third Region -->
+
+        <!-- Start Footer four Region -->
+        <div class = {{ footer_class }}>
+          {% if page.footer_four %}
+            {{ page.footer_four }}
+          {% endif %}
+        </div>
+        <!-- End Footer Four Region -->
+
       </div>
     </div>
   </div>
@@ -309,7 +333,7 @@
   <div class="footer-menu">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-12 col-md-12">
           {{ page.footer_menu }}
         </div>
         

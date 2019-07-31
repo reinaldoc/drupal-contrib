@@ -1195,7 +1195,7 @@ min-height: 22px;
 .region-copyright {
     margin: 0px auto;
     padding: 10px;
-    max-width: 1024px;
+    max-width: 1024px; /*1920*/
 }
 
 .region-slideshow {
@@ -1657,7 +1657,7 @@ a.as-menu-last {
     text-align: right;
     display: block;
     color: rgb(60,73,114);
-    padding: 0 10px 0px 0;0
+    padding: 0 10px 0px 0;
 }
 
 a.as-menu-last:hover {

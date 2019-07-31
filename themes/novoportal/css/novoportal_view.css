@@ -41,25 +41,6 @@
 }
 
 /*
-**    Views for slideshow
-*/
-
-/* Fix slideshow region */
-.slideshow .region-slideshow {
-    border: 0 none;
-}
-.views_slideshow_cycle_teaser_section {
-    width: auto !important;
-    height: 245px !important;
-}
-
-.views_slideshow_cycle_slide {
-    width: 100% !important;
-    height: 245px !important;
-   
-}
-
-/*
 **    Views for accordion
 */
 
@@ -69,4 +50,44 @@
 
 .views-accordion .views-exposed-form .form-submit {
     margin-top: 20px;
+}
+
+/**/
+
+.v-grid-iniciativas-do-tribunal:nth-child(1) {
+	margin-top: 30px;
+}
+
+div.v-grid-iniciativas-do-tribunal > div > div > div {
+	text-align: center;
+}
+
+.views-field-field-servicos-adicionais-imagem img {
+	width: 40px;
+	height:auto;
+	text-align: center;
+}
+
+div.v-grid-iniciativas-do-tribunal > div > div > div:nth-child(1) {
+	margin-top: 15px;
+}
+
+div.v-grid-iniciativas-do-tribunal > div > div > div:nth-child(4),
+div.v-grid-iniciativas-do-tribunal > div > div > div:nth-child(7) {
+	margin-top: 10px;
+}
+
+div.v-grid-iniciativas-do-tribunal > div > div > div:nth-child(9) .views-field-field-servicos-adicionais-imagem img {
+	width: 30px;
+}
+
+div.views-field.views-field-title a:hover {
+	text-decoration: none;
+	border-bottom: none;
+	color: #01426a
+}
+
+.v-grid-iniciativas-do-tribunal > div > div > div > .views-field-title {
+	text-align: center;
+	margin-top: 5px;
 }
