@@ -13,6 +13,9 @@
   height: auto;
   float: left;
 }
+#site-title {
+  display: none;
+}
 .menu_topo {
   float: left;
   margin-top: 3px;
