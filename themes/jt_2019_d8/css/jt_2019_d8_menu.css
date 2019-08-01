@@ -52,7 +52,7 @@ ul.menu-base-theme > li:last-child > a {
 .primary-menu-wrap, .region-primary-menu, .menu-base-theme li a {
     background: #eee;
     color: #333;
-    font-size: 12pt; /*TODO: pós retirada novoportal.css font-size: 16px;*/
+    font-size: 12pt; /*TODO: pós retirada jt_2019_d8.css font-size: 16px;*/
 	/*height: 34px;*/
 }
 
@@ -196,7 +196,7 @@ ul.menu-base-theme > li:last-child > a {
 }
 
 /* Menu font for estrutura do tribunal */
-.region-sidebar-second #block-novoportal-menuestruturadotribunal-2-menu {
+.region-sidebar-second #block-jt_2019_d8-menuestruturadotribunal-2-menu {
     font-size: 1.1em;
     line-height: 32px;
 }
@@ -266,7 +266,7 @@ ul.menu-base-theme > li:last-child > a {
 		min-height: 34px; /*50px*/
 	}
 	
-	#block-novoportal-main-menu {
+	#block-jt_2019_d8-main-menu {
 		/*margin-top: 50px;*/
 	}
 	
