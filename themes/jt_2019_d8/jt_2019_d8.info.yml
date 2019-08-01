@@ -1,6 +1,6 @@
-name: Novo Portal TRT16
+name: Tema padrão da JT
 type: theme
-description: 'Tema do Novo Portal do TRT16'
+description: 'Tema padrão para Justiça do trabalho'
 package: core
 base theme: professional_responsive_theme
 # core: 8.x
@@ -10,11 +10,13 @@ libraries:
   - professional_responsive_theme/bootstrap
   - professional_responsive_theme/fontawesome
   - professional_responsive_theme/global-components
-  - novoportal/global-components
+  - jt_2019_d8/global-components
 
 #Regions
 regions:
   header: 'Header'
+  identidade: 'Identidade'
+  search: 'Busca'
   primary_menu: 'Primary Menu'
   slideshow: 'Slideshow'  
   topwidget_first: 'Top First Widget'
@@ -24,8 +26,10 @@ regions:
   page_title: 'Page Title'
   breadcrumb: 'Breadcrumb'
   content: 'Content'
+  content_bottom: 'Content Bottom'
   sidebar_first: 'Left Sidebar'
-  sidebar_second: 'Right Sidebar' 
+  sidebar_second: 'Right Sidebar'
+  bottom_wrapper: 'Bottom of wrapper content'
   footer_first: 'Footer First Widget'
   footer_second: 'Footer Second Widget'
   footer_third: 'Footer Third Widget'
@@ -42,6 +46,6 @@ regions:
 # Information added by Drupal.org packaging script on 2017-11-29
 version: '8.x-1.0'
 core: '8.x'
-project: 'novoportal'
+project: 'jt_2019_d8'
 datestamp: 1511981017
 

@@ -58,43 +58,41 @@
   font-size: 0.7em !important;
 }
 .icon_acesso_rapido {
- width: 142px;
+ width: 132px;
  height: 115px;
- transition: transform 0.3s,box-shadow 0.3s;
+ transition: transform 0.3s;
 }
 .servico {
-transition: transform 0.3s, box-shadow 0.3s;
-transition: background-color 0.4s ease;
+transition: transform 0.3s;
 }
 .servico h2 {
 color: #fff !important;
 }
 .servico:hover {
     transform: translateY(-5px);
-    background: #04c5ff;
-    border-radius: 4px;
-    box-shadow: 0px 0px 5px 0px rgb(22, 199, 255);
-    height: 145px;
-    margin-top: 3px;
 }
 .acesso_befeciciario {
-  background-image: url('../images/icons.png');
-  background-position: 0px 1px;
+  background-image: url('../images/services_icons.png');
+    background-position: -8px -32px;
+    background-size: 513px;
 }
 .acesso_credenciados {
-  background-image: url('../images/icons.png');
-  background-position: -185px 0px;
+  background-image: url('../images/services_icons.png'); 
+  background-position: -145px -36px;
+  background-size: 534px;
 }
 .acesso_gestores {
-  background-image: url('../images/icons.png');
-  background-position: -370px 0px;
+  background-image: url('../images/services_icons.png');
+  background-position: -270px -36px; 
+  background-size: 535px;
 }
 .acesso_peritos {
-  background-image: url('../images/icons.png');
-  background-position: -368px 0px;
+  background-image: url('../images/services_icons.png');
+  background-position: -390px -36px;
+  background-size: 535px;
 }
 .servicos_content .servico h2 {
- padding-right: 36px !important;
+ padding-right: 83px !important;
 }
 .servicos_content .servico img {
   width: 70px !important;
@@ -160,19 +158,19 @@ margin-right:16px;
  height:60px !important;
 }
 .imagem_guia_medico {
-background-image: url('../images/icons2.png');
-background-position: 0px 0px;
-background-size: 302px;
+background-image: url('../images/services_icons.png');
+background-position: 310px 198px;
+background-size: 310px;
 }
 .imagem_autorizacao_internet {
-background-image:url('../images/icons2.png');
-background-position: -130px 0px;
-background-size: 302px;
+background-image:url('../images/services_icons.png');
+background-position: 179px 198px;
+background-size: 310px;
 }
 .imagem_seus_gastos {
-background-image: url('../images/icons2.png');
-background-position: -242px 0px;
-background-size: 302px;
+background-image: url('../images/services_icons.png');
+background-position: 60px 198px;
+background-size: 310px;
 }
 .links_uteis_content .link_item .topo_item h2 {
   color: #a61933 !important;

@@ -18,64 +18,73 @@
 .contact_box {
     display: inline-block;
     vertical-align: top;
-    width: 29%;    
-    padding: 65px 0 0 20px;
-  
+    width: 29%;
+    padding: 43px 14px 43px 7px;
+    background: #fff;
+    height: 172px;
+    margin-top: 66px;	
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(242, 239, 239, 0.94);
+    border-radius: 4px;
 }
 
 .contact_icon_phone{
-    width: 28px;
-    height: 26px;
+    width: 58px;
+    height: 42px;
     float: left;
-    background-image: url(../images/contact_icons.png);
-    background-position-x: 162px;
-    background-position-y: 26px;
+    background-image: url(../images/services_icons.png);
+    background-position-x: -40px;
+    background-position-y: 51px;
+    background-size: 320px;
 }
 
 .contact_icon_message{
-    width: 30px;
-    height: 19px;
+    width: 58px;
+    height: 42px;
     float: left;
-    background-image: url(../images/contact_icons.png);
-    background-position-x: 135px;
-    background-position-y: 49px;
+    background-image: url(../images/services_icons.png);
+    background-position-x: -120px;
+    background-position-y: 51px;
+    background-size: 320px;
 }
 
 .contact_icon_address{
-    width: 30px;
-    height: 24px;
+    width: 58px;
+    height: 42px;
     float: left;
-    background-image: url(../images/contact_icons.png);
-    background-position-x: 108px;
-    background-position-y: 26px;
+    background-image: url(../images/services_icons.png);
+    background-position-x: -201px;
+    background-position-y: 51px;
+    background-size: 320px;
 }
 
 
 .contact_title {
     vertical-align: top;
-    padding: 2px 0 0 36px;
+    padding: 2px 0 0 27px;
+    line-height: 40px;
 }
 
 .contact_title a {
     text-decoration: none;
     color: #646473;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .contact_text p {
     font-size: 15px;
-    color: #2c2c30;
+    color: #4f4f51;
 }
 
 .contact_title a:hover {
     text-decoration: underline;
 }
 .contact_text {
-    padding: 30px 0 0 41px;
+    padding: 30px 0 0 59px;
 }
 
 .contact_text p {
     text-align: justify; 
-    color: #2c2c30;
+    color: #4f4f51;
 }

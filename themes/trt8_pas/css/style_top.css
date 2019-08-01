@@ -13,6 +13,12 @@
   height: auto;
   float: left;
 }
+#logo {
+  margin: 10px 10px 0px;
+}
+#site-title {
+  display: none;
+}
 .menu_topo {
   float: left;
   margin-top: 3px;
