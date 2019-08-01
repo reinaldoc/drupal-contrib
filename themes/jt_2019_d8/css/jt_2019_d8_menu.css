@@ -337,12 +337,16 @@ ul.menu-base-theme > li:last-child > a {
 	}
 	
 	#block-menuservicos > ul > li:nth-child(6) > a {
-		background-image: url(../images/icones - lateral (6).png);
+		background-image: url("../images/icones - lateral (6).png");
 		margin-top: -5px;
 	}
 	
 	ul.menu-base-theme ul a {
 		background-color: lightgray;
+	}
+
+	.menu-base-theme a span.sub-arrow {
+		background: none;
 	}
 	
 }
