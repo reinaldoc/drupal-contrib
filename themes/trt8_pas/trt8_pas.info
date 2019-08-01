@@ -13,7 +13,6 @@ stylesheets[all][] = css/style_main_services.css
 stylesheets[all][] = css/style_responsividade.css
 stylesheets[all][] = css/style_main_contact.css
 stylesheets[all][] = css/style_footer.css
-stylesheets[all][] = css/style_core.css
 scripts[] = js/custom.js
 
 regions[user_menu]  	 = User menu
