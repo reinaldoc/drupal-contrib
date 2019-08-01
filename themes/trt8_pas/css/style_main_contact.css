@@ -24,36 +24,40 @@
 }
 
 .contact_icon_phone{
-    width: 28px;
-    height: 26px;
+    width: 58px;
+    height: 42px;
     float: left;
-    background-image: url(../images/contact_icons.png);
-    background-position-x: 162px;
-    background-position-y: 26px;
+    background-image: url(../images/services_icons.png);
+    background-position-x: -40px;
+    background-position-y: 51px;
+    background-size: 320px;
 }
 
 .contact_icon_message{
-    width: 30px;
-    height: 19px;
+    width: 58px;
+    height: 42px;
     float: left;
-    background-image: url(../images/contact_icons.png);
-    background-position-x: 135px;
-    background-position-y: 49px;
+    background-image: url(../images/services_icons.png);
+    background-position-x: -120px;
+    background-position-y: 51px;
+    background-size: 320px;
 }
 
 .contact_icon_address{
-    width: 30px;
-    height: 24px;
+    width: 58px;
+    height: 42px;
     float: left;
-    background-image: url(../images/contact_icons.png);
-    background-position-x: 108px;
-    background-position-y: 26px;
+    background-image: url(../images/services_icons.png);
+    background-position-x: -201px;
+    background-position-y: 51px;
+    background-size: 320px;
 }
 
 
 .contact_title {
     vertical-align: top;
-    padding: 2px 0 0 36px;
+    padding: 2px 0 0 27px;
+    line-height: 40px;
 }
 
 .contact_title a {
