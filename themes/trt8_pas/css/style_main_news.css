@@ -117,12 +117,6 @@ margin-top: 27px;
 .more-link-noticia a {
 color: #fff;
 }
-.view-noticias table {
-    border: none;
-}
-.view-noticias table td {
-    border: none;
-}
 
 /* View */
 .view-noticias .views-field-title {
@@ -132,8 +126,14 @@ color: #fff;
     min-height: 45px;
 }
 
-.view-noticias td {
+.view-noticias table {
+    border: none;
+}
+
+.view-noticias table td {
+    border: none;
     vertical-align: top;
+    width: 33%;
 }
 
 .view-noticias img {

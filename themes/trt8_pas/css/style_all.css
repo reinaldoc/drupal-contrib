@@ -66,13 +66,13 @@ p {
 }
 
 #block-search-form {
-    width: 154px;
+    margin: 0;
+    float: right;
 }
 
 #block-search-form .form-text {
-    width: 118px !important;
+    width: 168px;
 }
-
 
 /*header drupal */
 #header_wrapper #header {
