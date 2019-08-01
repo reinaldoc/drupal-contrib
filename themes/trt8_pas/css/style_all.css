@@ -117,10 +117,19 @@ html {
  #main-menu li a.active {
 background: #e0e0e0 none repeat scroll 0 0
 }
+
+
 /*
 ---------------- page-node --------------------- 
 */
 .page-node .container-wrap{
     max-width: 1129px !important;
     margin: 0 auto !important;
+}
+
+/*
+---------------------- page-user-login --------------------------
+*/
+.page-user .container-wrap {
+    max-width: 1129px !important;
 }
