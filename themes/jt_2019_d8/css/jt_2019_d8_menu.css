@@ -2,16 +2,19 @@
 /*
 **    Menus for Right Sidebar Region
 */
+.navbar-header, .navbar {
+	max-height: 34px; /*50px*/
+}
 
 /* Main Menu */
 .primary-menu-wrap {
-    height: 34px;
+    /*height: 34px;*/
 }
 
 .menu-base-theme > li {
     padding: 0;
 	background: none;
-	min-width: 128px;
+	/*min-width: 128px;*/
     text-align: center;
 }
 
@@ -49,8 +52,8 @@ ul.menu-base-theme > li:last-child > a {
 .primary-menu-wrap, .region-primary-menu, .menu-base-theme li a {
     background: #eee;
     color: #333;
-    font-size: 16px;
-	height: 34px;
+    font-size: 12pt; /*TODO: pós retirada jt_2019_d8.css font-size: 16px;*/
+	/*height: 34px;*/
 }
 
 .menu-base-theme a:hover, .menu-base-theme a:focus, .menu-base-theme a:active, .menu-base-theme a.highlighted {
@@ -145,12 +148,16 @@ ul.menu-base-theme > li:last-child > a {
     border-right: 1px solid #dbdcdd;
 }
 
+.region-sidebar-second nav#block-menuservicos ul.menu li a {
+	padding: 10px 0 15px 60px;
+}
+
 .region-sidebar-second ul.menu li a {
     /*color: rgb(60, 73, 114); /* rgb(0, 13, 54); */
     /*font-family: Overlock;*/
     /*font-size: 1.25em;*/
     letter-spacing: 0.05em;
-    padding: 10px 0 15px 60px;
+    padding: 10px 0 15px 0px;
     text-decoration: none;
     display: block;
 	
@@ -170,7 +177,7 @@ ul.menu-base-theme > li:last-child > a {
 .region-sidebar-second nav h2 {
     border-bottom: 2px solid #676767;
     color: #444444;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 1.25em;
     margin: 0 0 0 14px;
     padding: 18px 0 6px 0;
@@ -189,7 +196,7 @@ ul.menu-base-theme > li:last-child > a {
 }
 
 /* Menu font for estrutura do tribunal */
-.region-sidebar-second #block-novoportal-menuestruturadotribunal-2-menu {
+.region-sidebar-second #block-jt_2019_d8-menuestruturadotribunal-2-menu {
     font-size: 1.1em;
     line-height: 32px;
 }
@@ -200,7 +207,9 @@ ul.menu-base-theme > li:last-child > a {
     margin: 0 5px 0 20px;
 }
 
-
+/*
+**    Menus for Content Region
+*/
 
 /* Home Menus */
 .region-sidebar-second #block-menu-menu-servicos + div h2 {
@@ -217,6 +226,127 @@ ul.menu-base-theme > li:last-child > a {
     margin: 0 5px 0 20px;
 }
 
-/*
-**    Menus for Content Region
-*/
+@media (max-width: 767px) {
+	
+	body > div > div.row.primary-menu-wrap > div > div > div {
+		padding: 0;
+	}
+	
+	nav.navbar.navbar-default > a.nav-toggle {
+		display: none;
+	}
+	
+	body > div > div.row.primary-menu-wrap {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	
+	#wrapper > div.container > div.row.layout > div.sidebar {
+		margin: 0px 10px 0px 10px;
+	}	
+	#main-menu > li > a > span {
+		display: block;
+		/*margin-top: -10px;*/
+	}
+	
+	.menu-base-theme a span.sub-arrow {
+		padding: 0px;
+		border: none;
+	}
+
+	nav.navbar.navbar-default > a.nav-toggle {
+		display: block;
+		text-align: center;
+		color: black;
+		font-weight: bold;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	.navbar {
+		min-height: 34px; /*50px*/
+	}
+	
+	#block-jt_2019_d8-main-menu {
+		/*margin-top: 50px;*/
+	}
+	
+	body > div > div.row.primary-menu-wrap > div > div > div > nav > div {
+		float:left;
+		display: none;
+		width: 100%;
+
+	}
+	
+	.region-primary-menu {
+		display: none;
+	}
+	
+	ul.menu-base-theme > li > a {
+		border-right: none;
+		
+	}
+	
+	ul.menu-base-theme li a {
+		text-align: center;
+		font-variant: all-petite-caps;
+		font-size: 15pt;
+	}
+	
+	.menu-base-theme ul {
+		padding: 0;
+		background-color: #fff;
+		background: rgba(255, 255, 255, 0.74);
+	}
+	
+	.menu-base-theme > li {
+		border-top: 1px solid;
+		/* margin-top: -1px; */
+	}
+	
+	.menu-base-theme ul > li, .menu-base-theme ul li:first-child {
+		border-top: 1px solid #a8a8a8;
+	}
+	
+	.menu-base-theme ul {
+		border: 0px;
+	}
+	
+	/* menu lateral */
+	
+	#block-menuservicos > ul > li {
+		width: 50%;
+		float: left;
+		margin: 0 auto;
+	}
+	
+	.region-sidebar-second ul.menu li:nth-child(1), .region-sidebar-second ul.menu li:nth-child(2) {
+		border-top: 1px solid #b2c6d2;
+	}
+	
+	#block-menuservicos > ul > li > a {
+		width: 100%;
+	}
+	
+	.region-sidebar-second nav#block-menuservicos ul.menu li a {
+		padding: 10px 0 15px 40px;
+	}
+
+	#block-menuservicos > ul > li:nth-child(5),
+	#block-menuservicos > ul > li:nth-child(6) {
+		max-height: 65px !important;
+	}
+	
+	#block-menuservicos > ul > li:nth-child(6) > a {
+		background-image: url("../images/icones - lateral (6).png");
+		margin-top: -5px;
+	}
+	
+	ul.menu-base-theme ul a {
+		background-color: lightgray;
+	}
+
+	.menu-base-theme a span.sub-arrow {
+		background: none;
+	}
+	
+}

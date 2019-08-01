@@ -1,0 +1,38 @@
+/*
+**    Views for slideshow
+*/
+
+/* Fix slideshow region */
+.slideshow .region-slideshow {
+    border: 0 none;
+}
+.views_slideshow_cycle_teaser_section {
+    width: auto !important;
+    /*height: 245px !important;*/
+}
+
+.views_slideshow_cycle_slide {
+    width: 100% !important;
+    /*height: 245px !important;*/
+}
+
+div.vw-banner {
+	margin-top: 30px;
+}
+
+div.vw-banner > div.skin-default > div.views_slideshow_cycle_main > div.views_slideshow_cycle_teaser_section > div.views_slideshow_cycle_slide
+ > div.views-row > div.views-field-field-eslaide > div.field-content > img {
+	height: 187px;
+}
+
+div.vw-banner > div > div > div > div > div > div > div > img {
+	width: 100%
+}
+
+@media (max-width: 767px) {
+	
+	div.vw-banner > div > div > div > div > div > div > div > img {
+		width: 100%
+	}
+	
+}
