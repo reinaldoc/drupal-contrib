@@ -1,0 +1,27 @@
+#inner_header_wrapper {
+    background: #ffffff !important;
+}
+
+.accessibility ul {
+    list-style: none;
+}
+
+.accessibility ul li {
+    float: left;
+    padding: 0 0 0 7px;
+    
+}
+
+.accessibility ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.accessibility ul li a:hover {
+    text-decoration: underline;
+}
+
+.region-accessibility-left {
+
+    background: #01426a !important;
+}

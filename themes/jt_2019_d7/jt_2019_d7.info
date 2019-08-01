@@ -1,0 +1,63 @@
+name = Nova Identidade da Justiça do Trabalho para Drupal 7 (Execute Responsive sub-theme)
+description = Tema desenvolvido pelo TRT da 8ª Região.
+core = 7.x
+base theme = execute_responsive_theme
+
+stylesheets[all][] = css/jt_core.css
+stylesheets[all][] = css/jt_ouvidoria.css
+stylesheets[all][] = css/jt_media.css
+stylesheets[all][] = css/jt_footer.css
+stylesheets[all][] = css/jt_header.css
+scripts[] = js/novoportal.js
+scripts[] = js/custom.js
+
+regions[user_menu]  	 = User menu
+regions[accessibility_left]  = Accessibility Left
+regions[accessibility_right] = Accessibility Right
+regions[top_right]    	 = Top Right
+regions[search]    	 = Search
+regions[slideshow]       = Slideshow
+regions[top_first]       = First top
+regions[top_second]      = Second top
+regions[top_third]       = Third top
+regions[sidebar_first]   = First Sidebar
+regions[sidebar_second]  = Second Sidebar
+regions[content]         = Content
+regions[bottom_widget_1] = Bottom widget 1
+regions[bottom_widget_2] = Bottom widget 2
+regions[bottom_widget_3] = Bottom widget 3
+regions[footer_first]    = First Bottom
+regions[footer_second]   = Second Bottom
+regions[footer_third]    = Third Bottom
+regions[footer_forth]    = Forth Bottom
+regions[footer]          = Footer
+regions[copyright]       = Contato Institucional
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+#features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[breadcrumbs]  = 1
+settings[social_links]  = 1
+settings[twitter_profile_url] = "https://www.twitter.com/trt8_oficial"
+settings[facebook_profile_url] = "https://www.facebook.com/trt8Regiao"
+settings[gplus_profile_url] = ""
+settings[linkedin_profile_url] = ""
+settings[pinterest_profile_url] = ""
+settings[vimeo_profile_url] = ""
+settings[youtube_profile_url] = "https://www.youtube.com/user/trt8videos/videos"
+settings[flickr_profile_url] = "https://www.flickr.com/photos/trt8_oficial/"
+settings[instagram_profile_url] = "https://www.instagram.com/trt_8a/"
+
+; Information added by Drupal.org packaging script on 2015-03-19
+version = "7.x-1.0"
+core = "7.x"
+project = "jt_2019_d7"
+datestamp = "1426788198"
+
