@@ -1,0 +1,62 @@
+<?php
+
+use Drupal\Component\Render\FormattableMarkup;
+
+function novoportal_preprocess_html(&$variables) {
+  // Add node id to the body class.
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if($node) {
+    $variables['node_id'] = $node->id();
+  }
+}
+
+function novoportal_preprocess_views_view(&$variables) {
+  $view = $variables['view'];
+
+  $variables['title'] = [
+    '#markup' => $view->getTitle(),
+  ];
+}
+
+function novoportal_preprocess_node(&$variables) {
+  // Add node id to the body class.
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if($node) {
+    $variables['node_id'] = $node->id();
+  }
+}
+
+/*function novoportal_form_alter(&$form, &$form_state, $form_id) {
+	
+	if ($form_id == 'search_block_form') {
+		$form['search_block_form']['#attributes']['placeholder'] = t('Search');
+		$form['button'] = array(
+			'#type' => 'item',
+			'#markup' => '<button type="submit" id="edit-submit-btn" name="op" class="form-submit"><i class="fa fa-search"></i></button>',
+			'#weight' => 1000,
+		);
+		$form['submit_button']['#type'] = 'button';
+	}
+}*/
+
+/*function novoportal_preprocess_input(&$variables) {
+  $element = &$variables['element'];
+  // Ugh :(
+  if ($element['#type'] === 'submit' && $element['#value']->__toString() === 'Search') {
+    $variables['children'] = $element['#children'];
+    $variables['children'][] = [
+      '#theme' => 'html_tag',
+      '#tag' => 'i',
+      '#attributes' => ['class' => ['fa', 'fa-search']],
+    ];
+  }
+}*/
+
+function novoportal_form_search_block_form_alter(&$form, &$form_state) {
+    //$form['keys']['#attributes']['placeholder'][] = t('Informe os termos para busca');
+    //$value = new FormattableMarkup('<i class="fas fa-search"></i>@text', ['@text' => '',]);
+    //$form['actions']['submit']['#value'] = $value;
+	$form['actions']['submit']['#value'] = "";
+}
+
+?>
