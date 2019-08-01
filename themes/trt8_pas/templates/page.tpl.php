@@ -87,25 +87,25 @@
         </h1>
       </div>
       <div class="top_right">
-	    <?php if (theme_get_setting('social_links', 'execute_responsive_theme')): ?>
+	    <?php if (theme_get_setting('social_links', 'trt8_pas')): ?>
           <div class="social-icons">
            <ul>
             <li><a class="rss" href="<?php print $front_page; ?>rss.xml">RSS</a></li>
-            <li><a class="fb" href="<?php echo theme_get_setting('facebook_profile_url', 'execute_responsive_theme'); ?>" target="_blank" rel="me">Facebook</a></li>
-            <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'execute_responsive_theme'); ?>" target="_blank" rel="me">Twitter</a></li>
+            <li><a class="fb" href="<?php echo theme_get_setting('facebook_profile_url', 'trt8_pas'); ?>" target="_blank" rel="me">Facebook</a></li>
+            <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'trt8_pas'); ?>" target="_blank" rel="me">Twitter</a></li>
 
-            <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'execute_responsive_theme'); ?>" target="_blank" rel="me">Gplus</a></li>
-            <li><a class="linkedin" href="<?php echo theme_get_setting('linkedin_profile_url', 'execute_responsive_theme'); ?>" target="_blank" rel="me">linkedin</a></li>
-            <li><a class="pinterest" href="<?php echo theme_get_setting('pinterest_profile_url', 'execute_responsive_theme'); ?>" target="_blank" rel="me">pinterest</a></li>
-            <li><a class="vimeo" href="<?php echo theme_get_setting('vimeo_profile_url', 'execute_responsive_theme'); ?>" target="_blank" rel="me">vimeo</a></li>
+            <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'trt8_pas'); ?>" target="_blank" rel="me">Gplus</a></li>
+            <li><a class="linkedin" href="<?php echo theme_get_setting('linkedin_profile_url', 'trt8_pas'); ?>" target="_blank" rel="me">linkedin</a></li>
+            <li><a class="pinterest" href="<?php echo theme_get_setting('pinterest_profile_url', 'trt8_pas'); ?>" target="_blank" rel="me">pinterest</a></li>
+            <li><a class="vimeo" href="<?php echo theme_get_setting('vimeo_profile_url', 'trt8_pas'); ?>" target="_blank" rel="me">vimeo</a></li>
            </ul>
           </div>
         <?php endif; ?>
 	<div class="menu_topo">
                 <ul>
                     <li><span class="telefone_menu_topo">[91]4008-7224</span></li>
-                    <li><a href="#acesso_exclusivo">Acesso Exclusivo</a></li>
-                    <li><a href="#acesso_rapido">Encontre rápido</a></li>
+                    <li><a href="#acessos_exclusivos">Acessos exclusivos</a></li>
+                    <li><a href="#acesso_rapido">Acesso rápido</a></li>
                     <li><a href="#noticias">Notícias</a></li>
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#contatos">Contatos</a></li>
@@ -150,7 +150,7 @@
         <div class="content-sidebar-wrap">
 
         <div id="content">
-          <?php if (theme_get_setting('breadcrumbs', 'execute_responsive_theme')): ?><div id="breadcrumbs"><?php if ($breadcrumb): print $breadcrumb; endif;?></div><?php endif; ?>
+          <?php if (theme_get_setting('breadcrumbs', 'trt8_pas')): ?><div id="breadcrumbs"><?php if ($breadcrumb): print $breadcrumb; endif;?></div><?php endif; ?>
           
           <?php if ($is_front): ?>
 

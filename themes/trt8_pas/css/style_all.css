@@ -62,22 +62,24 @@ p {
 
 /*block search */
 .top_right .region-search {
-    width: 22% !important;
+    width: 80%;
 }
 
 #block-search-form {
-    width: 118px !important;
+    width: 154px;
 }
 
 #block-search-form .form-text {
     width: 118px !important;
 }
 
+
 /*header drupal */
-#header {
-    max-width: 1129px !important;
-    height: 70px;
+#header_wrapper #header {
+    max-width: 1129px;
+    height: 114px;
 }
+
 /* menu drupal */
 .menu_inner_wrap {
     max-width: 1129px !important;
