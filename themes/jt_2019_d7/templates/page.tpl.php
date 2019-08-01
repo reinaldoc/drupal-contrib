@@ -65,6 +65,15 @@
  */
 ?>
 
+<div id="accessibility_wrapper">
+      <?php if ($page['accessibility_left'] || $page['accessibility_right']): ?>
+      <div class="accessibility">
+        <?php print render($page['accessibility_left']) ?>
+        <?php print render($page['accessibility_right']) ?>
+      </div>
+      <?php endif; ?>
+</div>
+
 <div id="header_wrapper">
 
   <?php if ($page['user_menu']): ?>
@@ -78,13 +87,7 @@
   <div id="inner_header_wrapper">
 
     <header id="header" role="banner">
-
-      <?php if ($page['accessibility_left'] || $page['accessibility_right']): ?>
-      <div class="accessibility">
-        <?php print render($page['accessibility_left']) ?>
-        <?php print render($page['accessibility_right']) ?>
-      </div>
-      <?php endif; ?>
+        
 
       <div class="top_left">
         <?php if ($logo): ?>
