@@ -129,8 +129,7 @@
 
 .links_uteis_content {
     width: 1129px;
-    margin:0 auto;
-    padding-top: 15px;
+    margin: 30px auto;
     height: 175px;
 }
 
@@ -166,7 +165,7 @@
 }
 
 .links_uteis_content .link_item .topo_item {
-    height:63px;
+    height: 77px;
 }
 
 .links_uteis_content .link_item .topo_item img {
@@ -177,10 +176,10 @@
 }
 
 .imagem_item {
-    float:left !important;
-    width: 60px !important;
-    margin-right: 11px !important;
-    height:60px !important;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px 26px 0 10px;
 }
 
 .imagem_guia_medico {
@@ -202,12 +201,9 @@
 }
 
 .links_uteis_content .link_item .topo_item h2 {
-    color: #a61933 !important;
-    width: 286px !important;
-    margin-bottom: 5px !important;
-    font-size: 20pt;
+    color: #a61933;
+    font-size: 28px;
     font-weight: bold;
-
 }
 
 .links_uteis_content .link_item .corpo_item {
