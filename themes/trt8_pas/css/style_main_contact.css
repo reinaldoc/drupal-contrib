@@ -4,8 +4,9 @@
     margin: 0 auto;
     padding: 15px;
 }
+
 .contact {
-    height: 334px ;
+    height: 334px;
     background: -moz-linear-gradient(90deg, rgba(207,207,207,1) 0%, rgba(207,207,207,1) 3%, rgba(207,207,207,1) 7%, rgba(247,247,249,1) 69%, rgba(247,247,249,1) 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(247,247,249,1)), color-stop(31%, rgba(247,247,249,1)), color-stop(93%, rgba(207,207,207,1)), color-stop(97%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1))); /* safari4+,chrome */
     background: -webkit-linear-gradient(90deg, rgba(207,207,207,1) 0%, rgba(207,207,207,1) 3%, rgba(207,207,207,1) 7%, rgba(247,247,249,1) 69%, rgba(247,247,249,1) 100%); /* safari5.1+,chrome10+ */
@@ -26,7 +27,12 @@
     margin-left: 20px;
     box-shadow: 0px 0px 5px 0px rgba(242, 239, 239, 0.94);
     border-radius: 4px;
+    /*transition: transform 0.3s;*/
 }
+
+/*.contact_box:hover {
+    transform: translateY(-5px);
+} */
 
 .contact_icon_phone{
     width: 58px;
@@ -58,20 +64,19 @@
     background-size: 320px;
 }
 
-
 .contact_title {
     vertical-align: top;
     padding: 2px 0 0 27px;
-    line-height: 40px;
 }
 
-.contact_title a {
+.contact_title h2 {
     text-decoration: none;
     color: #646473;
     text-transform: uppercase;
     font-size: 18px;
-
+    line-height: 40px;
 }
+
 .contact_text p {
     font-size: 15px;
     color: #4f4f51;
@@ -80,11 +85,12 @@
 .contact_title a:hover {
     text-decoration: underline;
 }
+
 .contact_text {
     padding: 30px 0 0 59px;
 }
 
 .contact_text p {
-    text-align: justify; 
+    text-align: justify;
     color: #4f4f51;
 }

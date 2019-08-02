@@ -65,7 +65,7 @@ a.read_more {
     background: #006db9;
     font-size: 13px;
     padding: 8px 10px 8px 10px;
-    margin: 12px 0 0 0;
+    margin: 12px 0 0 8px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -121,9 +121,17 @@ color: #fff;
 /* View */
 .view-noticias .views-field-title {
     font-family: 'Open sans';
-    font-size: 14px;
-    padding: 0 0 6px 0;
-    min-height: 45px;
+    font-size: 16px;
+    padding: 0 8px 6px;
+    min-height: 66px;
+}
+
+.view-noticias .views-field-field-noticia-imagem {
+    text-align: center;
+}
+
+.view-noticias .views-field-body {
+    padding: 0 7px;
 }
 
 .view-noticias table {

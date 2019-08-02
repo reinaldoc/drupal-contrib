@@ -21,8 +21,15 @@
 /*
 ----------------------------------- marcos -------------------------------------- 
 */
-.link-item-service {
+a.link-item-service {
 padding: 5px;
+transition: 0.2s;
+height: 60px;
+}
+
+a.link-item-service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 2px 4px 0px #CCC;
 }
 
 
@@ -36,32 +43,41 @@ padding: 5px;
 }
 .service_icon_aderir{
     width: 54px;
-    height: 54px;
+    height: 53px;
     float: left;
     background-image: url(../images/services_icons.png);
     background-position-x: -83px;
     background-position-y: -560px;
-    background-size: 280px;;
+    background-size: 280px;
+margin-top: 3px;
+
+margin-bottom: 3px;
 }
 
 .service_icon_incluir{
     width: 54px;
-    height: 54px;
+    height: 53px;
     float: left;
     background-image: url(../images/services_icons.png);
     background-position-x: -13px;
     background-position-y: -560px;
     background-size: 280px;
+margin-top: 3px;
+
+margin-bottom: 3px;
 }
 
 .service_icon_solicitar {
     width: 54px;
-    height: 54px;
+    height: 53px;
     float: left;
     background-image: url(../images/services_icons.png);
     background-position-x: -152px;
     background-position-y: -560px;
     background-size: 280px;
+margin-top: 3px;
+
+margin-bottom: 3px;
 }
 
 .service_icon_consultar{
@@ -72,6 +88,9 @@ padding: 5px;
     background-position-x: -13px;
     background-position-y: -613px;
     background-size: 280px;
+margin-top: 3px;
+
+margin-bottom: 3px;
 }
 
 .service_icon_quitar{	
@@ -82,6 +101,9 @@ padding: 5px;
     background-position-x: 58px;
     background-position-y: -611px;
     background-size: 280px;
+margin-top: 3px;
+
+margin-bottom: 3px;
 }
 
 .service_icon_atualizar{
@@ -90,18 +112,24 @@ padding: 5px;
     float: left;
     background-image: url(../images/services_icons.png);
     background-position-x: 58px;
-    background-position-y: -560px;
+    background-position-y: -558px;
     background-size: 280px;
+margin-top: 3px;
+
+margin-bottom: 3px;
 }
 
 .service_icon_parcerias{
     width: 53px;
-    height: 48px;
+    height: 54px;
     float: left;
     background-image: url(../images/services_icons.png);
     background-position-x: -153px;
-    background-position-y: -613px;	
+    background-position-y: -612px;	
     background-size: 280px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 18px;
 }
 
 .service_icon_2via{
@@ -110,24 +138,30 @@ padding: 5px;
     float: left;
     background-image: url(../images/services_icons.png);
     background-position-x: -83px;	
-    background-position-y: -614px;
+    background-position-y: -613px;
     background-size: 280px;
+margin-top: 3px;
+
+margin-bottom: 3px;
 }
 
 .service_icon_modelos{
     width: 54px;
-    height: 55px;
+    height: 48px;
+    border-radius: 18px;
     float: left;
     background-image: url(../images/services_icons.png);
     background-position-x: -119px;
-    background-position-y: -660px;
+    background-position-y: -659px;
     background-size: 280px;
+margin-top: 7px;
+margin-bottom: 3px;
 }
 
 .service_item_title {
     display: inline-block;
     vertical-align: top;
-    padding: 15px 0 0 8px;
+    padding: 19px 0 0 8px;
 
 }
 
@@ -136,6 +170,8 @@ padding: 5px;
     padding: 0 0 0 2px;
     color: #2c2c30;
     font-size: 16px;
+    width: 100%;
+    display: block;
 }
 
 
