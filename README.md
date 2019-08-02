@@ -4,6 +4,8 @@
 
 #Regiões
 - [TOPO](#menu_topo)
+- [BANNER](#menu_topo)
+- [ACESSOS EXCLUSIVOS](#menu_topo)
 
 
 
@@ -29,4 +31,14 @@
                     <li><span class="telefone_menu_topo">[91]4008-7124</span></li>
                 </ul>
         </div> <!-- fim menu-topo -->
+```
+
+```
+<div class="banner_central_wrapper">
+    <div class="banner_central">
+    <div class="content">
+    <h1>Ajude a fazer um plano melhor</h1>
+    <span>Fiscalize a utilização</span>
+</div>
+
 ```
