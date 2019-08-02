@@ -167,7 +167,8 @@ border-bottom: none !important;
     color: ##007ea3;
 }
 .region-sidebar-second .menu li a.active {color: #000 !important}
-.region-sidebar-second .block-menu-block h2 {
+
+#sidebar-second .block h2 {
 color: #4993c2 !important;
 border: none !important;
 margin-bottom: 0 !important;
