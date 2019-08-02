@@ -1,58 +1,72 @@
 /* Estilo topo */
 .top_wrapper {
-  width: 100%;
+    width: 100%;
 }
+
 .content_topo {
-  width: 1129px;
-  margin: 0 auto;
-  padding-top: 10px;
-  height: 60px;
+    width: 1129px;
+    margin: 0 auto;
+    padding-top: 10px;
+    height: 60px;
 }
+
 .logo {
-  width: 175px;
-  height: auto;
-  float: left;
+    width: 175px;
+    height: auto;
+    float: left;
 }
+
 #logo {
-  margin: 10px 10px 0px;
+    margin: 10px 10px 0px;
 }
+
 #site-title {
-  display: none;
+    display: none;
 }
+
 .menu_topo {
-  float: left;
-  margin-top: 3px;
+    float: left;
+    margin-top: 25px;
+    width: 100%;
 }
+
 .menu_topo a {
-  text-decoration: none;
-  color: #757584;
-  font-size: 10pt;
+    text-decoration: none;
+    color: #757584;
+    font-size: 10pt;
 }
+
 .menu_topo a:hover {
- border-bottom: 1px solid #b7b7c8;
+    border-bottom: 1px solid #b7b7c8;
 }
+
 .menu_topo ul {
-  list-style: none;
+    list-style: none;
 }
+
 .menu_topo ul li {
-  float: left;
-  padding: 7px;
+    float: right;
+    padding: 7px;
 }
+
 .telefone_menu_topo {
-  color: #4993c2;
-  font-size: 13pt;
+    color: #4993c2;
+    font-size: 13pt;
 }
+
 .pesquisa_right {
-  width: 70px;
-  float: left;
+    width: 70px;
+    float: left;
 }
+
 .btn_pesquisar {
-  border: none;
-  padding: 5px;
-  width: 88px;
-  background_color: #f2f6f9;
-  color: #87c6e7;
+    border: none;
+    padding: 5px;
+    width: 88px;
+    background_color: #f2f6f9;
+    color: #87c6e7;
 }
+
 .icon_pesquisa {
-  margin-right: 5px;
+    margin-right: 5px;
 }

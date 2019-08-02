@@ -1,195 +1,228 @@
 /*banner central */
 .banner_central_wrapper {
-  width: 100%;
+    width: 100%;
 }
+
 .banner_central {
-  width: 100%;
-  margin: 0 auto;
-  height:450px;
-  background-image: url('../images/banner_topo_v2.jpg');
-  background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    height:450px;
+    background-image: url('../images/banner_topo_v2.jpg');
+    background-size: cover;
 }
+
 .banner_central .content {
-  text-align: center;
-  padding-top: 6%;
-  height: 249px;
+    text-align: center;
+    padding-top: 6%;
+    height: 249px;
 }
+
 .banner_central .content h1 {
-   font-size: 48px;
+    font-size: 48px;
     color: #3f3f48;
     text-shadow: 5px 7px 15px #666;
 }
+
 .banner_central .content span {
-  font-size: 19px;
-  color:#3f3f48;
+    font-size: 19px;
+    color:#3f3f48;
 }
 
 /*sessao de servicos */
 .servicos_wrapper {
-  width: 100%;
+    width: 100%;
 }
+
 .title_services h2 {
     font-size: 19pt !important; 
     color: #fff !important;
 }
-.servicos_content {
-  width: 100%;
-  height: 200px;
-  margin:0 auto;
-  color: #fff;
-  box-shadow: -1px 6px 5px 0px rgba(206,206,206,1);
-  opacity: 0.7;
-  background: #32b7df;
 
+.servicos_content {
+    width: 100%;
+    height: 200px;
+    margin:0 auto;
+    color: #fff;
+    box-shadow: -1px 6px 5px 0px rgba(206,206,206,1);
+    opacity: 0.7;
+    background: #32b7df;
 }
+
 .servicos_content .alinhamento {
- width: 1129px;
- margin: 0 auto;
+    width: 1129px;
+    margin: 0 auto;
 }
-.servicos_content a {color:#fff;}
+
+.servicos_content a {
+    color:#fff;
+}
+
 .servicos_content h2 {
- margin-top: 4px !important;
+    margin-top: 4px !important;
 }
+
 .servicos_content .servico {
-  float: left;
-  text-align: center;
-  padding-left: 57px;
-  width: 25%;
-  font-size: 0.7em !important;
+    float: left;
+    text-align: center;
+    padding-left: 57px;
+    width: 25%;
+    font-size: 0.7em !important;
 }
+
 .icon_acesso_rapido {
- width: 132px;
- height: 115px;
- transition: transform 0.3s;
+    width: 132px;
+    height: 115px;
+    transition: transform 0.3s;
 }
+
 .servico {
-transition: transform 0.3s;
+    transition: transform 0.3s;
 }
+
 .servico h2 {
-color: #fff !important;
+    color: #fff !important;
 }
+
 .servico:hover {
     transform: translateY(-5px);
 }
+
 .acesso_befeciciario {
-  background-image: url('../images/services_icons.png');
+    background-image: url('../images/services_icons.png');
     background-position: -8px -32px;
     background-size: 513px;
 }
 .acesso_credenciados {
-  background-image: url('../images/services_icons.png'); 
-  background-position: -145px -36px;
-  background-size: 534px;
+    background-image: url('../images/services_icons.png'); 
+    background-position: -145px -36px;
+    background-size: 534px;
 }
 .acesso_gestores {
-  background-image: url('../images/services_icons.png');
-  background-position: -270px -36px; 
-  background-size: 535px;
+    background-image: url('../images/services_icons.png');
+    background-position: -270px -36px; 
+    background-size: 535px;
 }
 .acesso_peritos {
-  background-image: url('../images/services_icons.png');
-  background-position: -390px -36px;
-  background-size: 535px;
+    background-image: url('../images/services_icons.png');
+    background-position: -390px -36px;
+    background-size: 535px;
 }
+
 .servicos_content .servico h2 {
- padding-right: 83px !important;
+    padding-right: 83px !important;
 }
+
 .servicos_content .servico img {
-  width: 70px !important;
-  height: 80px !important;
+    width: 70px !important;
+    height: 80px !important;
 }
+
 .title_services {
-  text-align: center;
-  padding-top: 10px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /*links uteis */
 .links_uteis_wrapper {
-  width: 100%;
+    width: 100%;
 }
+
 .links_uteis_content {
-  width: 1129px;
-  margin:0 auto;
-  padding-top: 15px;
-  height: 175px;
+    width: 1129px;
+    margin: 30px auto;
+    height: 175px;
 }
+
 .links_uteis_content .link_item {
- width: 364px;
- height: 153px;
- padding-left: 7px;
- float: left;
- border-left: 10px solid;
-/* border-image-source: linear-gradient(10deg,#2b99aa, #035282);
- border-image-slice: 1;*/
-border-radius: 4px;
-border-style: solid;
-border-width: 23px 0px 27px 7px;
-border-image: url(../images/borderv2.png) 8 0 27 7 fill stretch;
-box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
-padding-top: 6px;
-padding-bottom: 6px;
-padding-right: 7px;
-transition: transform 0.3s,box-shadow 0.3s;
-margin-bottom: 16px;
+    width: 364px;
+    height: 153px;
+    padding-left: 7px;
+    float: left;
+    border-left: 10px solid;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0 7px;
+    border-image: url(../images/borderv2.png) 0 0 0 7 fill stretch;
+    box-shadow: 0px 0px 5px 0px rgba(206,206,206,0.94);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 7px;
+    transition: transform 0.3s,box-shadow 0.3s;
+    margin-bottom: 16px;
 }
+
 .link_item_meio {
-margin-left: 16px;
-margin-right:16px;
+    margin-left: 16px;
+    margin-right:16px;
 }
+
 .link_item:hover {
- transform: translateY(-5px);
+    transform: translateY(-5px);
 }
+
 .link_item a {
     color: #fff;
 }
-.links_uteis_content .link_item .topo_item {
-  height:63px;
-}
-.links_uteis_content .link_item .topo_item img {
-  float: left;
-  width: 60px;
-  margin-right: 11px;
-  display: none;
-}
-.imagem_item {
- float:left !important;
- width: 60px !important;
- margin-right: 11px !important;
- height:60px !important;
-}
-.imagem_guia_medico {
-background-image: url('../images/services_icons.png');
-background-position: 310px 198px;
-background-size: 310px;
-}
-.imagem_autorizacao_internet {
-background-image:url('../images/services_icons.png');
-background-position: 179px 198px;
-background-size: 310px;
-}
-.imagem_seus_gastos {
-background-image: url('../images/services_icons.png');
-background-position: 60px 198px;
-background-size: 310px;
-}
-.links_uteis_content .link_item .topo_item h2 {
-  color: #a61933 !important;
-  width: 286px !important;
-  margin-bottom: 5px !important;
-    font-size: 20pt;
-    font-weight: bold;
 
+.links_uteis_content .link_item .topo_item {
+    height: 77px;
 }
+
+.links_uteis_content .link_item .topo_item img {
+    float: left;
+    width: 60px;
+    margin-right: 11px;
+    display: none;
+}
+
+.imagem_item {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px 26px 0 10px;
+}
+
+.imagem_guia_medico {
+    background-image: url('../images/services_icons.png');
+    background-position: 310px 198px;
+    background-size: 310px;
+}
+
+.imagem_autorizacao_internet {
+    background-image:url('../images/services_icons.png');
+    background-position: 179px 198px;
+    background-size: 310px;
+}
+
+.imagem_seus_gastos {
+    background-image: url('../images/services_icons.png');
+    background-position: 60px 198px;
+    background-size: 310px;
+}
+
+.links_uteis_content .link_item .topo_item h2 {
+    color: #a61933;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .links_uteis_content .link_item .corpo_item {
-  margin-top: 12px;
-  color: #535362;
-  text-align: left;
-  padding-left: 5px;
+    margin-top: 12px;
+    color: #535362;
+    text-align: left;
+    padding-left: 5px;
 }
+
 .corpo_item p {
-margin-top: 12px;
-color: #535362;
-text-align: left;
-padding-left: 5px;
+    margin-top: 12px;
+    color: #535362;
+    text-align: left;
+    padding-left: 5px;
 }
-.autorizacao_internet {color:#535362;margin-top:12px;text-align:left;padding-left:5px;}
+
+.autorizacao_internet {
+    color:#535362;
+    margin-top:12px;
+    text-align:left;
+    padding-left:5px;
+}
