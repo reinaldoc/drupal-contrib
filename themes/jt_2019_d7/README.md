@@ -7,7 +7,7 @@
         <div class="servicos_bottom_content">
             <ul>
                 <li class="servico">
-                    <a href="https://www.w3schools.com/tags/att_a_href.asp">
+                    <a href="#">
                         <div class="icon_servico push"></div>
                         <div class="title">
                             <h4>push</h4>
@@ -15,7 +15,7 @@
                     </a>
                 </li>
                 <li class="servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico precatorios"></div>
                         <div class="title">
                             <h4>Precatórios</h4>
@@ -23,7 +23,7 @@
                     </a>
                 </li>
                 <li class="servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico portal_do_advogado"></div>
                         <div class="title">
                             <h4>Portal do advogado</h4>
@@ -31,7 +31,7 @@
                     </a>
                 </li>
                 <li class="servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico editais_e_avisos"></div>
                         <div class="title">
                             <h4>Editais e Avisos</h4>
@@ -39,7 +39,7 @@
                     </a>
                 </li>
                 <li class="servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico biblioteca"></div>
                         <div class="title">
                             <h4>Biblioteca</h4>
@@ -47,7 +47,7 @@
                     </a>
                 </li>
                 <li class="servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico estatisticas"></div>
                         <div class="title">
                             <h4>Estatísticas</h4>
@@ -55,16 +55,16 @@
                     </a>
                 </li>
                 <li class="servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico agenda"></div>
                         <div class="title">
                             <h4>Agenda da Presidência</h4>
                         </div>
                     </a>
                 </li>
-
+    
                 <li class="servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico gestao"></div>
                         <div class="title">
                             <h4>Gestão Estratégica</h4>
@@ -72,7 +72,7 @@
                     </a>
                 </li>
                 <li class="servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico escola_judicial"></div>
                         <div class="title">
                             <h4>Escola Judicial</h4>
@@ -80,7 +80,7 @@
                     </a>
                 </li>
                 <li class="servico ultimo_servico">
-                    <a href="http://">
+                    <a href="#">
                         <div class="icon_servico trt_saude"></div>
                         <div class="title">
                             <h4>TRT Saúde</h4>
@@ -90,56 +90,56 @@
             </ul>
         </div>
     </div>
-
+    
 
 ### Programas
     <div class="banner_informativo_bottom_wrapper">
         <div class="banner_informativo_content">
-            <ul class="lista_banner">
-                <li class="item_banner">
-                    <a href="#"><img src="/sites/all/themes/novoportal/images/trabalho_seguro.png" alt=""></a>
-                </li>
-                <li class="item_banner">
-                    <a href="#"><img src="/sites/all/themes/novoportal/images/trabalho_infantil.png" alt=""> </a>
-                </li>
-                <li class="item_banner">
-                    <a href="#"><img src="/sites/all/themes/novoportal/images/pje.png" alt=""></a>
-                </li>
-                <li class="item_banner">
-                    <a href="#"><img src="/sites/all/themes/novoportal/images/ex_trabalhista.png" alt=""> </a>
-                </li>
-                <li class="item_banner">
-                    <a href="#"> <img src="/sites/all/themes/novoportal/images/conciliacao_trabalhista.png" alt=""> </a>
-                </li>
-            </ul>
-        </div>
+                    <ul class="lista_banner">
+                            <li class="item_banner">
+                               <a href="#"><img  src="/sites/all/themes/jt_2019_d7/images/trabalho_seguro.png" alt=""></a>
+                            </li>
+                            <li class="item_banner">
+                                 <a href="#"><img  src="/sites/all/themes/jt_2019_d7/images/trabalho_infantil.png" alt="">  </a>
+                            </li>
+                            <li class="item_banner">
+                                  <a href="#"><img  src="/sites/all/themes/jt_2019_d7/images/pje.png" alt=""></a>
+                            </li>
+                            <li class="item_banner">
+                               <a href="#"><img  src="/sites/all/themes/jt_2019_d7/images/ex_trabalhista.png" alt="">  </a>
+                            </li>
+                            <li class="item_banner">
+                              <a href="#"> <img  src="/sites/all/themes/jt_2019_d7/images/conciliacao_trabalhista.png" alt=""> </a>
+                            </li>
+                    </ul>
+            </div>
     </div>
 
 ## Região Contatos Institucionais
 
     <div class="footer_wrapper">
-        <div class="footer_content">
-             <div class="bloco_footer logo_footer">
-                  <a href="/"><img src="/sites/all/themes/novoportal//images/logo_footer.png" alt=""></a>
-             </div>
-             <div class="bloco_footer endereco_footer">
-                  <p>Tribunal Regional do Trabalho da 8ª Região</p>
-                  <p>Tv. D. Pedro I, 746 - Umarizal</p>
-                  <p>CEP:66050-100</p>
-                  <p>Horário de funcionamento: <br> De segunda a sexta, das 8h às 13h</p>
-                  <p>Telefone: +55 (91) 4008-7000</p>
-              </div>
-              <div class="bloco_footer mapa_site">
-                  <h2>Mapa do site</h2>
-                  <ul>
-                      <li><a href="#"><span class="icon">></span>Institucional</a></li>
-                      <li><a href="#"><span class="icon">></span>Serviços</a></li>
-                      <li><a href="#"><span class="icon">></span>Notícias</a></li>
-                      <li><a href="#"><span class="icon">></span>Jurisprudência</a></li>
-                      <li><a href="#"><span class="icon">></span>Transparência</a></li>
-                      <li><a href="#"><span class="icon">></span>Ouvidoria</a></li>
-                  </ul>
-              </div>
+            <div class="footer_content">
+                <div class="bloco_footer logo_footer">
+                    <a href="#"><img src="/sites/all/themes/jt_2019_d7//images/logo_footer.png" alt=""></a>
+                </div>
+                <div class="bloco_footer endereco_footer">
+                    <p>Tribunal Regional do Trabalho da 8ª Região</p>
+                    <p>Tv. D. Pedro I, 746 - Umarizal</p>
+                    <p>CEP:66050-100</p>
+                    <p>Horário de funcionamento: <br> De segunda a sexta, das 8h às 13h</p>
+                    <p>Telefone: +55 (91) 4008-7000</p>
+                </div>
+                <div class="bloco_footer mapa_site">
+                    <h2>Mapa do site</h2>
+                    <ul>
+                        <li><a href="#"><span class="icon">></span>Institucional</a></li>
+                        <li><a href="#"><span class="icon">></span>Serviços</a></li>
+                        <li><a href="#"><span class="icon">></span>Notícias</a></li>
+                        <li><a href="#"><span class="icon">></span>Jurisprudência</a></li>
+                        <li><a href="#"><span class="icon">></span>Transparência</a></li>
+                        <li><a href="#"><span class="icon">></span>Ouvidoria</a></li>
+                    </ul>
+                </div>
                 <div class="bloco_footer rede_social">
                     <ul class="lista_links">
                         <li>
@@ -174,7 +174,7 @@
                         </li>
                     </ul>
                     <div class="exclamacao">
-                        <a href="/"><img src="/sites/all/themes/novoportal//images/icon_exclamacao.png" alt=""></a>
+                        <a href="#"><img src="/sites/all/themes/jt_2019_d7//images/icon_exclamacao.png" alt=""></a>
                     </div>
                 </div>
             </div>
