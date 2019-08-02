@@ -1,8 +1,8 @@
-# Tema para Nova Identidade visual da Justiça do Trabalho
+# Tema para Nova Identidade da JustiÃ§a do Trabalho
 
-## Região Rodapé
+## RegiÃ£o RodapÃ©
     
-### Serviços
+### ServiÃ§os
     <div class="servicos_bottom_wrapper">
         <div class="servicos_bottom_content">
             <ul>
@@ -18,7 +18,7 @@
                     <a href="#">
                         <div class="icon_servico precatorios"></div>
                         <div class="title">
-                            <h4>Precatórios</h4>
+                            <h4>PrecatÃ³rios</h4>
                         </div>
                     </a>
                 </li>
@@ -50,7 +50,7 @@
                     <a href="#">
                         <div class="icon_servico estatisticas"></div>
                         <div class="title">
-                            <h4>Estatísticas</h4>
+                            <h4>EstatÃ­sticas</h4>
                         </div>
                     </a>
                 </li>
@@ -58,7 +58,7 @@
                     <a href="#">
                         <div class="icon_servico agenda"></div>
                         <div class="title">
-                            <h4>Agenda da Presidência</h4>
+                            <h4>Agenda da PresidÃªncia</h4>
                         </div>
                     </a>
                 </li>
@@ -67,7 +67,7 @@
                     <a href="#">
                         <div class="icon_servico gestao"></div>
                         <div class="title">
-                            <h4>Gestão Estratégica</h4>
+                            <h4>GestÃ£o EstratÃ©gica</h4>
                         </div>
                     </a>
                 </li>
@@ -83,7 +83,7 @@
                     <a href="#">
                         <div class="icon_servico trt_saude"></div>
                         <div class="title">
-                            <h4>TRT Saúde</h4>
+                            <h4>TRT SaÃºde</h4>
                         </div>
                     </a>
                 </li>
@@ -115,7 +115,7 @@
             </div>
     </div>
 
-## Região Contatos Institucionais
+## RegiÃ£o Contatos Institucionais
 
     <div class="footer_wrapper">
             <div class="footer_content">
@@ -123,20 +123,20 @@
                     <a href="#"><img src="/sites/all/themes/jt_2019_d7//images/logo_footer.png" alt=""></a>
                 </div>
                 <div class="bloco_footer endereco_footer">
-                    <p>Tribunal Regional do Trabalho da 8ª Região</p>
+                    <p>Tribunal Regional do Trabalho da 8Âª RegiÃ£o</p>
                     <p>Tv. D. Pedro I, 746 - Umarizal</p>
                     <p>CEP:66050-100</p>
-                    <p>Horário de funcionamento: <br> De segunda a sexta, das 8h às 13h</p>
+                    <p>HorÃ¡rio de funcionamento: <br> De segunda a sexta, das 8h Ã s 13h</p>
                     <p>Telefone: +55 (91) 4008-7000</p>
                 </div>
                 <div class="bloco_footer mapa_site">
                     <h2>Mapa do site</h2>
                     <ul>
                         <li><a href="#"><span class="icon">></span>Institucional</a></li>
-                        <li><a href="#"><span class="icon">></span>Serviços</a></li>
-                        <li><a href="#"><span class="icon">></span>Notícias</a></li>
-                        <li><a href="#"><span class="icon">></span>Jurisprudência</a></li>
-                        <li><a href="#"><span class="icon">></span>Transparência</a></li>
+                        <li><a href="#"><span class="icon">></span>ServiÃ§os</a></li>
+                        <li><a href="#"><span class="icon">></span>NotÃ­cias</a></li>
+                        <li><a href="#"><span class="icon">></span>JurisprudÃªncia</a></li>
+                        <li><a href="#"><span class="icon">></span>TransparÃªncia</a></li>
                         <li><a href="#"><span class="icon">></span>Ouvidoria</a></li>
                     </ul>
                 </div>
@@ -168,7 +168,7 @@
                             </a>
                         </li>
                        <li>
-                            <a title="RSS das notícias do TRT8" href="/rss.xml" target="_blank">
+                            <a title="RSS das notÃ­cias do TRT8" href="/rss.xml" target="_blank">
                                 <div class="social rss ultimo_elemento"></div>
                             </a>
                         </li>
