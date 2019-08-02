@@ -230,4 +230,10 @@ background: #e0e0e0 none repeat scroll 0 0
     line-height: 1.5;
     letter-spacing: -0.7px;
     word-spacing: 3.3px;
+    margin-bottom: 18px !important;
+}
+
+.node-type-noticia #content .field-name-field-noticia-imagem img {
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px 0px #CCC;
 }
