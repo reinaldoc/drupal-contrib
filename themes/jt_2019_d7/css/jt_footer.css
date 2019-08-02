@@ -1,11 +1,27 @@
-/* style rodape */
+/* style região rodapá */
+
+
 /*############ footer ##############*/
+#footer {
+    overflow: visible;
+    padding: 0;
+    background: #ffffff;
+    margin-top: 0;
+    border-top:none;
+}
+
+.region-footer {
+    margin: 10px auto 0;
+    max-width: 100%;
+    padding: 0 ;
+}
+
 .footer_wrapper {
     width: 100%;
     
 }
 #footer #copyright {
-    border:none !important;
+    border:none                     ;
     background: #23517e  none repeat scroll 0 0;
     padding: 0;
     min-height: 140px;
@@ -14,12 +30,12 @@
 #footer li {
     display: block;
     padding: 0;
-    border: none !important;
+    border: none ;
 }
 
 #footer #copyright a {
     color: #ffffff;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 
@@ -31,7 +47,7 @@
 }
 
 .content a:hover img {
-    background: none !important;
+    background: none;
 }
 
 .bloco_footer {
@@ -100,8 +116,8 @@ border-bottom:1px solid #fff;
 }
 .rede_social {
     width: 20%;
-    float: right !important;
-    margin-right: 0 !important;
+    float: right;
+    margin-right: 0;
 }
 .rede_social ul {
     list-style: none;
@@ -156,16 +172,10 @@ border-bottom:1px solid #fff;
 
 
 .region-copyright {
-    margin: 0px auto !important;
-    padding: 0 !important;
-    max-width: 1129px !important ;
+    margin: 0px auto;
+    padding: 0;
+    max-width: 1129px;
 }
-
-
-/*################# reset região footer #############*/
-
-
-
 
 /*################# Programas #############*/
 
@@ -202,19 +212,6 @@ border-bottom:1px solid #fff;
     height: 711px;
 }
 
-#footer {
-    overflow: visible;
-    padding: 0;
-    background: #ffffff;
-    margin-top: 0;
-    border-top:none;
-}
-
-.region-footer {
-    margin: 10px auto 0 !important;
-    max-width: 100% !important;
-    padding: 0 !important;
-}
 
 
 /*########### servicos bottom ###############*/
@@ -247,12 +244,12 @@ border-bottom:1px solid #fff;
     cursor: pointer;
 }
 .title h4 {
-    font-size: 13px !important ;
-    font-family: Arial, Helvetica, sans-serif !important ;
-    text-align: center !important ;
-    margin-top: 5px !important ;
-    color: #01426a !important ;
-    font-weight: bold !important ;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    color: #01426a;
+    font-weight: bold;
 }
 
 .servicos_bottom_content .servico .title {
@@ -307,5 +304,5 @@ border-bottom:1px solid #fff;
 
 
 .ultimo_servico {
-    margin-right: 0 !important;
+    margin-right: 0;
 }
