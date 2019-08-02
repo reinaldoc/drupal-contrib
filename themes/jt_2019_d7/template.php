@@ -1,7 +1,7 @@
 <?php
 
 function jt_2019_d7_preprocess_page(&$variables) {
-    $variables['logo'] = '/sites/all/themes/jt_2019_d7/logo_v6.png';
+    $variables['logo'] = '/sites/all/themes/jt_2019_d7/marca_tribunal_2019.png';
 
     if (isset($variables['node']->type)) {
       // If the content type's machine name is "my_machine_name" the file

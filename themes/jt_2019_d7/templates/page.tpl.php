@@ -102,23 +102,29 @@
       </div>
 
       <div class="top_right">
-        <?php if (theme_get_setting('social_links', 'jt_2019_d7')): ?>
-          <div class="social-icons">
-           <ul>
-            <li><a class="instagram" title="Instagram do TRT8" href="<?php echo theme_get_setting('instagram_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me">Instagram</a></li>
-            <li><a class="twitter" title="Twitter do TRT8" href="<?php echo theme_get_setting('twitter_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me">Twitter</a></li>
-            <li><a class="fb" title="Facebook do TRT8" href="<?php echo theme_get_setting('facebook_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me">Facebook</a></li>
-            <li><a class="flickr" title="Flickr do TRT8" href="<?php echo theme_get_setting('flickr_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me">Flickr</a></li>
-            <li><a class="youtube" title="Youtube do TRT8" href="<?php echo theme_get_setting('youtube_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me">Youtube</a></li>
-            <li><a class="rss" title="RSS das notícias do TRT8" href="<?php print $front_page; ?>rss.xml" target="_blank" rel="me">RSS</a></li>
-           </ul>
-          </div>
+          <?php if (theme_get_setting('social_links', 'jt_2019_d7')): ?>
+            <div class="social_icons">
+            <ul>
+              <li><a class="social_icon social_rss" title="RSS das notícias do TRT8" href="<?php print $front_page; ?>rss.xml" target="_blank" rel="me"></a></li>
+              <li><a class="social_icon social_youtube" title="Youtube do TRT8" href="<?php echo theme_get_setting('youtube_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me"></a></li>
+              <li><a class="social_icon social_flickr" title="Flickr do TRT8" href="<?php echo theme_get_setting('flickr_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me"></a></li>
+              <li><a class="social_icon social_facebook" title="Facebook do TRT8" href="<?php echo theme_get_setting('facebook_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me"></a></li>
+              <li><a class="social_icon social_twitter" title="Twitter do TRT8" href="<?php echo theme_get_setting('twitter_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me"></a></li>
+              <li><a class="social_icon social_instagram" title="Instagram do TRT8" href="<?php echo theme_get_setting('instagram_profile_url', 'jt_2019_d7'); ?>" target="_blank" rel="me"></a></li>
+            </ul>
+            
+      </div>
+      <div class="search_bar">
+              <label class="search_icon"></label>
+              <input type="text" class="search_input">      
+            </div>
         <?php endif; ?>
         <?php print render($page['top_right']) ?>
+      
       </div>
 
     <div class="clear"></div>
-
+  
     </header>
 
   </div>
