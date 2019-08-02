@@ -1,2 +1,2 @@
-# drupal-contrib
-Temas e módulos para o Drupal
+# PAS TRT8 - Plano de Assistência-Saúde
+## Tema em Drupal 7
