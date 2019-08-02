@@ -1,4 +1,4 @@
-# Tema do PAS TRT8 - Plano de Assistência-Saúde para Drupal 7
+# Tema do PAS TRT8 para Drupal 7
 
 ## Cabeçalhos da View de Notícias
 
