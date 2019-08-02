@@ -17,6 +17,7 @@
 
 .accessibility ul {
     list-style: none;
+    margin-left: 0;
 }
 
 .accessibility ul li {
@@ -75,6 +76,10 @@
     padding: 5px 0 5px 0;
 }
 
+.access_links ul li a:hover {
+    border: none;
+}
+
 .icons_access_links {
     float: right;
     display: inline-block;
@@ -126,4 +131,101 @@
     background: url(../images/icons_top.png) repeat scroll 0 0;
     background-size: 140px;
     background-position: -223px 56px;
+}
+
+.top_left {
+    width: 47%;
+}
+
+.top_right {
+    width: 53%;
+}
+
+.social_icons {
+    float: right;
+    margin: 24px 0 0;
+    width: 270px;
+    height: 30px;
+    
+}
+
+.social_icons ul {
+    list-style: none;
+}
+
+.social_icon {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    margin: 0 0 0 4px;
+    border-radius: 20px;  
+}
+
+.social_instagram {
+    background: url(../images/redesocial.png);
+    background-size: 223px;
+    background-position-x: 223px;
+    background-position-y: 0px
+}
+
+.social_twitter {
+    background: url(../images/redesocial.png);
+    background-size: 223px;
+    background-position-x: 147px;
+    background-position-y: -1px;
+}
+
+.social_facebook {
+    background: url(../images/redesocial.png);
+    background-size: 223px;
+    background-position-x: 409px;
+    background-position-y: 0px;
+}
+
+.social_flickr {
+    background: url(../images/redesocial.png);
+    background-size: 223px;
+    background-position-x: 291px;
+    background-position-y: 0px
+}
+
+.social_youtube {
+    background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 218px;
+    background-position-x: 105px;
+    background-position-y: 0px;
+}
+
+.social_rss {
+    background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 218px;
+    background-position-x: 31px;
+    background-position-y: 0px;
+}
+
+.search_bar {
+    clear: both;
+    float: right;
+    width: 262px;
+    height: 22px; 
+    margin: 7px 0;
+    border: 1px solid #C7C7C7;  
+}
+
+.search_input {
+    float: right;
+    height: 18px;
+    width: 230px;
+    border: 0;
+}
+
+.search_icon {
+    float: right;
+    width: 30px;
+    height: 20px;
+    background: #01426a url(../images/search-icon.png)  no-repeat center top;
+    background-size: 15px;
+    background-position: 7px 3px;
 }

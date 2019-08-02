@@ -132,29 +132,29 @@ border-bottom:1px solid #fff;
     border-radius: 20px;
 }
 .rede_social .facebook {
-    background-image: url('../images/social-footer.png');
+    background-image: url('../images/social_icons.png');
     background-position: -1px 32px;
 }
 .rede_social .twitter {
-    background-image: url('../images/social-footer.png');
+    background-image: url('../images/social_icons.png');
     background-position: 220px 32px;
 }
 .rede_social .instagram {
-    background-image: url('../images/social-footer.png');
+    background-image: url('../images/social_icons.png');
     background-position: 441px 31px;
 }
 .rede_social .flickr {
-    background-image: url('../images/social-footer.png');
+    background-image: url('../images/social_icons.png');
     background-position: 396px 32px;
 }
 
 .rede_social .youtube {
-    background-image: url('../images/social-footer.png');
+    background-image: url('../images/social_icons.png');
     background-position: 80px 32px;
 }
 
 .rede_social .rss {
-    background-image: url('../images/social-footer.png');
+    background-image: url('../images/social_icons.png');
     background-position: 300px 32px;
 }
 
