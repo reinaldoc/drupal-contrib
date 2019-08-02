@@ -21,6 +21,8 @@
 
 
 
+
+<a name="region_topo"></a>
 ```
     <div id="region_topo" class="menu_topo">
                 <ul>
@@ -34,8 +36,11 @@
         </div> <!-- fim menu-topo -->
 ```
 
+
+
+<a name="region_banner"></a>
 ```
-<div id="region_banner" class="banner_central_wrapper">
+<div  class="banner_central_wrapper">
     <div class="banner_central">
     <div class="content">
     <h1>Ajude a fazer um plano melhor</h1>
@@ -43,9 +48,12 @@
 </div>
 
 ```
+
+
+<a name="region_acessos"></a>
 ```
  <!-- acesso exclusivo -->
-      <div id="region_acessos" class="servicos_wrapper">
+      <div  class="servicos_wrapper">
        <div class="servicos_content">
          <div class="alinhamento">
            <div class="title_services">
