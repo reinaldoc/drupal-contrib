@@ -165,7 +165,7 @@
 }
 
 .links_uteis_content .link_item .topo_item {
-    height: 77px;
+    height: 85px;
 }
 
 .links_uteis_content .link_item .topo_item img {
@@ -207,7 +207,6 @@
 }
 
 .links_uteis_content .link_item .corpo_item {
-    margin-top: 12px;
     color: #535362;
     text-align: left;
     padding-left: 5px;
@@ -218,6 +217,7 @@
     color: #535362;
     text-align: left;
     padding-left: 5px;
+    font-size: 15px;
 }
 
 .autorizacao_internet {
@@ -225,4 +225,5 @@
     margin-top:12px;
     text-align:left;
     padding-left:5px;
+    font-size: 15px;
 }
