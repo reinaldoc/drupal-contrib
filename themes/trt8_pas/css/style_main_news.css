@@ -118,12 +118,19 @@ margin-top: 27px;
 color: #fff;
 }
 
-/* View */
 .view-noticias .views-field-title {
     font-family: 'Open sans';
     font-size: 16px;
     padding: 0 8px 6px;
     min-height: 66px;
+}
+
+.node-type-noticia .view-noticias .views-field-title {
+    min-height: auto;
+}
+
+.node-type-noticia .view-noticias .views-field-field-noticia-imagem {
+    padding: 0 0 40px 0;
 }
 
 .view-noticias .views-field-field-noticia-imagem {
@@ -149,3 +156,6 @@ color: #fff;
     box-shadow: 0px 2px 4px 0px #CCC;
 }
 
+.node-type-noticia .field-name-body p {
+    margin-bottom: 18px;
+}

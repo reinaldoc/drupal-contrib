@@ -6,7 +6,6 @@
 }
 
 .contact {
-    height: 334px;
     background: -moz-linear-gradient(90deg, rgba(207,207,207,1) 0%, rgba(207,207,207,1) 3%, rgba(207,207,207,1) 7%, rgba(247,247,249,1) 69%, rgba(247,247,249,1) 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(247,247,249,1)), color-stop(31%, rgba(247,247,249,1)), color-stop(93%, rgba(207,207,207,1)), color-stop(97%, rgba(207,207,207,1)), color-stop(100%, rgba(207,207,207,1))); /* safari4+,chrome */
     background: -webkit-linear-gradient(90deg, rgba(207,207,207,1) 0%, rgba(207,207,207,1) 3%, rgba(207,207,207,1) 7%, rgba(247,247,249,1) 69%, rgba(247,247,249,1) 100%); /* safari5.1+,chrome10+ */
@@ -20,51 +19,45 @@
     display: inline-block;
     vertical-align: top;
     width: 29%;
-    padding: 43px 14px 43px 7px;
+    padding: 18px 14px 43px 7px;
     background: #fff;
     height: 172px;
-    margin-top: 66px;	
-    margin-left: 20px;
+    margin: 50px 0 50px 20px;
     box-shadow: 0px 0px 5px 0px rgba(242, 239, 239, 0.94);
     border-radius: 4px;
-    /*transition: transform 0.3s;*/
 }
 
-/*.contact_box:hover {
-    transform: translateY(-5px);
-} */
-
 .contact_icon_phone{
-    width: 58px;
-    height: 42px;
+    width: 63px;
+    height: 74px;
     float: left;
     background-image: url(../images/services_icons.png);
-    background-position-x: -40px;
-    background-position-y: 51px;
-    background-size: 320px;
+    background-position-x: -66px;
+    background-position-y: 66px;
+    background-size: 423px;
 }
 
 .contact_icon_message{
-    width: 58px;
-    height: 42px;
+    width: 63px;
+    height: 74px;
     float: left;
     background-image: url(../images/services_icons.png);
-    background-position-x: -120px;
-    background-position-y: 51px;
-    background-size: 320px;
+    background-position-x: -173px;
+    background-position-y: 67px;
+    background-size: 423px;
 }
 
 .contact_icon_address{
-    width: 58px;
-    height: 42px;
+    width: 63px;
+    height: 74px;
     float: left;
     background-image: url(../images/services_icons.png);
-    background-position-x: -201px;
-    background-position-y: 51px;
-    background-size: 320px;
+    background-position-x: -281px;
+    background-position-y: 66px;
+    background-size: 423px;
 }
 
-.contact_title {
+.contact_title h2 {
     vertical-align: top;
     padding: 2px 0 0 27px;
 }
@@ -74,7 +67,7 @@
     color: #646473;
     text-transform: uppercase;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 46px;
 }
 
 .contact_text p {
@@ -87,7 +80,7 @@
 }
 
 .contact_text {
-    padding: 30px 0 0 59px;
+    /*padding: 30px 0 0 59px;*/
 }
 
 .contact_text p {
