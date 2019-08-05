@@ -35,24 +35,19 @@ html {
   font-family: 'Open Sans' !important;
   margin-bottom: 0 !important;
 }
- p {margin: 0 !important; padding: 0 !important}
+
+p {
+    margin: 0;
+    padding: 0;
+}
 
 /********** reset style drupal *****************/
 .menu_wrapper {
-    
     background: transparent !important;
-    border: none !important;
-    
+    border: none !important;    
 }
 
-/*.contact {
-    height: 352px !important;
-
-
-}*/
-
 #block-block-1 {
-
     height: 324px !important;
 }
 
@@ -61,38 +56,35 @@ html {
     margin: 0 auto;
 }
 
-
 .view .view-noticias .view-id-noticias .view-display-id-page .view-dom-id-b5e1a7df858c4c9aa9d4dbc81f43e42d .views-view-grid  {
     border: none !important;
-
 }
-
-/*.news-row {
-     border: none !important;
-} */
 
 /*block search */
 .top_right .region-search {
-    width: 22% !important;
+    width: 80%;
 }
+
 #block-search-form {
-    width: 118px !important;
+    margin: 0;
+    float: right;
 }
+
 #block-search-form .form-text {
-    width: 118px !important;
+    width: 168px;
 }
 
 /*header drupal */
-#header {
-    max-width: 1129px !important;
-    height: 70px;
+#header_wrapper #header {
+    max-width: 1129px;
+    height: 114px;
 }
 
 /* menu drupal */
-
 .menu_inner_wrap {
     max-width: 1129px !important;
 }
+
 .menu {
     height: 25px !important;
 }
@@ -102,19 +94,20 @@ html {
     font-size: 10pt !important;
     font-weight: normal !important;
 }
+
 #main-menu a {
     color: #8e8e9b !important;
 }
-#main-menu a:hover {
-    border-bottom: 2px solid #71b4dc;
-}
+
 #main-menu li {
     border: none !important;
 }
+
 #main-menu li {
     background: #ffffff none repeat scroll 0 0;
 }
- #main-menu li a.active {
+
+#main-menu li a.active {
 background: #e0e0e0 none repeat scroll 0 0
 }
 /*
@@ -123,4 +116,130 @@ background: #e0e0e0 none repeat scroll 0 0
 .page-node .container-wrap{
     max-width: 1129px !important;
     margin: 0 auto !important;
+}
+
+/*
+---------------------- page-user-login --------------------------
+*/
+.page-user .container-wrap {
+    max-width: 1129px !important;
+}
+
+.page-user .tabs-wrapper {
+    display:none !important;
+
+}
+
+.page-user h1.page-title {
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #303c49;
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.page-user h1.page-title::after {
+    background: #aac none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    margin: 11px 0 0 5px;
+    position: absolute;
+    width: 100%;    
+}
+
+/*
+--------------------------------- page-node ---------------------------------
+*/
+
+.page-node h1.page-title {
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #303c49;
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.page-node h1.page-title::after {
+    background: #aac none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    margin: 11px 0 0 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.page-node .tabs-wrapper {
+    border: none;
+}
+
+.page-node .tabs-wrapper .active {
+    display: none;
+}
+
+.page-node .tabs-wrapper ul.tabs li a {
+    border-radius: 4px;
+    font-family: Overlock;
+    font-size: 1.3em;
+    padding: 3px 14px;
+    border: 1px dashed #bbbaf5;
+    color: rgb(60,73,114);
+}
+
+.page-node .tabs-wrapper ul.tabs li a:hover {
+    background: #f0f0f0 none repeat scroll 0 0;
+}
+
+.submitted-by {
+    font-size: 13px;
+    color: #666;
+    font-family: 'Open Sans';
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 3px;
+    display: block;
+    padding: 3px 0 3px 10px;
+    margin: 30px 0 0;
+    clear: both;
+}
+
+/*
+------------------------- page-type-noticia -----------------------------
+*/
+.node-type-noticia h1.page-title {
+    font-family: 'Open Sans';
+    font-size: 2.5em !important;
+    text-align: center;
+    padding: 1% 5% 0;
+}
+
+.node-type-noticia h1.page-title::after {
+    display:none;
+}
+.node-type-noticia #content #post-content p {
+    font-size: 1.3em;
+    font-family: 'Open Sans';
+    color: #333333;
+    line-height: 1.5;
+    letter-spacing: -0.7px;
+    word-spacing: 3.3px;
+    margin-bottom: 18px !important;
+}
+
+.node-type-noticia #content .field-name-field-noticia-imagem img {
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px 0px #CCC;
+}
+/*
+--------------------------- content ---------------------------
+*/
+.content-sidebar-wrap #content {
+margin-bottom: 0 !important; /*tirando a margem de baixo do content */
 }

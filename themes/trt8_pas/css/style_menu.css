@@ -141,3 +141,36 @@ padding: 8px 12px !important;
     display: none;
 }
 
+/*
+---------------------------- menu lateral [second-bar] -------------------------
+*/
+.region-sidebar-second {
+height: 400px !important;
+margin-top: 15px;
+} 
+.region-sidebar-second .menu {
+height: auto !important;
+border: 1px solid #cecece;
+padding: 5px;
+}
+.region-sidebar-second .menu  .leaf {
+border-bottom: 1px solid #dfe2e5 !important;
+padding-top: 13px !important;
+padding-bottom: 13px !important;
+font-size: 14px;
+background: transparent !Important;
+}
+.region-sidebar-second .menu .last {
+border-bottom: none !important;
+}
+.region-sidebar-second .menu .leaf a {
+    color: ##007ea3;
+}
+.region-sidebar-second .menu li a.active {color: #000 !important}
+
+#sidebar-second .block h2 {
+color: #4993c2 !important;
+border: none !important;
+margin-bottom: 0 !important;
+text-transform: uppercase;
+}
