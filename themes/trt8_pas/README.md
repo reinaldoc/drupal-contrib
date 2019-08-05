@@ -1,6 +1,6 @@
 # Tema do PAS TRT8 para Drupal 7
 
-![Tema do PAS](README_screenshot.png)
+![Tema do PAS](README_screenshot.jpg)
 
 ## Cabeçalhos da View de Notícias
 
