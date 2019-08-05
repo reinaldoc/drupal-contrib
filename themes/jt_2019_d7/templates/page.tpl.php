@@ -114,10 +114,6 @@
             </ul>
             
       </div>
-      <div class="search_bar">
-              <label class="search_icon"></label>
-              <input type="text" class="search_input">      
-            </div>
         <?php endif; ?>
         <?php print render($page['top_right']) ?>
       

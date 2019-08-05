@@ -1,19 +1,139 @@
 /* trabalhando a responsividade */
-@media screen and (max-width: 600px){
-    .menu-topo {float:;}
-    .menu-topo a {display:none;}
+@media screen and (max-width: 640px){
 
-    .links-uteis_content {width:72% !important;}
-    .links-uteis_content .link-item {width:100% !important;float:none !important; margin-top: 11px !important; margin-left:0 !important;}
-    .servicos_content {height: 630px !important;width: 100% !important}
-    .alinhamento {width: 72% !important}
-    .servicos_content .servico {width: 100% !important}
-    .news {width: 100% !important; margin: 0 !important;}
-    .news_box {display: block !important; margin: 13px 0 55px 0 !important; float: none !important;}   
-    .news_box img { height: 30% !important; width: 87% !important;}
-    .news_box p { width: 87% !important; text-align: justify !important;}
-    .service_item {display: block !important;}
-    .read_more { margin: 30px 0 0 0 !important;} 
-    .contact_box {display: block !important;}
+    /*----------------top-menu----------------------*/
+    .menu_topo {
+	display: none;
+    }
+    /*--------------- search ----------------------*/
+    #block-search-form {
+	margin: 5px auto !important;
+	float: none !important;
+    }
+    #block-search-form .form-text {
+	width: 100% !important;
+    }
+    .top_right .region-search {
+	float: none !important;
+	margin: 5px auto !important;
+    }
+    
+    /*---------------- main-menu -------------------*/
+    #main-menu a {
+	border: none !important;
+	
+    }
+    .menu {
+	height: auto !important;
+    }
+
+    /*-------------- acesso-exclusivo--------------*/
+    .servicos_content h2 {
+	display: none;
+    }
+    .servicos_content .alinhamento {
+	width: 100%;
+    }
+    .servicos_content .servico {
+	padding : 0;
+    }
+
+    #main-menu .nav-toggle {
+	background: transparent !important;
+    }
+    .servicos_content .servico h2 {
+	display: block;
+	padding-right: 41px !important;
+    }
+    .servicos_content .servico {
+	width: 50%;
+    }
+    .servicos_content {
+	height: 296px;
+    }
+    .banner_central {
+	height: 249px;
+    }
+    .views-view-grid {
+	width: 100%;
+    }
+    .view-noticias table td {
+	width: 100%;
+    }
+    /*
+    .icon_acesso_rapido {
+	width: 100%;
+	height: 100px;
+    }
+    .acesso_befeciciario {
+	background-position: -1px 0px;
+	background-size: 317px;
+    }
+    .acesso_credenciados {
+	background-position: -86px 0px;
+	background-size: 317px;
+    }
+    .acesso_gestores{
+	background-position: -161px 1px;
+	background-size: 317px;
+    }
+    .acesso_peritos {
+	background-position: -548px 2px;
+	background-size: 317px
+    }
+    */
+    /*-------------links-uteis-----------------------------*/
+    .links_uteis_content {
+	width: 100%;
+    }
+    .link_item_meio {
+	margin: 0;
+    }
+    .links_uteis_content .link_item {
+	width: 100%;
+    }
+    /*----------------------- news ------------------------- */
+    .title-view {
+	clear: both;
+	width: 100%;
+    }
+    .view-noticias table td {
+	display: block;
+    }
+    .view-noticias table {
+	background: transparent;
+    }
+    .view-noticias .views-field-body  {
+	text-align: center;
+    }
+    .more-link-noticia {
+	border-radius: 4px;
+	margin-top: 5px;
+	margin-bottom: 7px;
+    }
+    .col-right {
+	width: 32%;
+    }
+    .col-left {
+	width: 67%;
+    }
+    /*---------------------- servicos ---------------------*/
+    .services_content {
+	width: 100%;
+    }
+    .service_item {
+	width: 100%;
+    }
+    /*---------------------- contato ---------------------*/
+    .contact_content {
+	width: 100% !important;
+	margin: 0 auto !important;
+    }
+    
+    .contact_box {
+	width: 100% !important;
+	margin: 5px auto !important;
+    }
+    
     
 }
