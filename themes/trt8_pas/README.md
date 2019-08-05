@@ -4,7 +4,7 @@
 
 ## Cabeçalhos da View de Notícias
 
-### Imagem de fundo e Acessos Exclusivos
+### 1º Cabeçalho: Imagem de fundo e Acessos Exclusivos
 
 ```
 <div class="banner_central_wrapper">
@@ -60,7 +60,7 @@
 
 ```
 
-### Acesso rápido aos serviços em destaque
+### 2º Cabeçalho: Acesso rápido aos serviços em destaque
 
 
 ```
@@ -112,7 +112,7 @@
 
 ## Rodapé da View de Notícias
 
-### Serviços
+### 1º Rodapé: Serviços
 
 ```
 <div class="services" id="servicos">
@@ -193,7 +193,7 @@
 <!--fim services-->
 ```
 
-### Contatos
+### 2º Rodapé: Contatos
 
 ```
 <div class="contact">
