@@ -35,32 +35,32 @@ header > div > div > div.views-field.views-field-field-noticia-substitulo > div 
 	color: #333333;
 }
 
-#block-jt_2019_d8-content > div > div > footer > div > header > div > footer{
+div.view-pagina-inicial > header > div > footer{
 	margin-top: 20px;
 }
 
-#block-jt_2019_d8-content > div > div > footer > div > header > div > footer > a{
+div.view-pagina-inicial > header > div > footer > a{
 	color: #333333;
 }
 
-#block-jt_2019_d8-content > div > div > footer > div > div {
+div.view-pagina-inicial > div {
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-2,
-#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-1 {
+div.view-pagina-inicial > div > div > div.views-col.col-2,
+div.view-pagina-inicial > div > div > div.views-col.col-1 {
 	padding-right: 20px;
 }
-#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-3 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
-#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-2 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
-#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-1 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
+div.view-pagina-inicial > div > div > div.views-col.col-3 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+div.view-pagina-inicial > div > div > div.views-col.col-2 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+div.view-pagina-inicial > div > div > div.views-col.col-1 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
 	width: 275px;
 	height: 182px;
 }
 
-#block-jt_2019_d8-content > div > div > footer > div > div > div > div > div.views-field.views-field-title > span > a {
+div.view-pagina-inicial > div > div > div > div.views-field.views-field-title > span > a {
 	font-size: 16px;
 	font-family: Arial;
 	font-weight: bold;
@@ -70,7 +70,7 @@ header > div > div > div.views-field.views-field-field-noticia-substitulo > div 
 
 @media (max-width: 767px) {
 	
-	#block-jt_2019_d8-content > div > div > footer > div > div {
+	div.view-pagina-inicial > div {
 		float: none;
 	}
 	
@@ -80,67 +80,67 @@ header > div > div > div.views-field.views-field-field-noticia-substitulo > div 
 	}
 	
 	/* destaque principal */
-	#block-jt_2019_d8-content > div > div > footer > div > header > div > div > div.views-field.views-field-field-noticia-imagem-destaque {
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-field-noticia-imagem-destaque {
 		float: none;
 		height: auto;
 		margin: 0;
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > header > div > div > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
 		width: 100%;
 		height: auto;
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > header > div > div > div.views-field.views-field-title,
-	#block-jt_2019_d8-content > div > div > footer > div > header > div > div > div.views-field.views-field-field-noticia-substitulo
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-title,
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-field-noticia-substitulo
 	{
 		width: 90%;
 		margin: 0 auto;
 		padding-top: 10px;
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > header > div > div > div.views-field.views-field-title > span > a {
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-title > span > a {
 		/*font-size: 20pt;*/
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > header > div > div > div.views-field.views-field-field-noticia-substitulo > div {
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-field-noticia-substitulo > div {
 		/*font-size: 16pt;*/
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > header > div > footer {
+	div.view-pagina-inicial > header > div > footer {
 		display: none;
 	}
 	
 	/* tres destaques secundarios */
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div > div.views-field.views-field-title {
+	div.view-pagina-inicial > div > div > div > div.views-field.views-field-title {
 		margin: 0 auto;
 		width: 75%;
 		padding-top: 5px;
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div > div.views-field.views-field-title > span > a {
+	div.view-pagina-inicial > div > div > div > div.views-field.views-field-title > span > a {
 		/*font-size: 16pt;*/
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div:not(:last-child) {
+	div.view-pagina-inicial > div > div > div:not(:last-child) {
 		border-bottom: 1px dashed #ccc;
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div {
+	div.view-pagina-inicial > div > div > div {
 		width: 100% !important;
 		text-align: center;
 		margin-bottom: 20px;
 		padding-bottom: 5px;
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-2,
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-1 {
+	div.view-pagina-inicial > div > div > div.views-col.col-2,
+	div.view-pagina-inicial > div > div > div.views-col.col-1 {
 		padding-right: 0;
 	}
 	
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-1 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-2 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
-	#block-jt_2019_d8-content > div > div > footer > div > div > div > div.views-col.col-3 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
+	div.view-pagina-inicial > div > div > div.views-col.col-1 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+	div.view-pagina-inicial > div > div > div.views-col.col-2 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+	div.view-pagina-inicial > div > div > div.views-col.col-3 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
 		width: 80%;
 		height: auto;
 	}
