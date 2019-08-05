@@ -21,8 +21,86 @@
 	
     }
 
+    /*-------------- acesso-exclusivo--------------*/
+    .servicos_content h2 {
+	display: none;
+    }
+    .servicos_content .alinhamento {
+	width: 100%;
+    }
+    .servicos_content .servico {
+	padding : 0;
+    }
+
     #main-menu .nav-toggle {
 	background: transparent !important;
     }
+    .icon_acesso_rapido {
+	width: 100%;
+	height: 100px;
+    }
+    .acesso_befeciciario {
+	background-position: -1px 0px;
+	background-size: 317px;
+    }
+    .acesso_credenciados {
+	background-position: -86px 0px;
+	background-size: 317px;
+    }
+    .acesso_gestores{
+	background-position: -161px 1px;
+	background-size: 317px;
+    }
+    .acesso_peritos {
+	background-position: -548px 2px;
+	background-size: 317px
+    }
+    
+    /*-------------links-uteis-----------------------------*/
+    .links_uteis_content {
+	width: 100%;
+    }
+    .link_item_meio {
+	margin: 0;
+    }
+    .links_uteis_content .link_item {
+	width: 100%;
+    }
+    /*----------------------- news ------------------------- */
+    .title-view {
+	clear: both;
+    }
+    .view-noticias table td {
+	display: block;
+    }
+    .view-noticias table {
+	background: transparent;
+    }
+    .view-noticias .views-field-body  {
+	text-align: center;
+    }
+    .more-link-noticia {
+	border-radius: 4px;
+	margin-top: 5px;
+	margin-bottom: 7px;
+    }
+    /*---------------------- servicos ---------------------*/
+    .services_content {
+	width: 100%;
+    }
+    .service_item {
+	width: 100%;
+    }
+    /*---------------------- contato ---------------------*/
+    .contact_content {
+	width: 100% !important;
+	margin: 0 auto !important;
+    }
+    
+    .contact_box {
+	width: 100% !important;
+	margin: 5px auto !important;
+    }
+    
     
 }
