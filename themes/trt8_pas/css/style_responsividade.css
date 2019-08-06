@@ -1,6 +1,9 @@
 /* trabalhando a responsividade */
 @media screen and (max-width: 640px){
-
+    /*---------------geral--------------------------*/
+    #post-content {
+	margin: 0;
+    }
     /*----------------top-menu----------------------*/
     .menu_topo {
 	display: none;
@@ -84,7 +87,7 @@
     */
     /*-------------links-uteis-----------------------------*/
     .links_uteis_content {
-	width: 100%;
+	width: 92%;
     }
     .link_item_meio {
 	margin: 0;
@@ -119,7 +122,7 @@
     }
     /*---------------------- servicos ---------------------*/
     .services_content {
-	width: 100%;
+	width: 92%;
     }
     .service_item {
 	width: 100%;

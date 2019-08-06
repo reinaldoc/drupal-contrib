@@ -86,7 +86,7 @@ p {
 }
 
 .menu {
-    height: 25px !important;
+    /*height: 25px !important; */
 }
 
 #main-menu .nolink  {
@@ -161,7 +161,7 @@ background: #e0e0e0 none repeat scroll 0 0
     font-weight: bold;
     color: #303c49;
     display: inline-block;
-    margin: 5px 0 5px 0;
+    margin: 16px 0 5px 0;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -242,4 +242,9 @@ background: #e0e0e0 none repeat scroll 0 0
 */
 .content-sidebar-wrap #content {
 margin-bottom: 0 !important; /*tirando a margem de baixo do content */
+}
+
+/*------------------------ search ---------------------------------*/
+.page-search-node .container-wrap {
+    max-width: 1129px !important;    
 }
