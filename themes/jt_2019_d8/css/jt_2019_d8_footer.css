@@ -118,17 +118,17 @@
 		border: none;
 	}
 	
-	#block-rodape > div {
+	div.footer-menu > div > div > div > div > div > div {
 		text-align: center;
 		font-size: 10pt;
 		margin: 20px;
 	}
 	
-	#block-rodape > div > div.bloco_footer {
+	div.footer-menu > div > div > div > div > div > div > div.bloco_footer {
 		margin-bottom: 20px;
 	}
 	
-	#block-rodape > div > div.endereco_footer p {
+	div.footer-menu > div > div > div > div > div > div > div.endereco_footer p {
 		font-size: 10pt;
 		text-align: center;
 	}
@@ -154,12 +154,12 @@
 	.logo_footer, .mapa_site, .rede_social{
 		display:none;
 	}
-	
-	#block-views-block-view-bloco-de-programas-nacionais-block-prog-da-jt {
+
+	/*#block-views-block-view-bloco-de-programas-nacionais-block-prog-da-jt {
 		margin-bottom: 5px;
-	}
-	
-	#bottom_wrapper > div > div > div > div {
+	}*/
+
+	div > div > div > div > div.region-bottom-wrapper {
 		margin-top: -20px;
 	}
 	

@@ -8,6 +8,7 @@ stylesheets[all][] = css/jt_ouvidoria.css
 stylesheets[all][] = css/jt_media.css
 stylesheets[all][] = css/jt_footer.css
 stylesheets[all][] = css/jt_header.css
+stylesheets[all][] = css/jt_menus.css
 scripts[] = js/novoportal.js
 scripts[] = js/custom.js
 

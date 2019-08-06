@@ -142,11 +142,10 @@
 }
 
 .social_icons {
-    float: right;
     margin: 24px 0 0;
     width: 270px;
     height: 30px;
-    
+    margin-left: 320px;
 }
 
 .social_icons ul {
@@ -205,27 +204,115 @@
     background-position-y: 0px;
 }
 
-.search_bar {
-    clear: both;
-    float: right;
-    width: 262px;
-    height: 22px; 
-    margin: 7px 0;
-    border: 1px solid #C7C7C7;  
-}
-
-.search_input {
-    float: right;
-    height: 18px;
-    width: 230px;
+#block-search-form .form-submit {
+    height: 27px;
+    width: 29px;
+    padding: 0;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-color: #E4E4E4 #D2D2D2 #B4B4B4;
+    background: url(../images/search_icon.png) no-repeat center top;
+    overflow: hidden;
+    box-shadow: none;
     border: 0;
+    position: absolute;
+    top: 1px;
+    right: 2px;
 }
 
-.search_icon {
-    float: right;
-    width: 30px;
-    height: 20px;
-    background: #01426a url(../images/search-icon.png)  no-repeat center top;
-    background-size: 15px;
-    background-position: 7px 3px;
+
+
+
+
+.process_consultation_wrapper {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.title_consultation {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+    color: #ffffff;
+    background: #01426a;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#numero {
+    width: 100px;
+    height: 23px;
+}
+
+#digito {
+    width: 60px;
+    height: 23px;
+}
+
+#ano {
+    width: 50px;
+    height: 23px;
+}
+
+#justica {
+    width: 40px;
+    height: 23px;
+}
+
+#regiao {
+    width: 40px;
+    height: 23px;
+}
+
+#vara {
+    width: 47px;
+    height: 23px;
+}
+
+.border_input {
+    padding-left:5px; 
+    border: 1px solid #C7C7C7;
+}
+
+.buttom_consultation {
+    width: 100px;
+    height: 26px;
+    font-size: 11px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #C7C7C7;
+    border-radius: 0;
+    box-shadow: none;
+
+}
+
+.buttom_consultation:hover {
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.clean {
+    color: #ffffff;
+    background: #face33;
+}
+
+.consult {
+    color: #ffffff;
+    background: #00b388;
+}
+
+#campos_consulta {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#campos_consulta input {
+    margin-left: 4px;
+}
+
+#buttons_consultation {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 7px; 
 }
