@@ -35,12 +35,8 @@
     
 }
 
-#main-menu a:after {
-   
-}
-
  #main-menu > .menu-navigation-container > ul.menu > li.first + li {
-    width: 13%;
+    width: 9%;
 }
 
 #main-menu a:hover {
@@ -51,6 +47,10 @@
 
 #main-menu ul.menu li:hover > a, #main-menu ul.menu li:hover > span.nolink {
     box-shadow: none;
+}
+
+#main-menu a {
+    padding: 8px 12px; 
 }
 
 .menu_right ul {
@@ -164,6 +164,6 @@
 }
 
 body.one-sidebar #container #sidebar-second {
-    width: 29%;
+    width: 26%;
     float: right;
 }

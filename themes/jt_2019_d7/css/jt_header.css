@@ -316,3 +316,26 @@
     vertical-align: top;
     margin-left: 7px; 
 }
+
+#search-block-form .form-actions input {
+    margin: 2px -1px;
+    border-radius: 0px 2px 2px 0px;
+}
+
+#block-search-form .form-submit {
+    height: 26px;
+    width: 29px;
+    padding: 0;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-color: #E4E4E4 #D2D2D2 #B4B4B4;
+    background: #01426a url(../images/search_icon.png) no-repeat center top;
+    overflow: hidden;
+    box-shadow: none;
+    border: 0;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    background-size: 15px;
+    background-position: 7px 6px;
+}
