@@ -2,7 +2,7 @@
 @media screen and (max-width: 640px){
     /*---------------geral--------------------------*/
     #post-content {
-	margin: 0;
+	margin: 0 16px;
     }
     /*----------------top-menu----------------------*/
     .menu_topo {
