@@ -87,7 +87,7 @@
     transform: translateY(-5px);
 }
 
-.acesso_befeciciario {
+.acesso_beneficiario {
     background-image: url('../images/services_icons.png');
     background-position: -8px -32px;
     background-size: 513px;
@@ -109,7 +109,7 @@
 }
 
 .servicos_content .servico h2 {
-    padding-right: 83px !important;
+    padding-right: 83px ;
 }
 
 .servicos_content .servico img {

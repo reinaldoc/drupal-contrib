@@ -30,6 +30,19 @@
 	height: auto !important;
     }
 
+    .menu_wrapper {
+	clear: both;
+    }
+
+    #main-menu {
+	background: #32b7df;
+	border-bottom: 1px solid #cecece;
+    }
+
+    #main-menu .nav-toggle {
+	color: #fff !important;
+    }    
+
     /*-------------- acesso-exclusivo--------------*/
     .servicos_content h2 {
 	display: none;
@@ -46,10 +59,12 @@
     }
     .servicos_content .servico h2 {
 	display: block;
-	padding-right: 41px !important;
+	padding: 0;
     }
     .servicos_content .servico {
 	width: 50%;
+	margin-bottom: 6px;
+	padding: 0 !important;
     }
     .servicos_content {
 	height: 296px;
@@ -57,34 +72,38 @@
     .banner_central {
 	height: 249px;
     }
+    .banner_central .content h1 {
+	padding: 0 20px;
+    }
     .views-view-grid {
 	width: 100%;
     }
     .view-noticias table td {
 	width: 100%;
     }
-    /*
+    
     .icon_acesso_rapido {
-	width: 100%;
-	height: 100px;
+	width: 110px !important;
+	height: 106px !important;
+	margin: 0 auto;
     }
-    .acesso_befeciciario {
-	background-position: -1px 0px;
-	background-size: 317px;
+    .acesso_beneficiario {
+	background-position: -7px -11px !important;
+	background-size: 429px !important;
     }
     .acesso_credenciados {
-	background-position: -86px 0px;
-	background-size: 317px;
+	background-position: -118px -13px;
+	background-size: 429px;
     }
     .acesso_gestores{
-	background-position: -161px 1px;
-	background-size: 317px;
+	background-position: -215px -13px;
+	background-size: 429px;
     }
     .acesso_peritos {
-	background-position: -548px 2px;
-	background-size: 317px
+	background-position: -547px -13px;
+	background-size: 429px
     }
-    */
+    
     /*-------------links-uteis-----------------------------*/
     .links_uteis_content {
 	width: 92%;
