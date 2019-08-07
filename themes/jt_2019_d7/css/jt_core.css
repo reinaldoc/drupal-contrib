@@ -187,7 +187,7 @@ body.one-sidebar #container .content-sidebar-wrap {
 }
 
 body.one-sidebar #container #sidebar-second {
-    width: 27%;
+    width: 26%;
     float: right;
 }
 
@@ -1380,6 +1380,15 @@ table.views-view-grid.cols-4 td {
 /*
 ----------------------------- Regions -----------------------------
 */
+
+.container-wrap {
+    max-width: 1129px ;
+}
+
+#container {
+    margin-top: 24px;
+}
+
 #header .top_right {
     overflow: hidden;
 }
