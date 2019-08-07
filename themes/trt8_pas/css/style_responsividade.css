@@ -26,6 +26,12 @@
 	border: none !important;
 	
     }
+    #main-menu ul.menu li.first {
+	display: none;
+    }
+    #main-menu ul li.expanded .first {
+	display: block;
+    }
     .menu {
 	height: auto !important;
     }
@@ -148,6 +154,21 @@
     .col-left {
 	width: 67%;
     }
+
+    .node-noticia {
+	width: 95%;
+	margin: 0 auto;
+	text-align: justify;
+    }
+
+    /*--------------------- sidebar-second ----------------*/
+    
+    #sidebar-second {
+	width: 100%;
+	clear: both;
+    }
+    
+    
     /*---------------------- servicos ---------------------*/
     .services_content {
 	width: 92%;

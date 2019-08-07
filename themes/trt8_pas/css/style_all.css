@@ -223,6 +223,9 @@ background: #e0e0e0 none repeat scroll 0 0
 .node-type-noticia h1.page-title::after {
     display:none;
 }
+.node-noticia{
+    text-align: justify;
+}
 .node-type-noticia #content #post-content p {
     font-size: 1.3em;
     font-family: 'Open Sans';
