@@ -240,11 +240,19 @@ background: #e0e0e0 none repeat scroll 0 0
     border: 1px solid #ddd;
     box-shadow: 0px 2px 4px 0px #CCC;
 }
-/*
---------------------------- content ---------------------------
-*/
+
+/*--------------------------- content ---------------------------*/
+body.sidebar-second .content-sidebar-wrap {
+    width: 72%;
+}
+
 .content-sidebar-wrap #content {
 margin-bottom: 0 !important; /*tirando a margem de baixo do content */
+}
+
+/*--------------------------- siderbar ---------------------------*/
+body.sidebar-second #sidebar-second {
+    width: 25%;
 }
 
 /*------------------------ search ---------------------------------*/

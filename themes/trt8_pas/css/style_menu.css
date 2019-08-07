@@ -192,9 +192,11 @@ border-left: none;
 }
 
 #sidebar-second .block h2 {
-color: #8e8e9b;
-border: none !important;
-margin-bottom: 0 !important;
-text-transform: uppercase;
-letter-spacing: 3px;
+    color: #8e8e9b;
+    border: none !important;
+    margin-bottom: 0 !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Open sans';
 }
