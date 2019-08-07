@@ -9,6 +9,7 @@ stylesheets[all][] = css/jt_media.css
 stylesheets[all][] = css/jt_footer.css
 stylesheets[all][] = css/jt_header.css
 stylesheets[all][] = css/jt_menus.css
+stylesheets[all][] = css/jt_view.css
 scripts[] = js/novoportal.js
 scripts[] = js/custom.js
 
@@ -27,6 +28,7 @@ regions[content]         = Content
 regions[bottom_widget_1] = Bottom widget 1
 regions[bottom_widget_2] = Bottom widget 2
 regions[bottom_widget_3] = Bottom widget 3
+regions[content_bottom]  = Content Bottom
 regions[footer_first]    = First Bottom
 regions[footer_second]   = Second Bottom
 regions[footer_third]    = Third Bottom

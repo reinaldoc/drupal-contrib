@@ -227,6 +227,14 @@
   
 </div>
 
+<div id="content_bottom">
+  <div id="content_bottom_wrapper">
+      <?php if ($page['content_bottom']): ?>
+        <?php print render($page['content_bottom']) ?>
+      <?php endif; ?>
+  </div>
+</div>
+
 <div id="footer">
   <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_forth']): ?> 
     <div id="footer_wrapper">
@@ -248,7 +256,6 @@
   <?php endif; ?>
   
   <?php if ($page['footer']): ?>
-
     <?php print render($page['footer']) ?>
   <?php endif; ?>
       
