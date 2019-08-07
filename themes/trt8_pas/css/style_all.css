@@ -43,8 +43,8 @@ p {
 
 /********** reset style drupal *****************/
 .menu_wrapper {
-    background: transparent !important;
-    border: none !important;    
+    background: transparent;
+    border: none;    
 }
 
 #block-block-1 {
@@ -247,7 +247,7 @@ body.sidebar-second .content-sidebar-wrap {
 }
 
 .content-sidebar-wrap #content {
-margin-bottom: 0 !important; /*tirando a margem de baixo do content */
+    margin: 0; /*tirando a margem de baixo do content */
 }
 
 /*--------------------------- siderbar ---------------------------*/

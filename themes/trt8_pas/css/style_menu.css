@@ -29,7 +29,8 @@
 } */
 
 #header_wrapper .menu_wrapper {
-    background: #ffffff none repeat scroll 0 0;
+    border-top: none;
+    border-bottom: 3px double #79c3f2;
 }
 
 #header_wrapper .menu_wrapper .menu_inner_wrap {
