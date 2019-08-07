@@ -1,6 +1,9 @@
 /* trabalhando a responsividade */
 @media screen and (max-width: 640px){
-
+    /*---------------geral--------------------------*/
+    #post-content {
+	margin: 0;
+    }
     /*----------------top-menu----------------------*/
     .menu_topo {
 	display: none;
@@ -27,6 +30,19 @@
 	height: auto !important;
     }
 
+    .menu_wrapper {
+	clear: both;
+    }
+
+    #main-menu {
+	background: #32b7df;
+	border-bottom: 1px solid #cecece;
+    }
+
+    #main-menu .nav-toggle {
+	color: #fff !important;
+    }    
+
     /*-------------- acesso-exclusivo--------------*/
     .servicos_content h2 {
 	display: none;
@@ -43,10 +59,12 @@
     }
     .servicos_content .servico h2 {
 	display: block;
-	padding-right: 41px !important;
+	padding: 0;
     }
     .servicos_content .servico {
 	width: 50%;
+	margin-bottom: 6px;
+	padding: 0 !important;
     }
     .servicos_content {
 	height: 296px;
@@ -54,37 +72,41 @@
     .banner_central {
 	height: 249px;
     }
+    .banner_central .content h1 {
+	padding: 0 20px;
+    }
     .views-view-grid {
 	width: 100%;
     }
     .view-noticias table td {
 	width: 100%;
     }
-    /*
+    
     .icon_acesso_rapido {
-	width: 100%;
-	height: 100px;
+	width: 110px !important;
+	height: 106px !important;
+	margin: 0 auto;
     }
-    .acesso_befeciciario {
-	background-position: -1px 0px;
-	background-size: 317px;
+    .acesso_beneficiario {
+	background-position: -7px -11px !important;
+	background-size: 429px !important;
     }
     .acesso_credenciados {
-	background-position: -86px 0px;
-	background-size: 317px;
+	background-position: -118px -13px;
+	background-size: 429px;
     }
     .acesso_gestores{
-	background-position: -161px 1px;
-	background-size: 317px;
+	background-position: -215px -13px;
+	background-size: 429px;
     }
     .acesso_peritos {
-	background-position: -548px 2px;
-	background-size: 317px
+	background-position: -547px -13px;
+	background-size: 429px
     }
-    */
+    
     /*-------------links-uteis-----------------------------*/
     .links_uteis_content {
-	width: 100%;
+	width: 92%;
     }
     .link_item_meio {
 	margin: 0;
@@ -92,10 +114,18 @@
     .links_uteis_content .link_item {
 	width: 100%;
     }
+    #quebra_linha {
+	clear: both;
+    }
     /*----------------------- news ------------------------- */
     .title-view {
 	clear: both;
-	width: 100%;
+	width: 92%;
+    }
+    span.more-link-noticia {
+	width: 20%;
+	margin: 0 auto;
+	display: block;
     }
     .view-noticias table td {
 	display: block;
@@ -106,23 +136,27 @@
     .view-noticias .views-field-body  {
 	text-align: center;
     }
-    .more-link-noticia {
+    span.more-link-noticia a  {
 	border-radius: 4px;
 	margin-top: 5px;
-	margin-bottom: 7px;
+	margin-bottom: 28px;
+	width: 70px;
     }
     .col-right {
-	width: 32%;
+	width: 112px;
     }
     .col-left {
 	width: 67%;
     }
     /*---------------------- servicos ---------------------*/
     .services_content {
-	width: 100%;
+	width: 92%;
     }
     .service_item {
 	width: 100%;
+    }
+    .servicos_content .alinhamento {
+	width: 82%;
     }
     /*---------------------- contato ---------------------*/
     .contact_content {
@@ -133,6 +167,13 @@
     .contact_box {
 	width: 100% !important;
 	margin: 5px auto !important;
+    }
+
+    /*--------------------- footer -----------------------*/
+    #footer-sitemap ul li {
+	min-width: 100% !important;
+	text-align: left;
+	margin: 0 0 20px 12px;
     }
     
     

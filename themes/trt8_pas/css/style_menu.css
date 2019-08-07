@@ -146,11 +146,10 @@ padding: 8px 12px !important;
 */
 .region-sidebar-second {
 height: 400px !important;
-margin-top: 15px;
 } 
 .region-sidebar-second .menu {
 height: auto !important;
-border: 1px solid #cecece;
+/*border: 1px solid #cecece; */
 padding: 5px;
 }
 .region-sidebar-second .menu  .leaf {
@@ -159,18 +158,22 @@ padding-top: 13px !important;
 padding-bottom: 13px !important;
 font-size: 14px;
 background: transparent !Important;
+letter-spacing: 2px;
 }
 .region-sidebar-second .menu .last {
-border-bottom: none !important;
+/*border-bottom: none !important;*/
 }
 .region-sidebar-second .menu .leaf a {
     color: ##007ea3;
 }
-.region-sidebar-second .menu li a.active {color: #000 !important}
+.region-sidebar-second .menu li a.active {
+    color: #0b5db1 !important;
+}
 
 #sidebar-second .block h2 {
-color: #4993c2 !important;
+color: #317ed3 !important;
 border: none !important;
 margin-bottom: 0 !important;
 text-transform: uppercase;
+letter-spacing: 3px;
 }

@@ -127,7 +127,7 @@
 
       <?php if ($main_menu): ?>
         <nav id="main-menu"  role="navigation">
-          <a class="nav-toggle" href="#">Navigation</a>
+          <a class="nav-toggle" href="#">MENU</a>
           <div class="menu-navigation-container">
             <?php 
               $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); 
