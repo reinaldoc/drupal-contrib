@@ -19,7 +19,7 @@
   color: #8e8e9b;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1.1em;
 }
 .menu ul li a:active {
   border-bottom: 2px solid #71b4dc;
@@ -68,7 +68,7 @@ padding: 8px 12px !important;
  #main-menu ul.menu li span.nolink {
     font-family: "Open sans";
     font-weight: normal;
-    font-size: 1.1em;
+    font-size: 10pt;
     text-transform: none;
     letter-spacing: 0.05em;
     color: #333333;
@@ -94,7 +94,7 @@ padding: 8px 12px !important;
 }
 
 #main-menu ul.menu li ul li a {
-    font-size:12px;
+    font-size:13px;
     color: #8e8e9b;
     background: #ffffff none repeat scroll 0 0;
     border: medium none;
@@ -149,16 +149,15 @@ height: 400px !important;
 } 
 .region-sidebar-second .menu {
 height: auto !important;
-/*border: 1px solid #cecece; */
-padding: 5px;
+border: 1px solid #cecece;
+border-left: none;
 }
 .region-sidebar-second .menu ul li.leaf {
     
 }
 .region-sidebar-second .menu  .leaf {
     background: transparent;
-    padding: 12px 0;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0;
 }
 .region-sidebar-second .menu .last a {
@@ -166,18 +165,30 @@ padding: 5px;
 }
 .region-sidebar-second .menu  li a {
     border-left: 3px solid #d7d8da;
-    padding: 13px 20px;
+    padding: 13px 10px;
+    display: block;
     color: #8e8e9b;
+    letter-spacing: 0.06em;
 }
 .region-sidebar-second .menu .leaf:hover {
-    background: #f6f6f6;
 }
 .region-sidebar-second .menu li a:hover {
     border-left: 3px solid #4993c2;
+    background: #f6f6f6;
 }
 .region-sidebar-second .menu li a.active {
     color: #555;
-    border-left: 3px solid #4993c2;
+    border: 1px solid #eaeff2;
+    border-left: 3px solid #d7d8da;
+    background: #f6f6f6;
+}
+
+.region-sidebar-second ul li {
+    padding: 0 !important;
+}
+
+.region-sidebar-second li.expanded, li.collapsed, li.leaf {
+    padding: 0;
 }
 
 #sidebar-second .block h2 {
