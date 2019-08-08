@@ -119,6 +119,9 @@ padding: 8px 12px !important;
     border: 1px solid white;
     padding: 8px 39px 7px;
 }
+#main-menu ul.menu li ul li:hover > a {
+    border: 0 !important;
+}
 
 /* /node page fix */
 
