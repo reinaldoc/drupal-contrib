@@ -225,7 +225,16 @@ background: #e0e0e0 none repeat scroll 0 0
     word-spacing: 3.3px;
 }
 .page-node .field-item p {
+    margin-bottom: 15px;
+    text-indent: 30px;
+}
+.page-node .field-item li > p,
+ .page-node .field-item td > p {
     margin-bottom: 5px;
+    text-indent: 0px;
+}
+.page-node .field-item td {
+    min-width: 100px;
 }
 .page-node .tabs-wrapper ul.tabs li a:hover {
     background: #f0f0f0 none repeat scroll 0 0;
@@ -240,7 +249,7 @@ background: #e0e0e0 none repeat scroll 0 0
     padding: 3px;
     display: block;
     padding: 3px 0 3px 10px;
-    margin: 30px 0 0;
+    margin: 30px 0 20px;
     clear: both;
 }
 

@@ -150,9 +150,6 @@ padding: 8px 12px !important;
 /*
 ---------------------------- menu lateral [second-bar] -------------------------
 */
-.region-sidebar-second {
-height: 400px !important;
-} 
 .region-sidebar-second .menu {
 height: auto !important;
 border: 1px solid #cecece;
