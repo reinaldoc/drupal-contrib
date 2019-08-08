@@ -159,26 +159,25 @@
 ### Bloco: Programas
     <div class="banner_informativo_bottom_wrapper">
         <div class="banner_informativo_content">
-                    <ul class="lista_banner">
-                            <li class="item_banner">
-                               <a href="#"><img  src="/sites/all/themes/jt_2019_d7/images/trabalho_seguro.png" alt=""></a>
-                            </li>
-                            <li class="item_banner">
-                                 <a href="#"><img  src="/sites/all/themes/jt_2019_d7/images/trabalho_infantil.png" alt="">  </a>
-                            </li>
-                            <li class="item_banner">
-                                  <a href="#"><img  src="/sites/all/themes/jt_2019_d7/images/pje.png" alt=""></a>
-                            </li>
-                            <li class="item_banner">
-                               <a href="#"><img  src="/sites/all/themes/jt_2019_d7/images/ex_trabalhista.png" alt="">  </a>
-                            </li>
-                            <li class="item_banner">
-                              <a href="#"> <img  src="/sites/all/themes/jt_2019_d7/images/conciliacao_trabalhista.png" alt=""> </a>
-                            </li>
-                    </ul>
-            </div>
+            <ul class="lista_banner">
+                <li class="item_banner">
+                    <a href="#"><img src="/sites/all/themes/jt_2019_d7/images/trabalho_seguro.png" alt=""></a>
+                </li>
+                <li class="item_banner">
+                    <a href="#"><img src="/sites/all/themes/jt_2019_d7/images/trabalho_infantil.png" alt=""> </a>
+                </li>
+                <li class="item_banner">
+                    <a href="#"><img src="/sites/all/themes/jt_2019_d7/images/pje.png" alt=""></a>
+                </li>
+                <li class="item_banner">
+                    <a href="#"><img src="/sites/all/themes/jt_2019_d7/images/ex_trabalhista.png" alt=""> </a>
+                </li>
+                <li class="item_banner">
+                    <a href="#"> <img src="/sites/all/themes/jt_2019_d7/images/conciliacao_trabalhista.png" alt=""> </a>
+                </li>
+            </ul>
+        </div>
     </div>
-
 ## Região Contatos Institucionais
 
 ### Bloco: Contatos
