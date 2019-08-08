@@ -1,5 +1,69 @@
 # Tema para Nova Identidade da Justiça do Trabalho
 
+## Região Acessibilidade Left
+
+### Bloco Acessibilidade
+    <div class="accessibility">
+        <ul>
+            <li><a href="#">Ir para conteúdo </a></li>
+            <li>|</li>
+            <li><a href="#">Ir para o menu </a></li>
+            <li>|</li>
+            <li><a href="#">Ir para a busca </a></li>
+            <li>|</li>
+            <li><a href="#"> Ir para o rodapé</a></li>
+        </ul>
+    </div>
+    <div class="translation_tools">
+        <ul>
+            <li><a href="#">English</a></li>
+            <li>|</li>
+            <li><a href="#"> Español</a></li>
+        </ul>
+    </div>
+
+## Região Acessibilidade Right
+
+### Bloco Links de Acesso
+    <div class="access_links">
+        <ul>
+            <li>
+                <a class="icons_access_links icons_information" href=""></a>
+            </li>
+            <li>
+                <a class="icons_access_links icons_zoom_more" href="#"></a>
+            </li>
+            <li>
+                <a class="icons_access_links icons_zoom_less" href="#"></a>
+            </li>
+            <li>
+                <a class="icons_access_links icons_libras" href="#"></a>
+            </li>
+            <li>
+                <a class="icons_access_links icons_contrast" href="#"></a>
+            </li>
+        </ul>
+    </div>
+
+## Região Consulta Slideshow
+
+### Bloco Consuta processual
+    <div class="process_consultation_wrapper">
+        <div class="title_consultation">Consulta Processual</div>
+        <div id="campos_consulta">
+            <input type="text" class="border_input" name="numero" id="numero" placeholder="N° CNJ" />
+            <input type="text" class="border_input" name="digito" id="digito" placeholder="Digito" />
+            <input type="text" class="border_input" name="ano" id="ano" placeholder="Ano" />
+            <input type="text" class="border_input" name="justica" id="justica" value="5" />
+            <input type="text" class="border_input" name="regiao" id="regiao" value="10" />
+            <input type="text" class="border_input" name="vara" id="vara" placeholder="vara" />
+            <div id="buttons_consultation">
+                <button class=" buttom_consultation clean">Limpar</button>
+                <button class="buttom_consultation consult">Consultar</button>
+            </div>
+        </div>
+    </div>
+
 ## Região Rodapé
     
 ### Bloco: Serviços
