@@ -153,13 +153,10 @@ height: auto !important;
 border: 1px solid #cecece;
 border-left: none;
 }
-.region-sidebar-second .menu ul li.leaf {
-    
-}
-.region-sidebar-second .menu  .leaf {
-    background: transparent;
-    font-size: 15px;
-    margin: 0;
+.region-sidebar-second .menu  li {
+    background: transparent !important ;
+    font-size: 15px !important;
+    margin: 0 !important;
 }
 .region-sidebar-second .menu .last a {
 /*border-bottom: none !important;*/

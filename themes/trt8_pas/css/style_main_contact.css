@@ -21,7 +21,7 @@
     width: 29%;
     padding: 18px 14px 43px 7px;
     background: #fff;
-    height: 172px;
+    height: 196px;
     margin: 50px 0 50px 20px;
     box-shadow: 0px 0px 5px 0px rgba(242, 239, 239, 0.94);
     border-radius: 4px;
@@ -73,6 +73,7 @@
 .contact_text p {
     font-size: 15px;
     color: #4f4f51;
+    text-align: left;
 }
 
 .contact_title a:hover {
@@ -82,9 +83,4 @@
 .contact_text {
     clear: both;
     padding: 0 15px;
-}
-
-.contact_text p {
-    text-align: justify;
-    color: #4f4f51;
 }
