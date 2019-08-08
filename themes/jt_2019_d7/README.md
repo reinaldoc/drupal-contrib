@@ -1,5 +1,8 @@
 # Tema para Nova Identidade da Justiça do Trabalho
 
+![Tema do Novo Portal](README_screenshot.jpg)
+
+## Cabeçalho da View
 ## Região Acessibilidade Left
 
 ### Bloco Acessibilidade
