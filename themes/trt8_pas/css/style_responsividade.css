@@ -130,6 +130,9 @@
 	clear: both;
     }
     /*----------------------- news ------------------------- */
+    #post-content {
+	margin: 0; /* removendo margem */
+    }
     .title-view {
 	clear: both;
 	width: 92%;
@@ -165,6 +168,9 @@
 	width: 95%;
 	margin: 0 auto;
 	text-align: justify;
+    }
+    .node-type-noticia #content .field-name-field-noticia-imagem img {
+	width: 100%;
     }
 
     /*--------------------- sidebar-second ----------------*/
