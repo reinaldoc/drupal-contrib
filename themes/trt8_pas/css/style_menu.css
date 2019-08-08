@@ -29,7 +29,8 @@
 } */
 
 #header_wrapper .menu_wrapper {
-    background: #ffffff none repeat scroll 0 0;
+    border-top: none;
+    border-bottom: 3px double #ccddee;
 }
 
 #header_wrapper .menu_wrapper .menu_inner_wrap {
@@ -192,9 +193,11 @@ border-left: none;
 }
 
 #sidebar-second .block h2 {
-color: #8e8e9b;
-border: none !important;
-margin-bottom: 0 !important;
-text-transform: uppercase;
-letter-spacing: 3px;
+    color: #8e8e9b;
+    border: none !important;
+    margin-bottom: 0 !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Open sans';
 }
