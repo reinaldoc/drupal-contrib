@@ -159,10 +159,10 @@ margin-bottom: 3px;
 }
 
 .service_item_title {
+    font-family: 'Open Sans';
     display: inline-block;
     vertical-align: top;
     padding: 19px 0 0 8px;
-
 }
 
 .service_item a {
