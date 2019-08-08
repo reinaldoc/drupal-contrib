@@ -183,7 +183,7 @@ p {
 */
 
 body.one-sidebar #container .content-sidebar-wrap {
-    width: 71%;
+    width: 74%;
 }
 
 body.one-sidebar #container #sidebar-second {
@@ -536,7 +536,7 @@ body.one-sidebar #container #sidebar-second {
 }
 
 #block-block-6 {
-    margin-top: 30px;
+    margin: 12px 0 12px 0;
 }
 
 /* Sidebar Inputs */
@@ -1383,10 +1383,6 @@ table.views-view-grid.cols-4 td {
 
 .container-wrap {
     max-width: 1129px ;
-}
-
-#container {
-    margin-top: 24px;
 }
 
 #header .top_right {
