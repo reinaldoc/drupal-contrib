@@ -45,7 +45,7 @@
         </ul>
     </div>
 
-## Região Consulta Slideshow
+## Região Slideshow
 
 ### Bloco Consuta processual
     <div class="process_consultation_wrapper">
