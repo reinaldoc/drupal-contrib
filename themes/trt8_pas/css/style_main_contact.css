@@ -27,7 +27,7 @@
     border-radius: 4px;
 }
 
-.contact_icon_phone{
+.contact_icon_phone {
     width: 63px;
     height: 74px;
     float: left;
@@ -37,7 +37,7 @@
     background-size: 423px;
 }
 
-.contact_icon_message{
+.contact_icon_message {
     width: 63px;
     height: 74px;
     float: left;
@@ -47,7 +47,7 @@
     background-size: 423px;
 }
 
-.contact_icon_address{
+.contact_icon_address {
     width: 63px;
     height: 74px;
     float: left;
@@ -80,7 +80,8 @@
 }
 
 .contact_text {
-    /*padding: 30px 0 0 59px;*/
+    clear: both;
+    padding: 0 15px;
 }
 
 .contact_text p {
