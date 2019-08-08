@@ -122,7 +122,9 @@ padding: 8px 12px !important;
 #main-menu ul.menu li ul li:hover > a {
     border: 0 !important;
 }
-
+#main-menu ul.menu li ul li:hover > a, #main-menu ul.menu li ul li a.active {
+    border: 0;
+}
 /* /node page fix */
 
 /*
