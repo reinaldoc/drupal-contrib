@@ -167,7 +167,7 @@ background: #e0e0e0 none repeat scroll 0 0
     overflow: hidden;
 }
 
-.page-node h1.page-title::after {
+.page-node h1.page-title::after, .node-page .field-item  h2::after {
     background: #aac none repeat scroll 0 0;
     content: "";
     height: 1px;
@@ -175,7 +175,14 @@ background: #e0e0e0 none repeat scroll 0 0
     position: absolute;
     width: 100%;
 }
-
+.node-page .field-item  h2::after {
+    background: #aac none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    margin: 9px 0 0 5px;
+    position: absolute;
+    width: 100%;
+}
 .page-node .tabs-wrapper {
     border: none;
 }
@@ -192,7 +199,34 @@ background: #e0e0e0 none repeat scroll 0 0
     border: 1px dashed #bbbaf5;
     color: rgb(60,73,114);
 }
-
+.page-node h2 {
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #303c49;
+    display: inline-block;
+    margin: 16px 0 5px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;    
+}
+.page-node h2::after {
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #303c49;
+}
+.page-node .field-item p, .page-node .field-item ul li, .page-node .field-item table tr td {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: #333333;
+    line-height: 1.5;
+    letter-spacing: -0.7px;
+    word-spacing: 3.3px;
+}
+.page-node .field-item p {
+    margin-bottom: 5px;
+}
 .page-node .tabs-wrapper ul.tabs li a:hover {
     background: #f0f0f0 none repeat scroll 0 0;
 }
