@@ -73,6 +73,7 @@
     width: 132px;
     height: 115px;
     transition: transform 0.3s;
+    margin: 0 auto;
 }
 
 .servico {
@@ -92,25 +93,25 @@
     background-position: -8px -32px;
     background-size: 513px;
 }
+
 .acesso_credenciados {
     background-image: url('../images/services_icons.png'); 
     background-position: -145px -36px;
     background-size: 534px;
 }
+
 .acesso_gestores {
     background-image: url('../images/services_icons.png');
     background-position: -270px -36px; 
     background-size: 535px;
 }
+
 .acesso_peritos {
     background-image: url('../images/services_icons.png');
     background-position: -390px -36px;
     background-size: 535px;
 }
 
-.servicos_content .servico h2 {
-    padding-right: 83px ;
-}
 
 .servicos_content .servico img {
     width: 70px !important;
