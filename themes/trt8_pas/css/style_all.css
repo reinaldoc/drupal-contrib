@@ -1,4 +1,10 @@
-.container-wrap {max-width: 100% !important;}/*
+
+/* reset na largura da page */
+.container-wrap {
+    max-width: 100%
+}
+
+/*
 **Importando font
 */
 /* latin unicode-range */
@@ -26,14 +32,14 @@
 
 /* reset header */
 #inner_header_wrapper {
-    background: transparent !important;
+    background: transparent;
 
 }
 
 /*reset nas config inciais de margem e padding */
 html {
-  font-family: 'Open Sans' !important;
-  margin-bottom: 0 !important;
+  font-family: 'Open Sans';
+  margin-bottom: 0;
 }
 
 p {
@@ -48,7 +54,7 @@ p {
 }
 
 #block-block-1 {
-    height: 324px !important;
+    height: 324px;
 }
 
 .views-view-grid {
@@ -57,7 +63,7 @@ p {
 }
 
 .view .view-noticias .view-id-noticias .view-display-id-page .view-dom-id-b5e1a7df858c4c9aa9d4dbc81f43e42d .views-view-grid  {
-    border: none !important;
+    border: none;
 }
 
 /*block search */
@@ -82,28 +88,28 @@ p {
 
 /* menu drupal */
 .menu_inner_wrap {
-    max-width: 1129px !important;
+    max-width: 1129px;
 }
 
 .menu {
-    /*height: 25px !important; */
+    /*height: 25px; */
 }
 
-#main-menu .nolink  {
-    color: #8e8e9b !important;
-    font-size: 10pt !important;
-    font-weight: normal !important;
+#main-menu .menu-navigation-container .menu  li span.nolink  {
+    color: #8e8e9b;
+    font-size: 10pt;
+    font-weight: normal;
 }
 
-#main-menu a {
-    color: #8e8e9b !important;
+#main-menu .menu-navigation-container .menu  a {
+    color: #8e8e9b;
 }
 
-#main-menu li {
-    border: none !important;
+#main-menu .menu-navigation-container .menu li {
+    border: none;
 }
 
-#main-menu li {
+#main-menu .menu-navigation-container li {
     background: #ffffff none repeat scroll 0 0;
 }
 
@@ -276,7 +282,7 @@ background: #e0e0e0 none repeat scroll 0 0
     line-height: 1.5;
     letter-spacing: -0.7px;
     word-spacing: 3.3px;
-    margin-bottom: 18px !important;
+    margin-bottom: 18px;
 }
 
 .node-type-noticia #content .field-name-field-noticia-imagem img {
@@ -300,5 +306,5 @@ body.sidebar-second #sidebar-second {
 
 /*------------------------ search ---------------------------------*/
 .page-search-node .container-wrap {
-    max-width: 1129px !important;    
+    max-width: 1129px ;    
 }

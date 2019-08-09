@@ -3,30 +3,37 @@
 .menu_wrapper {
   width: 100%;
 }
+
 .menu {
   width: 1129px;
   height: 36px;
   margin: 0 auto;
 }
+
 .menu ul {
   list-style: none;
 }
+
 .menu ul li {
   float: left;
   padding: 5px;
 }
+
 .menu ul li a {
   color: #8e8e9b;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.1em;
 }
+
 .menu ul li a:active {
   border-bottom: 2px solid #71b4dc;
 }
+
 .menu ul li a:hover {
   border-bottom: 2px solid #71b4dc;
-} */
+}
+ */
 
 #header_wrapper .menu_wrapper {
     border-top: none;
@@ -36,7 +43,6 @@
 #header_wrapper .menu_wrapper .menu_inner_wrap {
     max-width: 1020px;
 }
-
 
 #main-menu {
     width: 100%;
@@ -55,6 +61,7 @@ padding: 8px 12px !important;
 }
 
 /* segundo item do menu (jurusprudencia) */
+
 #main-menu > .menu-navigation-container > ul.menu > li > span.nolink,
   #main-menu > .menu-navigation-container > ul.menu > li > a {
     text-align: center;
@@ -65,8 +72,7 @@ padding: 8px 12px !important;
     border: medium none;
 }
 
-#main-menu ul.menu li a,
- #main-menu ul.menu li span.nolink {
+#main-menu ul.menu li a, #main-menu ul.menu li span.nolink {
     font-family: "Open sans";
     font-weight: normal;
     font-size: 10pt;
@@ -102,23 +108,19 @@ padding: 8px 12px !important;
     padding: 9px 40px 8px;
 }
 
-#main-menu ul.menu li:hover > a,
- #main-menu ul.menu li:hover > span.nolink {
+#main-menu ul.menu li:hover > a,#main-menu ul.menu li:hover > span.nolink {
     background: #e9e9e9 none repeat scroll 0 0;
     box-shadow: 1px 2px 1px #fff inset, -2px -2px 1px #fff inset;
     background: #ddd none repeat scroll 0 0;
-    color: #303c49;
 }
 
-
-#main-menu ul.menu li ul li:hover > a,
- #main-menu ul.menu li ul li a.active {
+#main-menu ul.menu li ul li:hover > a,#main-menu ul.menu li ul li a.active {
     background: #e0e0e0 none repeat scroll 0 0;
     box-shadow: 1px 1px 3px #f0f0f0 inset, -1px -1px 3px #e0e0e0 inset;
-    color: #303c49;
     border: 1px solid white;
     padding: 8px 39px 7px;
 }
+
 #main-menu ul.menu li ul li:hover > a {
     border: 0 !important;
 }
@@ -151,18 +153,16 @@ padding: 8px 12px !important;
 ---------------------------- menu lateral [second-bar] -------------------------
 */
 .region-sidebar-second .menu {
-height: auto !important;
-border: 1px solid #cecece;
-border-left: none;
+    height: auto !important;
+    border: 1px solid #cecece;
+    border-left: none;
 }
 .region-sidebar-second .menu  li {
     background: transparent !important ;
     font-size: 15px !important;
     margin: 0 !important;
 }
-.region-sidebar-second .menu .last a {
-/*border-bottom: none !important;*/
-}
+
 .region-sidebar-second .menu  li a {
     border-left: 3px solid #d7d8da;
     padding: 13px 10px;
@@ -170,12 +170,12 @@ border-left: none;
     color: #8e8e9b;
     letter-spacing: 0.06em;
 }
-.region-sidebar-second .menu .leaf:hover {
-}
+
 .region-sidebar-second .menu li a:hover {
     border-left: 3px solid #4993c2;
     background: #f6f6f6;
 }
+
 .region-sidebar-second .menu li a.active {
     color: #555;
     border: 1px solid #eaeff2;
@@ -183,18 +183,14 @@ border-left: none;
     background: #f6f6f6;
 }
 
-.region-sidebar-second ul li {
-    padding: 0 !important;
-}
-
-.region-sidebar-second li.expanded, li.collapsed, li.leaf {
+.region-sidebar-second ul.menu  li {
     padding: 0;
 }
 
 #sidebar-second .block h2 {
     color: #8e8e9b;
-    border: none !important;
-    margin-bottom: 0 !important;
+    border: none ;
+    margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: bold;
