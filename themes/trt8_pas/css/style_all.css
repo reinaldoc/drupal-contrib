@@ -167,7 +167,7 @@ background: #e0e0e0 none repeat scroll 0 0
     overflow: hidden;
 }
 
-.page-node h1.page-title::after, .node-page .field-item  h2::after {
+.page-node h1.page-title::after {
     background: #aac none repeat scroll 0 0;
     content: "";
     height: 1px;
@@ -175,7 +175,7 @@ background: #e0e0e0 none repeat scroll 0 0
     position: absolute;
     width: 100%;
 }
-.node-page .field-item  h2::after {
+.page-node .field-items .field-item  h2::after {
     background: #aac none repeat scroll 0 0;
     content: "";
     height: 1px;
