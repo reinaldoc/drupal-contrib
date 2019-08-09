@@ -97,9 +97,10 @@
 /*
 -------------------- marcos ----------------------
 */
-.footer_links_main-menu .menu-219 {
-display:none !important;
+#footer-sitemap .main-menu > .footer_links_main-menu > .first {
+    display: none;
 }
+
 .footer_inner_credit {
 max-width: 1129px !important;
 margin: 0 auto !important;

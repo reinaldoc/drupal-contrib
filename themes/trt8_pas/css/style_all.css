@@ -1,4 +1,10 @@
-.container-wrap {max-width: 100% !important;}/*
+
+/* reset na largura da page */
+.container-wrap {
+    max-width: 100%
+}
+
+/*
 **Importando font
 */
 /* latin unicode-range */
@@ -26,14 +32,14 @@
 
 /* reset header */
 #inner_header_wrapper {
-    background: transparent !important;
+    background: transparent;
 
 }
 
 /*reset nas config inciais de margem e padding */
 html {
-  font-family: 'Open Sans' !important;
-  margin-bottom: 0 !important;
+  font-family: 'Open Sans';
+  margin-bottom: 0;
 }
 
 p {
@@ -48,7 +54,7 @@ p {
 }
 
 #block-block-1 {
-    height: 324px !important;
+    height: 324px;
 }
 
 .views-view-grid {
@@ -57,7 +63,7 @@ p {
 }
 
 .view .view-noticias .view-id-noticias .view-display-id-page .view-dom-id-b5e1a7df858c4c9aa9d4dbc81f43e42d .views-view-grid  {
-    border: none !important;
+    border: none;
 }
 
 /*block search */
@@ -82,28 +88,28 @@ p {
 
 /* menu drupal */
 .menu_inner_wrap {
-    max-width: 1129px !important;
+    max-width: 1129px;
 }
 
 .menu {
-    /*height: 25px !important; */
+    /*height: 25px; */
 }
 
-#main-menu .nolink  {
-    color: #8e8e9b !important;
-    font-size: 10pt !important;
-    font-weight: normal !important;
+#main-menu .menu-navigation-container .menu  li span.nolink  {
+    color: #8e8e9b;
+    font-size: 10pt;
+    font-weight: normal;
 }
 
-#main-menu a {
-    color: #8e8e9b !important;
+#main-menu .menu-navigation-container .menu  a {
+    color: #8e8e9b;
 }
 
-#main-menu li {
-    border: none !important;
+#main-menu .menu-navigation-container .menu li {
+    border: none;
 }
 
-#main-menu li {
+#main-menu .menu-navigation-container li {
     background: #ffffff none repeat scroll 0 0;
 }
 
@@ -161,7 +167,7 @@ background: #e0e0e0 none repeat scroll 0 0
     font-weight: bold;
     color: #303c49;
     display: inline-block;
-    margin: 16px 0 5px 0;
+    margin: 16px 0 20px 0;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -175,7 +181,14 @@ background: #e0e0e0 none repeat scroll 0 0
     position: absolute;
     width: 100%;
 }
-
+.page-node .field-items .field-item  h2::after {
+    background: #aac none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    margin: 9px 0 0 5px;
+    position: absolute;
+    width: 100%;
+}
 .page-node .tabs-wrapper {
     border: none;
 }
@@ -192,7 +205,43 @@ background: #e0e0e0 none repeat scroll 0 0
     border: 1px dashed #bbbaf5;
     color: rgb(60,73,114);
 }
-
+.page-node h2 {
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #303c49;
+    display: inline-block;
+    margin: 16px 0 5px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;    
+}
+.page-node h2::after {
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #303c49;
+}
+.page-node .field-item p, .page-node .field-item ul li, .page-node .field-item table tr td {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: #333333;
+    line-height: 1.5;
+    letter-spacing: -0.7px;
+    word-spacing: 3.3px;
+}
+.page-node .field-item p {
+    margin-bottom: 15px;
+    text-indent: 30px;
+}
+.page-node .field-item li > p,
+ .page-node .field-item td > p {
+    margin-bottom: 5px;
+    text-indent: 0px;
+}
+.page-node .field-item td {
+    min-width: 100px;
+}
 .page-node .tabs-wrapper ul.tabs li a:hover {
     background: #f0f0f0 none repeat scroll 0 0;
 }
@@ -206,7 +255,7 @@ background: #e0e0e0 none repeat scroll 0 0
     padding: 3px;
     display: block;
     padding: 3px 0 3px 10px;
-    margin: 30px 0 0;
+    margin: 30px 0 20px;
     clear: both;
 }
 
@@ -233,7 +282,7 @@ background: #e0e0e0 none repeat scroll 0 0
     line-height: 1.5;
     letter-spacing: -0.7px;
     word-spacing: 3.3px;
-    margin-bottom: 18px !important;
+    margin-bottom: 18px;
 }
 
 .node-type-noticia #content .field-name-field-noticia-imagem img {
@@ -257,5 +306,5 @@ body.sidebar-second #sidebar-second {
 
 /*------------------------ search ---------------------------------*/
 .page-search-node .container-wrap {
-    max-width: 1129px !important;    
+    max-width: 1129px ;    
 }
