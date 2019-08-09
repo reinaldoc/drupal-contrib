@@ -222,7 +222,7 @@ background: #e0e0e0 none repeat scroll 0 0
     font-weight: bold;
     color: #303c49;
 }
-.page-node .field-item p, .page-node .field-item ul li, .page-node .field-item table tr td {
+.page-node .field-item p, .page-node .field-item ul li, .page-node .field-item table tr td, .page-node .field-item ol li {
     font-size: 14px;
     font-family: 'Open Sans';
     color: #333333;
