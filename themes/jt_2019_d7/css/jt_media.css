@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 640px) {
 
-    .top_left {
+    #header .top_left {
         width: 100%;
     }
 
@@ -44,7 +44,41 @@
     #main-menu > .menu-navigation-container > ul.menu > li {
         width: 100%;
     }
+    #header .top_right {
+        width: 100%;
+    }
+
+    #header .social_icons {
+        width: 79%;
+    }
     
+    .menu_inner_wrap > #main-menu > .menu-navigation-container > ul.menu > li {
+        width: 100%;    
+    }
+
+   .menu_inner_wrap > #main-menu > .menu-navigation-container > ul.menu > li.first + li {
+        width: 100%;
+    }
+
+    .process_consultation_wrapper .title_consultation {
+        padding: 5px 46px 5px 46px;
+        width: 100%;
+        text-align: center;
+
+    }
+    .process_consultation_wrapper #campos_consulta {
+        width: 100%;
+    }
+    
+    .process_consultation_wrapper #campos_consulta input {
+        margin-left: 2px;
+    }
+
+    .process_consultation_wrapper #buttons_consultation {
+        width: 58%;
+        margin-left: 68px; 
+    }
+
     #logo {
         margin: 0;
     }
