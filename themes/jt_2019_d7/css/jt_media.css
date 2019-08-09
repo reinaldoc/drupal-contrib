@@ -33,12 +33,18 @@
 }
 
 @media screen and (max-width: 640px) {
+
+    .top_left {
+        width: 100%;
+    }
+
     #main-menu > .menu-navigation-container > ul.menu > li.first + li {
         width: 100%;
     }
     #main-menu > .menu-navigation-container > ul.menu > li {
         width: 100%;
     }
+    
     #logo {
         margin: 0;
     }
@@ -122,4 +128,7 @@
          margin-left: 15px;
          margin-right: 15px;
     }
+
+
+
 }
