@@ -54,7 +54,10 @@ p {
 }
 
 #block-block-1 {
-    height: 324px;
+    float: right;
+    padding: 5px 18px 5px 5px;
+    font-family: Open sans;
+    font-size: 13px;
 }
 
 .views-view-grid {
