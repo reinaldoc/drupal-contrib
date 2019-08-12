@@ -105,7 +105,7 @@ padding: 8px 12px;
     color: #8e8e9b;
     background: #ffffff none repeat scroll 0 0;
     border: medium none;
-    padding: 9px 40px 8px;
+    /*padding: 9px 40px 8px;*/
 }
 
 #main-menu ul.menu li:hover > a,#main-menu ul.menu li:hover > span.nolink {
@@ -118,7 +118,7 @@ padding: 8px 12px;
     background: #e0e0e0 none repeat scroll 0 0;
     box-shadow: 1px 1px 3px #f0f0f0 inset, -1px -1px 3px #e0e0e0 inset;
     border: 1px solid white;
-    padding: 8px 39px 7px;
+    /*padding: 8px 39px 7px;*/
 }
 
 #main-menu ul.menu li ul li:hover > a {
