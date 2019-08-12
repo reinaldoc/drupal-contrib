@@ -57,7 +57,7 @@
     padding-right: 10px;
 }
 #main-menu a {
-padding: 8px 12px !important;
+padding: 8px 12px;
 }
 
 /* segundo item do menu (jurusprudencia) */
@@ -122,7 +122,7 @@ padding: 8px 12px !important;
 }
 
 #main-menu ul.menu li ul li:hover > a {
-    border: 0 !important;
+    border: 0;
 }
 #main-menu ul.menu li ul li:hover > a, #main-menu ul.menu li ul li a.active {
     border: 0;
@@ -153,14 +153,17 @@ padding: 8px 12px !important;
 ---------------------------- menu lateral [second-bar] -------------------------
 */
 .region-sidebar-second .menu {
-    height: auto !important;
+    height: auto;
     border: 1px solid #cecece;
     border-left: none;
 }
 .region-sidebar-second .menu  li {
-    background: transparent !important ;
-    font-size: 15px !important;
-    margin: 0 !important;
+    font-size: 15px;
+}
+
+.region ul.menu li, .region ul.links li, .region .item-list ul li {
+    margin: 0;
+    background: transparent;
 }
 
 .region-sidebar-second .menu  li a {

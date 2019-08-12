@@ -76,8 +76,7 @@
     display: block;
 }
 
-#footer-sitemap ul li a,
- #footer-sitemap ul li span.nolink {
+#footer-sitemap ul li a,#footer-sitemap ul li span.nolink {
     font-size: 1.15em;
     font-family: Overlock;
     color: #fff;
@@ -102,12 +101,12 @@
 }
 
 .footer_inner_credit {
-max-width: 1129px !important;
-margin: 0 auto !important;
+    max-width: 1129px;
+    margin: 0 auto;
 }
 #footer {
-overflow: hidden !important;
-background: #4a6279 !important;
-border: none !important;
-margin-top: 0 !important;
+    overflow: hidden;
+    background: #4a6279;
+    border: none;
+    margin-top: 0;
 }
