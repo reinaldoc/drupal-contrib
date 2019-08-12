@@ -119,6 +119,7 @@ p {
 #main-menu li a.active {
 background: #e0e0e0 none repeat scroll 0 0
 }
+
 /*
 ---------------- page-node --------------------- 
 */
@@ -130,13 +131,13 @@ background: #e0e0e0 none repeat scroll 0 0
 /*
 ---------------------- page-user-login --------------------------
 */
+
 .page-user .container-wrap {
     max-width: 1129px !important;
 }
 
 .page-user .tabs-wrapper {
     display:none !important;
-
 }
 
 .page-user h1.page-title {
@@ -208,6 +209,7 @@ background: #e0e0e0 none repeat scroll 0 0
     border: 1px dashed #bbbaf5;
     color: rgb(60,73,114);
 }
+
 .page-node h2 {
     font-family: 'Open Sans';
     font-size: 1.1em;
@@ -219,12 +221,14 @@ background: #e0e0e0 none repeat scroll 0 0
     width: 100%;
     overflow: hidden;    
 }
+
 .page-node h2::after {
     font-family: 'Open Sans';
     font-size: 1.1em;
     font-weight: bold;
     color: #303c49;
 }
+
 .page-node .field-item p, .page-node .field-item ul li, .page-node .field-item table tr td, .page-node .field-item ol li {
     font-size: 14px;
     font-family: 'Open Sans';
@@ -233,15 +237,18 @@ background: #e0e0e0 none repeat scroll 0 0
     letter-spacing: -0.7px;
     word-spacing: 3.3px;
 }
+
 .page-node .field-item p {
     margin-bottom: 15px;
     text-indent: 30px;
 }
+
 .page-node .field-item li > p,
  .page-node .field-item td > p {
     margin-bottom: 5px;
     text-indent: 0px;
 }
+
 .page-node .field-item td {
     min-width: 100px;
 }
@@ -272,6 +279,10 @@ background: #e0e0e0 none repeat scroll 0 0
     padding: 1% 5% 0;
 }
 
+.not-front .container-wrap {
+    max-width: 1129px;
+}
+
 .node-type-noticia h1.page-title::after {
     display:none;
 }
@@ -293,7 +304,7 @@ background: #e0e0e0 none repeat scroll 0 0
     box-shadow: 0px 2px 4px 0px #CCC;
 }
 .html .container .container-wrap {
-max-width: 100%;
+    max-width: 100%;
 }
 .page-noticias .container .container-wrap  {
     
@@ -301,6 +312,7 @@ max-width: 100%;
 }
 
 /*--------------------------- content ---------------------------*/
+
 body.sidebar-second .content-sidebar-wrap {
     width: 72%;
 }
@@ -310,11 +322,13 @@ body.sidebar-second .content-sidebar-wrap {
 }
 
 /*--------------------------- siderbar ---------------------------*/
+
 body.sidebar-second #sidebar-second {
     width: 25%;
 }
 
 /*------------------------ search ---------------------------------*/
+
 .page-search-node .container-wrap {
     max-width: 1129px ;    
 }
