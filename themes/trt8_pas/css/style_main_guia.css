@@ -66,9 +66,8 @@
 .servicos_content .servico {
     float: left;
     text-align: center;
-    padding-left: 57px;
     width: 25%;
-    font-size: 0.7em !important;
+    font-size: 0.7em;
 }
 
 .icon_acesso_rapido {
