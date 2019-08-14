@@ -18,10 +18,22 @@
     /*width: 18%;*/
     border-right: 3px solid #fff;
 }
-.logo_footer img {
+/*.logo_footer img {
     width: 127px;
     height: 96px;
+}*/
+#block-rodape > div > div.logo_footer > div {
+    background: url("../images/logo_footer.png");
+    background-size: 127px;
+    background-repeat: no-repeat;
+    width: 127px;
+    height: 96px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
 .endereco_footer {
     /*width: 22%;*/
     height: 120px;
