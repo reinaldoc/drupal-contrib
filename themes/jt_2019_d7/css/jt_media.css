@@ -68,6 +68,7 @@
     }
     .process_consultation_wrapper #campos_consulta {
         width: 100%;
+        margin: 4px 0;
     }
     
     .process_consultation_wrapper #campos_consulta input {
@@ -76,7 +77,116 @@
 
     .process_consultation_wrapper #buttons_consultation {
         width: 58%;
-        margin-left: 68px; 
+        margin: 4px 0 0 68px; 
+    }
+
+    #block-system-main .jt-view-noticia-destaque > .view-content .views-field-title {
+        width: 100%;
+        padding: 0;
+    }
+
+    #block-system-main .jt-view-noticia-destaque > .view-content .views-field-body {
+        display: none;
+    }
+
+    .jt-view-noticia-destaque .view-footer {
+        margin-top: 20px;
+        
+    }
+
+    .jt-view-noticia-destaque .view-footer .view-v-noticias .views-row {
+        float: none;
+        width: 100%;
+        padding: 15px 0 0 5px;
+    }
+
+    #block-system-main .jt-view-noticia-destaque > .view-content .views-field-path span {
+        display: none;
+    }
+
+    .jt-view-noticia-destaque .view-footer .jt-view-3-noticias-com-imagem .views-field-title a {
+        font-size: 22px;
+    }
+
+    #sidebar-second ul {
+        margin-left: 0;
+    }
+
+    .view-footer img {
+        width: 100%;
+    }
+
+   .region-content-bottom > #block-views-v-noticias-block-2 {
+        width: 93%;
+        margin: 0 10px 0 15px;
+    }
+
+    .region-content-bottom #block-views-v-noticias-em-video-block {
+        width: 93%;
+        margin: 0 10px 0 15px;
+    }
+
+    #block-block-2 .logo_footer {
+        display: block;
+        width: 11%;
+        margin-left: 107px;
+        border: none;
+    }
+
+    #block-block-2 .endereco_footer {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    #block-block-2 .mapa_site {
+        width: 100%;
+        padding-left: 34px;
+        margin-top: 12px;
+    }
+
+    #block-block-2 .rede_social {
+        float: none;
+        margin: 28px;
+        width: 25%;
+    }
+
+    #block-block-2 .rede_social .exclamacao {
+        width: 15%;
+        clear: right;
+        text-align: left;
+        padding: 0 0 0 7px;
+        float: left;
+    }
+
+    #block-block-2 .rede_social img {
+        width: 33px;
+        height: 31px;
+    }
+
+    #search-block-form #block-search-form .form-text {
+        border-radius: 3px 10px 10px 3px;
+    }    
+
+    #block-block-3 .servicos_bottom_content .servico {
+        width: 50%;
+        
+    }
+
+    #footer #block-block-7 .banner_informativo_bottom_wrapper {
+        min-height: 330px;
+    }
+
+    #footer #block-block-7 .banner_informativo_content ul {
+        margin: 1px 9px 1px 9px; 
+    }
+     
+    #footer #block-block-7 .banner_informativo_bottom_wrapper .lista_banner a {
+        width: 50%;
+        margin: 8px 45px 2px 75px;
+    }
+
+    #copyrity .lista_links {
+        float: left;
     }
 
     #logo {
