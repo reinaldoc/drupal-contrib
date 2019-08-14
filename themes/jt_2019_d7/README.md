@@ -67,7 +67,7 @@
         </div>
     </div>
 
-## Região Rodapé
+## Região Footer
     
 ### Bloco: Serviços
     <div class="servicos_bottom_wrapper">
