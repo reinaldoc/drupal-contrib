@@ -108,7 +108,7 @@
                     <li><a href="/#noticias">Notícias</a></li>
                     <li><a href="/#acesso_rapido">Acesso rápido</a></li>
                     <li><a href="/#acessos_exclusivos">Acessos exclusivos</a></li>
-                    <li><span class="telefone_menu_topo">[91]4008-7124</span></li>
+                    <li><span class="telefone_menu_topo">[91]4008-7270</span></li>
                 </ul>
         </div> <!-- fim menu-topo -->
 	<?php print render($page['search']) ?> <!-- fim search -->
