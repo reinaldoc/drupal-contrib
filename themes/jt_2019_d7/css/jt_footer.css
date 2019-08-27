@@ -187,7 +187,7 @@ border-bottom:1px solid #fff;
 .banner_informativo_content {
     padding-top: 10px;
     margin: 0 auto;
-    width: 1129px;
+    max-width: 1129px;
 }
 .lista_banner {
     height: 70px;
@@ -221,7 +221,7 @@ border-bottom:1px solid #fff;
     clear: both;
 }
 .servicos_bottom_content {
-    width: 1129px;
+   max-width: 1129px;
     height: 113px;
     margin: 0 auto;
     padding-top: 17px;

@@ -39,3 +39,25 @@
     color: black;
     font-size: 10pt;
 }
+
+@media (max-width: 767px) {
+	
+	.vw-mais-noticias > h1 {
+		display: none;
+	}
+	
+	div.vw-mais-noticias > div {
+		display: none;
+	}
+	
+	div.vw-mais-noticias > footer {
+		text-align: center;
+		margin-top: -30px;
+		background-color: #eee;
+		padding: 3px;
+	}
+	
+	div.vw-mais-noticias > footer > a{
+		font-size: 16pt;
+	}
+}

@@ -54,7 +54,10 @@ p {
 }
 
 #block-block-1 {
-    height: 324px;
+    float: right;
+    padding: 5px 18px 5px 5px;
+    font-family: Open sans;
+    font-size: 13px;
 }
 
 .views-view-grid {
@@ -93,16 +96,6 @@ p {
 
 .menu {
     /*height: 25px; */
-}
-
-#main-menu .menu-navigation-container .menu  li span.nolink  {
-    color: #8e8e9b;
-    font-size: 10pt;
-    font-weight: normal;
-}
-
-#main-menu .menu-navigation-container .menu  a {
-    color: #8e8e9b;
 }
 
 #main-menu .menu-navigation-container .menu li {

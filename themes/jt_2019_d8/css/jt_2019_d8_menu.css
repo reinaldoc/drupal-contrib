@@ -314,8 +314,11 @@ div.region-sidebar-second > nav > ul.menu li a {
 	
 	/* menu lateral */
 	
+	div.region-sidebar-second {
+		display: none;
+	}
 	
-	div.region-sidebar-second > nav > ul.menu > li {
+	/*div.region-sidebar-second > nav > ul.menu > li {
 		width: 50%;
 		float: left;
 		margin: 0 auto;
@@ -349,5 +352,5 @@ div.region-sidebar-second > nav > ul.menu li a {
 	
 	.menu-base-theme a span.sub-arrow {
 		background: none;
-	}
+	}*/
 }
