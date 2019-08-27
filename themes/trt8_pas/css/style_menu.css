@@ -199,12 +199,20 @@ padding: 8px 12px;
     border-bottom: 1px solid #cecece;
 }
 
+.region-sidebar-second .menu li.first a{
+    border-top: none;
+}
+
+.region-sidebar-second .menu li.last a{
+    border-bottom: none;
+}
+
 .region-sidebar-second ul.menu  li {
     padding: 0;
 }
 
 #sidebar-second .block h2 {
-    color: #8e8e9b;
+    color: #757575;
     border: none ;
     margin-bottom: 0;
     text-transform: uppercase;
