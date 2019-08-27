@@ -170,20 +170,21 @@ padding: 8px 12px;
     border-left: 3px solid #d7d8da;
     padding: 13px 10px;
     display: block;
-    color: #8e8e9b;
+    color: #717070;
     letter-spacing: 0.06em;
 }
 
 .region-sidebar-second .menu li a:hover {
     border-left: 3px solid #4993c2;
-    background: #f6f6f6;
+    background:#dfdfdf;
 }
 
 .region-sidebar-second .menu li a.active {
-    color: #555;
-    border: 1px solid #eaeff2;
-    border-left: 3px solid #d7d8da;
-    background: #f6f6f6;
+    color: #575757;
+    border-bottom: 1px solid #b4b4b5;
+    border-left: 3px solid #b4b4b5;	
+    background: #dfdfdf;
+    font-weight: bold;
 }
 
 .region-sidebar-second ul.menu  li {
