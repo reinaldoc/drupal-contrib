@@ -66,6 +66,8 @@ padding: 8px 12px;
   #main-menu > .menu-navigation-container > ul.menu > li > a {
     text-align: center;
     text-transform: uppercase;
+    color: rgb(78, 78, 78);
+    font-size: 15px;
 }
 
 #main-menu ul.menu li {
