@@ -82,12 +82,12 @@ p {
 }
 
 #main-menu > .menu-navigation-container > ul.menu > li {
-    width: 16%;
+    width: 12%;
 }
 
-/* segundo item do menu (jurusprudencia) */
-#main-menu > .menu-navigation-container > ul.menu > li.first + li {
-    width: 18%;
+/* item do menu (jurusprudencia) */
+#main-menu > .menu-navigation-container > ul.menu > li.first + li + li + li {
+    width: 14%;
 }
 
 #main-menu > .menu-navigation-container > ul.menu > li > span.nolink,
@@ -1242,7 +1242,7 @@ table.views-view-grid.cols-4 td {
 /* Anchor for slideshow pager and controls */
 .views-slideshow-cycle-processed {
     position: relative;
-    min-height: 246px;
+    min-height: 196px;
 }
 
 /* Slideshow Link */
@@ -1290,6 +1290,7 @@ table.views-view-grid.cols-4 td {
     text-align: center;
 }
 
+
 .v-slideshow-campanhas .views-field-title {
     background-color: rgba(0, 0, 0, 0.6);
     color: #ccf;
@@ -1310,7 +1311,8 @@ table.views-view-grid.cols-4 td {
 
 /* Slideshow pager style */
 #block-views-v-eslaides-block-1 {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1129px;
 }
 
 .v-slideshow-eslaides > .view-content .views-field-edit-node {
