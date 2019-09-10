@@ -3,7 +3,7 @@
 
 /*############ footer ##############*/
 #footer {
-    overflow: visible;
+    clear: both;
     padding: 0;
     background: #ffffff;
     margin-top: 0;
