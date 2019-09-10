@@ -21,7 +21,7 @@
    width: 54%;
    margin-top:17px;
    padding: 0 0 0 10px;
-   font-size: 15px;
+   font-size: 12px;
    text-align: justify;
 }
 
@@ -31,9 +31,10 @@
     font-style: italic;
 }
 
+
+
 /* CSS para o rodapé View v-noticias */
  .view-footer {
-    margin-top: 81px;
     clear: both;
 }
 
@@ -70,11 +71,6 @@
 }
 
 /* CSS para a região content_bottom */
-
-#content_bottom {
-    margin-bottom: 396px;
-}
-
 #content_bottom_wrapper {
     margin: 0 auto ;
     max-width: 1129px;
@@ -83,10 +79,9 @@
 
 /* CSS para o bloco da View v-noticias */
 
-#block-views-v-noticias-block-2 {
+#block-views-v-noticias-block-11 {
     float: left;
     width: 49%;
-    
 }
 
 #block-views-v-noticias-em-video-block {
