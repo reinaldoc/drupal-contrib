@@ -60,7 +60,7 @@ padding: 8px 12px;
   #main-menu > .menu-navigation-container > ul.menu > li > a {
     text-align: center;
     text-transform: uppercase;
-    color: rgb(78, 78, 78);
+    color: #4e4e4e;
     font-size: 15px;
 }
 
@@ -98,7 +98,7 @@ padding: 8px 12px;
 
 #main-menu ul.menu li ul li a {
     font-size:13px;
-    color: #8e8e9b;
+    color: #4e4e4e;
     background: #ffffff none repeat scroll 0 0;
     border: medium none;
     /*padding: 9px 40px 8px;*/
