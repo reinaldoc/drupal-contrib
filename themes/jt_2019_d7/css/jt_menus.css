@@ -1,5 +1,5 @@
 /*
-   Menu Principal
+    Menu Principal
 */
 
 .menu_wrapper {
@@ -45,6 +45,7 @@
     color: #303c49;
 }
 
+
 #main-menu ul.menu li:hover > a, #main-menu ul.menu li:hover > span.nolink {
     box-shadow: none;
 }
@@ -64,7 +65,7 @@
 #block-menu-menu-servicos-front .content ul.menu li {
     border-top: none;
     border-bottom: solid 1px #d1e4f0;
-    padding: 5px 0 5px 4px;
+    padding: 5px 0 5px 2px;
     line-height: 48px;
 }
 
@@ -77,8 +78,9 @@
     text-decoration: none;
     color: #01426a;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     display: initial;
+    font-family: inherit;
 }
 
 #block-menu-menu-servicos-front .content ul.menu li.first:hover {
