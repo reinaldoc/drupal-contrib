@@ -1,0 +1,127 @@
+/* CSS para o conteúdo View v-noticias */
+.jt-view-noticia-destaque > .view-content .views-field-field-noticia-imagem {
+    float: left;
+}
+
+.jt-view-noticia-destaque >  .view-content .views-field-title {
+    float: left;
+    width: 56%;
+    padding: 0 0 0 10px;
+    
+}
+
+.jt-view-noticia-destaque >  .view-content .views-field-title a {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.jt-view-noticia-destaque >  .view-content .views-field-body {
+   float: left;
+   width: 54%;
+   margin-top:17px;
+   padding: 0 0 0 10px;
+   font-size: 12px;
+   text-align: justify;
+}
+
+.jt-view-noticia-destaque >  .view-content .views-field-path span {
+    padding: 18px 0 0 10px;
+    display: inline-block;
+    font-style: italic;
+}
+
+
+
+/* CSS para o rodapé View v-noticias */
+ .view-footer {
+    clear: both;
+}
+
+.view-footer .jt-view-3-noticias-com-imagem .views-field-title a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.view-footer .jt-view-3-noticias-com-imagem .views-field-title .field-content {
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.view-footer > .view-v-noticias .views-field-title  {
+    clear: both;
+    padding-left: 0;
+    width: 100%;
+}
+
+.view-footer > .views-row {
+    width: 30%;
+}
+
+.view-footer > .view-v-noticias .views-row {
+    float: left;
+    width: 33.3%;
+    padding: 0 0 0 5px;
+}
+
+.view-footer > .view-v-noticias .views-row-first {
+    padding-left: 0;
+}
+
+/* CSS para a região content_bottom */
+#content_bottom_wrapper {
+    margin: 0 auto ;
+    max-width: 1129px;
+}
+
+
+/* CSS para o bloco da View v-noticias */
+
+#block-views-v-noticias-block-11 {
+    float: left;
+    width: 49%;
+}
+
+#block-views-v-noticias-em-video-block {
+    float: left;
+    width: 49%;
+    margin: 0 0 0 20px;
+}
+
+.region-content-bottom h2 {
+    font-size: 22px;
+    color: #2b4570;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.block > h2 {
+    border-bottom: 3px solid #04785a;
+    padding: 10px 0 0 0;
+}
+
+.jt-view-noticias-sem-imagem > .view-content .views-field-title a {
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 16px;
+    text-decoration: none;
+}
+
+.jt-view-noticias-sem-imagem .views-row  {
+    border-bottom: 2px dotted #04785a;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+}
+
+.jt-view-noticias-sem-imagem .views-row-last  {
+    border-bottom: none;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+}
+
+.jt-view-noticia-em-video .views-row video {
+    height: 315px;
+    width: 560px;
+}

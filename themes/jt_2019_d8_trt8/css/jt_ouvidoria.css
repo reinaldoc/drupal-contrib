@@ -1,0 +1,286 @@
+/* page header */
+
+/*
+.page-ouvidoria #header > .accessibility ul.menu li a {
+    color: #036fde;
+    text-shadow: -1px -1px 1px #63afde;
+}
+
+.page-ouvidoria .view-v-perguntas-frequentes-da-ouvidoria {
+    border-top: 2px dashed #ccc;
+}
+*/
+
+
+.page-ouvidoria #inner_header_wrapper {
+    background: #3d4045 url(/sites/all/themes/jt_2019_d7/images/ouvidoria/OUV_CABECALHO_TOPO_V7.jpg) no-repeat scroll 0 0;
+    background-color: #3d4045;
+    box-shadow: -1px -6px 8px 11px #303c49;
+    text-align: center;
+}
+
+.page-ouvidoria #inner_header_wrapper img {
+    width: 90%;
+}
+
+.page-ouvidoria .container-wrap {
+    max-width: none;
+}
+
+/*
+.node-type-artigo-ouvidoria #inner_header_wrapper,
+ .page-node-1078 #inner_header_wrapper {
+    background: #2c6ea0 url("../images/ouvidoria/OUV_BACKGROUND.png") repeat scroll 0 0;
+}
+*/
+
+.region-slideshow h2 {
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #303c49;
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.region-slideshow h2::after {
+    background: #aac none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    margin: 11px 0 0 5px;
+    position: absolute;
+    width: 100%;
+}
+
+
+/*
+.node-type-artigo-ouvidoria #content #breadcrumbs,
+.page-node-1078 #content #breadcrumbs {
+    display: none;
+}
+*/
+
+.node-type-artigo-ouvidoria section h1.page-title,
+ .page-node-1078 section h1.page-title {
+    display: block;
+    font-size: 1.8em;
+    margin: 30px 0;
+    padding: 0 0 0 16px;
+    border-left: 4px solid #303c49;
+}
+
+.node-type-artigo-ouvidoria section h1.page-title::after,
+ .page-node-1078 section h1.page-title::after {
+    background: transparent none;
+}
+
+.item-ouvidoria-link {
+    display: inline-block;
+    margin: 20px 0;
+    vertical-align: top;
+    transition: 0.2s;
+    padding: 5px;
+}
+
+.item-ouvidoria-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 2px 4px 0px #CCC;
+}
+
+.item-ouvidoria-container {
+
+}
+
+.item-ouvidoria {
+    width: 220px;
+    float: left;
+    padding: 160px 0 0 0;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.item-ouvidoria-noimg {
+    width: 268px;
+    float: left;
+    padding: 0 0 0 0;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.item-ouvidoria .item-title,
+.item-ouvidoria-noimg .item-title  {
+    font-size: 16px;
+    font-weight: bold;
+    color: #303c49;
+}
+
+.item-ouvidoria .item-desc,
+.item-ouvidoria-noimg .item-desc {
+    font-size: 13px;
+    color: #72736e;
+}
+
+.item-ouvidoria .item-more,
+.item-ouvidoria-noimg .item-more{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #303c49;
+    border-radius: 6px;
+    width: 105px;
+    margin: 6px auto;
+    padding: 3px;
+}
+
+.item-ouvidoria:hover .item-more,
+.item-ouvidoria-noimg:hover .item-more {
+    background-color: #1a8cff;
+}
+
+.item-ouvidoria p,
+.item-ouvidoria-noimg p {
+    margin: 0;
+}
+
+.item-ouvidoria-falecom {
+    background: transparent url("../images/ouvidoria/OUV_ICO_FALE_COM_OUVIDORIA.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-falecom:hover {
+    background: transparent url("../images/ouvidoria/OUV_ICO_FALE_COM_OUVIDORIA_ON_MOUSE_OVER.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-sobre {
+    background: transparent url("../images/ouvidoria/OUV_ICO_SOBRE_OUVIDORIA.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-sobre:hover {
+    background: transparent url("../images/ouvidoria/OUV_ICO_SOBRE_OUVIDORIA_ON_MOUSE_OVER.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-faq {
+    background: transparent url("../images/ouvidoria/OUV_ICO_PERGUNTAS_FRAQUENTES.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-faq:hover {
+    background: transparent url("../images/ouvidoria/OUV_ICO_PERGUNTAS_FRAQUENTES_ON_MOUSE_OVER.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-avalie {
+    background: transparent url("../images/ouvidoria/OUV_ICO_AVALIE_ATENDIMENTO.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-avalie:hover {
+    background: transparent url("../images/ouvidoria/OUV_ICO_AVALIE_ATENDIMENTO_ON_MOUSE_OVER.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-formulario {
+    background: transparent url("../images/ouvidoria/OUV_ICO_FORM_ONLINE.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-formulario:hover {
+    background: transparent url("../images/ouvidoria/OUV_ICO_FORM_ONLINE_ON_MOUSE_OVER.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-presencial {
+    background: transparent url("../images/ouvidoria/OUV_ICO_PRESENCIAL.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-presencial:hover {
+    background: transparent url("../images/ouvidoria/OUV_ICO_PRESENCIAL_ON_MOUSE_OVER.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-telefone {
+    background: transparent url("../images/ouvidoria/OUV_ICO_TELEFONE.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-telefone:hover {
+    background: transparent url("../images/ouvidoria/OUV_ICO_TELEFONE_ON_MOUSE_OVER.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-email {
+    background: transparent url("../images/ouvidoria/OUV_ICO_EMAIL.png") no-repeat scroll center 0;
+}
+
+.item-ouvidoria-email:hover {
+    background: transparent url("../images/ouvidoria/OUV_ICO_EMAIL_ON_MOUSE_OVER.png") no-repeat scroll center 0;
+}
+
+.page-ouvidoria .view-v-perguntas-frequentes {
+}
+
+.page-ouvidoria .view-v-perguntas-frequentes .view-content {
+    margin: 40px auto 100px;
+    max-width: 1024px;
+    padding: 0 15px;
+}
+
+.section-page-top {
+    display: block;
+    min-height: 420px;
+    padding: 30px 0;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.section-page-body {
+    display: block;
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 0;
+}
+
+.content p.section-page-title {
+    text-align: left;
+    padding: 0 0 0 16px;
+    font-size: 30px;
+    font-family: Open Sans;
+    font-weight: bold;
+    border-left: 4px solid #303c49;
+    margin: 0 0 22px 0;
+    display: block;
+}
+
+.page-ouvidoria #content .content h1.section-page-title {
+    text-align: left;
+    padding: 0 0 0 16px;
+    font-size: 30px;
+    font-family: Open Sans;
+    font-weight: bold;
+    border-left: 4px solid #303c49;
+    margin: 0 0 22px 0;
+    display: block;
+}
+
+.page-ouvidoria #content .content h1.section-page-title::after {
+    display: none;
+}
+
+.section-page {
+    background-color: #ebf0f6;
+    padding: 0 0 100px 0;
+    box-shadow: 0px 2px 4px 0px #CCC;
+}
+
+.page-ouvidoria #footer,
+.node-type-artigo-ouvidoria #footer,
+.page-node-1078 #footer,
+.page-ouvidoria #content,
+.page-ouvidoria #post-content {
+    margin: 0;
+}
+
+.page-ouvidoria #footer #copyright,
+.node-type-artigo-ouvidoria #footer #copyright,
+.page-node-1078 #footer #copyright {
+/*    background: #2c6ea0 url("../images/ouvidoria/OUV_BACKGROUND.png") repeat scroll 0 0;   */
+    min-height: 120px;
+}
+
+.view-footer p {
+    margin: 0;
+}

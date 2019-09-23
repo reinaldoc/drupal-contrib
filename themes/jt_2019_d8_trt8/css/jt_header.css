@@ -1,0 +1,341 @@
+#header {
+    max-width: 1129px;
+}
+
+.accessibility {
+    max-width: 1129px;
+    margin: 0 auto;
+}
+
+#accessibility_wrapper {
+    min-height: 25px;
+    background: #01426a;
+}
+#inner_header_wrapper {
+    background: #ffffff;
+}
+
+.accessibility ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.accessibility ul li {
+    float: left;
+    padding: 0 0 0 7px;
+    color: #ffffff;
+    
+}
+
+.accessibility ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.accessibility ul li a:hover {
+    border-bottom: dashed 1px #ffffff;
+}
+
+.region-accessibility-left {
+    line-height: 2px;
+    
+}
+
+.translation_tools {
+    float: right;
+    width: 154px;
+    height: 15px;
+}
+
+.translation_tools ul li {
+    float: left;
+    list-style: none;
+    padding: 0 0 0 7px;
+}
+
+.translation_tools ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.region-accessibility-right {
+    line-height: 2px;
+    height: 26px;
+}
+
+#block-block-5 {
+    height: 26px;
+}
+
+.access_links ul li {
+    list-style: none;
+    float: left;
+}
+
+.access_links ul {
+    padding: 5px 0 5px 0;
+}
+
+.access_links ul li a:hover {
+    border: none;
+}
+
+.icons_access_links {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 15px;
+    margin: 0 0 0 13px;
+}
+
+.icons_information {
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 87px;
+    background-position: 41px 68px;
+}
+
+.icons_zoom_less {
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 88px;
+    background-position: 243px 141px;
+}
+
+.icons_zoom_more {
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 79px;
+    background-position: 58px 37px;
+
+}
+
+.icons_libras {
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 85px;
+    background-position: -3px -32px;
+}
+
+.icons_contrast {
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 89px;
+    background-position: -3px 68px;
+
+}
+
+.icons_intranet {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 20px;
+    margin: 0 0 0 10px;
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 140px;
+    background-position: -223px 56px;
+}
+
+.top_left {
+    width: 47%;
+}
+
+.top_right {
+    width: 53%;
+}
+
+.social_icons {
+    margin: 24px 0 0;
+    width: 270px;
+    height: 30px;
+    margin-left: 320px;
+}
+
+.social_icons ul {
+    list-style: none;
+}
+
+.social_icon {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    margin: 0 0 0 4px;
+    border-radius: 20px;  
+}
+
+.social_instagram {
+    background: url(../images/redesocial.png);
+    background-size: 223px;
+    background-position-x: 223px;
+    background-position-y: 0px
+}
+
+.social_twitter {
+    background: url(../images/redesocial.png);
+    background-size: 223px;
+    background-position-x: 147px;
+    background-position-y: -1px;
+}
+
+.social_facebook {
+    background: url(../images/redesocial.png);
+    background-size: 223px;
+    background-position-x: 409px;
+    background-position-y: 0px;
+}
+
+.social_flickr {
+    background: url(../images/redesocial.png);
+    background-size: 223px;
+    background-position-x: 291px;
+    background-position-y: 0px
+}
+
+.social_youtube {
+    background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 218px;
+    background-position-x: 105px;
+    background-position-y: 0px;
+}
+
+.social_rss {
+    background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 218px;
+    background-position-x: 31px;
+    background-position-y: 0px;
+}
+
+#block-search-form .form-submit {
+    height: 27px;
+    width: 29px;
+    padding: 0;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-color: #E4E4E4 #D2D2D2 #B4B4B4;
+    background: url(../images/search_icon.png) no-repeat center top;
+    overflow: hidden;
+    box-shadow: none;
+    border: 0;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+}
+
+
+
+
+
+.process_consultation_wrapper {
+    margin: 9px auto;
+    max-width: 700px;
+}
+
+.title_consultation {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+    color: #ffffff;
+    background: #01426a;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#numero {
+    width: 100px;
+    padding: 5px;
+}
+
+#digito {
+    width: 60px;
+    padding: 5px;
+}
+
+#ano {
+    width: 50px;
+    padding: 5px;
+}
+
+#justica {
+    width: 40px;
+    padding: 5px;
+}
+
+#regiao {
+    width: 40px;
+    padding: 5px;
+}
+
+#vara {
+    width: 47px;
+    padding: 5px;
+}
+
+.border_input {
+    padding-left:5px; 
+    border: 1px solid #C7C7C7;
+}
+
+.buttom_consultation {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #C7C7C7;
+    border-radius: 0;
+    box-shadow: none;
+
+}
+
+.buttom_consultation:hover {
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.clean {
+    color: #ffffff;
+    background: #face33;
+}
+
+.consult {
+    color: #ffffff;
+    background: #00b388;
+}
+
+#campos_consulta {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#campos_consulta input {
+    margin: 0 0 0 4px;
+}
+
+#buttons_consultation {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 7px; 
+}
+
+#search-block-form .form-actions input {
+    margin: 2px -1px;
+    border-radius: 0px 2px 2px 0px;
+}
+
+#block-search-form .form-submit {
+    height: 26px;
+    width: 29px;
+    padding: 0;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-color: #E4E4E4 #D2D2D2 #B4B4B4;
+    background: #01426a url(../images/search_icon.png) no-repeat center top;
+    overflow: hidden;
+    box-shadow: none;
+    border: 0;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    background-size: 15px;
+    background-position: 7px 6px;
+}
