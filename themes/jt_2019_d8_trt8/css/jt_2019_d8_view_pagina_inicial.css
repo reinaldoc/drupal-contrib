@@ -1,0 +1,148 @@
+/*
+**	Views página inicial
+*/
+
+header > div > div > div.views-field.views-field-field-noticia-imagem-destaque {
+	float: left;
+	margin-right: 20px;
+}
+
+header > div > div > div.views-field.views-field-title {
+	margin-bottom: 20px;
+}
+
+header > div > div > div.views-field.views-field-field-noticia-substitulo {
+	
+}
+
+header > div > div > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img
+{
+	width: 346px;
+	height: 231px;
+}
+
+header > div > div > div.views-field.views-field-title > span > a {
+	
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #01426a;
+}
+
+header > div > div > div.views-field.views-field-field-noticia-substitulo > div {
+	font-family: Arial;
+	font-size: 16px;
+	color: #333333;
+}
+
+div.view-pagina-inicial > header > div > footer{
+	margin-top: 20px;
+}
+
+div.view-pagina-inicial > header > div > footer > a{
+	color: #333333;
+}
+
+div.view-pagina-inicial > div {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.view-pagina-inicial > div > div > div.views-col.col-2,
+div.view-pagina-inicial > div > div > div.views-col.col-1 {
+	padding-right: 20px;
+}
+div.view-pagina-inicial > div > div > div.views-col.col-3 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+div.view-pagina-inicial > div > div > div.views-col.col-2 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+div.view-pagina-inicial > div > div > div.views-col.col-1 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
+	width: 275px;
+	height: 182px;
+}
+
+div.view-pagina-inicial > div > div > div > div.views-field.views-field-title > span > a {
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+	color: 01426a;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	
+	div.view-pagina-inicial > div {
+		float: none;
+	}
+	
+	.view-pagina-inicial > div {
+		border-top: 1px solid #ccc;
+		padding-top: 20px;
+	}
+	
+	/* destaque principal */
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-field-noticia-imagem-destaque {
+		float: none;
+		height: auto;
+		margin: 0;
+	}
+	
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
+		width: 100%;
+		height: auto;
+	}
+	
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-title,
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-field-noticia-substitulo
+	{
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+	
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-title > span > a {
+		/*font-size: 20pt;*/
+	}
+	
+	div.view-pagina-inicial > header > div > div > div.views-field.views-field-field-noticia-substitulo > div {
+		/*font-size: 16pt;*/
+	}
+	
+	div.view-pagina-inicial > header > div > footer {
+		display: none;
+	}
+	
+	/* tres destaques secundarios */
+	div.view-pagina-inicial > div > div > div > div.views-field.views-field-title {
+		margin: 0 auto;
+		width: 75%;
+		padding-top: 5px;
+	}
+	
+	div.view-pagina-inicial > div > div > div > div.views-field.views-field-title > span > a {
+		/*font-size: 16pt;*/
+	}
+	
+	div.view-pagina-inicial > div > div > div:not(:last-child) {
+		border-bottom: 1px dashed #ccc;
+	}
+	
+	div.view-pagina-inicial > div > div > div {
+		width: 100% !important;
+		text-align: center;
+		margin-bottom: 20px;
+		padding-bottom: 5px;
+	}
+	
+	div.view-pagina-inicial > div > div > div.views-col.col-2,
+	div.view-pagina-inicial > div > div > div.views-col.col-1 {
+		padding-right: 0;
+	}
+	
+	div.view-pagina-inicial > div > div > div.views-col.col-1 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+	div.view-pagina-inicial > div > div > div.views-col.col-2 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img,
+	div.view-pagina-inicial > div > div > div.views-col.col-3 > div.views-field.views-field-field-noticia-imagem-destaque > div > a > img {
+		width: 80%;
+		height: auto;
+	}
+	
+}
