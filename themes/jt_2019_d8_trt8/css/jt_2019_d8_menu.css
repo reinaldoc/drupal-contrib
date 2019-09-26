@@ -354,3 +354,133 @@ div.region-sidebar-second > nav > ul.menu li a {
 		background: none;
 	}*/
 }
+
+/*
+    Menu Serviços Página inicial
+*/
+
+.menu_right  ul {
+    list-style: none;
+}
+
+.menu_right  li {
+    border-top: none;
+    border-bottom: solid 1px #d1e4f0;
+    padding: 5px 0 5px 2px;
+    line-height: 48px;
+}
+
+.menu_right li.first {
+    border-top: solid 1px #d1e4f0;
+}
+
+.menu_right  li a {
+    padding: 4px 0 5px 0;
+    text-decoration: none;
+    color: #01426a;
+    font-weight: bold;
+    font-size: 14px;
+    display: initial;
+    font-family: inherit;
+}
+
+.menu_right  li.first:hover {
+    border-top: solid 1px #d1e4f0;
+}
+
+.menu_right  li:hover {
+    border-right: solid 1px #d1e4f0;
+    padding: 5px 0 5px 0px;
+}
+
+.menu_right a:hover {
+    border-bottom: solid 0.5px;
+    opacity: 0.7;
+}
+
+.menu_right_pje::before {
+    background: url(../images/icons_right.png) repeat scroll 0px 0px;
+    background-position: -48px 0px;
+    height: 50px;
+    width: 50px;
+    margin: 0 16px 0 13px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+.menu_right_certidoes::before  {
+    background: url(../images/icons_right.png) repeat scroll 0px 0px;
+    background-position: 3px 0px;
+    height: 50px;
+    width: 50px;
+    margin: 0 16px 0 13px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.menu_right_pautas::before {
+    background: url(../images/icons_right.png) repeat scroll 0px 0px;
+    background-position: 329px 0px;
+    height: 50px;
+    width: 50px;
+    margin: 0 16px 0 13px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.menu_right_recolhimento::before {
+    background: url(../images/icons_right.png) repeat scroll 0px 0px;
+    background-position: 391px 0px;
+    height: 50px;
+    width: 50px;
+    margin: 0 16px 0 13px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.menu_right_varas::before {
+    background: url(../images/icons_right.png) repeat scroll 0px 0px;
+    background-position: 273px 0px;
+    height: 50px;
+    width: 50px;
+    margin: 0 16px 0 13px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.menu_right_diario::before {
+    background: url(../images/icons_right.png) repeat scroll 0px 0px;
+    background-position: 205px 0px;
+    height: 50px;
+    width: 50px;
+    margin: 0 16px 0 13px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.menu_right_concursos::before {
+    background: url(../images/icons_right.png) repeat scroll 0px 0px;
+    background-position: 135px 0px;
+    height: 50px;
+    width: 60px;
+    margin: 0 8px 0 13px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.menu_right_resolucoes::before {
+    background: url(../images/icons_right.png) repeat scroll 0px 0px;
+    background-position: 63px 0px;
+    height: 50px;
+    width: 50px;
+    margin: 0 16px 0 13px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
