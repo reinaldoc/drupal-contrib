@@ -389,8 +389,7 @@ div.region-sidebar-second > nav > ul.menu li a {
 }
 
 .menu_right  li:hover {
-    border-right: solid 1px #d1e4f0;
-    padding: 5px 0 5px 0px;
+    
 }
 
 .menu_right a:hover {
@@ -400,87 +399,103 @@ div.region-sidebar-second > nav > ul.menu li a {
 
 .menu_right_pje::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: -48px 0px;
-    height: 50px;
-    width: 50px;
+    background-position: -35px 2px;
+    height: 39px;
+    width: 39px;
     margin: 0 16px 0 13px;
     content: ".";
-    color: transparent;
+    color:
+    transparent;
     display: inline-block;
+    background-size: 359px;
 }
 .menu_right_certidoes::before  {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
     background-position: 3px 0px;
-    height: 50px;
-    width: 50px;
+    height: 39px;
+    width: 35px;
     margin: 0 16px 0 13px;
     content: ".";
-    color: transparent;
+    color:
+    transparent;
     display: inline-block;
+    background-size: 388px
 }
 
 .menu_right_pautas::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 329px 0px;
-    height: 50px;
-    width: 50px;
+    background-position: 646px 0px;
+    height: 39px;
+    width: 35px;
     margin: 0 16px 0 13px;
     content: ".";
-    color: transparent;
+    color:
+    transparent;
     display: inline-block;
+    background-size: 388px;
 }
 
 .menu_right_recolhimento::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 391px 0px;
-    height: 50px;
-    width: 50px;
+    background-position: 691px 0px;
+    height: 39px;
+    width: 39px;
     margin: 0 16px 0 13px;
     content: ".";
-    color: transparent;
+    color:
+    transparent;
     display: inline-block;
+    background-size: 388px;
 }
 
 .menu_right_varas::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 273px 0px;
-    height: 50px;
-    width: 50px;
+    background-position: 599px 0px;
+    height: 39px;
+    width: 39px;
     margin: 0 16px 0 13px;
     content: ".";
-    color: transparent;
+    color:
+    transparent;
     display: inline-block;
+    background-size: 388px;
 }
 
 .menu_right_diario::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 205px 0px;
-    height: 50px;
-    width: 50px;
+    background-position: 548px 0px;
+    height: 39px;
+    width: 39px;
     margin: 0 16px 0 13px;
     content: ".";
-    color: transparent;
+    color:
+    transparent;
     display: inline-block;
+    background-size: 388px;
 }
 
 .menu_right_concursos::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 135px 0px;
-    height: 50px;
-    width: 60px;
+    background-position: 491px 0px;
+    height: 39px;
+    width: 49px;
     margin: 0 8px 0 13px;
     content: ".";
-    color: transparent;
+    color:
+    transparent;
     display: inline-block;
+    background-size: 388px;
 }
 
 .menu_right_resolucoes::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 63px 0px;
-    height: 50px;
-    width: 50px;
+    background-position: 48px 0px;
+    height: 39px;
+    width: 39px;
     margin: 0 16px 0 13px;
     content: ".";
-    color: transparent;
+    color:
+    transparent;
     display: inline-block;
+    background-size: 389px;
 }

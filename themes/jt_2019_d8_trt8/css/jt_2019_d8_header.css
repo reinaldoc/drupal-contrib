@@ -186,17 +186,22 @@ div.container.novoportal-identidade > div > div:nth-child(2) {
 	width: 270px;
 	height: 27px;
 	
-}
+}*/
 
 .social_icon {
-	float: right;
-	display: inline-block;
-	vertical-align: top;
-	width: 31px;
-	height: 27px;
-	margin: 0 0 0 4px;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    margin: 0 0 0 4px;
+    border-radius: 20px;	
    
-}*/
+}
+.social_icon:hover {
+transform: scale(1.02);
+box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
 
 .social-media {
 	margin-bottom: 10px;
@@ -209,17 +214,16 @@ div.container.novoportal-identidade > div > div:nth-child(2) {
 
 a.social_facebook {
 	background: url("../images/redesocial.png");
-	background-size: 223px;
-	background-position-x: 409px;
-	background-position-y: 0px;
+background-size: 223px;
+background-position-x: 409px;
+background-position-y: 0px;
 }
 
 a.social_twitter {
 	background: url("../images/redesocial.png");
-	background-size: 20px;
-	background-size: 223px;
-	background-position-x: 147px;
-	background-position-y: -1px;
+background-size: 223px;
+background-position-x: 147px;
+background-position-y: -1px;
 }
 
 a.social_instagram {
@@ -238,24 +242,24 @@ a.social_email {
 
 a.social_flickr {
 	background: url("../images/redesocial.png");
-	background-size: 223px;
-	background-position-x: 291px;
-	background-position-y: 0px;
+background-size: 223px;
+background-position-x: 291px;
+background-position-y: 0px
 	
 }
 
 a.social_youtube {
 	background: url("../images/redesocial.png");
-	background-size: 218px;
-	background-position-x: 105px;
-	background-position-y: 0px;
+background-size: 218px;
+background-position-x: 105px;
+background-position-y: 0px;
 }
 
 a.social_rss {
 	background: url("../images/redesocial.png");
-	background-size: 218px;
-	background-position-x: 31px;
-	background-position-y: 0px;
+background-size: 218px;
+background-position-x: 31px;
+background-position-y: 0px;
 }
 
 @media (min-width: 991px) {

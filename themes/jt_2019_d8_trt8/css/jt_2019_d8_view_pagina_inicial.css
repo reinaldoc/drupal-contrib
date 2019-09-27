@@ -152,6 +152,12 @@ div.view-pagina-inicial > div > div > div > div.views-field.views-field-title > 
     float: left;
 }
 
+.jt-view-noticia-destaque .views-row > .views-field-field-image img:hover {
+    transform: scale(1.02);
+    box-shadow: 1.5px 1.5px 1.5px 
+    rgba(0,0,0,0.5);
+}
+
 .jt-view-noticia-destaque >  .views-row .views-field-title {
     float: left;
     width: 56%;

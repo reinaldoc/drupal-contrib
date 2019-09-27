@@ -1,5 +1,6 @@
 /* style rodape */
 /*############ footer ##############*/
+
 .footer-menu {
     
     background: #23517e;
@@ -8,20 +9,21 @@
 
 .bloco_footer {
     display: inline-block;
-    /*margin-right: 30px;*/
+    vertical-align: top;
+    margin-right: 30px;
 }
 
 .footer-menu ul {
 	margin: 0px 0px 20px;
 }
 .logo_footer {
-    /*width: 18%;*/
+    width: 18%;
     border-right: 3px solid #fff;
 }
-/*.logo_footer img {
-    width: 127px;
-    height: 96px;
-}*/
+.logo_footer img {
+    width: 138px;
+    height: 106px;
+}
 #block-rodape > div > div.logo_footer > div {
     background: url("../images/logo_footer.png");
     background-size: 127px;
@@ -35,28 +37,26 @@
 }
 
 .endereco_footer {
-    /*width: 22%;*/
+    width: 23%;
     height: 120px;
-    
-   
 }
 .endereco_footer p {
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Overlock;
     text-align: left;
     font-size: 10pt;
 	margin-bottom: 0px;
 }
 .mapa_site {
-    /*width: 18%;*/
-    /*padding-left: 70px;*/
-	margin-top: -20px;
+    width: 18%;
+    padding-left: 70px;
 }
 .mapa_site h2 {
     color: #fff;
     font-weight: bold;
     font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
 }
 .mapa_site ul {
     list-style: none;
@@ -73,9 +73,9 @@
     color: #9bacb4;
 }
 .rede_social {
-    /*width: 20%;*/
-    /*float: right !important;*/
-    margin-right: 0 !important;
+    width: 20%;
+    float: right;
+    margin-right: 0;;
 }
 .rede_social ul {
     list-style: none;
@@ -90,40 +90,48 @@
     margin-left: 10px;
 }
 .rede_social .social {
-    width: 20px;
-    height:20px;
+    width: 30px;
+    height:30px;
     border-radius: 20px;
 }
 .rede_social .facebook {
-    background: url("../images/icones - redes sociais (1).png");
-    background-size: 20px;
-	background-repeat: no-repeat;
+    background: url("../images/social_icons.png");
+    background-position: -1px 32px;
+    
 }
 .rede_social .twitter {
-    background: url("../images/icones - redes sociais (5).png");
-    background-size: 20px;
-	background-repeat: no-repeat;
+    background: url("../images/social_icons.png");
+    background-position: 220px 32px;
 }
 .rede_social .instagram {
-	background: url("../images/icones - redes sociais (4).png");
-    background-size: 20px;
-	background-repeat: no-repeat;
+    background: url("../images/social_icons.png");
+background-position: 441px 31px;
+    
 }
-.rede_social .email {
-    background: url("../images/icones - redes sociais (3).png");
-    background-size: 20px;
-	background-repeat: no-repeat;
+
+.rede_social .flickr {
+    background: url("../images/social_icons.png");
+    background-position: 396px 32px;
 }
-.rede_social .icon_information {
-    background: url("../images/icone - superior (5).png");
-    background-size: 20px;
-	background-repeat: no-repeat;
+.rede_social .youtube {
+    background: url("../images/social_icons.png");
+     background-position: 80px 32px;
 }
-/*.rede_social .exclamacao img {
+.rede_social .exclamacao {
+    display: block;
+    width: 100%;
+    clear: both;
+    text-align: right;
+    padding-top: 15px;
+}
+.rede_social .exclamacao img {
     width: 40px;
     height: 40px;
-}*/
-
+}
+/*ajustes trt8 */
+#block-menudorodape {
+margin-bottom: 0;
+}
 @media (max-width: 991px) {
 	
 	.logo_footer {
@@ -176,3 +184,6 @@
 	}
 	
 }
+
+
+
