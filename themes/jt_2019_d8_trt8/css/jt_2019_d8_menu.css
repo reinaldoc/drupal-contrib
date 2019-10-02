@@ -33,7 +33,6 @@ ul.menu-base-theme > li > a {
 	margin-bottom: 5px;
     height: 24px;
     padding: 0px 24px 0px 24px;
-    border-right: 1px solid #8e8e8e;
 }
 
 ul.menu-base-theme ul a {
@@ -499,3 +498,5 @@ div.region-sidebar-second > nav > ul.menu li a {
     display: inline-block;
     background-size: 389px;
 }
+
+/*######### estilo dportal*drupal7 * by Marcos ########### */

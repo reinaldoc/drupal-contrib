@@ -27,6 +27,14 @@
 	font-weight: bold;
 	cursor: context-menu;
 	height: 35px;
+	border-radius: 0;
+}
+.process_consultation_wrapper .form-control {
+	border-radius: 0;
+}
+
+.process_consultation_wrapper .btn {
+	border-radius: 0;
 }
 
 #numero_cnj {

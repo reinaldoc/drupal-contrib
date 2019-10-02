@@ -96,6 +96,9 @@ div.v-grid-programas-jt > div > div > div.views-col.col-5 {
     width: 100%;
     clear: both;
 }
+#block-servicos {
+    clear: both;
+}
 .servicos_bottom_content {
    max-width: 1129px;
     height: 113px;
