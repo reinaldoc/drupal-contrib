@@ -115,6 +115,11 @@ div.v-grid-programas-jt > div > div > div.views-col.col-5 {
     text-align: center;
     width: 9.3%;
 }
+
+.servicos_bottom_content .servico h4 a:hover {
+    text-decoration: none;
+}
+
 .servicos_bottom_content .servico {
     transition: transform 0.3s;
 }

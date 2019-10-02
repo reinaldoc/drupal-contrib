@@ -105,3 +105,75 @@ body .container {
 		width: auto; /*1920*/
 	}
 }
+
+/*################### page-node #################*/
+
+.page-node-type-noticia .node--type-noticia h2 span.quickedit-field {
+	font-family: 'Open Sans';
+	font-size: 1.3em;
+	font-weight: bold;
+	color:#303c49;
+	display: inline-block;
+	margin: 5px 0 5px 0;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+ .field_subtitulo p {
+	font-family: 'Open Sans';
+	font-size: 1.3em;
+	text-align: center;
+	color:#606060;
+	border-bottom: 1px solid #BBBBBB;
+	padding: 0 4% 2%;
+	margin: 0 0 2% 0;
+	line-height: 1.5;
+}
+
+ .field_imagem img {
+	border: 1px solid #ddd;
+	box-shadow: 0px 2px 4px 0px #CCC;
+}
+
+ .field_body_noticia  {
+	font-size: 1.3em;
+	font-family: 'Open Sans';
+	color:#333333;
+	line-height: 1.5;
+	letter-spacing: -0.7px;
+	word-spacing: 3.3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

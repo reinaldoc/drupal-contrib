@@ -33,6 +33,7 @@ ul.menu-base-theme > li > a {
 	margin-bottom: 5px;
     height: 24px;
     padding: 0px 24px 0px 24px;
+    font-family: "Arial";
 }
 
 ul.menu-base-theme ul a {
@@ -367,9 +368,10 @@ div.region-sidebar-second > nav > ul.menu li a {
     border-bottom: solid 1px #d1e4f0;
     padding: 5px 0 5px 2px;
     line-height: 48px;
+    width: 268px;
 }
 
-.menu_right li.first {
+.menu_right li.menu_right_pje {
     border-top: solid 1px #d1e4f0;
 }
 
@@ -388,115 +390,111 @@ div.region-sidebar-second > nav > ul.menu li a {
 }
 
 .menu_right  li:hover {
-    
+    border-right: solid 1px #d1e4f0;
+    padding: 5px 0 5px 0px;
+    background: #f0f3f5 none repeat scroll 0 0;
+}
+
+.menu_right li:hover {
+    border-left: 4px solid #303c49;
 }
 
 .menu_right a:hover {
-    border-bottom: solid 0.5px;
     opacity: 0.7;
 }
 
 .menu_right_pje::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: -35px 2px;
-    height: 39px;
-    width: 39px;
+    background-position: -48px 0px;
+    height: 50px;
+    width: 50px;
     margin: 0 16px 0 13px;
     content: ".";
     color:
     transparent;
     display: inline-block;
-    background-size: 359px;
 }
 .menu_right_certidoes::before  {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
     background-position: 3px 0px;
-    height: 39px;
-    width: 35px;
+    height: 50px;
+    width: 50px;
     margin: 0 16px 0 13px;
     content: ".";
     color:
     transparent;
     display: inline-block;
-    background-size: 388px
 }
 
 .menu_right_pautas::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 646px 0px;
-    height: 39px;
-    width: 35px;
+    background-position: 329px 0px;
+    height: 50px;
+    width: 50px;
     margin: 0 16px 0 13px;
     content: ".";
     color:
     transparent;
     display: inline-block;
-    background-size: 388px;
 }
 
 .menu_right_recolhimento::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 691px 0px;
-    height: 39px;
-    width: 39px;
+    background-position: 391px 0px;
+    height: 50px;
+    width: 50px;
     margin: 0 16px 0 13px;
     content: ".";
     color:
     transparent;
     display: inline-block;
-    background-size: 388px;
 }
 
 .menu_right_varas::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 599px 0px;
-    height: 39px;
-    width: 39px;
+    background-position: 273px 0px;
+    height: 50px;
+    width: 50px;
     margin: 0 16px 0 13px;
     content: ".";
     color:
     transparent;
     display: inline-block;
-    background-size: 388px;
 }
 
 .menu_right_diario::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 548px 0px;
-    height: 39px;
-    width: 39px;
+    background-position: 205px 0px;
+    height: 50px;
+    width: 50px;
     margin: 0 16px 0 13px;
     content: ".";
     color:
     transparent;
     display: inline-block;
-    background-size: 388px;
 }
 
 .menu_right_concursos::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 491px 0px;
-    height: 39px;
-    width: 49px;
+    background-position: 135px 0px;
+    height: 50px;
+    width: 50px;
     margin: 0 8px 0 13px;
     content: ".";
     color:
     transparent;
     display: inline-block;
-    background-size: 388px;
 }
 
 .menu_right_resolucoes::before {
     background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 48px 0px;
-    height: 39px;
-    width: 39px;
+    background-position: 63px 0px;
+    height: 50px;
+    width: 50px;
     margin: 0 16px 0 13px;
     content: ".";
-    color:
-    transparent;
+    color:transparent;
     display: inline-block;
-    background-size: 389px;
 }
 
 /*######### estilo dportal*drupal7 * by Marcos ########### */
