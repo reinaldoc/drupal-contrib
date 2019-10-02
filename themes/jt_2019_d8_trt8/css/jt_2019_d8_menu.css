@@ -366,7 +366,7 @@ div.region-sidebar-second > nav > ul.menu li a {
 .menu_right  li {
     border-top: none;
     border-bottom: solid 1px #d1e4f0;
-    padding: 5px 0 5px 2px;
+    padding: 5px 0 5px 4px;
     line-height: 48px;
     width: 268px;
 }
