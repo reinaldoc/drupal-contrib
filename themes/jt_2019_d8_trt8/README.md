@@ -111,5 +111,3 @@
 		  </li>
 	   </ul>
 	</div>
-
-## Classes necessárias para views
