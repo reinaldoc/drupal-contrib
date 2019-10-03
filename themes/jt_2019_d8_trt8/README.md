@@ -1,6 +1,6 @@
-# Tema para Nova Identidade
+# Tema para Nova Identidade da Justiça do Trabalho
 
-## Regiões personalizadas
+![Tema do Novo Portal](README_screenshot.jpg)
 
 ### Cabeçalho
 	<div class="header_content">
