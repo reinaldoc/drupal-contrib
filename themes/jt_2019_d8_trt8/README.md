@@ -50,6 +50,23 @@
 	   </div>
 	</div>
 
+### Menu Lateral
+	<div class="menu_right_wrapper">
+		<div class="menu_right_content">
+			<div class="menu_right">
+				<ul>
+					<li class="menu_right_pje"><a href="#">PJe</a></li>
+					<li class="menu_right_certidoes"><a href="#">Certidões</a></li>
+					<li class="menu_right_pautas"><a href="#">Pautas</a></li>
+					<li class="menu_right_recolhimento"><a href="#">Guias de Recolhimento</a></li>
+					<li class="menu_right_varas"><a href="#">Varas do Trabalho</a></li>
+					<li class="menu_right_diario"><a href="#">Diário Eletrônico da JT</a></li>
+					<li class="menu_right_concursos"><a href="#">Concursos</a></li>
+					<li class="menu_right_resolucoes"><a href="#">Atos e Resoluções</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 ### Rodapé
 	<div class="bloco_footer logo_footer col-sm-12 col-md-2">
 	   <div class="imagem_logo">&nbsp;</div>
