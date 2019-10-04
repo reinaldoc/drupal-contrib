@@ -212,14 +212,19 @@ body .container {
 ----------------------------- Views: Table ----------------------------
 */
 
-.views-table > caption {
-    background: #303c49 none repeat scroll 0 0;
-    box-shadow: 0 0px 3px inset;
-    color: #fff;
-    font-weight: bold;
-    padding: 7px;
+.views-table > table > tr > td {
+    background-color:#eee;
+    border-bottom: 1px solid #ccc;
+    padding: 0.1em 0.6em;
 }
+.views-table > table > tr {
+    background: #FFF;
+    color:#747474;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #DBDBDB;
 
+}
 .views-table > thead > tr {
     background: #303c49 none repeat scroll 0 0;
     box-shadow: 0 0px 3px inset;

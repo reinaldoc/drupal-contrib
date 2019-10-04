@@ -68,9 +68,6 @@ nav > ul > li > a > span {
     display: block;
 }
 
-
-
-
 div.region-sidebar-second > nav > ul > li:nth-child(1) > a {
     background-image: url("../images/icones - lateral (2).png");
 	margin-top: 5px;
