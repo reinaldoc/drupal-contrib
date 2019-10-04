@@ -485,6 +485,73 @@ table.views-view-grid.cols-4 td {
 
 
 
+/*
+------------------------------ Sidebar ------------------------------
+*/
+
+body.one-sidebar #container .content-sidebar-wrap {
+    width: 74%;
+}
+
+body.one-sidebar #container #sidebar-second {
+    width: 26%;
+    float: right;
+}
+
+.region-sidebar-second ul.menu {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.region-sidebar-second ul.menu li {
+    margin: 0 0 0 5px;
+    padding: 6px 0 6px 4px;
+    background-image: none;
+}
+
+.region-sidebar-second ul.menu li a {
+    color: 
+    rgb(60, 73, 114);
+    font-family: Overlock;
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    padding: 4px 0 5px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.region-sidebar-second ul.menu li {
+    border-bottom: 1px dashed #bbbaf5;
+}
+
+.region-sidebar-second ul.menu li:first-child:hover {
+    border-top: 1px dashed #bbbaf5;
+    padding-top: 5px;
+}
+
+.region-sidebar-second ul.menu li.menu-item:hover {
+    border-right: 4px solid #303c49;
+    padding: 6px 0 6px 0px;
+    background: #f0f3f5 none repeat scroll 0 0;
+    border-left: 1px dotted #303c49;
+}
+
+.region-sidebar-second ul.menu li.menu-item:hover {
+    border-left: 4px solid #303c49;
+    border-right: 1px dashed #bbbaf5;
+}
+
+.region-sidebar-second ul.menu li.menu-item a {
+    color: rgb(60, 73, 114); /* rgb(0, 13, 54); */
+    font-family: Overlock;
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    padding: 4px 0 5px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
 
 
 

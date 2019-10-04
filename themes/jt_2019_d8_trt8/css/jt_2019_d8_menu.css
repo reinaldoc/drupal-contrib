@@ -35,15 +35,6 @@ ul.menu-base-theme > li > a {
     padding: 0px 24px 0px 24px;
     font-family: "Arial";
 }
-
-ul.menu-base-theme ul a {
-	padding: 5px 24px;
-}
-
-ul.menu-base-theme > li:last-child > a {
-	border-right: none;
-}
-
 /* icone de dropdown */
 
 nav > ul > li > a > span {
@@ -77,18 +68,8 @@ nav > ul > li > a > span {
     display: block;
 }
 
-.region-sidebar-second ul.menu {
-    padding-left: 9px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	/*list-style-image: url("../images/icones - lateral (2)-2.png");*/
-}
 
-div.region-sidebar-second > nav > ul > li:nth-child(n) > a {
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: 35px 35px;
-}
+
 
 div.region-sidebar-second > nav > ul > li:nth-child(1) > a {
     background-image: url("../images/icones - lateral (2).png");
@@ -119,60 +100,7 @@ div.region-sidebar-second > nav > ul > li:nth-child(8) > a {
     background-image: url("../images/icones - lateral (8).png");
 }
 
-.region-sidebar-second ul.menu li:nth-child(1) {
-    border-top: 1px solid #b2c6d2;
-}
 
-div.region-sidebar-second > nav > ul.menu > li {
-    list-style-type: none;
-    margin: 0 0 0 5px;
-    padding: 0px 0 0px 4px;
-    border-bottom: 1px solid #b2c6d2;
-	max-height: 55px;
-}
-
-.region-sidebar-second ul.menu li.leaf {
-}
-
-/*.region-sidebar-second ul.menu li.first.leaf:hover {
-    border-top: 1px dashed #bbbaf5;
-    padding-top: 5px;
-}*/
-
-.region-sidebar-second ul.menu li:hover {
-    /*border-left: 1px solid #303c49;
-    border-right: 1px dotted #303c49;*/
-}
-
-.region-sidebar-second ul.menu li.leaf:hover {
-    border-left: 1px solid #303c49;
-    border-right: 1px solid #dbdcdd;
-}
-
-div.region-sidebar-second > nav > ul.menu li a {
-	padding: 10px 0 15px 60px;
-}
-
-.region-sidebar-second ul.menu li a {
-    /*color: rgb(60, 73, 114); /* rgb(0, 13, 54); */
-    /*font-family: Overlock;*/
-    /*font-size: 1.25em;*/
-    letter-spacing: 0.05em;
-    padding: 10px 0 15px 0px;
-    text-decoration: none;
-    display: block;
-	
-	color: #01426a;
-	font-family: Arial;
-	font-weight: bold;
-	font-size: 17px;
-	width: 215px;
-	margin-bottom: 5px;
-}
-
-/*div.region-sidebar-second > nav > ul > li:nth-child(1) > a {
-	background-image: url("../images/icones - lateral (2).png") no-repeat;
-}*/
 
 /* Title */
 .region-sidebar-second nav h2 {
