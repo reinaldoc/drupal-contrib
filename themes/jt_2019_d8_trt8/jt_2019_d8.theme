@@ -2,7 +2,7 @@
 
 use Drupal\Component\Render\FormattableMarkup;
 
-function jt_2019_d8_preprocess_html(&$variables) {
+function jt_2019_d8_trt8_preprocess_html(&$variables) {
   // Add node id to the body class.
   $node = \Drupal::routeMatch()->getParameter('node');
   if($node) {
@@ -10,7 +10,7 @@ function jt_2019_d8_preprocess_html(&$variables) {
   }
 }
 
-function jt_2019_d8_preprocess_views_view(&$variables) {
+function jt_2019_d8_trt8_preprocess_views_view(&$variables) {
   $view = $variables['view'];
 
   $variables['title'] = [
@@ -18,7 +18,7 @@ function jt_2019_d8_preprocess_views_view(&$variables) {
   ];
 }
 
-function jt_2019_d8_preprocess_node(&$variables) {
+function jt_2019_d8_trt8_preprocess_node(&$variables) {
   // Add node id to the body class.
   $node = \Drupal::routeMatch()->getParameter('node');
   if($node) {
@@ -26,7 +26,7 @@ function jt_2019_d8_preprocess_node(&$variables) {
   }
 }
 
-/*function jt_2019_d8_form_alter(&$form, &$form_state, $form_id) {
+/*function jt_2019_d8_trt8_form_alter(&$form, &$form_state, $form_id) {
 	
 	if ($form_id == 'search_block_form') {
 		$form['search_block_form']['#attributes']['placeholder'] = t('Search');
@@ -39,7 +39,7 @@ function jt_2019_d8_preprocess_node(&$variables) {
 	}
 }*/
 
-/*function jt_2019_d8_preprocess_input(&$variables) {
+/*function jt_2019_d8_trt8_preprocess_input(&$variables) {
   $element = &$variables['element'];
   // Ugh :(
   if ($element['#type'] === 'submit' && $element['#value']->__toString() === 'Search') {
@@ -52,7 +52,7 @@ function jt_2019_d8_preprocess_node(&$variables) {
   }
 }*/
 
-function jt_2019_d8_form_search_block_form_alter(&$form, &$form_state) {
+function jt_2019_d8_trt8_form_search_block_form_alter(&$form, &$form_state) {
     //$form['keys']['#attributes']['placeholder'][] = t('Informe os termos para busca');
     //$value = new FormattableMarkup('<i class="fas fa-search"></i>@text', ['@text' => '',]);
     //$form['actions']['submit']['#value'] = $value;
