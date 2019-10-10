@@ -10,7 +10,7 @@ libraries:
   - professional_responsive_theme/bootstrap
   - professional_responsive_theme/fontawesome
   - professional_responsive_theme/global-components
-  - jt_2019_d8/global-components
+  - jt_2019_d8_trt16/global-components
 
 #Regions
 regions:
@@ -46,6 +46,6 @@ regions:
 # Information added by Drupal.org packaging script on 2017-11-29
 version: '8.x-1.0'
 core: '8.x'
-project: 'jt_2019_d8'
+project: 'jt_2019_d8_trt16'
 datestamp: 1511981017
 
