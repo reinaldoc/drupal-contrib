@@ -73,56 +73,56 @@ REDES SOCIAIS: Você pode encontrar o HTML no arquivo 'page.html.twig'; seus ico
 		</div>
 	</div>
 ### Rodapé
-<div class="footer_wrapper">
-<div class="footer_content">
-<div class="bloco_footer logo_footer"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/logo_footer.png" /></a></div>
+	<div class="footer_wrapper">
+	<div class="footer_content">
+	<div class="bloco_footer logo_footer"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/logo_footer.png" /></a></div>
 
-<div class="bloco_footer endereco_footer">
-<p>Tribunal Regional do Trabalho da 8ª Região</p>
+	<div class="bloco_footer endereco_footer">
+	<p>Tribunal Regional do Trabalho da 8ª Região</p>
 
-<p>Tv. D. Pedro I, 746 - Umarizal</p>
+	<p>Tv. D. Pedro I, 746 - Umarizal</p>
 
-<p>CEP:66050-100</p>
+	<p>CEP:66050-100</p>
 
-<p>Horário de funcionamento:<br />
-De segunda a sexta, das 8h às 13h</p>
+	<p>Horário de funcionamento:<br />
+	De segunda a sexta, das 8h às 13h</p>
 
-<p>Telefone: +55 (91) 4008-7000</p>
-</div>
+	<p>Telefone: +55 (91) 4008-7000</p>
+	</div>
 
-<div class="bloco_footer mapa_site">
-<h2>Mapa do site</h2>
+	<div class="bloco_footer mapa_site">
+	<h2>Mapa do site</h2>
 
-<ul>
-	<li><a href="#"><span class="icon">&gt;</span>Institucional</a></li>
-	<li><a href="#"><span class="icon">&gt;</span>Serviços</a></li>
-	<li><a href="#"><span class="icon">&gt;</span>Notícias</a></li>
-	<li><a href="#"><span class="icon">&gt;</span>Jurisprudência</a></li>
-	<li><a href="#"><span class="icon">&gt;</span>Transparência</a></li>
-	<li><a href="#"><span class="icon">&gt;</span>Ouvidoria</a></li>
-</ul>
-</div>
+	<ul>
+		<li><a href="#"><span class="icon">&gt;</span>Institucional</a></li>
+		<li><a href="#"><span class="icon">&gt;</span>Serviços</a></li>
+		<li><a href="#"><span class="icon">&gt;</span>Notícias</a></li>
+		<li><a href="#"><span class="icon">&gt;</span>Jurisprudência</a></li>
+		<li><a href="#"><span class="icon">&gt;</span>Transparência</a></li>
+		<li><a href="#"><span class="icon">&gt;</span>Ouvidoria</a></li>
+	</ul>
+	</div>
 
-<div class="bloco_footer rede_social">
-<ul class="lista_links">
-	<li>
-	<div class="social instagram">&nbsp;</div>
-	</li>
-	<li>
-	<div class="social twitter">&nbsp;</div>
-	</li>
-	<li>
-	<div class="social facebook">&nbsp;</div>
-	</li>
-	<li>
-	<div class="social flickr">&nbsp;</div>
-	</li>
-	<li>
-	<div class="social youtube">&nbsp;</div>
-	</li>
-</ul>
+	<div class="bloco_footer rede_social">
+	<ul class="lista_links">
+		<li>
+		<div class="social instagram">&nbsp;</div>
+		</li>
+		<li>
+		<div class="social twitter">&nbsp;</div>
+		</li>
+		<li>
+		<div class="social facebook">&nbsp;</div>
+		</li>
+		<li>
+		<div class="social flickr">&nbsp;</div>
+		</li>
+		<li>
+		<div class="social youtube">&nbsp;</div>
+		</li>
+	</ul>
 
-<div class="exclamacao"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/icon_exclamacao.png" /></a></div>
-</div>
-</div>
-</div>
+	<div class="exclamacao"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/icon_exclamacao.png" /></a></div>
+	</div>
+	</div>
+	</div>
