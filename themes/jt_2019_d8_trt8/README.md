@@ -73,46 +73,57 @@ REDES SOCIAIS: Você pode encontrar o HTML no arquivo 'page.html.twig'; seus ico
 		</div>
 	</div>
 ### Rodapé
-	<div class="bloco_footer logo_footer col-sm-12 col-md-2">
-	   <div class="imagem_logo">&nbsp;</div>
-	</div>
-	<div class="bloco_footer endereco_footer col-sm-12 col-md-4">
-	   <p>Tribunal Regional do Trabalho da 16ª Região</p>
-	   <p>Av. Senador Vitorino Freire, Nº 2001, Areinha</p>
-	   <p>CEP: 65030-015</p>
-	   <p>Horário de funcionamento:</p>
-	   <p>De segunda a sexta-feira, das 9h às 17h30</p>
-	   <p>Fone: (98) 2109 - 9300</p>
-	</div>
-	<div class="bloco_footer mapa_site col-sm-12 col-md-3">
-	   <h2>Mapa do site</h2>
-	   <ul>
-		  <li><a href="#"><span class="icon">&gt;</span> Institucional</a></li>
-		  <li><a href="#"><span class="icon">&gt;</span> Serviços</a></li>
-		  <li><a href="#"><span class="icon">&gt;</span> Notícias</a></li>
-		  <li><a href="#"><span class="icon">&gt;</span> Jurisprudência</a></li>
-		  <li><a href="#"><span class="icon">&gt;</span> Transparência</a></li>
-		  <li><a href="#"><span class="icon">&gt;</span> Ouvidoria</a></li>
-	   </ul>
-	</div>
-	<div class="bloco_footer rede_social col-sm-12 col-md-3">
-	   <ul class="lista_links">
-		  <li>
-			 <div class="social facebook">&nbsp;</div>
-		  </li>
-		  <li>
-			 <div class="social twitter">&nbsp;</div>
-		  </li>
-		  <li>
-			 <div class="social instagram">&nbsp;</div>
-		  </li>
-		  <li>
-			 <div class="social email ultimo_elemento">&nbsp;</div>
-		  </li>
-	   </ul>
-	   <ul class="lista_links">
-		  <li>
-			 <div class="social icon_information">&nbsp;</div>
-		  </li>
-	   </ul>
-	</div>
+	<div class="footer_wrapper">
+<div class="footer_content">
+<div class="bloco_footer logo_footer"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/logo_footer.png" /></a></div>
+
+<div class="bloco_footer endereco_footer">
+<p>Tribunal Regional do Trabalho da 8ª Região</p>
+
+<p>Tv. D. Pedro I, 746 - Umarizal</p>
+
+<p>CEP:66050-100</p>
+
+<p>Horário de funcionamento:<br />
+De segunda a sexta, das 8h às 13h</p>
+
+<p>Telefone: +55 (91) 4008-7000</p>
+</div>
+
+<div class="bloco_footer mapa_site">
+<h2>Mapa do site</h2>
+
+<ul>
+	<li><a href="#"><span class="icon">&gt;</span>Institucional</a></li>
+	<li><a href="#"><span class="icon">&gt;</span>Serviços</a></li>
+	<li><a href="#"><span class="icon">&gt;</span>Notícias</a></li>
+	<li><a href="#"><span class="icon">&gt;</span>Jurisprudência</a></li>
+	<li><a href="#"><span class="icon">&gt;</span>Transparência</a></li>
+	<li><a href="#"><span class="icon">&gt;</span>Ouvidoria</a></li>
+</ul>
+</div>
+
+<div class="bloco_footer rede_social">
+<ul class="lista_links">
+	<li>
+	<div class="social instagram">&nbsp;</div>
+	</li>
+	<li>
+	<div class="social twitter">&nbsp;</div>
+	</li>
+	<li>
+	<div class="social facebook">&nbsp;</div>
+	</li>
+	<li>
+	<div class="social flickr">&nbsp;</div>
+	</li>
+	<li>
+	<div class="social youtube">&nbsp;</div>
+	</li>
+</ul>
+
+<div class="exclamacao"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/icon_exclamacao.png" /></a></div>
+</div>
+</div>
+</div>
+
