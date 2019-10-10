@@ -34,6 +34,11 @@
 	   </div>
 	</div>
 	
+### Search & Redes Sociais
+SEARCH : O Search deve ser alocado na região 'Busca'
+
+REDES SOCIAIS: Você pode encontrar o HTML no arquivo 'page.html.twig'; seus icons estão no css como background
+	
 ### Consulta Processual
 	<div class="process_consultation_wrapper">
 	   <div class="process_consultation_content">
