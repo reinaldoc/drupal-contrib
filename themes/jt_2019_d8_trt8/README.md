@@ -73,7 +73,7 @@ REDES SOCIAIS: Você pode encontrar o HTML no arquivo 'page.html.twig'; seus ico
 		</div>
 	</div>
 ### Rodapé
-	<div class="footer_wrapper">
+<div class="footer_wrapper">
 <div class="footer_content">
 <div class="bloco_footer logo_footer"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/logo_footer.png" /></a></div>
 
@@ -126,4 +126,3 @@ De segunda a sexta, das 8h às 13h</p>
 </div>
 </div>
 </div>
-
