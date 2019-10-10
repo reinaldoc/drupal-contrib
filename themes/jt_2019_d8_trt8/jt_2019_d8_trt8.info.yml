@@ -3,7 +3,7 @@ type: theme
 description: 'Tema padrão para Justiça do trabalho'
 package: core
 base theme: professional_responsive_theme
-# core: 8.x
+logo: images/logo.png
 
 #Libraries
 libraries:
@@ -37,11 +37,6 @@ regions:
   auto_hidden_block: 'Auto hidden blocks'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
-# Information added by Drupal.org packaging script on 2016-01-14
-# version: '8.x-1.0'
-# core: '8.x'
-# project: 'professional_responsive_theme'
-# datestamp: 1452796442
 
 # Information added by Drupal.org packaging script on 2017-11-29
 version: '8.x-1.0'
