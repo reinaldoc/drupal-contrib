@@ -2,6 +2,8 @@
 
 ![Tema do Novo Portal](README_screenshot.jpg)
 
+<b>Tema base</b>: <a href="https://drupal.org/project/professional_responsive_theme">Professional Responsive Theme</a> 
+
 ### Cabeçalho
 	<div class="header_content">
 	   <div class="accessibility">
