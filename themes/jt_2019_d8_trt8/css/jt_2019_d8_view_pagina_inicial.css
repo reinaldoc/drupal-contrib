@@ -243,7 +243,10 @@ div.view-pagina-inicial > div > div > div > div.views-field.views-field-title > 
 .jt-view-3-noticias-com-imagem > .views-row-first {
     padding-left: 0;
 }
-
+.jt-view-noticias-sem-imagem {
+    width: 49%;
+    float: left;
+}
 /* CSS para a região content_bottom */
 #content_bottom_wrapper {
     margin: 0 auto ;
@@ -258,8 +261,8 @@ div.view-pagina-inicial > div > div > div > div.views-field.views-field-title > 
     width: 49%;
 }
 
-#block-views-block-noticias-em-video-block-1 {
-    float: left;
+.jt-view-noticia-em-video {
+    float: right;
     width: 49%;
     margin: 0 0 0 20px;
 }
@@ -271,7 +274,7 @@ div.view-pagina-inicial > div > div > div > div.views-field.views-field-title > 
     font-weight: bold;
 }
 
-.block > h2 {
+.region-content-bottom  h2 {
     border-bottom: 3px solid #04785a;
     padding: 10px 0 0 0;
 }
