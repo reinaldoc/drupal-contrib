@@ -74,6 +74,96 @@ REDES SOCIAIS: Você pode encontrar o HTML no arquivo 'page.html.twig'; seus ico
 			</div>
 		</div>
 	</div>
+### Serviços
+	<div class="servicos_bottom_wrapper">
+	<div class="servicos_bottom_content">
+	<ul>
+		<li class="servico">
+		<div class="icon_servico push">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">push</a></h4>
+		</div>
+		</li>
+		<li class="servico">
+		<div class="icon_servico precatorios">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">Precatórios</a></h4>
+		</div>
+		</li>
+		<li class="servico">
+		<div class="icon_servico portal_do_advogado">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">Portal do advogado</a></h4>
+		</div>
+		</li>
+		<li class="servico">
+		<div class="icon_servico editais_e_avisos">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">Editais e Avisos</a></h4>
+		</div>
+		</li>
+		<li class="servico">
+		<div class="icon_servico biblioteca">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">Biblioteca</a></h4>
+		</div>
+		</li>
+		<li class="servico">
+		<div class="icon_servico estatisticas">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">Estatísticas</a></h4>
+		</div>
+		</li>
+		<li class="servico">
+		<div class="icon_servico agenda">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">Agenda da Presidência</a></h4>
+		</div>
+		</li>
+		<li class="servico">
+		<div class="icon_servico gestao">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">Gestão Estratégica</a></h4>
+		</div>
+		</li>
+		<li class="servico">
+		<div class="icon_servico escola_judicial">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">Escola Judicial</a></h4>
+		</div>
+		</li>
+		<li class="servico ultimo_servico">
+		<div class="icon_servico trt_saude">&nbsp;</div>
+
+		<div class="title">
+		<h4><a href="#">TRT Saúde</a></h4>
+		</div>
+		</li>
+	</ul>
+	</div>
+	</div>
+### Programas
+	<div class="banner_informativo_bottom_wrapper">
+	<div class="banner_informativo_content">
+	<ul class="lista_banner first_item">
+		<li class="item_banner"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/trabalho_seguro.png" /></a></li>
+		<li class="item_banner"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/trabalho_infantil.png" /> </a></li>
+		<li class="item_banner"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/pje.png" /></a></li>
+		<li class="item_banner"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/ex_trabalhista.png" /> </a></li>
+		<li class="item_banner last_item"><a href="#"><img alt="" src="<?php {{ echo base_path();}} ?>/themes/jt_2019_d8_trt8/images/conciliacao_trabalhista.png" /> </a></li>
+	</ul>
+	</div>
+	</div>
+
 ### Rodapé
 	<div class="footer_wrapper">
 	<div class="footer_content">
