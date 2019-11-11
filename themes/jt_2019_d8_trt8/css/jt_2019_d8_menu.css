@@ -423,3 +423,23 @@ div.region-sidebar-second > nav > ul > li:nth-child(8) > a {
 }
 
 /*######### estilo dportal*drupal7 * by Marcos ########### */
+.sm-nowrap {
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px 1px 1px 4px;
+    display: none;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.176);
+}
+.sm-nowrap li a {
+    font-size: 13px;
+    color: #4e4e4e;
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none;
+    font-family: "Open sans";
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0.05em;
+}
+.sm-nowrap li a:hover {
+
+}

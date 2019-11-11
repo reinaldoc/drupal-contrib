@@ -14,4 +14,4 @@ global-components:
       css/jt_2019_d8_view_banner.css: {}
       css/jt_2019_d8_view_servicos_adicionais.css: {}
       css/jt_2019_d8_bottom_wrapper.css: {}
-      css/jt_2019_d8_footer.css: {}
+      css/jt_2019_d8_footer.css: {} 
