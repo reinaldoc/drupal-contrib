@@ -49,7 +49,7 @@
     }
 
     #header .social_icons {
-        width: 79%;
+        width: 81%;
     }
     
     .menu_inner_wrap > #main-menu > .menu-navigation-container > ul.menu > li {
@@ -59,7 +59,7 @@
    .menu_inner_wrap > #main-menu > .menu-navigation-container > ul.menu > li.first + li {
         width: 100%;
     }
-
+    
     .process_consultation_wrapper .title_consultation {
         padding: 5px 46px 5px 46px;
         width: 100%;
@@ -76,8 +76,14 @@
     }
 
     .process_consultation_wrapper #buttons_consultation {
-        width: 58%;
+        width: 63%;
         margin: 4px 0 0 68px; 
+    }
+    
+    
+    #campos_consulta #numero {
+        width: 75px;
+    
     }
 
     #block-system-main .jt-view-noticia-destaque > .view-content .views-field-title {
@@ -104,6 +110,11 @@
         display: none;
     }
 
+     #block-system-main .jt-view-noticia-destaque > .view-content .views-field-title  a {
+        font-size: 13px;
+    }
+
+
     .jt-view-noticia-destaque .view-footer .jt-view-3-noticias-com-imagem .views-field-title a {
         font-size: 22px;
     }
@@ -115,12 +126,11 @@
     .view-footer img {
         width: 100%;
     }
-
-   .region-content-bottom > #block-views-v-noticias-block-2 {
-        width: 93%;
-        margin: 0 10px 0 15px;
+    
+    .view-footer > .jt-view-3-noticias-com-imagem .view-content .views-row { 
+      width: 100%;
     }
-
+    
     .region-content-bottom #block-views-v-noticias-em-video-block {
         width: 93%;
         margin: 0 10px 0 15px;
