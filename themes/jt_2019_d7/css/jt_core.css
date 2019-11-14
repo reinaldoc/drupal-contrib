@@ -87,7 +87,7 @@ p {
 
 /* item do menu (jurusprudencia) */
 #main-menu > .menu-navigation-container > ul.menu > li.first + li + li + li {
-    width: 14%;
+    
 }
 
 #main-menu > .menu-navigation-container > ul.menu > li > span.nolink,
