@@ -97,6 +97,8 @@ header.main-header > div.row {
 	width: 20px;
 	height: 15px;
 	margin: 0 0 0 13px;
+	list-style: none;
+	float: right;
 }
 .icons_information {
 	background-image: url("../images/icons_top.png");

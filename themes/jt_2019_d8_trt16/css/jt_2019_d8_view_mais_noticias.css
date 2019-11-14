@@ -1,0 +1,63 @@
+/* View Mais Notícias */
+
+.vw-mais-noticias > h1{
+    font-family: Arial;
+	font-size: 22px;
+	color: #2b4570;
+	border-bottom: 3px solid #04785a;
+	margin-bottom: 20px;
+}
+
+.vw-mais-noticias > .views-row:not(:last-child){
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #2b4570;
+}
+
+.vw-mais-noticias > .views-row > .views-field-title a:hover, .vw-mais-noticias > .views-row > .views-field-title > .field-content a:hover {
+	text-decoration: none;
+	border-bottom: none;
+	color: #01426a
+}
+
+.vw-mais-noticias > .views-row > .views-field-title{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	color: #01426a
+}
+
+.vw-mais-noticias > .views-row > .views-field-field-noticia-substitulo{
+	font-family: Arial;
+	font-size: 14px;
+	color: #333333
+}
+
+.link_todas_materias {
+	text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 10pt;
+}
+
+@media (max-width: 767px) {
+	
+	.vw-mais-noticias > h1 {
+		display: none;
+	}
+	
+	div.vw-mais-noticias > div {
+		display: none;
+	}
+	
+	div.vw-mais-noticias > footer {
+		text-align: center;
+		margin-top: -30px;
+		background-color: #eee;
+		padding: 3px;
+	}
+	
+	div.vw-mais-noticias > footer > a{
+		font-size: 16pt;
+	}
+}
