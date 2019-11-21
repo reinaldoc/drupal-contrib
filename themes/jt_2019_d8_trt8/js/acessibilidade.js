@@ -1,3 +1,16 @@
+
+//Função p Aumentar/ Diminuir fonte
+function fonte(e){
+    var elemento = $(" p, h1,  h2,  h3,  h4,  h5,  h6,  div,  a,  span");
+    var fonte = elemento.css('font-size');
+    if ((e == 'a')&&(parseInt(fonte) < 18)) {
+	elemento.css("fontSize", parseInt(fonte) + 2);
+    }else if((e == 'd')&&(parseInt(fonte) > 10)){
+	elemento.css("fontSize", parseInt(fonte) - 2);
+    } 
+}
+
+//traducao
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({
         pageLanguage: "pt",
