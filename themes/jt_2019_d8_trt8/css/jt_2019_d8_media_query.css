@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+    .jt-view-3-noticias-com-imagem > .views-row {
+	width: 100%;
+    }
+    .accessibility {
+	display:none;
+    }
+    .translation_tools {
+	display: inline-block;
+	padding: 0;
+	width: auto;
+    }
+    .access_links 
+	display: inline-block;
+	padding: 0;
+	float: right;
+	width: auto;
+    }
+    
+    /*consulta processual */
+    
+    .slideshow {
+	display: block;
+    }
+    .process_consultation_wrapper {
+	display: block;
+    }
+    .process_consultation_content {
+	width: 100%;
+    }
+    .process_consultation_content input {
+	width: 100%;
+    }
+    
+    .process_consultation_content button {
+	margin-bottom: 7px;
+    }
+
+    /*noticias destaque*/
+    
+    .jt-view-noticia-destaque > .views-row .views-field-field-image {
+	float: none;
+    }
+    .jt-view-noticia-destaque > .views-row .views-field-title {
+	width: 100%;
+	float: none;
+	
+    }
+    .jt-view-noticia-destaque > .views-row .views-field-body {
+	float: none;
+	width: 100%;
+	text-align: left;
+    }
+    /* noticias com imagem */
+    .jt-view-3-noticias-com-imagem > .views-row {
+	width: 100%;
+    }
+}
