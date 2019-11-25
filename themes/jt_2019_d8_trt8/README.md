@@ -5,36 +5,38 @@
 <b>Tema base</b>: https://drupal.org/project/professional_responsive_theme
 
 ### Cabeçalho
+	<div id="google_translate_element" style="display:none"></div>
 	<div class="header_content">
-	   <div class="accessibility">
-		  <ul>
-			 <li><a href="#">Ir para conteúdo </a></li>
-			 <li>|</li>
-			 <li><a href="#">Ir para o menu </a></li>
-			 <li>|</li>
-			 <li><a href="#">Ir para a busca </a></li>
-			 <li>|</li>
-			 <li><a href="#">Ir para o rodapé</a></li>
-		  </ul>
-	   </div>
-	   <div class="translation_tools">
-		  <ul>
-			 <li><a href="#">English</a></li>
-			 <li>|</li>
-			 <li><a href="#">Español</a></li>
-		  </ul>
-	   </div>
-	   <div class="access_links">
-		  <ul>
-			 <li class="icons_access_links icons_information">&nbsp;</li>
-			 <li class="icons_access_links icons_zoom_more">&nbsp;</li>
-			 <li class="icons_access_links icons_zoom_less">&nbsp;</li>
-			 <li class="icons_access_links icons_libras">&nbsp;</li>
-			 <li class="icons_access_links icons_contrast">&nbsp;</li>
-			 <li class="icons_intranet">&nbsp;</li>
-		  </ul>
-	   </div>
+	<div class="accessibility">
+	<ul>
+		<li><a href="#consulta_processual_badge">Ir para conteúdo </a></li>
+		<li>|</li>
+		<li><a href="#block-jt-2019-d8-trt8-branding">Ir para o menu </a></li>
+		<li>|</li>
+		<li><a href="#block-jt-2019-d8-trt8-branding">Ir para a busca </a></li>
+		<li>|</li>
+		<li><a href="#block-menudorodape-2">Ir para o rodapé</a></li>
+	</ul>
 	</div>
+
+	<div class="translation_tools">
+	<ul>
+		<li><a href="javascript:void(0)" onClick="ChangeLang('en')" id="traduzir-ingles" title="">English</a></li>
+		<li>|</li>
+		<li><a href="javascript:void(0)" onClick="ChangeLang('es')" id="traduzir-Espanhol" title="">Español</a></li>
+	</ul>
+	</div>
+
+	<div class="access_links">
+	<ul>
+		<a href="javascript:void(0)" onClick="fonte('d')" ><li class="icons_access_links icons_zoom_more">&nbsp;</li></a>
+		<a href="javascript:void(0)" onClick="fonte('a')" ><li class="icons_access_links icons_zoom_less">&nbsp;</li></a>
+		<li class="icons_access_links icons_libras">&nbsp;</li>
+		<li class="icons_access_links icons_contrast">&nbsp;</li>
+	</ul>
+	</div>
+	</div>
+
 	
 ### Search & Redes Sociais
 SEARCH : O Search deve ser alocado na região 'Busca'
