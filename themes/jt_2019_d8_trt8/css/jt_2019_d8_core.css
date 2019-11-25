@@ -556,6 +556,12 @@ body.one-sidebar #container #sidebar-second {
     display: block;
 }
 
+/*acessibilidade contrast */
+.accessibility-contrast {
+    color: #FFF333 !important;
+    background: #000 !important;
+}
+
 
 
 
