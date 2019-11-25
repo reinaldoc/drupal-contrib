@@ -1,3 +1,7 @@
+
+function toggleContrast(){
+    $('*:not(img)').toggleClass('accessibility-contrast');
+}
 //Função p Aumentar/ Diminuir fonte
 function fonte(e){
     var elemento = $(" p, h1,  h2,  h3,  h4,  h5,  h6,  div,  a,  span");
