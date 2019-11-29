@@ -1,4 +1,5 @@
 @media only screen and (max-width: 600px) {
+    
     .jt-view-3-noticias-com-imagem > .views-row {
 	width: 100%;
     }
@@ -16,43 +17,103 @@
 	float: right;
 	width: auto;
     }
-    
-    /*consulta processual */
-    
+    /*consulta processo */
     .slideshow {
 	display: block;
     }
     .process_consultation_wrapper {
 	display: block;
+	max-width: 100%;
+    }
+    #consulta_processual_badge {
+	width: 100%;
+    }
+    #numero_cnj, #digito, #ano, #justica, #regiao, #vara {
+	width: 100% !important;
     }
     .process_consultation_content {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
     }
-    .process_consultation_content input {
-	width: 100%;
-    }
-    
     .process_consultation_content button {
 	margin-bottom: 7px;
+	display: block !important;
+	width: 100% !important;
     }
 
     /*noticias destaque*/
-    
+    .jt-view-noticia-destaque > .views-row {
+	height: auto !important;
+    }
     .jt-view-noticia-destaque > .views-row .views-field-field-image {
-	float: none;
+	float: none !important;
     }
     .jt-view-noticia-destaque > .views-row .views-field-title {
-	width: 100%;
-	float: none;
+	width: 100% !important;
+	float: none !important;
 	
     }
     .jt-view-noticia-destaque > .views-row .views-field-body {
-	float: none;
-	width: 100%;
-	text-align: left;
+	float: none !important;
+	width: 100% !important;
+	text-align: left !important;
     }
     /* noticias com imagem */
     .jt-view-3-noticias-com-imagem > .views-row {
 	width: 100%;
+	height: auto !important;
     }
+    .jt-view-3-noticias-com-imagem > .views-row {
+	width: 100% !important;
+    }
+
+    /* noticias sem imagem */
+    .jt-view-noticias-sem-imagem {
+	width: 100% !important;
+    }
+
+    /* noticias em video */
+    .jt-view-noticia-em-video {
+	width: 100% !important;
+    }
+    .jt-view-noticia-em-video .views-row video {
+	height: 252px !important;
+	width: 100% !important;
+    }
+    
+    /* bloco servicos */
+    #block-servicos-2{
+	clear: both;
+    }
+    .servicos_bottom_content .servico {
+	width: 48% !important;
+    }
+    /* programas */
+    .lista_banner a {
+	width: 44% !important;
+    }
+    /*rodape*/
+    .logo_footer {
+	width: 100% !important;
+    }
+    .logo_footer img {
+	margin: 0 !important;
+    }
+    .bloco_footer {
+	display: block !important;
+    }
+    .endereco_footer {
+	width: 100% !important;
+    }
+    .mapa_site {
+	text-align: left !important;
+	padding: 0 !important;
+	width: 100% !important;
+    }
+    .rede_social {
+	display: block !important;
+	width: 100% !important;
+	float: none !important;
+    }
+    
 }
