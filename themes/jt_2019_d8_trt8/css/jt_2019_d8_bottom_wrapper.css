@@ -1,0 +1,227 @@
+#bottom_wrapper {
+	background-color: #a5b4c2;
+	height: 80px;
+}
+
+/*
+
+*/
+
+.v-grid-programas-jt {
+	background-color: #a5b4c2;
+}
+
+.v-grid-programas-jt > div > div {
+	text-align: center;
+	/*padding: 5px;*/
+}
+
+.v-grid-programas-jt > div > div > div {
+	padding: 5px;
+}
+
+.v-grid-programas-jt > div > div > div:not(:last-child) {
+	border-right: 1px solid #d2d9e0;
+}
+
+.v-grid-programas-jt > div > div > div > div > div > a:hover {
+	text-decoration: none;
+	border-bottom: none;
+	color: #01426a
+}
+
+.v-grid-programas-jt > div > div > div  > div  > div  > a > img {
+	width: 160px;
+	height: 100%;
+}
+
+div.v-grid-programas-jt > div > div > div {
+	height: 50px;
+}
+
+div.v-grid-programas-jt > div > div > div.views-col.col-1,
+div.v-grid-programas-jt > div > div > div.views-col.col-2,
+div.v-grid-programas-jt > div > div > div.views-col.col-4 {
+	
+}
+
+div.v-grid-programas-jt > div > div > div.views-col.col-3,
+div.v-grid-programas-jt > div > div > div.views-col.col-5 {
+	
+}
+
+@media (max-width: 767px) {
+	
+	#bottom_wrapper {
+		background-color: #a5b4c2;
+		height: auto;
+		padding-top: 10px;
+	}
+	
+	.v-grid-programas-jt > div > div {
+		padding: 5px;
+	}	
+	
+	
+	.v-grid-programas-jt > div > div > div {
+		width: 100% !important;
+	}
+	
+	.v-grid-programas-jt > div > div > div:not(:last-child) {
+		border-right: none;
+	}
+	
+	div.v-grid-programas-jt > div > div > div {
+		height: auto;
+	}
+	
+	.v-grid-programas-jt > div > div > div > div > div > a > img {
+		width: 200px;
+		height: 100%;
+	}
+	
+	div.v-grid-iniciativas-do-tribunal > footer > div > div > div > div.views-col.col-6 {
+		clear: both;
+	}
+	
+	div.v-grid-iniciativas-do-tribunal > footer > div > div > div > div:nth-child(1n+6) {
+		margin-top: 20px;
+	}
+	
+}
+
+/*########### servicos bottom ###############*/
+
+.servicos_bottom_wrapper {
+    width: 100%;
+    clear: both;
+}
+#block-servicos {
+    clear: both;
+}
+.servicos_bottom_content {
+   max-width: 1129px;
+    height: 113px;
+    margin: 0 auto;
+    padding-top: 17px;
+}
+
+.servicos_bottom_content ul {
+    list-style: none;
+}
+.servicos_bottom_content .servico {
+    float: left;
+    margin-right: 0;
+    text-align: center;
+    width: 9.3%;
+}
+
+.servicos_bottom_content .servico h4 a:hover {
+    text-decoration: none;
+}
+
+.servicos_bottom_content .servico {
+    transition: transform 0.3s;
+}
+.servicos_bottom_content .servico:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.title h4 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    color: #01426a;
+    font-weight: bold;
+}
+
+.servicos_bottom_content .servico .title {
+    height: 30px;
+}
+.servicos_bottom_content .servico .icon_servico {
+    width: 50px;
+    height: 50px;
+    background: #cece;
+    margin: 0 auto;
+}
+.servicos_bottom_content .servico .push {
+    background: url('../images/icons_service2v.png');
+    background-position: 0px -2px;
+}
+.servicos_bottom_content .servico .precatorios {
+    background: url('../images/icons_service2v.png');
+    background-position: -55px -2px;
+}
+.servicos_bottom_content .servico .portal_do_advogado {
+    background: url('../images/icons_service2v.png');
+    background-position: -111px 0px;
+}
+.servicos_bottom_content .servico .editais_e_avisos {
+    background: url('../images/icons_service2v.png');
+    background-position: -170px -5px;
+}
+.servicos_bottom_content .servico .biblioteca {
+    background: url('../images/icons_service2v.png');
+    background-position: -228px -5px;
+}
+.servicos_bottom_content .servico .estatisticas {
+    background: url('../images/icons_service2v.png');
+    background-position: -290px -5px;
+}
+.servicos_bottom_content .servico .agenda {
+    background: url('../images/icons_service2v.png');
+    background-position: -353px -4px;
+}
+.servicos_bottom_content .servico .gestao {
+    background: url('../images/icons_service2v.png');
+    background-position: -413px -4px;
+}
+.servicos_bottom_content .servico .escola_judicial {
+    background: url('../images/icons_service2v.png');
+    background-position: -475px -6px;
+}
+.servicos_bottom_content .servico .trt_saude {
+    background: url('../images/icons_service2v.png');
+    background-position: -535px -6px;
+}
+
+
+.ultimo_servico {
+    margin-right: 0;
+}
+
+/*################# Programas #############*/
+
+.banner_informativo_bottom_wrapper {
+    width: 100%;
+    clear: both;
+    background:#a5b4c2;
+}
+.banner_informativo_content {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 1129px;
+}
+.lista_banner {
+    height: 70px;
+    list-style: none;
+}
+.lista_banner img {
+    width: 100%;
+}
+.lista_banner a:hover {
+    transform: translateY(-5px);
+}
+.lista_banner a {
+    width: 18%;
+    margin-right: 16px;
+    height: 50px;
+    float: left;
+    line-height: 70px;
+    padding: 2px;
+    transition: transform 0.3s;
+}
+.wrapper_bottom_content {
+    height: 711px;
+}

@@ -98,16 +98,6 @@ p {
     /*height: 25px; */
 }
 
-#main-menu .menu-navigation-container .menu  li span.nolink  {
-    color: #8e8e9b;
-    font-size: 10pt;
-    font-weight: normal;
-}
-
-#main-menu .menu-navigation-container .menu  a {
-    color: #8e8e9b;
-}
-
 #main-menu .menu-navigation-container .menu li {
     border: none;
 }

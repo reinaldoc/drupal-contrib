@@ -1,0 +1,115 @@
+.process_consultation_wrapper {
+	margin: 15px 0;
+}
+
+.process_consultation_content {
+	margin: 0 auto;
+	width: 740px;
+	height: auto;
+	padding: 10px 17px 0 4px;
+}
+
+.process_consultation_content > .btn {
+	font-size: 16pt;
+}
+
+#consulta_processual_badge:active,
+#consulta_processual_badge:hover,
+#consulta_processual_badge:focus,
+#consulta_processual_badge:visited,
+#consulta_processual_badge {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 11px;
+	color: #ffffff;
+	background: #01426a;
+	/*padding: 5px;*/
+	font-weight: bold;
+	cursor: context-menu;
+	height: 35px;
+	border-radius: 0;
+}
+.process_consultation_wrapper .form-control {
+	border-radius: 0;
+}
+
+.process_consultation_wrapper .btn {
+	border-radius: 0;
+}
+
+#numero_cnj {
+	width: 100px;
+	height: 35px;
+}
+
+#digito {
+	width: 65px;
+	height: 35px;
+}
+
+#ano {
+	width: 55px;
+	height: 35px;
+}
+
+#justica {
+	width: 40px;
+	height: 35px;
+}
+
+#regiao {
+	width: 45px;
+	height: 35px;
+}
+
+#vara {
+	width: 55px;
+	height: 35px;
+}
+
+.border_input {
+	padding-left:5px; 
+	border: 1px solid #C7C7C7;
+}
+
+.buttom_consultation {
+	width: 100px;
+	height: 26px;
+	font-size: 11px;
+	padding: 5px;
+	font-weight: bold;
+	border: 1px solid #01426a;
+}
+
+
+div.process_consultation_content > form > .consulta_processual_clean:hover, 
+div.process_consultation_content > form > .consulta_processual_clean:active, 
+div.process_consultation_content > form > .consulta_processual_clean:visited, 
+div.process_consultation_content > form > .consulta_processual_clean:focus,
+div.process_consultation_content > form > .consulta_processual_clean {
+	color: #ffffff;
+	background: #face33;
+	height: 35px;
+	padding: 0px 10px 0px 10px;
+}
+
+div.process_consultation_content > form > .consulta_processual_consult:hover, 
+div.process_consultation_content > form > .consulta_processual_consult:active, 
+div.process_consultation_content > form > .consulta_processual_consult:visited, 
+div.process_consultation_content > form > .consulta_processual_consult:focus,
+div.process_consultation_content > form > .consulta_processual_consult {
+	color: #ffffff;
+	background: #00b388;
+	height: 35px;
+	padding: 0px 10px 0px 10px;
+}
+
+.btn:hover, input[type="submit"]:hover {
+	background-image: -ms-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
+	background-image: -moz-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
+	background-image: -o-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DBDBDB), color-stop(1, #F2F2F2));
+	background-image: -webkit-linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
+	background-image: linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DBDBDB', endColorstr='#F2F2F2');
+}

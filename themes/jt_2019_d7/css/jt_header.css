@@ -225,7 +225,7 @@
 
 
 .process_consultation_wrapper {
-    margin: 0 auto;
+    margin: 9px auto;
     max-width: 700px;
 }
 
@@ -241,32 +241,32 @@
 
 #numero {
     width: 100px;
-    height: 23px;
+    padding: 5px;
 }
 
 #digito {
     width: 60px;
-    height: 23px;
+    padding: 5px;
 }
 
 #ano {
     width: 50px;
-    height: 23px;
+    padding: 5px;
 }
 
 #justica {
     width: 40px;
-    height: 23px;
+    padding: 5px;
 }
 
 #regiao {
     width: 40px;
-    height: 23px;
+    padding: 5px;
 }
 
 #vara {
     width: 47px;
-    height: 23px;
+    padding: 5px;
 }
 
 .border_input {
@@ -276,7 +276,7 @@
 
 .buttom_consultation {
     width: 100px;
-    height: 26px;
+    height: 30px;
     font-size: 11px;
     padding: 5px;
     font-weight: bold;
@@ -308,7 +308,7 @@
 }
 
 #campos_consulta input {
-    margin-left: 4px;
+    margin: 0 0 0 4px;
 }
 
 #buttons_consultation {

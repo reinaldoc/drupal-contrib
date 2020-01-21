@@ -1,0 +1,367 @@
+body {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+* {
+    font-family: 'Open Sans';
+}
+
+.site-branding__name {
+	display: none;
+}
+
+.main-header {
+	background: none;
+	background-size: cover;
+	position: relative;
+	position: relative;
+	padding: 10px 0;
+}
+
+header.main-header > div.row {
+	height: 25px;
+	background: #01426a;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.header_content {
+	/*margin: 0 auto;
+	width: 1129px;*/
+}
+
+.accessibility {
+	display: inline-block;
+	vertical-align: top;
+	width: 435px;
+	height: 15px;
+	padding: 3px 0 0 0;
+}
+
+.accessibility ul {
+	list-style: none;
+}
+
+.accessibility ul li {
+	float: left;
+	padding: 0 0 0 7px;
+	
+}
+
+.accessibility ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.accessibility ul li a:hover {
+	text-decoration: underline;
+}
+
+.translation_tools {
+	display: inline-block;
+	vertical-align: top;
+	width: 265px;
+	height: 15px;
+	padding: 4px 0 0 131px;
+}
+
+.translation_tools ul li {
+	float: left;
+	list-style: none;
+	padding: 0 0 0 7px;
+}
+
+.translation_tools ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.translation_tools ul li a:hover {
+	text-decoration: underline;
+}
+
+
+.access_links {
+	display: inline-block;
+	vertical-align: top;
+	height: 15px;
+	padding: 3px 0 0 0;
+	float: right;
+}
+
+.access_links ul {
+	margin-top: 3px;
+}
+
+.icons_access_links {
+	width: 20px;
+	height: 15px;
+	margin: 0 0 0 13px;
+	list-style: none;
+	float: right;
+}
+.icons_information {
+	background-image: url("../images/icons_top.png");
+	background-size: 87px;
+	background-position: 41px 68px;
+	
+}
+
+.icons_zoom_less {
+	background-image: url("../images/icons_top.png");
+	background-size: 79px;
+	background-position: 58px 37px;
+}
+
+.icons_zoom_more {
+	background-image: url("../images/icons_top.png");
+	background-size: 88px;
+	background-position: 243px 141px;
+}
+
+.icons_libras {
+	background-image: url("../images/icons_top.png");
+	background-size: 85px;
+	background-position: -3px -32px;
+}
+
+.icons_contrast {
+	background-image: url("../images/icons_top.png);
+	background-size: 89px;
+	background-position: -3px 68px;
+
+}
+
+.icons_intranet {
+	width: 40px;
+	/*height: 20px;*/
+	margin: 3px 0 0 10px;
+	background-image: url("../images/icons_top.png");
+	background-size: 40px;
+	background-repeat: no-repeat;
+}
+
+
+.access_links ul li {
+	list-style: none;
+	float: left;
+}
+
+/*
+	menu de identidade
+*/
+
+body > div > header.main-header > div.container {
+	margin-top: 20px;
+}
+
+div.container.novoportal-identidade > div > div:nth-child(2) {
+	margin-top: 60px;
+}
+
+/*.identity_content {
+	margin: 0 auto;
+	width: 1129px;
+	height: 144px;  
+}*/
+
+/*.top_left {
+	float: left;
+}
+
+.top_right {
+	float: right;
+}*/
+
+/*.mark_area {
+	float: left;
+	margin: 24px 0 0;
+	width: 504px;
+	height: 88px;
+	background: url(../img/marca_tribunal.png) repeat scroll 0 0;
+	background-size: 504px;
+}*/
+
+/*.social_icons {
+	float: right;
+	margin: 24px 0 0;
+	width: 270px;
+	height: 27px;
+	
+}*/
+
+.social_icon {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    margin: 0 0 0 4px;
+    border-radius: 20px;	
+   
+}
+.social_icon:hover {
+transform: scale(1.02);
+box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.social-media {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.social-media a {
+	width: 31px;
+}
+
+a.social_facebook {
+	background: url("../images/redesocial.png");
+background-size: 223px;
+background-position-x: 409px;
+background-position-y: 0px;
+}
+
+a.social_twitter {
+	background: url("../images/redesocial.png");
+background-size: 223px;
+background-position-x: 147px;
+background-position-y: -1px;
+}
+
+a.social_instagram {
+	background: url("../images/redesocial.png");
+	background-size: 223px;
+	background-position-x: 223px;
+	background-position-y: 0px;
+}
+
+a.social_email {
+	background: url("../images/redesocial.png");
+	background-size: 218px;
+	background-position-x: 31px;
+	background-position-y: 0px;
+}
+
+a.social_flickr {
+	background: url("../images/redesocial.png");
+background-size: 223px;
+background-position-x: 291px;
+background-position-y: 0px
+	
+}
+
+a.social_youtube {
+	background: url("../images/redesocial.png");
+background-size: 218px;
+background-position-x: 105px;
+background-position-y: 0px;
+}
+
+a.social_rss {
+	background: url("../images/redesocial.png");
+background-size: 218px;
+background-position-x: 31px;
+background-position-y: 0px;
+}
+
+@media (min-width: 991px) {
+	
+	.search_area {
+		clear: both;
+		float: right;
+
+	}
+
+	#search-block-form > div > #edit-keys {
+		    float: left;
+		    margin-right: 5px;
+		    padding: 3px;
+		    border-radius: 3px;
+		    border: 0;
+		    width: 200px;
+		    border: 1px solid #C7C7C7;
+	}
+
+	#search-block-form > div > #edit-submit{
+		height: 26px;
+		width: 29px;
+		padding: 0;
+		cursor: pointer;
+		text-indent: -9999px;
+		border-color: #E4E4E4 #D2D2D2 #B4B4B4;
+		background: #01426a url(../images/search_icon.png) no-repeat center top;
+		background-position-x: center;
+	        background-position-y: top;
+	        background-size: auto;
+		overflow: hidden;
+		box-shadow: none;
+		border: 0;
+		position: absolute;
+		top: 1px;
+		right: 2px;
+		background-size: 15px;
+		background-position: 7px 6px;
+		border-top-right-radius: 3px;
+		border-bottom-right-radius: 3px;
+		
+	}
+}
+
+/*.search_bar {
+	clear: both;
+	float: right;
+	width: 262px;
+	height: 20px; 
+	margin: 7px 0;
+	border: 1px solid #C7C7C7;  
+}
+
+.search_input {
+	float: right;
+	height: 18px;
+	width: 230px;
+	border: 0;
+}
+
+.search_icon {
+	float: right;
+	width: 30px;
+	height: 20px;
+	background: #01426a url(../img/search-icon.png)  no-repeat center top;
+	background-size: 15px;
+	background-position: 7px 3px;
+}*/
+
+@media (max-width: 991px) {
+	
+	.translation_tools {
+		display: none;
+	}
+	
+	#search-block-form > div > #edit-submit{
+		background-color: #FBDB65;
+		background-image: url("../images/search-icon.png");
+		background-size: 25px;
+		background-repeat: no-repeat;
+		background-position: 50%;
+	}
+}
+	
+@media (max-width: 767px) {
+	
+	body > div > header > div.novoportal-header {
+		display: none;
+	}
+	
+	.site-branding {
+		text-align: center;
+	}
+	
+	.social-media {
+		display: none;
+	}
+	
+	.main-header {
+		padding: 0;
+	}
+}

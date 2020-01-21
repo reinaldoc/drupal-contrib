@@ -1,0 +1,24 @@
+global-components:
+  Version: 1.x
+  css:
+    theme:
+      css/jt_2019_d8_header.css: {}
+      css/jt_2019_d8_media_query.css: {}
+      css/jt_2019_d8_core.css: {}
+      css/jt_2019_d8_consultation.css: {}
+      css/jt_2019_d8_breadcrumbs.css: {}
+      css/jt_2019_d8_menu.css: {}
+      css/jt_2019_d8_view_pagina_inicial.css: {}
+      css/jt_2019_d8_view_mais_noticias.css: {}
+      css/jt_2019_d8_view_banner.css: {}
+      css/jt_2019_d8_view_servicos_adicionais.css: {}
+      css/jt_2019_d8_bottom_wrapper.css: {}
+      css/jt_2019_d8_footer.css: {}
+  js:
+      js/acessibilidade.js: {}
+      //translate.google.com/translate_a/element.js?cb=googleTranslateElementInit: { type: external, attributes: { async: true } }
+      //code.jquery.com/jquery-3.4.1.min.js: {type: external, attributes: {async: true}}
+  dependencies:
+      - core/jquery
+      - core/jquery.once
+      - core/drupal

@@ -66,9 +66,8 @@
 .servicos_content .servico {
     float: left;
     text-align: center;
-    padding-left: 57px;
     width: 25%;
-    font-size: 0.7em !important;
+    font-size: 0.7em;
 }
 
 .icon_acesso_rapido {
@@ -83,7 +82,10 @@
 }
 
 .servico h2 {
-    color: #fff !important;
+    color: #fff;
+    font-family: 'Open sans';
+    font-size: 17px;
+    letter-spacing: 1.3px;
 }
 
 .servico:hover {
@@ -98,14 +100,15 @@
 
 .acesso_credenciados {
     background-image: url('../images/services_icons.png'); 
-    background-position: -145px -36px;
+    background-position: -154px -36px;
     background-size: 534px;
 }
 
 .acesso_gestores {
     background-image: url('../images/services_icons.png');
-    background-position: -270px -36px; 
+    background-position: -281px -36px; 
     background-size: 535px;
+    width: 120px;
 }
 
 .acesso_peritos {

@@ -3,7 +3,7 @@
 
 /*############ footer ##############*/
 #footer {
-    overflow: visible;
+    clear: both;
     padding: 0;
     background: #ffffff;
     margin-top: 0;
@@ -234,7 +234,7 @@ border-bottom:1px solid #fff;
     float: left;
     margin-right: 0;
     text-align: center;
-    width: 9.3%;
+    width: 9.75%;
 }
 .servicos_bottom_content .servico {
     transition: transform 0.3s;
@@ -247,9 +247,10 @@ border-bottom:1px solid #fff;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 5px;
+    margin: 10px auto;
     color: #01426a;
     font-weight: bold;
+    width: 80%;
 }
 
 .servicos_bottom_content .servico .title {

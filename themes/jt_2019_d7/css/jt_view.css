@@ -7,13 +7,15 @@
     float: left;
     width: 56%;
     padding: 0 0 0 10px;
+    font-family: arial;
     
 }
 
 .jt-view-noticia-destaque >  .view-content .views-field-title a {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
+
 
 
 .jt-view-noticia-destaque >  .view-content .views-field-body {
@@ -21,8 +23,14 @@
    width: 54%;
    margin-top:17px;
    padding: 0 0 0 10px;
-   font-size: 15px;
+   font-size: 11px;
    text-align: justify;
+}
+
+.jt-view-noticia-destaque > .view-content .views-field-body p {
+  font-family: arial;
+  font-size: 16px;
+
 }
 
 .jt-view-noticia-destaque >  .view-content .views-field-path span {
@@ -33,20 +41,19 @@
 
 /* CSS para o rodapé View v-noticias */
  .view-footer {
-    margin-top: 81px;
     clear: both;
 }
 
 .view-footer .jt-view-3-noticias-com-imagem .views-field-title a {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
+    font-family: arial;
 }
 
 .view-footer .jt-view-3-noticias-com-imagem .views-field-title .field-content {
     display: inline-block;
     width: 100%;
 }
-
 
 
 .view-footer > .view-v-noticias .views-field-title  {
@@ -70,11 +77,6 @@
 }
 
 /* CSS para a região content_bottom */
-
-#content_bottom {
-    margin-bottom: 396px;
-}
-
 #content_bottom_wrapper {
     margin: 0 auto ;
     max-width: 1129px;
@@ -83,10 +85,9 @@
 
 /* CSS para o bloco da View v-noticias */
 
-#block-views-v-noticias-block-2 {
+#block-views-v-noticias-block-11 {
     float: left;
     width: 49%;
-    
 }
 
 #block-views-v-noticias-em-video-block {
