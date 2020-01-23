@@ -1,5 +1,5 @@
 
-/* Reset CSS */
+/*Reset css*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -22,41 +22,29 @@ time, mark, audio, video {
     vertical-align: baseline;
     color: #333;
 }
-
 /* HTML5 display-role reset for older browsers */
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-
 body {
     line-height: 1;
 }
-
 ol, ul {
     list-style: none;
 }
-
 blockquote, q {
     quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-/*
-**  :: Primeira seção da página inicial
-**  :: Menu, contador e faixa de imagens
-*/
 
 #inicio-wrap{
     width: 100%;
@@ -104,7 +92,7 @@ table {
 #logo-marcha-inicio-central {
     width: 600px;
     height: 400px;
-    margin: 85px auto 34px;
+    margin: 129px auto 0px;
     background: url(img/logo-marcha-inicio-central.png) center top no-repeat;
     background-size: 589px;
     background-position: 0 87px;
@@ -123,54 +111,18 @@ table {
 }
 
 #inicio-contador {
-    width: 320px;
+    width: 200px;
     height: 100px;
-    background: #33a2da;
+    float: right ;
     border: solid 1px red;
-    position: absolute;
-    right: 0px;
-    top: 294px;
-    font-family: 'Fjalla One', sans-serif;
+    margin-top: 247px;
 }
 
-#inicio-contador-titulo {
-    width: 100%;
-    display: block;
-    text-align: center;
-    color: #FFFFFF;
-    line-height: 34px;
-    font-size: 20px;
-}
 
-.inicio-contador-celula {
-    float: left;
-    min-width: 75px;
-    text-align: center;
-}
+/*fim da seção inicio */
 
-#inicio-contador-dias,
- #inicio-contador-horas,
- #inicio-contador-minutos,
- #inicio-contador-segundos {
-    font-size: 39px;
-}
 
-.inicio-contador-label {
-    font-size: 15px;
-}
-
-#inicio-contador-dias,
- #inicio-contador-horas,
- #inicio-contador-minutos,
- #inicio-contador-segundos,
- .inicio-contador-label {
-    color: #FFFFFF;
-}
-
-/*
-**  :: Segunda seção da página inicial
-**  :: Compromisso do Evento
-*/
+/*Compromisso*/
 
 #compromisso-wrap {
     background-color: white;
@@ -199,7 +151,6 @@ table {
     color:#012480 ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: bold;
 }
 
 #compromisso-text-content .compromisso-text {
@@ -214,11 +165,6 @@ table {
     background: url(img/fundo-programacao.jpg) center top no-repeat;
     background-size: 100%;
 }
-
-/*
-**  :: Terceira seção da página inicial
-**  :: Programação e Mapa
-*/
 
 #programacao-content {
     margin: 0 auto;
@@ -272,10 +218,7 @@ table {
   width: 35%;
 }
 
-/*
-**  :: Quarta seção da página inicial
-**  :: Agenda de visitas
-*/
+/*agenda visitas*/
 
 .agenda-visitas-content{
     width: 1129px;
@@ -313,7 +256,7 @@ table {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.link-ver-mais {
+.link-ver-todas {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     clear: both;
@@ -321,85 +264,19 @@ table {
     
 }
 
-.link-ver-mais a {
+.link-ver-todas a {
     text-decoration: none;
     color: #012480;
     font-weight: bold;
     font-size: 18px;
 }
 
-/*
-**  :: Quinta seção da página inicial
-**  :: Marcha de 2015
-*/
+/*Marcha 2015*/
 
-#marcha-2015 {
+.marcha-215 {
     clear: both;
 }
-
-.marcha-2015-wrap {
-    padding: 150px 0;
-}
-
 .marcha-2015-content {
     width: 1129px;
     margin: 0 auto;
 }
-
-.marcha-2015-text {
-    width: 62%;
-    float: left;
-}
-
-.marcha-2015-titulo {
-
-}
-
-.marcha-2015-descricao {
-    padding: 47px 47px 156px 47px;;
-    background:#4da67d;
-    margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.marcha-2015-img {
-    float: left;
-   
-}
-
-.marcha-2015-img img {
-    height: 550px;
-    
-}
-
-/*
-**  :: Sexta seção da página inicial
-**  :: Notícias
-*/
-
-
-
-/*
-**  :: Sétima seção da página inicial
-**  :: Galeria de fotos e vídeos
-*/
-
-
-/*
-**  :: Oitava seção da página inicial
-**  :: Material do Evento
-*/
-
-
-
-/*
-**  :: Nona seção da página inicial
-**  :: Participe
-*/
-
-
-
-/*
-**  :: Rodapé
-*/
