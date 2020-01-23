@@ -197,15 +197,15 @@ table {
 
 .titulo-secao {
     color:#012480 ;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: "Bebas Neue", Helvetica;
+    font-size: 50px;
     font-weight: bold;
 }
 
 #compromisso-text-content .compromisso-text {
     margin-top: 10px;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open Sans;
+    line-height: 20px;
 }
 
 #compromisso-wrap-rodape {
@@ -245,7 +245,8 @@ table {
 
 .prgramacao-item {
     padding: 8px 8px 8px 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open Sans;
+    line-height: 20px;
 }
 
 #programacao-mapa{
@@ -296,6 +297,8 @@ table {
 .item-agenda-visistas-first {
     float: left;
     width: 30%;
+    font-family: Open Sans;
+    line-height: 20px;
 }
 
 .item-agenda-visistas {
@@ -310,7 +313,8 @@ table {
 
 .item-agenda-visitas-text{
     padding-top: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open Sans;
+    line-height: 20px;
 }
 
 .link-ver-mais {
