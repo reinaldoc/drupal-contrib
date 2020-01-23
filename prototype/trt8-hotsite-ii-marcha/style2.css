@@ -110,6 +110,13 @@ table {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aecceb', endColorstr='#86a5d5', GradientType=0 );
 }
 
+#inicio-contador {
+    width: 200px;
+    height: 100px;
+    float: right ;
+    border: solid 1px red;
+    margin-top: 247px;
+}
 
 
 /*fim da seção inicio */
@@ -144,7 +151,6 @@ table {
     color:#012480 ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: bold;
 }
 
 #compromisso-text-content .compromisso-text {
@@ -250,7 +256,7 @@ table {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.link-ver-mais {
+.link-ver-todas {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     clear: both;
@@ -258,7 +264,7 @@ table {
     
 }
 
-.link-ver-mais a {
+.link-ver-todas a {
     text-decoration: none;
     color: #012480;
     font-weight: bold;
@@ -266,42 +272,11 @@ table {
 }
 
 /*Marcha 2015*/
-#marcha-2015 {
+
+.marcha-215 {
     clear: both;
 }
-
-.marcha-2015-wrap {
-    padding: 150px 0;
-}
-
 .marcha-2015-content {
     width: 1129px;
     margin: 0 auto;
-}
-
-.marcha-2015-text {
-    width: 62%;
-    float: left;
-}
-
-.marcha-2015-titulo {
-
-}
-
-.marcha-2015-descricao {
-    padding: 47px 47px 156px 47px;;
-    background:#4da67d;
-    margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.marcha-2015-img {
-    float: left;
-   
-}
-
-.marcha-2015-img img {
-    height: 550px;
-    
 }
