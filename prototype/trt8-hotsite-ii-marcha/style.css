@@ -103,23 +103,73 @@ table {
 
 #logo-marcha-inicio-central {
     width: 600px;
-    height: 400px;
-    margin: 85px auto 34px;
+    height: 370px;
+    margin: 85px auto 0px;
     background: url(img/logo-marcha-inicio-central.png) center top no-repeat;
     background-size: 589px;
     background-position: 0 87px;
 }
 
 #imagens-rodape-inicio-wrap {
-    height: 177px;
-    background: rgba(174,204,235,1);
-    background: -moz-linear-gradient(top, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(174,204,235,1)), color-stop(49%, rgba(140,167,213,0.69)), color-stop(51%, rgba(140,167,213,0.68)), color-stop(71%, rgba(134,165,213,0.55)), color-stop(100%, rgba(134,165,213,0.37)));
-    background: -webkit-linear-gradient(top, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
-    background: -o-linear-gradient(top, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
-    background: -ms-linear-gradient(top, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
-    background: linear-gradient(to bottom, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aecceb', endColorstr='#86a5d5', GradientType=0 );
+    padding: 0 0 0 285px;
+}
+
+.imagens-rodape-inicio-block {
+    width: 899px;
+    position: relative;
+    margin: 0 0 0 220px;
+    z-index: 1;
+}
+
+.imagens-rodape-inicio-block span {
+    text-align: center;
+    display: block;
+}
+
+.imagens-rodape-inicio-block > div {
+    background: #f9f7ef;
+    padding: 9px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.imagem1-rodape-inicio {
+    transform: rotate(5deg);
+}
+
+.imagem2-rodape-inicio {
+    transform: rotate(-3deg);
+}
+
+.imagem3-rodape-inicio {
+    transform: rotate(5deg);
+}
+
+.imagem4-rodape-inicio {
+    transform: rotate(-2deg);
+}
+
+#imagens-rodape-inicio-wrap > .bg-imagens-rodape-inicio {
+    height: 79px;
+    background: #d28f65;
+    display: block;
+    position: relative;
+    top: -130px;
+    right: 0px;
+    margin: 0 0 0 20px;
+    padding: 0px;
+}
+
+#imagens-rodape-inicio-wrap > .bg-imagens-rodape-inicio span {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 27px;
+    width: 187px;
+    display: block;
+    padding: 12px;
+}
+
+#imagens-rodape-inicio-wrap img {
+    height: 134px;
 }
 
 #inicio-contador {
