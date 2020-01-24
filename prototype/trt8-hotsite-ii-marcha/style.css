@@ -61,6 +61,7 @@ img {
     display: inline-block;
     width: 45%;
     padding: 0 20px;
+    vertical-align: top;
 }
 
 .section-wrapper {
@@ -263,30 +264,27 @@ img {
 **  :: Programação e Mapa
 */
 
-#programacao-content {
+section#programacao {
+    background: url(img/fundo-programacao.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 60px 0;
+}
+
+#programacao-wrapper {
     margin: 0 auto;
     width: 1129px;
     background-color: rgba(228, 222, 222, 0.8);
-    height: 520px;
 }
 
-#programacao-wrap {
-    height: 600px;
-    background: url(img/fundo-programacao.jpg) center top no-repeat;
-    background-size: 100%;
-    padding: 79px 0 0 0;
-
-}
 #programacao-titulo {
     width: 35%;
 }
 .programacao-itens {
     width: 35%;
     padding-left: 83px;
-    float: left;
 }
 
-.prgramacao-item {
+.programacao-item {
     padding: 8px 8px 8px 0;
     font-family: Open Sans;
     line-height: 20px;
@@ -294,22 +292,15 @@ img {
 
 #programacao-mapa{
     width: 35%;
-    float: left;
     padding-left: 162px;
-}
-
-#programacao-mapa img {
-    width: 400px;
-    height: 400px;
 }
 
 #programacao-mapa-img{
     padding-top: 8px;
 }
 
-#programacao-text {
+#programacao-block {
     padding: 40px 0 40px 0 ;
-
 }
 
 #mapa-titulo{
