@@ -103,73 +103,23 @@ table {
 
 #logo-marcha-inicio-central {
     width: 600px;
-    height: 370px;
-    margin: 85px auto 0px;
+    height: 400px;
+    margin: 85px auto 34px;
     background: url(img/logo-marcha-inicio-central.png) center top no-repeat;
     background-size: 589px;
     background-position: 0 87px;
 }
 
 #imagens-rodape-inicio-wrap {
-    padding: 0 0 0 285px;
-}
-
-.imagens-rodape-inicio-block {
-    width: 899px;
-    position: relative;
-    margin: 0 0 0 220px;
-    z-index: 1;
-}
-
-.imagens-rodape-inicio-block span {
-    text-align: center;
-    display: block;
-}
-
-.imagens-rodape-inicio-block > div {
-    background: #f9f7ef;
-    padding: 9px;
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.imagem1-rodape-inicio {
-    transform: rotate(5deg);
-}
-
-.imagem2-rodape-inicio {
-    transform: rotate(-3deg);
-}
-
-.imagem3-rodape-inicio {
-    transform: rotate(5deg);
-}
-
-.imagem4-rodape-inicio {
-    transform: rotate(-2deg);
-}
-
-#imagens-rodape-inicio-wrap > .bg-imagens-rodape-inicio {
-    height: 79px;
-    background: #d28f65;
-    display: block;
-    position: relative;
-    top: -130px;
-    right: 0px;
-    margin: 0 0 0 20px;
-    padding: 0px;
-}
-
-#imagens-rodape-inicio-wrap > .bg-imagens-rodape-inicio span {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 27px;
-    width: 187px;
-    display: block;
-    padding: 12px;
-}
-
-#imagens-rodape-inicio-wrap img {
-    height: 134px;
+    height: 177px;
+    background: rgba(174,204,235,1);
+    background: -moz-linear-gradient(top, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(174,204,235,1)), color-stop(49%, rgba(140,167,213,0.69)), color-stop(51%, rgba(140,167,213,0.68)), color-stop(71%, rgba(134,165,213,0.55)), color-stop(100%, rgba(134,165,213,0.37)));
+    background: -webkit-linear-gradient(top, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
+    background: -o-linear-gradient(top, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
+    background: -ms-linear-gradient(top, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
+    background: linear-gradient(to bottom, rgba(174,204,235,1) 0%, rgba(140,167,213,0.69) 49%, rgba(140,167,213,0.68) 51%, rgba(134,165,213,0.55) 71%, rgba(134,165,213,0.37) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aecceb', endColorstr='#86a5d5', GradientType=0 );
 }
 
 #inicio-contador {
@@ -371,11 +321,26 @@ table {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     clear: both;
-    margin: 16px 177px 0;
+    margin: 16px 239px 0;
     
 }
 
 .link-ver-mais a {
+    text-decoration: none;
+    color: #012480;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link-ver-mais-galeria {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+    margin: 16px 12px 0;
+    
+}
+
+.link-ver-mais-galeria a {
     text-decoration: none;
     color: #012480;
     font-weight: bold;
@@ -498,17 +463,23 @@ table {
 
 .galeria-fotos-item-first {
     float: left;
-    width: 27%;
+    width: 30%;
+}
+
+.galeria-fotos-item-first img {
+    width: 100%;
+    height: 100%;
 }
 
 .galeria-fotos-item {
     float: left;
-    width: 27%;
+    width: 30%;
     padding-left: 49px;
 }
 
-.galeria-foto-ver-mais {
- 
+.galeria-fotos-item img {
+    width: 100%;
+    height: 100%;
 }
 
 .link-ver-mais-fotos {
@@ -524,6 +495,39 @@ table {
     font-size: 18px;
 }
 
+.galeria-videos {
+    clear: both;
+    padding-top: 50px;
+}
+
+.galeria-videos-item-first {
+    float: left;
+    width: 30%;
+}
+
+.galeria-videos-item-first video {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria-videos-item video {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria-videos-item {
+    float: left;
+    width: 30%;
+    padding-left: 49px;
+}
+
+.ver-mais-fotos a {
+    text-decoration: none;
+    color:#012480;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 /*
