@@ -107,7 +107,6 @@ table {
     margin: 85px auto 34px;
     background: url(img/logo-marcha-inicio-central.png) center top no-repeat;
     background-size: 589px;
-    background-position: 0 87px;
 }
 
 #imagens-rodape-inicio-wrap {
@@ -123,7 +122,7 @@ table {
 }
 
 #inicio-contador {
-    width: 320px;
+    width: 360px;
     height: 100px;
     background: #33a2da;
     border: solid 1px red;
@@ -134,7 +133,7 @@ table {
 }
 
 #inicio-contador-titulo {
-    width: 100%;
+    width: 83%;
     display: block;
     text-align: center;
     color: #FFFFFF;
