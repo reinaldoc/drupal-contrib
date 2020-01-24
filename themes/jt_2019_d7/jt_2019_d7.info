@@ -10,7 +10,13 @@ stylesheets[all][] = css/jt_footer.css
 stylesheets[all][] = css/jt_header.css
 stylesheets[all][] = css/jt_menus.css
 stylesheets[all][] = css/jt_view.css
+stylesheets[all][] = css/font_awesome.css
+
 scripts[] = js/custom.js
+scripts[] = js/translate.js
+#scripts[] = js/jquery.js
+
+
 
 regions[user_menu]  	 = User menu
 regions[accessibility_left]  = Accessibility Left

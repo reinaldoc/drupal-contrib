@@ -5,6 +5,7 @@
 .accessibility {
     max-width: 1129px;
     margin: 0 auto;
+    padding: 1px 0;
 }
 
 #accessibility_wrapper {
@@ -18,6 +19,7 @@
 .accessibility ul {
     list-style: none;
     margin-left: 0;
+    margin-bottom:0;
 }
 
 .accessibility ul li {
@@ -37,14 +39,16 @@
 }
 
 .region-accessibility-left {
-    line-height: 2px;
+
     
 }
 
 .translation_tools {
-    float: right;
-    width: 154px;
+    float: left;
+    width: 361px;
     height: 15px;
+    padding: 0 0 0 170px;
+
 }
 
 .translation_tools ul li {
@@ -67,13 +71,17 @@
     height: 26px;
 }
 
+.access_links{
+    float: right;
+}
+
 .access_links ul li {
     list-style: none;
     float: left;
 }
 
 .access_links ul {
-    padding: 5px 0 5px 0;
+    padding: 1px 0 5px 0;
 }
 
 .access_links ul li a:hover {
@@ -89,49 +97,65 @@
     margin: 0 0 0 13px;
 }
 
-.icons_information {
+
+.icons_info a::before{
     background: url(../images/icons_top.png) repeat scroll 0 0;
     background-size: 87px;
-    background-position: 41px 68px;
-}
-
-.icons_zoom_less {
-    background: url(../images/icons_top.png) repeat scroll 0 0;
-    background-size: 88px;
-    background-position: 243px 141px;
-}
-
-.icons_zoom_more {
-    background: url(../images/icons_top.png) repeat scroll 0 0;
-    background-size: 79px;
-    background-position: 58px 37px;
-
-}
-
-.icons_libras {
-    background: url(../images/icons_top.png) repeat scroll 0 0;
-    background-size: 85px;
-    background-position: -3px -32px;
-}
-
-.icons_contrast {
-    background: url(../images/icons_top.png) repeat scroll 0 0;
-    background-size: 89px;
-    background-position: -3px 68px;
-
-}
-
-.icons_intranet {
-    float: right;
+    background-position: 217px 140px;
+    height: 15px;
+    width: 20px;
+    content: ".";
+    color: transparent;
     display: inline-block;
-    vertical-align: top;
-    width: 45px;
-    height: 20px;
-    margin: 0 0 0 10px;
-    background: url(../images/icons_top.png) repeat scroll 0 0;
-    background-size: 140px;
-    background-position: -223px 56px;
 }
+
+
+.icons_zoom_less a::before{
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 87px;
+    background-position: 240px 140px;
+    height: 15px;
+    width: 20px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.icons_zoom_more a::before{
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 87px;
+    background-position: 151px 112px;
+    height: 15px;
+    width: 20px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.icons_libras a::before{
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 87px;
+    background-position: 171px 112px;
+    height: 15px;
+    width: 20px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+.icons_contrast a::before{
+    background: url(../images/icons_top.png) repeat scroll 0 0;
+    background-size: 87px;
+    background-position: 346px -6px;
+    height: 15px;
+    width: 20px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+
+
 
 .top_left {
     width: 47%;
@@ -154,55 +178,90 @@
 
 .social_icon {
     float: right;
-    display: inline-block;
-    vertical-align: top;
-    width: 31px;
-    height: 29px;
     margin: 0 0 0 4px;
     border-radius: 20px;  
 }
 
-.social_instagram {
-    background: url(../images/redesocial.png);
-    background-size: 223px;
-    background-position-x: 223px;
-    background-position-y: 0px
-}
 
-.social_twitter {
-    background: url(../images/redesocial.png);
-    background-size: 223px;
-    background-position-x: 147px;
-    background-position-y: -1px;
-}
-
-.social_facebook {
-    background: url(../images/redesocial.png);
-    background-size: 223px;
-    background-position-x: 409px;
-    background-position-y: 0px;
-}
-
-.social_flickr {
-    background: url(../images/redesocial.png);
-    background-size: 223px;
-    background-position-x: 291px;
-    background-position-y: 0px
-}
-
-.social_youtube {
+.icons_instagram a::before{
     background: url(../images/redesocial.png) repeat scroll 0 0;
-    background-size: 218px;
-    background-position-x: 105px;
-    background-position-y: 0px;
+    background-size: 223px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 30px;
 }
 
-.social_rss {
-    background: url(../images/redesocial.png) repeat scroll 0 0;
-    background-size: 218px;
-    background-position-x: 31px;
-    background-position-y: 0px;
+.icons_twitter a::before{
+     background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 223px;
+    background-position: -76px 0px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    border-radius: 20px;
+    
 }
+
+.icons_facebook a::before{
+    background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 223px;
+    background-position: -37px 0;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    border-radius: 20px;
+}
+
+.icons_flickr a::before{
+    background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 223px;
+    background-position: -155px 0px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    border-radius: 20px;
+
+
+}
+.icons_youtube a::before{
+    background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 223px;
+    background-position: -116px 0px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    border-radius: 20px;
+
+}
+.icons_rss a::before{
+    background: url(../images/redesocial.png) repeat scroll 0 0;
+    background-size: 223px;
+    background-position: -192px 0px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 29px;
+    border-radius: 20px;
+
+}
+
 
 #block-search-form .form-submit {
     height: 27px;
@@ -220,10 +279,6 @@
     right: 2px;
 }
 
-
-
-
-
 .process_consultation_wrapper {
     margin: 9px auto;
     max-width: 700px;
@@ -239,32 +294,32 @@
     font-weight: bold;
 }
 
-#numero {
+#iNrProcessoUnica {
     width: 100px;
     padding: 5px;
 }
 
-#digito {
+#iNrDigitoUnica {
     width: 60px;
     padding: 5px;
 }
 
-#ano {
+#iNrProcessoAnoUnica {
     width: 50px;
     padding: 5px;
 }
 
-#justica {
+#iNrJusticaUnica {
     width: 40px;
     padding: 5px;
 }
 
-#regiao {
+#iNrRegiaoUnica {
     width: 40px;
     padding: 5px;
 }
 
-#vara {
+#iNrProcessoVaraUnica {
     width: 47px;
     padding: 5px;
 }
@@ -329,7 +384,7 @@
     cursor: pointer;
     text-indent: -9999px;
     border-color: #E4E4E4 #D2D2D2 #B4B4B4;
-    background: #01426a url(../images/search_icon.png) no-repeat center top;
+    background:#face33 url(../images/search_icon.png) no-repeat center top;
     overflow: hidden;
     box-shadow: none;
     border: 0;

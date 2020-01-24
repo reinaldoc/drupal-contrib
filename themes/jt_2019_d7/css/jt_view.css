@@ -1,26 +1,36 @@
 /* CSS para o conteúdo View v-noticias */
+
+.view-v-noticias > .view-header{
+  margin-bottom: 58px;
+}
+
+
+
 .jt-view-noticia-destaque > .view-content .views-field-field-noticia-imagem {
     float: left;
 }
 
+.jt-view-noticia-destaque > .view-content .views-field-field-noticia-imagem
+ a:hover {
+  border: none;
+}
+
+
 .jt-view-noticia-destaque >  .view-content .views-field-title {
     float: left;
-    width: 56%;
+    width: 51%;
     padding: 0 0 0 10px;
     font-family: arial;
-    
 }
 
 .jt-view-noticia-destaque >  .view-content .views-field-title a {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
-
-
 .jt-view-noticia-destaque >  .view-content .views-field-body {
    float: left;
-   width: 54%;
+   width: 51%;
    margin-top:17px;
    padding: 0 0 0 10px;
    font-size: 11px;
@@ -37,7 +47,21 @@
     padding: 18px 0 0 10px;
     display: inline-block;
     font-style: italic;
+    
+    
 }
+
+.jt-view-noticia-destaque > .view-content .views-field-path span a {
+   border-bottom: none;
+   color: #666666;
+
+} 
+
+.jt-view-noticia-destaque > .view-content .views-field-path span a:hover {
+   color: #333333;
+ 
+}
+   
 
 /* CSS para o rodapé View v-noticias */
  .view-footer {
@@ -55,6 +79,18 @@
     width: 100%;
 }
 
+.view-footer .jt-view-3-noticias-com-imagem .views-field-field-noticia-imagem
+.field-content  a:hover {
+   border:none;
+
+}
+
+
+
+.view-footer .jt-view-3-noticias-com-imagem .views-field .views-field-title a:hover {
+   text-decoration: underline;
+
+}
 
 .view-footer > .view-v-noticias .views-field-title  {
     clear: both;
@@ -68,13 +104,25 @@
 
 .view-footer > .view-v-noticias .views-row {
     float: left;
-    width: 33.3%;
-    padding: 0 0 0 5px;
+    width: 33%;
+    padding: 0 0 0 21px;
 }
 
-.view-footer > .view-v-noticias .views-row-first {
-    padding-left: 0;
+.view-footer > .view-v-noticias .views-row-1 {
+    float: left;
+    width: 30%;
+    padding: 0;
 }
+
+
+
+
+.jt-view-noticias-sem-imagem .view-footer-text .view-footer-link {
+ float: left;
+
+}
+
+
 
 /* CSS para a região content_bottom */
 #content_bottom_wrapper {
@@ -85,19 +133,19 @@
 
 /* CSS para o bloco da View v-noticias */
 
-#block-views-v-noticias-block-11 {
+#block-views-v-noticias-block-14 {
     float: left;
     width: 49%;
 }
 
 #block-views-v-noticias-em-video-block {
     float: left;
-    width: 49%;
-    margin: 0 0 0 20px;
+    width: 50.5%;
+    padding: 0 0 0 50px;
 }
 
 .region-content-bottom h2 {
-    font-size: 22px;
+    font-size: 18px;
     color: #2b4570;
     text-transform: uppercase;
     font-weight: bold;
@@ -111,7 +159,7 @@
 .jt-view-noticias-sem-imagem > .view-content .views-field-title a {
     font-size: 16px;
     font-weight: bold;
-    word-spacing: 16px;
+    word-spacing: 7px;
     text-decoration: none;
 }
 
@@ -127,7 +175,30 @@
     padding-bottom: 10px;
 }
 
-.jt-view-noticia-em-video .views-row video {
-    height: 315px;
-    width: 560px;
+
+/*css para bloco view-v-noticias-em-video */
+
+#block-views-v-noticias-em-video-block .v-grid-noticias-video > .view-content video {
+ width: 519px;
+ height: 307px;
+}
+
+#block-views-v-noticias-em-video-block .v-grid-noticias-video > .view-content {
+  border-bottom: none;
+}
+
+#block-views-v-noticias-em-video-block .v-grid-noticias-video > .view-content .views-field-field-noticia-video {
+ border: none;
+ box-shadow: none;
+}
+
+.view-v-noticias-em-video .view-footer > p.view-footer-text {
+   margin: -16px 10px 0 0;
+}
+
+/*´CSS para bloco bloco block-block-18*/
+
+.region-footer #block-block-18 {
+  margin: 57px 0 0;
+
 }

@@ -10,8 +10,22 @@
 }
 
 #main-menu > .menu-navigation-container > ul.menu > li {
-    width: 13%;
-    
+    width: 12%;
+    border-right: 1px solid #ccc;
+}
+
+#main-menu > .menu-navigation-container > ul.menu li.last {
+   border-right: none;
+}
+
+#main-menu > .menu-navigation-container > ul.menu > li:nth-child(2),
+#main-menu > .menu-navigation-container > ul.menu > li:nth-child(3) {
+    width: 10%;
+}
+
+#main-menu > .menu-navigation-container > ul.menu > li:nth-child(4),
+#main-menu > .menu-navigation-container > ul.menu > li:nth-child(5) {
+    width: 14%;
 }
 
 #header_wrapper .menu_wrapper .menu_inner_wrap {
@@ -45,29 +59,39 @@
     color: #303c49;
 }
 
-
-#main-menu ul.menu li:hover > a, #main-menu ul.menu li:hover > span.nolink {
-    box-shadow: none;
-}
-
 #main-menu a {
-    padding: 8px 12px; 
+    padding: 8px 12px 5px; 
 }
+
+#main-menu ul.menu li ul.menu li span.nolink {
+    background: #ffffff;
+    padding: 8px 41px;
+    color: #303c49;
+
+}
+
+#main-menu ul.menu li ul.menu li span.nolink:hover {
+   background: #e0e0e0;
+
+}
+
+
 
 /*
     Menu Serviços Página inicial
 */
 
+#sidebar-second .region-sidebar-second {
+   padding: 0 0 0;
+}
 
 #block-menu-menu-servicos-front ul {
     list-style: none;
 }
 
 #block-menu-menu-servicos-front .content ul.menu li {
-    border-top: none;
-    border-bottom: solid 1px #d1e4f0;
-    padding: 5px 0 5px 4px;
-    line-height: 48px;
+    border-top: solid 1px #d1e4f0;
+    padding: 5px 0 5px 4PX;
 }
 
 #block-menu-menu-servicos-front .content ul.menu li.first {
@@ -80,12 +104,37 @@
     color: #01426a;
     font-weight: bold;
     font-size: 14px;
-    display: initial;
+    display: block;
     font-family: inherit;
+    line-height: 32px;
 }
 
 #block-menu-menu-servicos-front .content ul.menu li.first:hover {
     border-top: solid 1px #d1e4f0;
+}
+
+
+#block-menu-menu-servicos-front .content ul.menu  li.servicos-front-ver-servicos {
+    text-align: right;
+}
+
+#block-menu-menu-servicos-front .content ul.menu li.servicos-front-ver-servicos a {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+#block-menu-menu-servicos-front .content ul.menu li.servicos-front-ver-servicos a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+#block-menu-menu-servicos-front .content ul.menu li.servicos-front-ver-servicos:hover {
+    border-left: none;
+    border-right: none;
+    padding: 5px 0 5px 4px ;
+    background: white;
 }
 
 
@@ -95,93 +144,96 @@
 }
 
 #block-menu-menu-servicos-front a:hover {
-
     opacity: 0.7;
 }
 
-.servicos-front-pje::before {
-    background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: -48px 0px;
-    height: 50px;
-    width: 50px;
-    margin: 0 16px 0 13px;
+.servicos-front-pje a::before {
+    background: url(../images/menu-lateral.png) repeat scroll 0px 0px;
+    background-position: 404px 0px;
+    height: 35px;
+    width: 35px;
+    margin: 0 16px 0 0;
     content: ".";
     color: transparent;
     display: inline-block;
 }
-.servicos-front-certidao::before  {
-    background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 3px 0px;
-    height: 50px;
-    width: 50px;
-    margin: 0 16px 0 13px;
-    content: ".";
-    color: transparent;
-    display: inline-block;
-}
-
-.servicos-front-pautas::before {
-    background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 329px 0px;
-    height: 50px;
-    width: 50px;
-    margin: 0 13px 0 13px;
+.servicos-front-certidao a::before  {
+    background: url(../images/menu-lateral.png) repeat scroll 0px 0px;
+    background-position: 564px 0px;
+    height: 35px;
+    width: 35px;
+    margin: 0 16px 0 0;
     content: ".";
     color: transparent;
     display: inline-block;
 }
 
-.servicos-front-guias::before {
-    background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 391px 0px;
-    height: 50px;
-    width: 50px;
-    margin: 0 16px 0 13px;
+.servicos-front-pautas a::before {
+    background: url(../images/menu-lateral.png) repeat scroll 0px 0px;
+    background-position: 352px 0px;
+    height: 35px;
+    width: 38px;
+    margin: 0 13px 0 0;
     content: ".";
     color: transparent;
     display: inline-block;
 }
 
-.servicos-front-varas-do-trabalho::before {
-    background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 273px 0px;
-    height: 50px;
-    width: 50px;
-    margin: 0 16px 0 13px;
+.servicos-front-guias a::before {
+    background: url(../images/menu-lateral.png) repeat scroll 0px 0px;
+    background-position: 289px 0px;
+    height: 35px;
+    width: 35px;
+    margin: 0 16px 0 0;
     content: ".";
     color: transparent;
     display: inline-block;
 }
 
-.servicos-front-dejt::before {
-    background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 205px 0px;
-    height: 50px;
-    width: 50px;
-    margin: 0 16px 0 13px;
+.servicos-front-varas-do-trabalho a::before {
+    background: url(../images/menu-lateral.png) repeat scroll 0px 0px;
+    background-position: 932px 0px;
+    height: 35px;
+    width: 35px;
+    margin: 0 16px 0 0;
     content: ".";
     color: transparent;
     display: inline-block;
 }
 
-.servicos-front-concursos::before {
-    background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 135px 0px;
-    height: 50px;
-    width: 60px;
-    margin: 0 8px 0 13px;
+.servicos-front-dejt a::before {
+    background: url(../images/menu-lateral.png) repeat scroll 0px 0px;
+    background-position: 223px 0px;
+    height: 35px;
+    width: 36px;
+    margin: 0 16px 0 0;
     content: ".";
     color: transparent;
     display: inline-block;
 }
 
-.servicos-front-resolucoes::before {
-    background: url(../images/icons_right.png) repeat scroll 0px 0px;
-    background-position: 63px 0px;
-    height: 50px;
-    width: 50px;
-    margin: 0 16px 0 13px;
+.servicos-front-concursos a::before {
+    background: url(../images/menu-lateral.png) repeat scroll 0px 0px;
+    background-position: 626px 0px;
+    height: 35px;
+    width: 35px;
+    margin: 0 16px 0 0;
     content: ".";
     color: transparent;
     display: inline-block;
+}
+
+.servicos-front-resolucoes a::before {
+    background: url(../images/menu-lateral.png) repeat scroll 0px 0px;
+    background-position: 34px 0px;
+    height: 35px;
+    width: 35px;
+    margin: 0 16px 0 0;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+}
+
+#block-menu-menu-servicos-front > .content {
+   padding: 0;
 }
