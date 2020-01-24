@@ -60,6 +60,7 @@ img {
 .col-2 {
     display: inline-block;
     width: 45%;
+    padding: 0 20px;
 }
 
 .section-wrapper {
@@ -244,7 +245,7 @@ img {
     font-weight: bold;
 }
 
-#compromisso-text-content .compromisso-text {
+.compromisso-text {
     margin-top: 10px;
     font-family: Open Sans;
     line-height: 20px;

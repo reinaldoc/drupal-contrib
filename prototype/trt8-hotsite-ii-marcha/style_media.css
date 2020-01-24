@@ -38,4 +38,11 @@
         display: block;
         width: 90%
     }
+    #inicio-wrap {
+        background-position: -361px -161px;
+    }
+    #logo-marcha-inicio-central {
+        width: 90%;
+        margin: 45px auto 20px;
+    }
 }
