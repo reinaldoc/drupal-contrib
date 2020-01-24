@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 1360px) {
+    #imagens-rodape-inicio-wrap {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    #inicio-wrap {
+        background-position: -223px -88px;
+    }
+    #inicio-contador {
+        position: initial;
+        margin: 0 auto;
+    }
+    #logo-marcha-inicio-central {
+        width: 63%;
+    }
+    #imagens-rodape-inicio-wrap {
+        min-height: 370px;
+    }
+    .imagens-rodape-inicio-block {
+        margin: 87px 0 0 30px;
+        position: initial;
+    }
+
+    #compromisso-wrap {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .section-wrapper {
+        width: auto;
+    }
+    .col-2 {
+        display: block;
+        width: 90%
+    }
+}
