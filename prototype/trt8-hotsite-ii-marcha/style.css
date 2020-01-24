@@ -583,8 +583,20 @@ table {
 **  :: Oitava seção da página inicial
 **  :: Material do Evento
 */
+#material-evento{
+    clear: both;
+    padding-top: 50px;
+}
 
+.material-evento-content{
+    width: 1129px;
+    margin: 0 auto;
+}
 
+.material-pecas {
+    float: right;
+    border: 1px solid#012480;
+}
 
 /*
 **  :: Nona seção da página inicial
