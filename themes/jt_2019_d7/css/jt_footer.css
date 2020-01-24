@@ -22,7 +22,7 @@
 }
 #footer #copyright {
     border:none                     ;
-    background: #23517e  none repeat scroll 0 0;
+    background:#23517E url("../images/jt-novo-rodape.png") center top no-repeat;
     padding: 0;
     min-height: 140px;
 }
@@ -62,8 +62,9 @@
     padding-bottom: 10px;
 }
 .logo_footer {
+    padding-top: 27px;
     width: 18%;
-    border-right: 3px solid #fff;
+    
   
 
 }
@@ -83,15 +84,85 @@
     text-align: left;
     font-size: 14px;
 }
+
+.endereco_footer::before{
+ background: url(../images/icons-rodape.png) repeat scroll 0px 0px;
+ background-position: 0px 0px;
+ width:24px;
+ heigth:24px;
+}
+
+
+/* by @marcos - css para o endereco do rodape */
+#copyright .endereco_footer p {
+  margin-bottom: 10px;
+}
+.endereco_footer {
+    border-right: 3px solid #fff;
+    width: 30%;
+    height: 120px;
+    padding: 1px 0px 1px 15px;
+    min-height: 162px;
+    margin-right: 62px;
+}
+.endereco_footer b {
+    color: #fff;
+}
+
+.endereco_footer p {
+   line-height: 16px;
+}
+
+.block_endereco {
+ text-indent: -35px;
+}
+
+#endereco b::before {
+    background: url(../images/icons-rodape-v2.png) repeat scroll 0px 0px;
+    background-position: 1px 0px;
+    height: 17px;
+    width: 17px;
+    margin: 0 16px 0 0;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    background-size: 71px;
+}
+
+#horario_funcionamento b::before {
+    background: url(../images/icons-rodape-v2.png) repeat scroll 0px 0px;
+    background-position: -26px 0px;
+    height: 17px;
+    width: 18px;
+    margin: 0 16px 0 0;
+    content: ".";
+    color:transparent;
+    display: inline-block;
+    background-size: 71px;
+}
+
+#telefone_tribunal b::before {
+    background: url(../images/icons-rodape-v2.png) repeat scroll 0px 0px;
+    background-position: -51px 0px;
+    height: 17px;
+    width: 18px;
+    margin: 0 10px 0 0;
+    content: ".";
+    color:transparent;
+    display: inline-block;
+    background-size: 71px;
+}
+
+/* fim */
+
 .mapa_site {
     width: 18%;
-    padding-left: 70px;
 
 }
 .mapa_site h2 {
     color: #fff;
     font-weight: bold;
-    font-size: 15pt;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .mapa_site ul {
@@ -114,8 +185,97 @@ border-bottom:1px solid #fff;
     font-weight: bold; 
     color: #9bacb4;
 }
+
+/*rede social */
+
+.icons_instagram_footer  a::before{
+    background: url(../images/social_icons.png) repeat scroll 0 0;
+    background-size: 223px;
+    background-position: -77px 0px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 27px;
+
+
+}
+
+.icons_twitter_footer a::before{
+    background: url(../images/social_icons.png) repeat scroll 0 0;
+   background-size: 223px;
+   background-position: -37px 0px;
+   content: ".";
+   color: transparent;
+   display: inline-block;
+   vertical-align: top;
+   width: 31px;
+   height: 27px;
+   border-radius: 20px;
+
+}
+
+.icons_facebook_footer a::before{
+   background: url(../images/social_icons.png) repeat scroll 0 0;
+   background-size: 223px;
+   content: ".";
+   color: transparent;
+   display: inline-block;
+   vertical-align: top;
+   width: 31px;
+   height: 27px;
+   border-radius: 20px;
+
+
+}
+
+.icons_flickr_footer a::before{
+   background: url(../images/social_icons.png) repeat scroll 0 0;
+   background-size: 223px;
+   background-position: -114px 0px;
+   content: ".";
+   color: transparent;
+   display: inline-block;
+   vertical-align: top;
+   width: 31px;
+   height: 27px;
+   border-radius: 20px;
+
+}
+
+.icons_youtube_footer a::before{
+    background: url(../images/social_icons.png) repeat scroll 0 0;
+    background-size: 223px;
+    background-position: -154px 0px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 27px;
+    border-radius: 20px;
+
+}
+.icons_rss_footer a::before{
+    background: url(../images/social_icons.png) repeat scroll 0 0;
+    background-size: 223px;
+    background-position: 254px 0px;
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 31px;
+    height: 27px;
+    border-radius: 20px;
+
+}
+
+
+
+
 .rede_social {
-    width: 20%;
+    width: 21%;
     float: right;
     margin-right: 0;
 }
@@ -130,32 +290,6 @@ border-bottom:1px solid #fff;
     width:30px;
     height:30px;
     border-radius: 20px;
-}
-.rede_social .facebook {
-    background-image: url('../images/social_icons.png');
-    background-position: -1px 32px;
-}
-.rede_social .twitter {
-    background-image: url('../images/social_icons.png');
-    background-position: 220px 32px;
-}
-.rede_social .instagram {
-    background-image: url('../images/social_icons.png');
-    background-position: 441px 31px;
-}
-.rede_social .flickr {
-    background-image: url('../images/social_icons.png');
-    background-position: 396px 32px;
-}
-
-.rede_social .youtube {
-    background-image: url('../images/social_icons.png');
-    background-position: 80px 32px;
-}
-
-.rede_social .rss {
-    background-image: url('../images/social_icons.png');
-    background-position: 300px 32px;
 }
 
 .rede_social .exclamacao {
@@ -200,8 +334,8 @@ border-bottom:1px solid #fff;
     transform: translateY(-5px);
 }
 .lista_banner a {
-    width: 18%;
-    margin-right: 16px;
+    width: 15%;
+    margin-right: 44px;
     height: 50px;
     float: left;
     line-height: 70px;
@@ -257,50 +391,51 @@ border-bottom:1px solid #fff;
     height: 30px;
 }
 .servicos_bottom_content .servico .icon_servico {
-    width: 50px;
+    width: 60px;
     height: 50px;
     background: #cece;
     margin: 0 auto;
 }
 .servicos_bottom_content .servico .push {
-    background: url('../images/icons_service2v.png');
+    background: url('../images/icons_service_v3.jpg');
     background-position: 0px -2px;
+    width:50px;
 }
 .servicos_bottom_content .servico .precatorios {
-    background: url('../images/icons_service2v.png');
-    background-position: -55px -2px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -46px -2px;
 }
 .servicos_bottom_content .servico .portal_do_advogado {
-    background: url('../images/icons_service2v.png');
-    background-position: -111px 0px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -104px 0px;
 }
 .servicos_bottom_content .servico .editais_e_avisos {
-    background: url('../images/icons_service2v.png');
-    background-position: -170px -5px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -161px -5px;
 }
 .servicos_bottom_content .servico .biblioteca {
-    background: url('../images/icons_service2v.png');
-    background-position: -228px -5px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -221px -5px;
 }
 .servicos_bottom_content .servico .estatisticas {
-    background: url('../images/icons_service2v.png');
-    background-position: -290px -5px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -285px -5px;
 }
 .servicos_bottom_content .servico .agenda {
-    background: url('../images/icons_service2v.png');
-    background-position: -353px -4px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -345px -4px;
 }
 .servicos_bottom_content .servico .gestao {
-    background: url('../images/icons_service2v.png');
-    background-position: -413px -4px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -407px -4px;
 }
 .servicos_bottom_content .servico .escola_judicial {
-    background: url('../images/icons_service2v.png');
-    background-position: -475px -6px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -470px -6px;
 }
 .servicos_bottom_content .servico .trt_saude {
-    background: url('../images/icons_service2v.png');
-    background-position: -535px -6px;
+    background: url('../images/icons_service_v3.jpg');
+    background-position: -525px -6px;
 }
 
 

@@ -11,6 +11,8 @@
 -----------------------------------------------*/
 
 jQuery(document).ready(function($) {
+
+
   $('.nav-toggle').click(function() {
     $('#main-menu div ul:first-child').slideToggle(250);
     return false;
@@ -30,6 +32,6 @@ jQuery(document).ready(function($) {
     $('.drop-down-toggle').click(function() {
       $(this).parent().children('ul').slideToggle(250);
     });
-  }
-
+  }  
 });
+

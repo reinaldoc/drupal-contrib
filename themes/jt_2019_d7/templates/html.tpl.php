@@ -4,9 +4,9 @@
 <head>
 <title><?php print $head_title; ?></title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="theme-color" content="#444444" />
+<meta name="theme-color" content="#01426a" />
 
-<link rel="shortcut icon" href="/sites/all/themes/jt_2019_d7/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="shortcut icon" href="/sites/all/themes/jt_2019_d7/images/favicon-2019.ico" type="image/vnd.microsoft.icon">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117651240-1"></script>
@@ -39,6 +39,8 @@
 <noscript>
   <!-- Lista de áreas afetadas pela desabilitação do JavaScript -->
 </noscript>
+
+<script type="text/javascript" src="/sites/all/themes/jt_2019_d7/js/jt_script.js"></script>
 
 </body>
 

@@ -27,13 +27,75 @@
     .view-v-eslaides-comissao-de-etica .vscc_controls_pause {
         top: 66%;
     }
-    .accessibility {
+    #accessibility_wrapper {
         display: none;
     }
 }
-
+ 
 @media screen and (max-width: 640px) {
-
+    
+    
+    
+    #block-menu-menu-servicos-front .content ul.menu li.servicos-front-ver-servicos a {
+    
+    display: initial;
+    
+    }
+    
+    #block-block-14 .process_consultation_wrapper #buttons_consultation {
+      width: 100%;
+      margin: 0 auto;
+      padding: 7px;
+    }
+    
+    #block-block-14 .buttom_consultation {
+    width: 49%;
+    }
+      
+    #block-block-14 .process_consultation_wrapper {
+       margin: 1px 0;
+    }
+    
+    #copyright .endereco_footer {
+      border: none;
+    }
+    
+    #copyright .footer_content .logo_footer {
+     width: 43%;
+    }
+    
+    #copyright .footer_content .endereco_footer {
+     width: 74%;
+    
+    }
+    
+    .endereco_footer p {
+      text-align: justify;
+    
+    }
+    
+    #copyright .bloco_footer {
+      
+      margin-right: 0;
+       
+    }
+    
+    #copyright .footer_content .mapa_site {
+      padding: 65px 0 0 43px;
+      width: 100%;
+    }
+    
+    #copyright .footer_content .rede_social {
+      display: block;
+    }
+    
+    .rede_social {
+      width: 89%;
+      margin-top : 10px;
+      margin: 10px auto;
+      display: block;
+    }
+    
     #header .top_left {
         width: 100%;
     }
@@ -41,7 +103,7 @@
     #main-menu > .menu-navigation-container > ul.menu > li.first + li {
         width: 100%;
     }
-    #main-menu > .menu-navigation-container > ul.menu > li {
+    #header_wrapper #main-menu > .menu-navigation-container > ul.menu > li {
         width: 100%;
     }
     #header .top_right {
@@ -49,14 +111,19 @@
     }
 
     #header .social_icons {
-        width: 81%;
+        margin: 0 auto;
+        width: 212px;
+    }
+    
+    #header .social_icons ul {
+        margin-left: 0;
     }
     
     .menu_inner_wrap > #main-menu > .menu-navigation-container > ul.menu > li {
         width: 100%;    
     }
 
-   .menu_inner_wrap > #main-menu > .menu-navigation-container > ul.menu > li.first + li {
+    .menu_inner_wrap > #main-menu > .menu-navigation-container > ul.menu > li.first + li {
         width: 100%;
     }
     
@@ -66,13 +133,15 @@
         text-align: center;
 
     }
+    
     .process_consultation_wrapper #campos_consulta {
         width: 100%;
-        margin: 4px 0;
+       
     }
     
     .process_consultation_wrapper #campos_consulta input {
-        margin-left: 2px;
+        margin: 3px 0 0 1px;
+        width:99%;
     }
 
     .process_consultation_wrapper #buttons_consultation {
@@ -110,20 +179,51 @@
         display: none;
     }
 
-     #block-system-main .jt-view-noticia-destaque > .view-content .views-field-title  a {
+    #block-system-main .jt-view-noticia-destaque > .view-content .views-field-title  a {
         font-size: 13px;
     }
 
-
     .jt-view-noticia-destaque .view-footer .jt-view-3-noticias-com-imagem .views-field-title a {
         font-size: 22px;
+    }
+
+    #block-system-main .jt-view-noticia-destaque > .view-content .views-field-field-noticia-imagem {
+        width: 100%;
+    }
+
+    #block-system-main .view-v-noticias .views-field-title {
+        margin-bottom: 20px;
+    }
+
+    
+     .view-footer > .view-v-noticias > .view-content > .views-row {
+     
+     padding:0;
+     float: none;
+     display: block;
+     margin-bottom: 9px;
+    }
+    
+    .view-header  > .view-v-noticias > .view-content > .views-row {
+    height: 241px;
+    }
+     
+    #content_bottom_wrapper .region-content-bottom #block-views-v-noticias-block-14 {
+      width: 93%;
+      margin: 15px;
+    
+    }
+        
+    #block-system-main .view-v-noticias > .view-header{
+      margin-bottom: 0;
+    
     }
 
     #sidebar-second ul {
         margin-left: 0;
     }
 
-    .view-footer img {
+    .view-footer img, .view-header img {
         width: 100%;
     }
     
@@ -133,45 +233,61 @@
     
     .region-content-bottom #block-views-v-noticias-em-video-block {
         width: 93%;
-        margin: 0 10px 0 15px;
+        margin: 10px;
     }
 
-    #block-block-2 .logo_footer {
+    #content_bottom_wrapper #block-views-v-noticias-em-video-block {
+        padding: 0;
+    }
+
+    #block-block-1 .logo_footer {
         display: block;
         width: 11%;
         margin-left: 107px;
         border: none;
     }
 
-    #block-block-2 .endereco_footer {
+    #block-block-1 .endereco_footer {
         width: 100%;
         padding-left: 30px;
     }
 
-    #block-block-2 .mapa_site {
+    #block-block-1 .mapa_site {
         width: 100%;
         padding-left: 34px;
         margin-top: 12px;
     }
 
-    #block-block-2 .rede_social {
+    #block-block-1 .rede_social {
         float: none;
         margin: 28px;
         width: 25%;
     }
 
-    #block-block-2 .rede_social .exclamacao {
+    #block-block-1 .rede_social .exclamacao {
         width: 15%;
         clear: right;
         text-align: left;
-        padding: 0 0 0 7px;
+        padding: 12px 0 0 7px;
         float: left;
+        clear: both;
     }
 
-    #block-block-2 .rede_social img {
+    #block-block-1 .rede_social img {
         width: 33px;
         height: 31px;
     }
+
+    #block-views-v-noticias-em-video-block .v-grid-noticias-video > .view-content .views-view-grid td {
+        float: none;
+    }
+
+    #block-views-v-noticias-em-video-block .v-grid-noticias-video .view-content .views-field-field-noticia-video
+    video {
+        height: 170px;
+    }
+    
+    
 
     #search-block-form #block-search-form .form-text {
         border-radius: 3px 10px 10px 3px;
@@ -194,7 +310,54 @@
         width: 50%;
         margin: 8px 45px 2px 75px;
     }
+    
+    #footer #block-block-11 .banner_informativo_content li {
+        width: 50%;
+        margin: 0 auto;
+    }
 
+     #footer #block-block-11 .item_banner a {
+        float: none;
+     }
+
+     #footer #block-block-11 .lista_banner {
+        height: auto;
+     
+     }
+     
+     #copyright .footer_content {
+        width: 100%;
+     
+     }
+     
+     #copyright .footer_content .logo_footer {
+        display: block;
+        border: none;
+        width: 43%;
+        margin: 0 auto;
+      
+     }
+     
+      #copyright .footer_content .endereco_footer {
+         display: block;
+         padding: 30px 0 0;
+         width: 70%;
+         margin: 0 auto;
+         
+      }
+      
+       #copyright .footer_content .mapa_site{
+          padding: 65px 0 0 47px
+          width: 100%;
+      }
+       
+       #copyright .footer_content .rede_social {
+          float: none;
+          display: block;
+          width: 89%;
+        }
+           
+     
     #copyrity .lista_links {
         float: left;
     }
@@ -282,7 +445,9 @@
          margin-left: 15px;
          margin-right: 15px;
     }
-
-
+    
+    #block-block-12 .servicos_bottom_wrapper .servicos_bottom_content .servico{
+         width: 100%;
+    }
 
 }

@@ -155,6 +155,11 @@
   <div id="container">
 
   <div class="container-wrap">
+      <?php if ($page['sidebar_second']): ?>
+          <aside id="sidebar-second" role="complementary">
+            <?php print render($page['sidebar_second']); ?>
+          </aside>  <!-- /#sidebar-first -->
+        <?php endif; ?>
         <div class="content-sidebar-wrap">
 
         <div id="content">
@@ -198,12 +203,8 @@
       
         </div>
 
-        <?php if ($page['sidebar_second']): ?>
-          <aside id="sidebar-second" role="complementary">
-            <?php print render($page['sidebar_second']); ?>
-          </aside>  <!-- /#sidebar-first -->
-        <?php endif; ?>
- 
+        
+
         <?php if ($is_front): ?>
 
         <div id="footer_wrapper" class="footer_block bottom_widget">
