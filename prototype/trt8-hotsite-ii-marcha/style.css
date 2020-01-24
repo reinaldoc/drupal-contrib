@@ -492,6 +492,39 @@ table {
     margin: 0 auto;
 }
 
+.galeria-fotos-titulo {
+    padding-bottom: 50px;
+}
+
+.galeria-fotos-item-first {
+    float: left;
+    width: 27%;
+}
+
+.galeria-fotos-item {
+    float: left;
+    width: 27%;
+    padding-left: 49px;
+}
+
+.galeria-foto-ver-mais {
+ 
+}
+
+.link-ver-mais-fotos {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 182px 67px 0;
+}
+
+.link-ver-mais-fotos a {
+    text-decoration: none;
+    color:#012480;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
 
 /*
 **  :: Oitava seção da página inicial
