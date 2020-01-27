@@ -590,6 +590,14 @@ section#programacao {
     border: 1px solid#012480;
 }
 
+.baixar-pecas a {
+    text-decoration: none;
+    color:#012480;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*
 **  :: Nona seção da página inicial
 **  :: Participe
