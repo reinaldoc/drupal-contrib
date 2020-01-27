@@ -1,0 +1,48 @@
+
+@media screen and (max-width: 1360px) {
+    #imagens-rodape-inicio-wrap {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    #inicio-wrap {
+        background-position: -223px -88px;
+    }
+    #inicio-contador {
+        position: initial;
+        margin: 0 auto;
+    }
+    #logo-marcha-inicio-central {
+        width: 63%;
+    }
+    #imagens-rodape-inicio-wrap {
+        min-height: 370px;
+    }
+    .imagens-rodape-inicio-block {
+        margin: 87px 0 0 30px;
+        position: initial;
+    }
+
+    #compromisso-wrap {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .xp-section-wrapper {
+        width: auto;
+    }
+    .xp-col-2, .xp-col-3 {
+        display: block;
+        width: 90%
+    }
+    #inicio-wrap {
+        background-position: -361px -161px;
+    }
+    #logo-marcha-inicio-central {
+        width: 90%;
+        margin: 45px auto 20px;
+    }
+}

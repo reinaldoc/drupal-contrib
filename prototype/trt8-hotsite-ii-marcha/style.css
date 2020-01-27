@@ -53,20 +53,41 @@ table {
     border-spacing: 0;
 }
 
+img {
+    width: 100%;
+}
+
+.xp-col-2 {
+    display: inline-block;
+    width: 45%;
+    padding: 0 20px;
+    vertical-align: top;
+}
+
+.xp-col-3 {
+    display: inline-block;
+    width: 30%;
+    padding: 0 20px;
+    vertical-align: top;
+}
+
+.xp-section-wrapper {
+    margin: 50px auto 50px;
+    width: 1129px;
+}
+
 /*
 **  :: Primeira seção da página inicial
 **  :: Menu, contador e faixa de imagens
 */
 
-#inicio-wrap{
+#inicio-wrap {
     width: 100%;
-    height: 780px;
-    background: url(img/fundo-inicio.jpg) center top no-repeat;
-    background-size: 100%;
-    background-position: 0 -152px;
+    min-height: 780px;
+    background: url('img/fundo-inicio.jpg') 0px -152px no-repeat;
 }
 
-#menu-principal-wrap{
+#menu-principal-wrap {
     width: 100%;
     height: 70px;
     background: rgba(0, 103, 160, 0.55);
@@ -102,20 +123,24 @@ table {
 }
 
 #logo-marcha-inicio-central {
-    width: 600px;
-    height: 370px;
     margin: 85px auto 0px;
-    background: url(img/logo-marcha-inicio-central.png) center top no-repeat;
-    background-size: 589px;
+    width: 43%;
 }
+
+#logo-marcha-inicio-central img {
+    width: 100%;
+}
+
 
 #imagens-rodape-inicio-wrap {
     padding: 0 0 0 285px;
+    position: relative;
 }
 
 .imagens-rodape-inicio-block {
-    width: 899px;
-    position: relative;
+    width: 840px;
+    position: absolute;
+    top: 12px;
     margin: 0 0 0 220px;
     z-index: 1;
 }
@@ -153,7 +178,7 @@ table {
     background: #d28f65;
     display: block;
     position: relative;
-    top: -130px;
+    top: 55px;
     right: 0px;
     margin: 0 0 0 20px;
     padding: 0px;
@@ -221,29 +246,6 @@ table {
 **  :: Compromisso do Evento
 */
 
-#compromisso-wrap {
-    background-color: white;
-    height: 430px;
-    
-}
-
-#compromisso-content {
-    margin: 90px auto 90px;
-    width: 1129px;
-}
-
-#compromisso-content .logo-data-compromisso {
-    float: left;
-    width: 45%;
-    height: 400px;
-}
-
-#compromisso-text-content {
-    float: left;
-    width: 45%;
-    margin-left: 110px;
-}
-
 .titulo-secao {
     color:#012480 ;
     font-family: "Bebas Neue", Helvetica;
@@ -251,7 +253,7 @@ table {
     font-weight: bold;
 }
 
-#compromisso-text-content .compromisso-text {
+.compromisso-text {
     margin-top: 10px;
     font-family: Open Sans;
     line-height: 20px;
@@ -269,30 +271,27 @@ table {
 **  :: Programação e Mapa
 */
 
-#programacao-content {
+section#programacao {
+    background: url(img/fundo-programacao.jpg) center top no-repeat;
+    background-size: 100%;
+    padding: 60px 0;
+}
+
+#programacao-wrapper {
     margin: 0 auto;
     width: 1129px;
     background-color: rgba(228, 222, 222, 0.8);
-    height: 520px;
 }
 
-#programacao-wrap {
-    height: 600px;
-    background: url(img/fundo-programacao.jpg) center top no-repeat;
-    background-size: 100%;
-    padding: 79px 0 0 0;
-
-}
 #programacao-titulo {
     width: 35%;
 }
 .programacao-itens {
     width: 35%;
     padding-left: 83px;
-    float: left;
 }
 
-.prgramacao-item {
+.programacao-item {
     padding: 8px 8px 8px 0;
     font-family: Open Sans;
     line-height: 20px;
@@ -300,22 +299,15 @@ table {
 
 #programacao-mapa{
     width: 35%;
-    float: left;
     padding-left: 162px;
-}
-
-#programacao-mapa img {
-    width: 400px;
-    height: 400px;
 }
 
 #programacao-mapa-img{
     padding-top: 8px;
 }
 
-#programacao-text {
+#programacao-block {
     padding: 40px 0 40px 0 ;
-
 }
 
 #mapa-titulo{
