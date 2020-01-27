@@ -64,6 +64,13 @@ img {
     vertical-align: top;
 }
 
+.xp-col-3 {
+    display: inline-block;
+    width: 30%;
+    padding: 0 20px;
+    vertical-align: top;
+}
+
 .xp-section-wrapper {
     margin: 50px auto 50px;
     width: 1129px;

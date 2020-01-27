@@ -34,7 +34,7 @@
     .xp-section-wrapper {
         width: auto;
     }
-    .xp-col-2 {
+    .xp-col-2, .xp-col-3 {
         display: block;
         width: 90%
     }
