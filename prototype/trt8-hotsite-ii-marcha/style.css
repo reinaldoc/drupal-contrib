@@ -194,6 +194,7 @@ img {
 
 #imagens-rodape-inicio-wrap img {
     height: 134px;
+    width: auto;
 }
 
 #inicio-contador {
