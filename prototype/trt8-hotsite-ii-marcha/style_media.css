@@ -31,10 +31,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .section-wrapper {
+    .xp-section-wrapper {
         width: auto;
     }
-    .col-2 {
+    .xp-col-2 {
         display: block;
         width: 90%
     }
