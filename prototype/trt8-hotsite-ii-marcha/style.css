@@ -68,7 +68,12 @@ img {
 }
 
 .xp-section-wrapper {
-    margin: 190px auto 50px;
+    margin: 50px auto 50px;
+    width: 1129px;
+}
+
+.xp-footer-wrapper {
+    margin: 30px auto 0;
     width: 1129px;
 }
 
@@ -628,7 +633,12 @@ section#programacao {
 **  :: Rodapé
 */
 
-#rodape > .xp-section-wrapper > .xp-col-2-rodape  img {
+section#rodape {
+    background: url(img/fundo-rodape.jpg) center top no-repeat;
+    padding: 1px 0 20px 0;
+}
+
+#rodape > .xp-section-wrapper > .xp-col-2-rodape img {
     width: 100%;
 }
 
@@ -641,7 +651,7 @@ section#programacao {
 
 .xp-col-2-rodape {
     display: inline-block;
-    width: 27%;
+    width: 26%;
     padding: 0 20px;
     vertical-align: top;
 }
@@ -650,7 +660,7 @@ section#programacao {
     padding: 43px 0 0;
 }
 
-.xp-section-wrapper ul li a {
+.xp-footer-wrapper ul li a {
     list-style: inside;
     color: #1d8aca;
     font-family: Overlock;
@@ -673,5 +683,5 @@ section#programacao {
 }
 
 .rodape-first {
-    padding: 0 44px;
+    padding: 0 18px 0 26px;
 }
