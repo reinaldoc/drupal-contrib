@@ -657,7 +657,21 @@ section#programacao {
     text-decoration: none; 
 }
 
+.endereco-titulo {
+    font-weight: bold;
+}
+
 .rodape-endereco-marcha p {
     color:  #1d8aca;
     font-family: Overlock;
+}
+
+.mapa-site {
+    border-left: 5px solid #1d8aca;
+    padding: 0 0 0 48px;
+
+}
+
+.rodape-first {
+    padding: 0 44px;
 }
