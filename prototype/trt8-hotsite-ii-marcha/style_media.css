@@ -13,6 +13,9 @@
         position: initial;
         margin: 0 auto;
     }
+    #logo-menu {
+        right: 0px;
+    }
     #logo-marcha-inicio-central {
         width: 63%;
     }
@@ -41,8 +44,20 @@
     #inicio-wrap {
         background-position: -361px -161px;
     }
+    .menu-principal-wrapper {
+        width: 100%;
+    }
+    #logo-menu {
+        right: auto;
+    }
     #logo-marcha-inicio-central {
         width: 90%;
         margin: 45px auto 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #logo-menu {
+        display: none;
     }
 }

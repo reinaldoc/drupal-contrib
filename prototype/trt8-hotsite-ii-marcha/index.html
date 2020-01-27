@@ -6,20 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Fjalla+One|Open+Sans|Overlock&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_menu.css">
     <link rel="stylesheet" href="style_media.css">
     <title>II Marcha Contra o Trabalho Infantil</title>
 </head>
 <body>
     <section id="inicio">
         <div id="inicio-wrap">
-            <div id="menu-principal-wrap">
-                <div id="menu-principal-content">
+            <div class="menu-principal-bg">
+                <div class="menu-principal-wrapper">
+                    <input type="checkbox" id="chk">
+                    <label for="chk" class="show-menu-btn">
+                        <i class="fas fa-ellipsis-h">MENU</i>
+                    </label>
                     <ul class="menu-principal">
-                        <li><a href="http://">II MARCHA</a></li>
-                        <li><a href="http://">NOTÍCIAS</a></li>
-                        <li><a href="http://">GALERIA</a></li>
-                        <li><a href="http://">CAMPANHA</a></li>
-                        <li><a href="http://">PARTICIPE</a></li>
+                        <li><a href="#compromisso" onclick="document.getElementById('chk').checked = false;">II MARCHA</a></li>
+                        <li><a href="#" onclick="document.getElementById('chk').checked = false;">PROGRAMAÇÃO</a></li>
+                        <li><a href="#" onclick="document.getElementById('chk').checked = false;">AGENDA DE VISITAS</a></li>
+                        <li><a href="#" onclick="document.getElementById('chk').checked = false;">NOTÍCIAS</a></li>
+                        <li><a href="#" onclick="document.getElementById('chk').checked = false;">GALERIAS</a></li>
+                        <label for="chk" class="hide-menu-btn">
+                            <i class="fas fa-times">X</i>
+                        </label>
                     </ul>
                     <div id="logo-menu">
                        <a href="#"><img src="img/logo-marcha-menu.png" alt="Logotipo II Marcha Contra o Trabalho Infantil"></a> 
@@ -380,12 +388,12 @@
                         <li><a href="http://">Campanha</a></li>
                         <li><a href="http://">Participe</a></li>
                     </ul>
-
                 </div>
             </div>
         </div>
     </section>  
-     
+
+    <script src="jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
