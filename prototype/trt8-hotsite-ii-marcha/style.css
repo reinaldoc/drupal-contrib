@@ -72,6 +72,11 @@ img {
     width: 1129px;
 }
 
+.xp-section-wrapper-no-margin {
+    margin: 0px auto;
+    width: 1129px;
+}
+
 .xp-footer-wrapper {
     margin: 30px auto 0;
     width: 1129px;
@@ -278,18 +283,13 @@ section#programacao {
     padding: 60px 0;
 }
 
-#programacao-wrapper {
-    margin: 0 auto;
-    width: 1129px;
-    background-color: rgba(228, 222, 222, 0.8);
+.programacao-wrapper {
+   background-color: rgba(228, 222, 222, 0.8);
+   padding: 40px 36px;
 }
 
-#programacao-titulo {
+.programacao-titulo {
     width: 35%;
-}
-.programacao-itens {
-    width: 35%;
-    padding-left: 83px;
 }
 
 .programacao-item {
@@ -298,17 +298,8 @@ section#programacao {
     line-height: 20px;
 }
 
-#programacao-mapa{
-    width: 35%;
-    padding-left: 162px;
-}
-
 #programacao-mapa-img{
     padding-top: 8px;
-}
-
-#programacao-block {
-    padding: 40px 0 40px 0 ;
 }
 
 #mapa-titulo{

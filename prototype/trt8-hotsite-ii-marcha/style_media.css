@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .xp-section-wrapper, .xp-footer-wrapper {
+    .xp-section-wrapper, .xp-section-wrapper-no-margin, .xp-footer-wrapper {
         width: auto;
     }
     .xp-col-2, .xp-col-3 {
