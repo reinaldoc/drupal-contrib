@@ -96,6 +96,11 @@ img {
     margin: 0 0 12px 0;
 }
 
+.xp-section-text p {
+    text-align: justify;
+    margin: 0 0 12px 0;
+}
+
 /*
 **  :: Primeira seção da página inicial
 **  :: Menu, contador e faixa de imagens
@@ -312,43 +317,9 @@ section#programacao {
 **  :: Agenda de visitas
 */
 
-.agenda-visitas-content{
-    width: 1129px;
-    margin: 0 auto;
-    padding: 70px 0 20px 0;
-}
-
-.item-agenda-visistas img{
+#agenda-visitas img {
     width: 338px;
     height: 280px;
-}
-
-.item-agenda-visistas-first img {
-    width: 338px;
-    height: 280px;
-}
-
-.item-agenda-visistas-first {
-    float: left;
-    width: 30%;
-    font-family: Open Sans;
-    line-height: 20px;
-}
-
-.item-agenda-visistas {
-    float: left;
-    width: 30%;
-    padding-left: 52px;
-}
-
-.agenda-visitas-itens {
-    padding-top: 30px;
-}
-
-.item-agenda-visitas-text{
-    padding-top: 12px;
-    font-family: Open Sans;
-    line-height: 20px;
 }
 
 .link-ver-mais {
@@ -386,44 +357,24 @@ section#programacao {
 **  :: Marcha de 2015
 */
 
-#marcha-2015 {
-    clear: both;
-}
-
-.marcha-2015-wrap {
-    padding: 150px 0;
-}
-
-.marcha-2015-content {
-    width: 1129px;
-    margin: 0 auto;
-}
-
-.marcha-2015-text {
+.marcha-2015-col-60 {
+    display: inline-block;
     width: 62%;
-    float: left;
+    vertical-align: top;
 }
 
-.marcha-2015-titulo {
-
+.marcha-2015-col-40 {
+    display: inline-block;
+    width: 34%;
 }
 
-.marcha-2015-descricao {
-    padding: 47px 47px 156px 47px;;
+#marcha-2015 .xp-section-text {
+    padding: 47px;
     background:#4da67d;
-    margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
 }
 
-.marcha-2015-img {
-    float: left;
-   
-}
-
-.marcha-2015-img img {
+#marcha-2015 img {
     height: 550px;
-    
 }
 
 /*
