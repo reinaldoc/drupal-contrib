@@ -69,7 +69,7 @@ img {
 
 .xp-section-wrapper {
     margin: 50px auto 50px;
-    width: 1129px;
+    width: 1116px;
 }
 
 .xp-section-wrapper-no-margin {
@@ -550,32 +550,28 @@ section#programacao {
 **  :: Oitava seção da página inicial
 **  :: Material do Evento
 */
-#material-evento{
+
+#material-evento {
     clear: both;
     padding-top: 50px;
 }
 
-.material-evento-content{
-    width: 1129px;
-    margin: 0 auto;
-}
-
 .material-pecas {
-    float: right;
-    border: 1px solid#012480;
-    margin: 50px 0 0;
+    border: 1px solid #012480;
+    margin: 50px auto 0;
+    width: 80%;
 }
 
 .btn-download-pecas {
     clear: both;
     width: 20%;
-    padding: 15px 0 0 552px;
+    padding: 15px 0 0 0;
+    margin: 0 auto;
 }
-
 
 .btn-download-pecas a {
     text-decoration: none;
-    color:#012480;
+    color: #012480;
     font-weight: bold;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
