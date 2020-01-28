@@ -338,11 +338,10 @@ section#programacao {
 }
 
 .link-ver-mais-galeria {
-    float: right;
     font-family: Arial, Helvetica, sans-serif;
-    clear: both;
-    margin: 16px 12px 0;
-    
+    margin: 22px 12px;
+    display: block;
+    text-align: right;
 }
 
 .link-ver-mais-galeria a {
@@ -406,22 +405,13 @@ section#programacao {
     font-size: 15px;
 }
 
-
-
-
 /*
 **  :: Sétima seção da página inicial
 **  :: Galeria de fotos e vídeos
 */
 
 #galeria {
-    clear: both;
     padding-top: 70px;
-}
-
-.galeria-content {
-    width: 1129px;
-    margin: 0 auto;
 }
 
 .galeria-fotos-titulo {
@@ -495,7 +485,6 @@ section#programacao {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /*
 **  :: Oitava seção da página inicial
