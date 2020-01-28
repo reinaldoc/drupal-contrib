@@ -444,7 +444,7 @@ section#programacao {
     padding: 8px 0 8px 0;
 }
 
-.noticia-item-titulo h3 {
+.noticia-item-titulo {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 15px;
@@ -454,6 +454,8 @@ section#programacao {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
+
 
 
 /*
