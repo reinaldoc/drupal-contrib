@@ -5,7 +5,7 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
-i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+i, center, fieldset, form, label, legend, table,
 caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
 embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
@@ -661,20 +661,64 @@ section#rodape {
     padding: 43px 0 0;
 }
 
-.xp-footer-wrapper ul li a {
+.xp-footer-wrapper ul, li, a {
     list-style: inside;
     color: #1d8aca;
     font-family: Overlock;
     text-decoration: none; 
+    font-size: 1.0em;
+    margin: 0;
+
 }
+
+.xp-footer-wrapper a:hover {
+    border-bottom: solid  1px #1d8aca ;
+}
+
+
+
+
 
 .endereco-titulo {
     font-weight: bold;
 }
 
-.rodape-endereco-marcha p {
+.rodape-endereco-marcha {
+    position: relative;
+}
+
+.rodape-endereco-marcha p, b {
     color:  #1d8aca;
     font-family: Overlock;
+    font-size: 1.0em;
+}
+
+.endereco-titulo b::before {
+    background: url(img/icones-rodape.png) repeat scroll 0px 0px;
+    background-position: -2px 0;
+    height: 17px;
+    width: 19px;
+    margin: 0 6px 0 0;
+    content: ".";
+    color:
+    transparent;
+    display: inline-block;
+    background-size: 71px;
+    position: absolute;
+    left: -27px;
+}
+
+.marcha-titulo b::before {
+    background-position: 0 0;
+   
+}
+
+.horario-titulo b::before {
+    background-position: 44px 0;
+}
+
+.informacoes-titulo b::before {
+    background-position: 21px 0;
 }
 
 .mapa-site {
@@ -683,6 +727,11 @@ section#rodape {
 
 }
 
+.mapa-titulo {
+    font-weight: bold;
+    list-style: none;
+}
 .rodape-first {
-    padding: 0 18px 0 26px;
+    padding: 0 0 0 48px;
+    width: 30%;
 }
