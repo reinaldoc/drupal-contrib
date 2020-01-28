@@ -62,7 +62,7 @@ img {
 
 .xp-col-3 {
     display: inline-block;
-    width: 30%;
+    width: 29%;
     padding: 0 20px;
     vertical-align: top;
 }
@@ -438,26 +438,6 @@ section#programacao {
 
 .noticias-titulo {
     padding-bottom: 50px;
-}
-
-.noticias-content {
-    width: 1129px;
-    margin: 0 auto;
-}
-
-.noticia-item-first {
-    width: 27%;
-    float: left;
-}
-
-.noticia-item {
-    width: 27%;
-    padding-left: 107px;
-    float: left;
-}
-
-.noticia-item-img img {
-    border-radius: 100px;
 }
 
 .noticia-item-titulo {
