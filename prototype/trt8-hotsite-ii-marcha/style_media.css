@@ -5,7 +5,10 @@
     }
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
+    .xp-section-wrapper, .xp-section-wrapper-no-margin, .xp-footer-wrapper {
+        width: auto;
+    }
     #inicio-wrap {
         background-position: -223px -88px;
     }
@@ -33,10 +36,8 @@
 
 }
 
+
 @media screen and (max-width: 1024px) {
-    .xp-section-wrapper, .xp-section-wrapper-no-margin, .xp-footer-wrapper {
-        width: auto;
-    }
     .xp-col-2 {
         display: block;
         width: 90%
