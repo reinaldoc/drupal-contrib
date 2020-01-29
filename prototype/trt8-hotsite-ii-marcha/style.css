@@ -74,12 +74,12 @@ img {
 
 .xp-section-wrapper-no-margin {
     margin: 0px auto;
-    width: 1129px;
+    width: 1116px;
 }
 
 .xp-footer-wrapper {
     margin: 30px auto 0;
-    width: 1129px;
+    width: 1116px;
 }
 
 .xp-section-title {
@@ -541,49 +541,49 @@ section#programacao {
 */
 
 section#rodape {
-    background: url(img/fundo-rodape.jpg) center top no-repeat;
-    padding: 1px 0 20px 0;
+    background: #e1ebf7 url('img/fundo-rodape.jpg') right top no-repeat;
+    padding: 1px 0 0 0;
+    min-height: 200px;
 }
 
-#rodape > .xp-section-wrapper > .xp-col-2-rodape img {
-    width: 100%;
-}
-
-.xp-col-2-rodape-img {
-    display: inline-block;
-    width: 15%;
-    padding: 0 20px;
-    vertical-align: top;
-}
-
-.xp-col-2-rodape {
-    display: inline-block;
-    width: 26%;
-    padding: 0 20px;
-    vertical-align: top;
-}
-
-.logo-marcha-rodape {
-    padding: 43px 0 0;
-}
-
-.xp-footer-wrapper ul, li, a {
+section#rodape ul, li, a {
     list-style: inside;
     color: #1d8aca;
     font-family: Overlock;
     text-decoration: none; 
     font-size: 1.0em;
     margin: 0;
-
 }
 
-.xp-footer-wrapper a:hover {
+section#rodape a:hover {
     border-bottom: solid  1px #1d8aca ;
 }
 
+section#rodape img {
+    width: auto;
+}
 
+.rodape-col-20 {
+    display: inline-block;
+    width: 15%;
+    padding: 0 20px;
+    vertical-align: top;
+}
 
+.rodape-col-40 {
+    display: inline-block;
+    width: 26%;
+    padding: 0 0 0 40px;
+    vertical-align: top;
+}
 
+.rodape-logo-marcha {
+    padding: 20px;
+}
+
+section#rodape .rodape-logo-marcha img {
+    width: 167px;
+}
 
 .endereco-titulo {
     font-weight: bold;
@@ -600,7 +600,7 @@ section#rodape {
 }
 
 .endereco-titulo b::before {
-    background: url(img/icones-rodape.png) repeat scroll 0px 0px;
+    background: url('img/icones-rodape.png') repeat scroll 0px 0px;
     background-position: -2px 0;
     height: 17px;
     width: 19px;
@@ -636,8 +636,4 @@ section#rodape {
 .mapa-titulo {
     font-weight: bold;
     list-style: none;
-}
-.rodape-first {
-    padding: 0 0 0 48px;
-    width: 30%;
 }
