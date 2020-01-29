@@ -40,7 +40,7 @@
 @media screen and (max-width: 1024px) {
     .xp-col-2 {
         display: block;
-        width: 90%
+        width: auto;
     }
     #inicio-wrap {
         background-position: -361px -161px;
@@ -52,16 +52,18 @@
         right: auto;
     }
     #logo-marcha-inicio-central {
-        width: 90%;
+        width: auto;
         margin: 45px auto 20px;
     }
     .programacao-wrapper {
         background-color: rgb(228, 222, 222);
     }
+    .xp-footer-wrapper {
+       margin: 9px auto 0;
+    }
     .rodape-col-20 {
-        width: 44%;
+        width: auto;
         text-align: center;
-        min-height: 200px;
     }
     .rodape-col-40 {
         width: 40%;
@@ -73,18 +75,14 @@
     #logo-menu {
         display: none;
     }
+    #inicio-contador {
+        width: auto;
+    }
     .xp-col-3 {
         display: block;
-        width: 90%
-    }
-    .rodape-col-20 {
-       min-height: 0px;
-       width: 90%;
+        width: auto;
     }
     .rodape-col-40 {
-       width: 90%;
-    }
-    .xp-footer-wrapper {
-       margin: 9px auto 0;
+       width: auto;
     }
 }

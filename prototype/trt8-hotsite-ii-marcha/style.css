@@ -118,8 +118,7 @@ img {
 }
 
 .menu-principal-wrapper {
-    margin: 0 auto;
-    width: 1129px;
+    text-align: center;
 }
 
 .menu-principal {
@@ -313,11 +312,6 @@ section#programacao {
 **  :: Quarta seção da página inicial
 **  :: Agenda de visitas
 */
-
-#agenda-visitas img {
-    width: 338px;
-    height: 280px;
-}
 
 .link-ver-mais {
     float: right;
