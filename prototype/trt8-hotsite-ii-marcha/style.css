@@ -421,30 +421,24 @@ section#agenda-visitas p {
     padding-top: 70px;
 }
 
-.galeria-fotos-titulo {
-    padding-bottom: 50px;
+#galeria p {
+    text-align: center;
 }
 
-.galeria-fotos-item-first {
-    float: left;
-    width: 30%;
+#galeria a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+
 }
 
-.galeria-fotos-item-first img {
+#galeria video {
     width: 100%;
     height: 100%;
 }
 
-.galeria-fotos-item {
-    float: left;
-    width: 30%;
-    padding-left: 49px;
-}
 
-.galeria-fotos-item img {
-    width: 100%;
-    height: 100%;
-}
 
 .link-ver-mais-fotos {
     float: left;
@@ -459,31 +453,6 @@ section#agenda-visitas p {
     font-size: 18px;
 }
 
-.galeria-videos {
-    clear: both;
-    padding-top: 50px;
-}
-
-.galeria-videos-item-first {
-    float: left;
-    width: 30%;
-}
-
-.galeria-videos-item-first video {
-    width: 100%;
-    height: 100%;
-}
-
-.galeria-videos-item video {
-    width: 100%;
-    height: 100%;
-}
-
-.galeria-videos-item {
-    float: left;
-    width: 30%;
-    padding-left: 49px;
-}
 
 .ver-mais-fotos a {
     text-decoration: none;
