@@ -532,20 +532,16 @@ section#agenda-visitas p {
 .facebook-avatar{
     padding: 5px;
     border: 1px solid #012480 ;
-    margin: 50px 0 0;
+    margin: 20px 0 0;
 }
 
 .btn-avatar-facebook {
     padding: 20px 0 0 20px;
-}
-
-.btn-avatar-facebook a {
     text-decoration: none;
     color: #002584;
     font-size: 22px;
     font-family: "Bebas Neue Book", Helvetica;
 }
-
 
 /*
 **  :: Rodapé
