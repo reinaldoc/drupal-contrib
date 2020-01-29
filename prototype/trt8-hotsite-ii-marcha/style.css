@@ -208,12 +208,9 @@ img {
     padding: 0px;
 }
 
-#imagens-rodape-inicio-wrap > .bg-imagens-rodape-inicio span {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 27px;
-    width: 187px;
-    display: block;
-    padding: 12px;
+#imagens-rodape-inicio-wrap > .bg-imagens-rodape-inicio img {
+    width: 200px;
+    height: 100%;
 }
 
 #imagens-rodape-inicio-wrap img {
