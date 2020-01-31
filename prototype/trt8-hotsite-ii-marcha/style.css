@@ -313,6 +313,14 @@ section#programacao {
     padding: 60px 0;
 }
 
+section#programacao h3 {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    color: #012480;
+    font-family: 'Fjalla One', sans-serif;
+}
+
 .programacao-wrapper {
    background-color: rgba(228, 222, 222, 0.8);
    padding: 40px 36px;
