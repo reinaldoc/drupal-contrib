@@ -17,7 +17,7 @@
         margin: 0 auto;
     }
     #logo-menu {
-        right: 0px;
+        display: none;
     }
     #logo-marcha-inicio-central {
         width: 63%;
@@ -33,7 +33,6 @@
     #compromisso-wrap {
         width: auto;
     }
-
 }
 
 
@@ -49,10 +48,10 @@
         width: 100%;
     }
     #logo-menu {
-        right: auto;
+        display: block;
     }
     #logo-marcha-inicio-central {
-        width: auto;
+        width: 90%;
         margin: 45px auto 20px;
     }
     .programacao-wrapper {
@@ -64,6 +63,7 @@
     .rodape-col-20 {
         width: auto;
         text-align: center;
+        display: block;
     }
     .rodape-col-40 {
         width: 40%;
@@ -72,11 +72,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    #logo-menu {
-        display: none;
-    }
     #inicio-contador {
         width: auto;
+    }
+    #logo-menu {
+        display: none;
     }
     .xp-col-3 {
         display: block;
