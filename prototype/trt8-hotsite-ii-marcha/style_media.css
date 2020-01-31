@@ -78,11 +78,18 @@
     #logo-menu {
         display: none;
     }
+    .xp-section-title {
+        text-align: center;
+        font-size: 42px;
+    }
     .xp-col-3 {
         display: block;
         width: auto;
     }
     .rodape-col-40 {
-       width: auto;
+        width: auto;
+    }
+    .marcha-2015-col-40, .marcha-2015-col-60 {
+        width: auto;
     }
 }
