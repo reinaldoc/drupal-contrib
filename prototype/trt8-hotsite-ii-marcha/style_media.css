@@ -79,6 +79,9 @@
     #inicio-contador-titulo {
         width: auto;
     }
+    #imagens-rodape-inicio-wrap {
+        background: #bee3fe;  
+    }
     #logo-menu {
         display: none;
     }
