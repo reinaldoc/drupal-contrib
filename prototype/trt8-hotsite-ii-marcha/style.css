@@ -266,7 +266,7 @@ a {
 }
 
 .inicio-contador-celula {
-    float: left;
+    display: inline-block;
     min-width: 75px;
     text-align: center;
 }

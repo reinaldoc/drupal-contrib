@@ -74,6 +74,10 @@
 @media screen and (max-width: 600px) {
     #inicio-contador {
         width: auto;
+        text-align: center;
+    }
+    #inicio-contador-titulo {
+        width: auto;
     }
     #logo-menu {
         display: none;
