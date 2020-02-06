@@ -131,6 +131,10 @@ h3.xp-section-title {
     text-align: center;
 }
 
+.xp-see-more a {
+    display: block;
+}
+
 .xp-see-more:hover {
     background: #CCC;
 }
