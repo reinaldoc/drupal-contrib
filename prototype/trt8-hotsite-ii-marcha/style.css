@@ -94,6 +94,11 @@ a {
     margin: 0 0 14px 0;
 }
 
+h3.xp-section-title {
+    font-size: 36px;
+    margin: 20px 0 0 0;
+}
+
 .xp-image-title {
     font-family: "Open Sans";
     font-weight: bold;
@@ -349,33 +354,6 @@ section#programacao h3 {
 **  :: Agenda de visitas
 */
 
-.link-ver-mais {
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    clear: both;
-    margin: 16px 239px 0;
-}
-
-.link-ver-mais a {
-    text-decoration: none;
-    color: #012480;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.link-ver-mais-galeria {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 22px 12px;
-    display: block;
-    text-align: right;
-}
-
-.link-ver-mais-galeria a {
-    text-decoration: none;
-    color: #012480;
-    font-weight: bold;
-    font-size: 18px;
-}
 
 /*
 **  :: Quinta seção da página inicial
@@ -421,27 +399,6 @@ section#programacao h3 {
     height: 100%;
 }
 
-.link-ver-mais-fotos {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 182px 67px 0;
-}
-
-.link-ver-mais-fotos a {
-    text-decoration: none;
-    color:#012480;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.ver-mais-fotos a {
-    text-decoration: none;
-    color:#012480;
-    font-weight: bold;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 /*
 **  :: Oitava seção da página inicial
 **  :: Material do Evento
@@ -450,6 +407,12 @@ section#programacao h3 {
 .material-pecas {
     border: 1px solid #012480;
     margin: 0px auto 4px;
+}
+
+.participe-text p {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0 25px;
 }
 
 /*
