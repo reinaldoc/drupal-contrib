@@ -25,6 +25,7 @@ nav, section {
 
 body {
     line-height: 1;
+	background: #ebf0f3;
 }
 
 ol, ul {
@@ -58,7 +59,7 @@ a {
 .xp-col-2 {
     display: inline-block;
     width: 40%;
-    padding: 0 0 0 58px;
+    padding: 0 0 0 27px;
     vertical-align: top;
 }
 
@@ -197,24 +198,23 @@ a {
     border-radius: 5px;
     border:#cccccc solid 1px;
     box-shadow: 0 0 0.9em#bbb;
-    height: 202px;
+    height: 242px;
 }
 
 .buttom-acces {
     color: #fff;
-    width: 228px;
+    width: 257px;
     height: 45px;
     border: none;
     text-transform: uppercase;
-    padding: 0 0 0 50px;
+    padding: 0 17px 0 68px;
     font-size: 13px;
     font-weight: bold;
     border-radius: 3px;
-    margin-top: 26%;
+    margin: 50px 24px;
     touch-action: manipulation;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 0px 0px, rgba(0, 0, 0, 0.239216) 0px 0px 0px;
-    webkit-box-shadow: rgba(0, 0, 0, 0.117647) 0px 0px 0px, rgba(0, 0, 0, 0.239216) 0px 0px 0px;
 }
 
 .dwn-shodo {
@@ -232,18 +232,18 @@ a {
 
 #manual-shodo::before{
     content: "ou";
-    background:#fff;
-    color:#777;
+    background: #fff;
+    color: #777;
     border-radius: 100%;
     padding: 6px;
     font-size: 14px;
     left: 0;
     top: 82%;
     z-index: 999;
-    margin: -16.5px;
+    margin: -59px 5.5px;
     border: none;
-    position: absolute; 
-    font-family: Arial; 
+    position: absolute;
+    font-family: Arial;
 }
 
 #versao-sistema p{
@@ -256,7 +256,13 @@ a {
 }
 
 .obs-manual {
-    color: brown;
+    color: #054863;
     font-size: 12px;
     margin-top: 10px;
+    width: 80%;
+    text-align: justify;
+    font-weight: bold;
+    margin: 0px auto;
+    font-family: 'Open Sans regular', Arial, Verdana, sans-serif;
+    line-height: 20px;
 }
