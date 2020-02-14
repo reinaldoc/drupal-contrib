@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="max-age=21600">
+    <meta http-equiv="Expires" content="0" />
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Fjalla+One|Open+Sans|Overlock&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=20200131">
-    <link rel="stylesheet" href="style_menu.css?v=20200131">
-    <link rel="stylesheet" href="style_media.css?v=20200131">
+    <link rel="stylesheet" href="style.css?v=20200207v2">
+    <link rel="stylesheet" href="style_menu.css?v=20200207v2">
+    <link rel="stylesheet" href="style_media.css?v=20200207v2">
     <title>II Marcha Contra o Trabalho Infantil</title>
 </head>
 <body>
@@ -21,14 +23,15 @@
                     </label>
                     <ul class="menu-principal">
                         <li><a href="#compromisso" onclick="document.getElementById('chk').checked = false;">II MARCHA</a></li>
-                        <li><a href="#agenda-visitas" onclick="document.getElementById('chk').checked = false;">AGENDA DE VISITAS</a></li>
+                        <li><a href="#agenda-visitas" onclick="document.getElementById('chk').checked = false;">VISITAS REALIZADAS</a></li>
                         <li><a href="#noticias" onclick="document.getElementById('chk').checked = false;">NOTÍCIAS</a></li>
                         <li><a href="#galeria" onclick="document.getElementById('chk').checked = false;">GALERIAS</a></li>
                         <li><a href="#material-evento" onclick="document.getElementById('chk').checked = false;">CAMPANHA</a></li>
-                        <li><a href="#participe" onclick="document.getElementById('chk').checked = false;">PARTICIPE</a></li>
-                        <label for="chk" class="hide-menu-btn">
-                            <i class="fas fa-times">X</i>
-                        </label>
+                        <li><a href="#participe" onclick="document.getElementById('chk').checked = false;">PARTICIPE</a>
+                            <label for="chk" class="hide-menu-btn">
+                                <i class="fas fa-times">X</i>
+                            </label>
+                        </li>
                     </ul>
                     <div id="logo-menu">
                        <a href="#"><img src="img/logo-marcha-menu.png" alt="Logotipo II Marcha Contra o Trabalho Infantil"></a> 
@@ -36,7 +39,7 @@
                 </div>
             </div>
             <div id="logo-marcha-inicio-central">
-                <img src="img/logo-marcha-inicio-central.png" />
+                <img src="img/logo-marcha-inicio-central.png" alt="II Marcha de Belém Contra o Trabalho Infantil" />
             </div>
             <div id="inicio-contador">
                 <span id="inicio-contador-titulo">Faltam</span>
@@ -64,24 +67,24 @@
             </div>
             <div id="imagens-rodape-inicio-wrap">
                 <div class="bg-imagens-rodape-inicio">
-                    <img src="img/logo-marcha-inicio-inferior.png" />
+                    <img src="img/logo-marcha-inicio-inferior.png" alt="Veja quem já está com a gente" />
                 </div>
                 <div class="imagens-rodape-inicio-block">
                     <div class="imagem1-rodape-inicio">
-                      <img src="img/visita-oab.jpg" />
-                      <span>OAB</span>
+                      <img src="img/visita-unicef.jpg" alt="Visita a UNICEF" />
+                      <span>UNICEF</span>
                     </div>
                     <div class="imagem2-rodape-inicio">
-                      <img src="img/visita-esc-samba-matinha.jpg" />
-                      <span>E. Samba da Matinha</span>
+                      <img src="img/visita-pref-belem.jpg" alt="Visita a Prefeitura de Belém" />
+                      <span>Prefeitura/Belém</span>
                     </div>
                     <div class="imagem3-rodape-inicio">
-                      <img src="img/visita-funpapa.jpg" />
-                      <span>FUNPAPA</span>
+                      <img src="img/visita-atep.jpg" alt="Visita a ATEP" />
+                      <span>ATEP</span>
                     </div>
                     <div class="imagem4-rodape-inicio">
-                      <img src="img/visita-sebrae.jpg" />
-                      <span>Sebrae, SESC, SESI</span>
+                      <img src="img/visita-gov-para.jpg" alt="Visita ao Sebra, SESI e SESC" />
+                      <span>Governo do Pará</span>
                     </div>
                  </div>
             </div>
@@ -91,7 +94,7 @@
     <section id="compromisso">
         <div class="xp-section-wrapper">
                 <div class="xp-col-2">
-                    <img class="logo-data-compromisso" src="img/logo-data-compromisso.jpg" alt="">
+                    <img class="logo-data-compromisso" src="img/logo-data-compromisso.jpg" alt="A II Marcha ocorrerá em 1º de março de 2020">
                 </div>
                 <div class="xp-col-2">
                     <h1 class="xp-section-title">COMPROMISSO</h1>                 
@@ -100,7 +103,7 @@
                         uma iniciativa da Justiça do Trabalho da Oitava
                         Região, por meio da Comissão de Combate ao Trabalho
                         Infantil e Estímulo à Aprendizagem, em parceria com
-                        o Ministério Público do Trabalho(MPT) e o Fórum
+                        o Ministério Público do Trabalho (MPT) e o Fórum
                         Estadual de Prevenção e  Erradicação do Trabalho
                         Infantil.</p>
                         
@@ -183,7 +186,7 @@
                     <h2 class="xp-section-title">MAPA</h2>
                 </div> 
                 <div id="programacao-mapa-img">
-                    <img src="img/mapa.png" alt="">   
+                    <img src="img/mapa.png" alt="Percurso da Escadinha do Cais do Porto até o Largo do Redondo">   
                 </div>
             </div>
         </div>
@@ -191,20 +194,26 @@
 
     <section id="agenda-visitas">
         <div class="xp-section-wrapper">
-            <h2 class="xp-section-title">AGENDA DE VISITAS</h2>
+            <h2 class="xp-section-title">VISITAS REALIZADAS</h2>
             <div class="xp-col-3">
-                <img src="img/23.01.2020-TJPA.jpeg" alt="">
-                <p class="xp-image-title">23.01.2020 - Comissão e Presidente do Tribunal de Justiça do Pará (TJPA), Leonardo Noronha</p>
+                <img src="img/visita-atep.jpg" alt="07.02 - Apresentação
+                da Campanha II Marcha de Belém para ATEP">
+                <p class="xp-image-title">07.02.2020 - Apresentação da
+                Campanha II Marcha de Belém para ATEP</p>
             </div>
             <div class="xp-col-3">
-                <img src="img/22.01.2020-Igreja Quadrangular.jpeg" alt="">
-                <p class="xp-image-title">22.01.2020 - Comissão e pastores da Igreja do Evangelho Quadrangular</p>
+                <img src="img/visita-tv-record.jpg" alt="Apresentação do
+                Hotsite para TV Record Belém">
+                <p class="xp-image-title">06.02.2020 - Apresentação do
+                Hotsite para TV Record Belém</p>
             </div>
             <div class="xp-col-3">
-                <img src="img/20.01.2020-Primeira dama.jpeg" alt="">
-                <p class="xp-image-title">20.01.2020 - Comissão e primeira-dama, Daniela Barbalho.</p>
+                <img src="img/visita-tv-cultura.jpg" alt="Apresentação do
+                Hotsite para TV CULTURA">
+                <p class="xp-image-title">06.02.2020 - Apresentação do
+                Hotsite para TV CULTURA</p>
             </div>
-            <a class="xp-see-more" href="https://www.flickr.com/photos/186637890@N08/albums/72157712804756113" target="_blank" rel="noopener noreferrer">
+            <a class="xp-see-more" href="https://www.flickr.com/photos/186637890@N08/albums" target="_blank" rel="noopener noreferrer">
             VER TODAS AS VISITAS</a>
         </div>
     </section>
@@ -252,7 +261,7 @@
                 </div>
             </div>
             <div class="marcha-2015-col-40">
-                <img src="img/marcha-2015.jpg" alt="">
+                <img src="img/marcha-2015-destaque.jpg" alt="Foto de participante da 1º Marcha ocorrida em 2015">
             </div>
             <a class="xp-see-more" href="https://www.flickr.com/photos/186637890@N08/albums/72157712802586318"
                target="_blank">VER A GALERIA DA MARCHA DE 2015</a>
@@ -263,7 +272,58 @@
         <div class="xp-section-wrapper">
             <h2 class="xp-section-title">NOTÍCIAS</h2>
             <div class="xp-col-3">
-                <img src="img/7598_ministerio_publico_do_estado_e_tribunal_de_justica_do_para_confirmam_participacao_na_ii_marcha_de_belem_contra_o_trabalho_infantil.jpg" alt="">
+                <img src="/sites/portal/files/images/noticia/7653_prefeitura_de_belem_garante_apoio_oficial_a_ii_marcha_contra_o_trabalho_infantil.jpg"
+                alt="Notícia: Prefeitura de Belém garante apoio oficial a II Marcha contra o Trabalho Infantil">
+                <h3 class="xp-image-title">Prefeitura de Belém garante apoio oficial a II Marcha contra o Trabalho Infantil</h3>
+                <div class="xp-section-text">
+                    <p>O prefeito de Belém, Zenaldo Coutinho, em reunião,  na última quarta-feira( 5),  com as gestoras da Comissão de Combate ao Trabalho Infantil e de Estímulo à Aprendizagem do TRT8, desembargadora Zuíla Dutra e juíza Vanilza Malcher, declarou apoio à II Marcha de Belém contra o Trabalho Infantil.</p>
+                </div>
+                <a class="xp-see-more" href="/noticias/2020/prefeitura-de-belem-garante-apoio-oficial-ii-marcha-contra-o-trabalho-infantil"
+                target="_blank" rel="noopener noreferrer">LER A NOTÍCIA</a>
+            </div>
+            <div class="xp-col-3">
+                <img src="/sites/portal/files/images/noticia/7644_instituicoes_de_ensino_superior_sao_parceiras_da_ii_marcha_de_belem.jpg"
+                alt="Notícia: Instituições de ensino superior são parceiras da II Marcha de Belém">
+                <h3 class="xp-image-title">Instituições de ensino superior são parceiras da II Marcha de Belém</h3>
+                <div class="xp-section-text">
+                    <p>A Universidade da Amazônia (UNAMA) e a Estácio participarão da Marcha com seu corpo de alunos e professores. No ano passado, a UNAMA foi parceira da Justiça do Trabalho nas ações que a comissão promoveu durante o carnaval dentro do Projeto Ninho da Coruja.</p>
+                </div>
+                <a class="xp-see-more" href="/noticias/2020/instituicoes-de-ensino-superior-sao-parceiras-da-ii-marcha-de-belem"
+                target="_blank" rel="noopener noreferrer">LER A NOTÍCIA</a>
+            </div>
+            <div class="xp-col-3">
+                <img src="/sites/portal/files/images/noticia/7616_ii_marcha_de_belem_contra_o_trabalho_infantil_mobiliza_escolas_publicas_conselhos_tutelares_clubes_de_futebol_e_associacao_de_magistrados_trabalhistas.jpg"
+                alt="Notícia: II Marcha de Belém contra o Trabalho Infantil mobiliza escolas públicas, conselhos tutelares, clubes de futebol e Associação dos Magistrados Trabalhistas">
+                <h3 class="xp-image-title">II Marcha de Belém contra o Trabalho Infantil mobiliza escolas públicas, conselhos tutelares, clubes de futebol e Associação dos Magistrados Trabalhistas</h3>
+                <div class="xp-section-text">
+                    <p>Diretores de escolas públicas de Belém e Ananindeua, conselheiros tutelares dos dois municípios, Associação dos Magistrados Trabalhistas, representantes de entidades que atuam na proteção de crianças e adolescentes, além de representantes de Clubes de Futebol , participaram na quinta (23) de uma reunião com as gestoras da Comissão de Combate ao Trabalho Infantil e de Estímulo à Aprendizagem do TRT8.</p>
+                </div>
+                <a class="xp-see-more" href="/noticias/2020/ii-marcha-de-belem-contra-o-trabalho-infantil-mobiliza-escolas-publicas-conselhos"
+                target="_blank" rel="noopener noreferrer">LER A NOTÍCIA</a>
+            </div>
+            <div class="xp-col-3">
+                <img src="/sites/portal/files/images/noticia/7631_camisetas_da_ii_marcha_de_belem_contra_o_trabalho_infantil_podem_ser_adquiridas_no_cejusc_belem.jpg"
+                alt="Notícia: Camisetas da II Marcha de Belém contra o Trabalho Infantil podem ser adquiridas no Cejusc Belém">
+                <h3 class="xp-image-title">Camisetas da II Marcha de Belém contra o Trabalho Infantil podem ser adquiridas no Cejusc Belém</h3>
+                <div class="xp-section-text">
+                    <p>A camiseta oficial da II Marcha está disponível, para quem quiser adquirir, no CEJUSC Belém, que funciona no 1º andar do Fórum Trabalhista de Belém. Ao adquirir, você está contribuindo com as ações de educação e cidadania que são desenvolvidas pela Comissão com jovens de Belém e Ananindeua.</p>
+                </div>
+                <a class="xp-see-more" href="/noticias/2020/camisetas-da-ii-marcha-de-belem-contra-o-trabalho-infantil-podem-ser-adquiridas-no"
+                target="_blank" rel="noopener noreferrer">LER A NOTÍCIA</a>
+            </div>
+            <div class="xp-col-3">
+                <img src="/sites/portal/files/images/noticia/7619_veiculos_de_comunicacao_sao_parceiros_da_ii_marcha_contra_o_trabalho_infantil.jpg"
+                alt="Notícia: Veículos de Comunicação são parceiros da II Marcha contra o Trabalho Infantil">
+                <h3 class="xp-image-title">Veículos de Comunicação são parceiros da II Marcha contra o Trabalho Infantil</h3>
+                <div class="xp-section-text">
+                    <p>A II Marcha de Belém contra o trabalho infantil, evento que será realizado, no dia 1º de março ganhou apoio dos principais veículos de comunicação do Pará.</p>
+                </div>
+                <a class="xp-see-more" href="/noticias/2020/veiculos-de-comunicacao-sao-parceiros-da-ii-marcha-contra-o-trabalho-infantil"
+                target="_blank" rel="noopener noreferrer">LER A NOTÍCIA</a>
+            </div>
+            <div class="xp-col-3">
+                <img src="/sites/portal/files/images/noticia/7598_ministerio_publico_do_estado_e_tribunal_de_justica_do_para_confirmam_participacao_na_ii_marcha_de_belem_contra_o_trabalho_infantil.jpg"
+                alt="Notícia: autoridades do TJ, MPE e TRT8">
                 <h3 class="xp-image-title">Ministério Público do Estado e Tribunal de Justiça do Pará confirmam participação na II Marcha de Belém contra o Trabalho Infantil</h3>
                 <div class="xp-section-text">
                     <p>O Ministério Público do Estado do Pará (MPPA) aderiu à II Marcha de Belém contra o Trabalho 
@@ -272,23 +332,25 @@
                         01 de março em Belém. A marcha tem o objetivo de lutar pela garantia dos direitos das crianças e dos 
                         adolescente </p>
                 </div>
-                <a class="xp-see-more" href="https://www.trt8.jus.br/noticias/2020/ministerio-publico-do-estado-e-tribunal-de-justica-do-para-confirmam-participacao-na"
+                <a class="xp-see-more" href="/noticias/2020/ministerio-publico-do-estado-e-tribunal-de-justica-do-para-confirmam-participacao-na"
                 target="_blank" rel="noopener noreferrer">LER A NOTÍCIA</a>
             </div>
             <div class="xp-col-3">
-                <img src="img/7596_cnbb_norte_2_e_igreja_quadrangular_apoiam_a_ii_marcha_de_belem_contra_o_trabalho_infantil.jpg" alt="">
+                <img src="/sites/portal/files/images/noticia/7596_cnbb_norte_2_e_igreja_quadrangular_apoiam_a_ii_marcha_de_belem_contra_o_trabalho_infantil.jpg"
+                alt="Notícia: integrantes da CNBB e TRT8">
                 <h3 class="xp-image-title">CNBB Norte 2 e Igreja Quadrangular apoiam a II Marcha de Belém contra o Trabalho Infantil</h3>
                 <div class="xp-section-text">
                     <p>A Comissão Justiça e Paz da Conferência Nacional dos Bispos do Brasil Norte II (CNBB) recebeu, na tarde desta terça 
                         (21), as gestoras da Comissão de Combate ao trabalho Infantil e de Estímulo à Aprendizagem do TRT8. Na visita, a desembargadora Zuíla Dutra e a juíza Vanilza Malcher apresentaram as peças da II Marcha de Belém contra o trabalho infantil e pediram apoio da entidade para  o evento, 
                         que deve mobilizar cem mil pessoas nas ruas de Belém no dia 1º de março de 2020. </p>
                 </div>
-                <a class="xp-see-more" href="https://www.trt8.jus.br/noticias/2020/cnbb-norte-2-e-igreja-quadrangular-apoiam-ii-marcha-de-belem-contra-o-trabalho"
+                <a class="xp-see-more" href="/noticias/2020/cnbb-norte-2-e-igreja-quadrangular-apoiam-ii-marcha-de-belem-contra-o-trabalho"
                 target="_blank" rel="noopener noreferrer">LER A NOTÍCIA</a>
             </div>
             <div class="xp-col-3">
                 <div class="noticia-item-img">
-                    <img src="img/7584_a_ii_marcha_de_belem_contra_o_trabalho_infantil_ganha_apoios_oficiais_.jpg" alt="">
+                    <img src="/sites/portal/files/images/noticia/7584_a_ii_marcha_de_belem_contra_o_trabalho_infantil_ganha_apoios_oficiais_.jpg"
+                    alt="Notícia: integrantes do Governo do Estado e TRT8">
                 </div>
                 <h3 class="xp-image-title">A II Marcha de Belém contra o Trabalho Infantil ganha apoios oficiais </h3>
                 <div class="xp-section-text">
@@ -297,7 +359,7 @@
                         Prevenção e Erradicação do Trabalho Infantil, ganhou apoio 
                         oficial do Governo do Pará nessa segunda-feira (20). </p>
                 </div>
-                <a class="xp-see-more" href="https://www.trt8.jus.br/noticias/2020/ii-marcha-de-belem-contra-o-trabalho-infantil-ganha-apoios-oficiais"
+                <a class="xp-see-more" href="/noticias/2020/ii-marcha-de-belem-contra-o-trabalho-infantil-ganha-apoios-oficiais"
                 target="_blank" rel="noopener noreferrer">LER A NOTÍCIA</a>
                
             </div>
@@ -308,20 +370,21 @@
         <div class="xp-section-wrapper">
             <h2 class="xp-section-title">GALERIA</h2>
             <div class="xp-col-3">
-                <a href="https://www.flickr.com/photos/186637890@N08/albums/72157712804756113" target="_blank" rel="noopener noreferrer">
-                    <img src="img/20.01.2020-Governador e secretarios.jpg" alt="">
-                    <p class="xp-see-more">Agenda de Visitas</p>
+                <a href="https://www.flickr.com/photos/186637890@N08/albums" target="_blank" rel="noopener noreferrer">
+                    <img src="img/20.01.2020-Governador e secretarios.jpg" alt="Capa da Galeria das Visitas Realizadas">
+                    <p class="xp-see-more">Visitas Realizadas</p>
                 </a> 
             </div>
             <div class="xp-col-3">
                 <a href="https://www.flickr.com/photos/186637890@N08/albums/72157712802586318" target="_blank" rel="noopener noreferrer">
-                    <img src="img/marcha2015.jpg" alt="">
+                    <img src="img/marcha2015.jpg" alt="Capa da Galeria da Marcha de 2015">
                     <p class="xp-see-more">Marcha 2015</p>
                 </a>
             </div>
             <div class="xp-col-3">
-                <video preload="metadata" controls="controls" poster="https://www.trt8.jus.br/apps/trt8-hotsite-ii-marcha/marcha-redes-sociais.png" width="560" height="315">
-                    <source src="https://www.trt8.jus.br/apps/trt8-hotsite-ii-marcha/marcha-redes-sociais.mp4" type="video/mp4">
+                <video preload="metadata" controls="controls"
+                poster="marcha-redes-sociais.jpg" width="560" height="315">
+                    <source src="marcha-redes-sociais.mp4" type="video/mp4">
                 </video>
                 <p><a class="xp-see-more" href="https://www.flickr.com/photos/186637890@N08/albums/72157712802840533" target="_blank" rel="noopener noreferrer">Vídeos</a></p>
             </div>
@@ -331,7 +394,7 @@
     <section id="material-evento">
         <div class="xp-section-wrapper">
             <h2 class="xp-section-title">CAMPANHA</h2>
-            <div class="xp-col-2 xp-section-text">
+            <div class="xp-section-text">
               <p>
               As peças que compõem a campanha de divulgação da II Marcha de
               Belém contra o Trabalho Infantil foram criadas pela Ascom do
@@ -349,11 +412,53 @@
               </p>
             </div>
             <div class="xp-col-2">
-              <div class="material-pecas">
-                <img src="img/pecas.jpg" alt="">
-              </div>
+                <h3 class="xp-section-title">Boné</h3>
+                <img src="arquivos/BONE.png" class="material-pecas" alt="Arte do boné do evento">
+                <div class="xp-see-more">
+                <a href="arquivos/BONE.pdf">BAIXE AQUI A ARTE DO BONÉ</a>
+                </div>
+            </div>
+            <div class="xp-col-2">
+                <h3 class="xp-section-title">Camiseta</h3>
+                <img src="arquivos/CAMISETA.png" class="material-pecas" alt="Arte da camiseta do evento">
+                <div class="xp-see-more">
+                <a href="arquivos/CAMISETA.pdf">BAIXE AQUI A ARTE DA CAMISETA</a>
+                </div>
+            </div>
+            <div class="xp-col-2">
+                <h3 class="xp-section-title">Banner 100cm x 150cm</h3>
+                <img src="arquivos/BANNER.png" class="material-pecas" alt="Arte do banner do evento">
+                <div class="xp-see-more">
+                <a href="arquivos/BANNER.pdf">BAIXE AQUI A ARTE DO BANNER</a>
+                </div>
+            </div>
+            <div class="xp-col-2">
+                <h3 class="xp-section-title">Catavento</h3>
+                <img src="arquivos/CATAVENTO.png" class="material-pecas" alt="Arte do catavento do evento">
+                <div class="xp-see-more">
+                <a href="arquivos/CATAVENTO.pdf">BAIXE AQUI A ARTE DO CATAVENTO</a>
+                </div>
+            </div>
+            <div class="xp-col-2">
+                <h3 class="xp-section-title">Faixa 4m x 1m</h3>
+                <img src="arquivos/FAIXA.png" class="material-pecas" alt="Arte da faixa do evento">
+                <div class="xp-see-more">
+                <a href="arquivos/FAIXA.pdf">BAIXE AQUI A ARTE DA FAIXA</a>
+                </div>
+            </div>
+            <div class="xp-col-2">
+                <h3 class="xp-section-title">Ventarola</h3>
+                <img src="arquivos/VENTAROLA.png" class="material-pecas" alt="Arte da ventarola do evento">
+                <div class="xp-see-more">
+                <a href="arquivos/VENTAROLA.pdf">BAIXE AQUI A ARTE DA VENTAROLA</a>
+                </div>
+            </div>
+            <div class="xp-section-text participe-text">
+              <p>Caso deseje alguma peça adicional da campanha, solicite por
+              meio do e-mail <b>ascom@trt8.jus.br</b></p>
+            </div>
             <div class="xp-see-more">
-                <a href="campanha-ii-marcha.zip">BAIXE AQUI AS PEÇAS</a>
+                <a href="campanha-ii-marcha.zip">BAIXE AQUI TODAS AS PEÇAS</a>
             </div>
         </div>
     </section>
@@ -364,7 +469,7 @@
                 <h2 class="xp-section-title">PARTICIPE</h2>
                 <a href="http://www.facebook.com/profilepicframes/?selected_overlay_id=537952740396514" target="_blank">
                 <div class="facebook-avatar">
-                        <img class="logo-data-compromisso" src="img/mockup-facebook.png" alt="">
+                        <img class="logo-data-compromisso" src="img/participe-avatar.jpg" alt="Arte para divulgação do evento na imagem do perfil do Facebook">
                 </div>
                 <p class="btn-avatar-facebook">
                     TROQUE SEU AVATAR DO FACEBOOK AQUI
@@ -378,11 +483,11 @@
         <div class="xp-footer-wrapper">
             <div class="rodape-col-20">
                 <a href="https://www.trt8.jus.br">
-                    <img src="img/logo-tribunal-rodape.png" alt="">
+                    <img src="img/logo-tribunal-rodape.png" alt="Logo do TRT8">
                 </a>
             </div>
             <div class="rodape-col-20 rodape-logo-marcha">
-                <img src="img/logo-marcha-rodape.png" alt="">
+                <img src="img/logo-marcha-rodape.png" alt="Logo do Evento">
             </div>
             <div class="rodape-col-40">
                 <div class="rodape-endereco-marcha">

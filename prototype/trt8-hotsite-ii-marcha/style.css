@@ -94,6 +94,11 @@ a {
     margin: 0 0 14px 0;
 }
 
+h3.xp-section-title {
+    font-size: 36px;
+    margin: 20px 0 0 0;
+}
+
 .xp-image-title {
     font-family: "Open Sans";
     font-weight: bold;
@@ -122,8 +127,12 @@ a {
     border: 1px dashed #012480;
     padding: 5px 10px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     text-align: center;
+}
+
+.xp-see-more a {
+    display: block;
 }
 
 .xp-see-more:hover {
@@ -266,7 +275,7 @@ a {
 }
 
 .inicio-contador-celula {
-    float: left;
+    display: inline-block;
     min-width: 75px;
     text-align: center;
 }
@@ -349,33 +358,6 @@ section#programacao h3 {
 **  :: Agenda de visitas
 */
 
-.link-ver-mais {
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    clear: both;
-    margin: 16px 239px 0;
-}
-
-.link-ver-mais a {
-    text-decoration: none;
-    color: #012480;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.link-ver-mais-galeria {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 22px 12px;
-    display: block;
-    text-align: right;
-}
-
-.link-ver-mais-galeria a {
-    text-decoration: none;
-    color: #012480;
-    font-weight: bold;
-    font-size: 18px;
-}
 
 /*
 **  :: Quinta seção da página inicial
@@ -396,10 +378,6 @@ section#programacao h3 {
 #marcha-2015 .xp-section-text {
     padding: 47px;
     background:#4da67d;
-}
-
-#marcha-2015 img {
-    height: 550px;
 }
 
 /*
@@ -425,27 +403,6 @@ section#programacao h3 {
     height: 100%;
 }
 
-.link-ver-mais-fotos {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 182px 67px 0;
-}
-
-.link-ver-mais-fotos a {
-    text-decoration: none;
-    color:#012480;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.ver-mais-fotos a {
-    text-decoration: none;
-    color:#012480;
-    font-weight: bold;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 /*
 **  :: Oitava seção da página inicial
 **  :: Material do Evento
@@ -454,6 +411,12 @@ section#programacao h3 {
 .material-pecas {
     border: 1px solid #012480;
     margin: 0px auto 4px;
+}
+
+.participe-text p {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0 25px;
 }
 
 /*
