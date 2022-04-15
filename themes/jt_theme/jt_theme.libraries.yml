@@ -1,0 +1,10 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      css/style.css: {}
+
+global-scripts:
+  version: 1.0
+  js:
+    js/script.js: {}

@@ -1,0 +1,22 @@
+name: JT Theme
+type: theme
+description: 'Tema da Justiça do Trabalho (classy subtema)'
+package: core
+core_version_requirement: ^8 || ^9
+base theme: classy
+
+libraries:
+  - jt_theme/global-styling
+  - jt_theme/global-scripts
+
+regions:
+  accessibility: 'Acessibilidade'
+  header: 'Logo e Busca'
+  primary_menu: 'Primary menu'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Mensagens do site'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  footer: 'Rodapé do site'
