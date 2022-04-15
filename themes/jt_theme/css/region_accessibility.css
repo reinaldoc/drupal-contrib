@@ -60,25 +60,25 @@
 
 .icon-info a::before {
   background-position: 0px -1px;
-  background-size: 160px;
+  background-size: 200px;
 }
 
 .icon-zoom-more a::before {
   background-position: -22px -1px;
-  background-size: 160px;
+  background-size: 200px;
 }
 
 .icon-zoom-less a::before {
   background-position: -44px 0px;
-  background-size: 160px;
+  background-size: 200px;
 }
 
 .icon-libras a::before {
   background-position: -65px -1px;
-  background-size: 160px;
+  background-size: 200px;
 }
 
 .icon-contrast a::before {
   background-position: -86px -1px;
-  background-size: 160px;
+  background-size: 200px;
 }
