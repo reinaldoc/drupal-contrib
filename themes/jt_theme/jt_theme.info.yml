@@ -11,7 +11,7 @@ libraries:
 
 regions:
   accessibility: 'Acessibilidade'
-  header: 'Logo e Busca'
+  header: 'Logo e Busca (Header)'
   primary_menu: 'Primary menu'
   breadcrumb: 'Breadcrumb'
   highlighted: 'Mensagens do site'
@@ -19,4 +19,6 @@ regions:
   content: 'Content'
   sidebar_first: 'Left sidebar'
   sidebar_second: 'Right sidebar'
+  footer_first: 'Rodapé primário'
+  footer_second: 'Rodapé secundário'
   footer: 'Rodapé do site'

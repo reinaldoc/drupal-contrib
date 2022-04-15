@@ -1,0 +1,48 @@
+/* region: accessibility */
+
+.accessibility-container {
+  background: #01426a;
+}
+
+.region-accessibility {
+  margin: auto;
+  max-width: 1140px;
+}
+
+.region-accessibility > div {
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+
+.region-accessibility ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.region-accessibility li {
+  display: inline-block;
+  padding: 4px 5px 6px 0;
+  color: #ffffff;
+}
+
+.region-accessibility a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.region-accessibility a:hover {
+  border-bottom: dashed 1px #ffffff;
+}
+
+#block-acessibilidade {
+
+}
+
+#block-idiomas {
+
+}
+
+#block-linksdotopodosite {
+
+}
