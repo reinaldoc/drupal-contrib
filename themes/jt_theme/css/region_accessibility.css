@@ -11,7 +11,11 @@
 
 .region-accessibility > div {
   display: inline-block;
-  margin: 0 100px 0 0;
+}
+
+/* set margin to 1st and 2nd blocks */
+.region-accessibility > div:nth-child(-n+2) {
+  margin: 0 110px 0 0;
 }
 
 .region-accessibility ul {
@@ -35,14 +39,46 @@
   border-bottom: dashed 1px #ffffff;
 }
 
-#block-acessibilidade {
-
+/* unset hover for icons in 3rd block */
+.region-accessibility > div:nth-child(3) li:nth-child(n+2) a:hover {
+  border-bottom: none;
 }
 
-#block-idiomas {
-
+/* set margin to 1st li of 3rd block */
+.region-accessibility > div:nth-child(3) li:nth-child(1) {
+  margin: 0 30px 0 0;
 }
 
-#block-linksdotopodosite {
+.access-icon a::before {
+  background: url(/themes/jt_theme/images/icons_site.png) repeat scroll 0 0;
+  height: 15px;
+  width: 20px;
+  content: ".";
+  color: transparent;
+  display: inline-block;
+}
 
+.icon-info a::before {
+  background-position: 0px -1px;
+  background-size: 160px;
+}
+
+.icon-zoom-more a::before {
+  background-position: -22px -1px;
+  background-size: 160px;
+}
+
+.icon-zoom-less a::before {
+  background-position: -44px 0px;
+  background-size: 160px;
+}
+
+.icon-libras a::before {
+  background-position: -65px -1px;
+  background-size: 160px;
+}
+
+.icon-contrast a::before {
+  background-position: -86px -1px;
+  background-size: 160px;
 }

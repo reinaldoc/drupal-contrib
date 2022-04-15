@@ -1,0 +1,98 @@
+/* region: header */
+
+.region-header {
+  margin: auto;
+  max-width: 1140px;
+}
+
+.region-header div:nth-child(1) {
+  float: left;
+}
+
+/* set float 2nd and 3rd blocks */
+.region-header div:nth-child(n+2) {
+  float: right;
+  clear: right;
+}
+
+.region-header ul {
+  list-style: none;
+  margin: 24px;
+}
+
+.social-icon {
+  float: right;
+  margin: 0 0 0 6px;
+  border-radius: 20px;
+}
+
+.social-icon a {
+  text-decoration: none;
+}
+
+.social-icon a::before {
+  content: ".";
+  color: transparent;
+  display: inline-block;
+  vertical-align: top;
+  width: 31px;
+  height: 30px;
+  background: url(/themes/jt_theme/images/icons_social.png) repeat scroll 0 0;
+}
+
+.icon-instagram a::before {
+  background-position: 0px 0px;
+  background-size: 266px;
+}
+
+.icon-podcast a::before {
+  background-position: -232px 0px;
+  background-size: 266px;
+}
+
+.icon-youtube a::before {
+  background-position: -116px 0px;
+  background-size: 266px;
+}
+
+.icon-flickr a::before {
+  background-position: -156px 0px;
+  background-size: 266px;
+}
+
+.icon-facebook a::before {
+  background-position: -37px 0px;
+  background-size: 266px;
+}
+
+.icon-twitter a::before {
+  background-position: -76px 0px;
+  background-size: 266px;
+}
+
+.icon-rss a::before {
+  background-position: -194px 0px;
+  background-size: 266px;
+}
+
+/* Search Block */
+input.form-search {
+  width: 200px;
+  padding: 4px;
+  border: 1px solid #C7C7C7;
+  border-radius: 3px;
+  border-radius: 3px;
+}
+
+#search-block-form #edit-actions {
+  margin: 11px 30px 12px 0;
+}
+
+input#edit-submit {
+  background: #01426a url(/themes/jt_theme/images/icons_site.png) repeat scroll -117px 1px;
+  background-size: 182px;
+  color: transparent;
+  height: 26px;
+  width: 28px;
+  border: 1px solid #ccc;  
+}

@@ -4,7 +4,7 @@ global-styling:
     theme:
       css/style.css: {}
       css/region_accessibility.css: {}
-      css/region_header.css: {}
+      css/region_site_header.css: {}
       css/region_primary_menu.css: {}
 
 global-scripts:
