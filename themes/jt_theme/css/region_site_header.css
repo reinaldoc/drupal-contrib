@@ -76,7 +76,7 @@
 }
 
 /* Search Block */
-input.form-search {
+.region-header input.form-search {
   width: 200px;
   padding: 4px;
   border: 1px solid #C7C7C7;
@@ -84,11 +84,11 @@ input.form-search {
   border-radius: 3px;
 }
 
-#search-block-form #edit-actions {
+.region-header #search-block-form #edit-actions {
   margin: 11px 30px 12px 0;
 }
 
-input#edit-submit {
+.region-header input#edit-submit {
   background: #01426a url(/themes/jt_theme/images/icons_site.png) repeat scroll -117px 1px;
   background-size: 222px;
   color: transparent;

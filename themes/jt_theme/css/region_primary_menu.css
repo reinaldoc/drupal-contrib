@@ -2,3 +2,13 @@
 .region-primary-menu {
   clear: both;
 }
+
+.region-primary-menu .block-superfish {
+  background: #eaeae8;
+  min-height: 32px;
+}
+
+.region-primary-menu .block-superfish .sf-menu {
+  margin: 0 auto;
+  max-width: 1140px;
+}

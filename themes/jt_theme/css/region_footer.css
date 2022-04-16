@@ -1,0 +1,143 @@
+
+.footer-container {
+  background: #23517E url(/themes/jt_theme/images/bg_footer.png) center top no-repeat;
+  padding: 20px 0 30px 0;
+}
+
+.region-footer {
+  clear: both;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.region-footer > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.region-footer p {
+  margin: 0 0 0 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.region-footer h2 {
+  margin: 0 0 0 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.region-footer a {
+  margin: 0 0 0 0;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.region-footer ul {
+  list-style: none;
+}
+
+/* block "Logo (Rodapé)" */
+.region-footer .logo-rodape {
+  padding: 40px 60px 0 0;
+}
+
+.region-footer .logo-rodape img {
+  width: 138px;
+  height: 106px;
+}
+
+/* block "Informações de contato (Rodapé) */
+.region-footer .contatos {
+  padding: 0 20px 50px;
+  border-right: 3px solid #fff;
+}
+
+.region-footer .contatos h2.endereco::before {
+  background: url(/themes/jt_theme/images/icons_site.png) repeat scroll -414px -5px;
+  background-size: 498px;
+  height: 17px;
+  width: 17px;
+  margin: 0 0 0 0;
+  content: ".";
+  color: transparent;
+  display: block;
+  position: relative;
+  top: 17px;
+  left: -29px;
+}
+
+.region-footer .contatos h2.horario-funcionamento::before {
+  background: url(/themes/jt_theme/images/icons_site.png) repeat scroll -471px -5px;
+  background-size: 498px;
+  height: 17px;
+  width: 17px;
+  content: ".";
+  color: transparent;
+  display: block;
+  position: relative;
+  top: 17px;
+  left: -29px;
+}
+
+.region-footer .contatos h2.telefone::before {
+  background: url(/themes/jt_theme/images/icons_site.png) repeat scroll -413px -5px;
+  background-size: 498px;
+  height: 17px;
+  width: 17px;
+  content: ".";
+  color: transparent;
+  display: block;
+  position: relative;
+  top: 17px;
+  left: -29px;
+}
+
+/* block "Mapa do site (Rodapé)" */
+
+.region-footer .mapa-do-site {
+  padding: 0 0 0 30px;
+  width: 210px;
+}
+
+.region-footer .mapa-do-site h2 {
+  font-size: 16px;
+  margin: 10px 0 12px 0;
+}
+
+.region-footer .mapa-do-site ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.region-footer .mapa-do-site li {
+  padding: 0 0 4px 0;
+}
+
+.region-footer .mapa-do-site a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* block "Redes Sociais (Rodapé)" */
+.region-footer .redes-sociais {
+  padding: 8px 0 0 0;
+}
+
+.region-footer .icon-info {
+  clear: both;
+  text-align: right;
+  padding: 20px 0px 0 0;
+}
+
+.region-footer .icon-info a::before {
+  background: url(/themes/jt_theme/images/icons_site.png) repeat scroll -8px -5px;
+  background-size: 490px;
+  height: 35px;
+  width: 35px;
+  content: ".";
+  color: transparent;
+  display: inline-block;
+}

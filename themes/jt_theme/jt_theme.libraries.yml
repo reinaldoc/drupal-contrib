@@ -6,6 +6,8 @@ global-styling:
       css/region_accessibility.css: {}
       css/region_site_header.css: {}
       css/region_primary_menu.css: {}
+      css/region_content.css: {}
+      css/region_footer.css: {}
 
 global-scripts:
   version: 1.0
