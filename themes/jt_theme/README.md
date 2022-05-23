@@ -1,6 +1,10 @@
 # Tema da Justiça do Trabalho
 
+Tema para Drupal 9 que implementa a identidade visual da Justiça do Trabalho.
+
 ## Região: Acessibilidade
+
+Blocos para a região **Acessibilidade**.
 
 ### Bloco: Acessibilidade
 	<ul>
@@ -34,6 +38,8 @@
 
 ## Região: Site header
 
+Blocos para a região **Site header**.
+
 ### Bloco: Logo do site
 	<img alt="Logo do site" src="/themes/jt_theme/images/logo.png" />
 
@@ -49,6 +55,8 @@
 	</ul>
 
 ## Região: Rodapé
+
+Blocos para a região **Rodapé**.
 
 ### Bloco: Logo
 	<div class="logo-rodape">
