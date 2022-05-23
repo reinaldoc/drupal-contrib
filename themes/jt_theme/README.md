@@ -41,7 +41,9 @@ Blocos para a região **Acessibilidade**.
 Blocos para a região **Site header**.
 
 ### Bloco: Logo do site
-	<img alt="Logo do site" src="/themes/jt_theme/images/logo.png" />
+	<a href="/">
+		<img alt="Logo do site" src="/themes/jt_theme/images/logo.png" />
+	</a>
 
 ### Bloco: Redes sociais
 	<ul>
